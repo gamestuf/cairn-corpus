@@ -1,0 +1,10 @@
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems./Far_Parts","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems./Far_Parts","to":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.1","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.1","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.2","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-C01:unversioned:52.204-21_Basic_Safeguarding_of_Covered_Contractor_Information_Systems.2","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C01:unversioned:FAR","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cui","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:fci","to":"document:REG-C01","type":"IN_DOCUMENT","properties":{}}

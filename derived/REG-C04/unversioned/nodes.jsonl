@@ -1,0 +1,14 @@
+{"id":"control:3.12.4","labels":["Control"],"properties":{"control_id":"3.12.4","authority":"authoritative"}}
+{"id":"document:REG-C04","labels":["Document"],"properties":{"reg_id":"REG-C04","title":"NIST SP 800-171 DoD Assessment Requirements","version":"unversioned","tier":"public","authority":"authoritative","document_number":"DFARS 252.240-7997 (formerly 252.204-7020)","url":"https://www.acquisition.gov/dfars/252.204-7020-nist-sp-800-171-dod-assessment-requirements."}}
+{"id":"section:REG-C04:unversioned:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements."}}
+{"id":"section:REG-C04:unversioned:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements./DFARS_Appendix","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements./DFARS Appendix","chunk_id":"6d93c4b8611f52961062e2cfb470d09c95540d4beb6a0ea033fbc63a0d4a9db7","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:unversioned:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.1","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#1","chunk_id":"edcfc764cbd703752e2b398f0cef59f00a99c82cbbdc16a1e768c180aefc9042","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:unversioned:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.2","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#2","chunk_id":"f3c033adf20dc9174acdfe601d30767eb727d0f485206b75266ba38d09f26d92","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:unversioned:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.3","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#3","chunk_id":"51546dc5860eaddecaa6e845eb76a567a185d9b92e4c0e33fcb2cbf52d9831ba","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:unversioned:DFARS","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"unversioned","anchor":"DFARS","chunk_id":"1ce496447a8e9e5faf145dd0b8f44c1b6ce11ee6aa9339c6a057436dbbbfb887","normativity":"guidance","block_type":"prose"}}
+{"id":"term:cdi","labels":["Term"],"properties":{"term":"cdi"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}
+{"id":"term:ssp","labels":["Term"],"properties":{"term":"ssp"}}

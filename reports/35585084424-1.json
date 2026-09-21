@@ -1,0 +1,3267 @@
+{
+  "run_id": "35585084424-1",
+  "started": "2026-09-21T09:46:00.5686358+00:00",
+  "finished": "2026-09-21T09:46:22.6140694+00:00",
+  "elapsed_seconds": 22.0454336,
+  "registry": "/corpus/registry/public.json",
+  "registry_hash": "8086a2ead74b67315ffd2c6012270ff9cfece42438720c79864897882f483f20",
+  "dry_run": false,
+  "warnings": true,
+  "rows_without_outcome": [],
+  "registry_diff": {
+    "Added": [
+      "REG-C01",
+      "REG-C02",
+      "REG-C03",
+      "REG-C04",
+      "REG-C05",
+      "REG-C06",
+      "REG-D01",
+      "REG-D02",
+      "REG-D03",
+      "REG-D04",
+      "REG-D05",
+      "REG-D06",
+      "REG-D07",
+      "REG-D08",
+      "REG-D09",
+      "REG-D10",
+      "REG-D11",
+      "REG-F01",
+      "REG-F02",
+      "REG-F03",
+      "REG-N01",
+      "REG-N01b",
+      "REG-N02",
+      "REG-N02b",
+      "REG-N03",
+      "REG-N04",
+      "REG-N05",
+      "REG-N06",
+      "REG-N07",
+      "REG-N08",
+      "REG-N09",
+      "REG-R01",
+      "REG-R02",
+      "REG-R03",
+      "REG-R04",
+      "REG-R05",
+      "REG-R06",
+      "REG-R07",
+      "REG-S01",
+      "REG-S02",
+      "REG-S03",
+      "REG-S04",
+      "REG-S05"
+    ],
+    "Removed": [],
+    "Changed": [],
+    "IsFirstRun": true,
+    "Any": true
+  },
+  "documents": [
+    {
+      "reg_id": "REG-N01",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "version": "Rev. 2",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "800-171 Rev. 2 control file not found at 'input/800-171r2.controls.json'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-N02",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "800-171A assessment objective file not found at 'input/800-171A.objectives.json'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N01b",
+      "title": "Protecting CUI in Nonfederal Systems and Organizations — Chapters 1–2 and Appendices A–E",
+      "version": "Rev. 2 Upd 1",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-N02b",
+      "title": "Assessing Security Requirements for CUI — Chapters 1–2 and Appendices",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-N03",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N04",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N05",
+      "title": "Protecting Controlled Unclassified Information (CUI): NIST Special Publication 800-171, Revision 3 Small Business Primer",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-N06",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information (CUI): NIST SP 800-171Ar3 Small Business Primer",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-N07",
+      "title": "Security and Privacy Controls for Information Systems and Organizations",
+      "version": "Rev. 5",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'oscal-json'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N08",
+      "title": "Assessing Security and Privacy Controls in Information Systems and Organizations",
+      "version": "Rev. 5",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'oscal-json'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N09",
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "version": "2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-R01",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
+      "version": "Final rule",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 1,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-R02",
+      "title": "Controlled Unclassified Information",
+      "version": "Final rule",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 1,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-R03",
+      "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements",
+      "version": "Final rule",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 1,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C01",
+      "title": "Basic Safeguarding of Covered Contractor Information Systems",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 4,
+      "vectors": 0,
+      "findings": 30,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C02",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 7,
+      "vectors": 0,
+      "findings": 22,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C03",
+      "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
+      "version": "unversioned",
+      "status": "superseded",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'superseded'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 3
+    },
+    {
+      "reg_id": "REG-C04",
+      "title": "NIST SP 800-171 DoD Assessment Requirements",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 5,
+      "vectors": 0,
+      "findings": 33,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C05",
+      "title": "Contractor Compliance With the Cybersecurity Maturity Model Certification Level Requirements",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 5,
+      "vectors": 0,
+      "findings": 30,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C06",
+      "title": "Notice of Cybersecurity Maturity Model Certification Level Requirements",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 3,
+      "vectors": 0,
+      "findings": 15,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-S01",
+      "title": "Controlled Unclassified Information (CUI)",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 3
+    },
+    {
+      "reg_id": "REG-D01",
+      "title": "CMMC Model Overview",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D02",
+      "title": "CMMC Assessment Guide – Level 1",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D03",
+      "title": "CMMC Assessment Guide – Level 2",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D04",
+      "title": "CMMC Assessment Guide – Level 3",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D05",
+      "title": "CMMC Scoping Guide – Level 1",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D06",
+      "title": "CMMC Scoping Guide – Level 2",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D07",
+      "title": "CMMC 101 Brief",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "register-only",
+      "outcome": "skipped",
+      "reason": "ingest is 'register-only'; the row is recorded, not chunked",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 3
+    },
+    {
+      "reg_id": "REG-D08",
+      "title": "CMMC Overview Briefing (Audio)",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "transcribe-or-skip",
+      "outcome": "skipped",
+      "reason": "ingest is 'transcribe-or-skip' and OCR is not enabled",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-D09",
+      "title": "CMMC Briefing: CMMC Alignment to NIST Standards",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-D10",
+      "title": "CMMC Briefing: DoD SPRS",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "register-only",
+      "outcome": "skipped",
+      "reason": "ingest is 'register-only'; the row is recorded, not chunked",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-D11",
+      "title": "DoD Defense Industrial Base Cybersecurity Services (DIB CSaaS) Slick Sheet",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "optional",
+      "outcome": "skipped",
+      "reason": "ingest is 'optional' and the row was not named by --only",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-S02",
+      "title": "Supplier Performance Risk System (SPRS)",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "ingest is 'pointer'; the row names a source held elsewhere",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-S03",
+      "title": "DoD CIO CMMC Program Site — Resources & Documentation",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "ingest is 'pointer'; the row names a source held elsewhere",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-S04",
+      "title": "DoD CUI Program",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "ingest is 'pointer'; the row names a source held elsewhere",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-F01",
+      "title": "Secure Controls Framework (SCF) — Control Catalog and Set Theory Relationship Mappings (STRM)",
+      "version": "2026.2",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'oscal-json'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-F02",
+      "title": "CMMC Assessment Process (CAP)",
+      "version": "2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "payload is 'html', not 'pdf'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 2
+    },
+    {
+      "reg_id": "REG-F03",
+      "title": "CMMC Code of Professional Conduct (CoPC)",
+      "version": "2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 32,
+      "vectors": 0,
+      "findings": 44,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-R04",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting — class deviation pinning DFARS 252.204-7012 to NIST SP 800-171 Revision 2",
+      "version": "Rev. 1",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "The SSL connection could not be established, see inner exception.",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 5
+    },
+    {
+      "reg_id": "REG-R05",
+      "title": "RFO DFARS class deviations affecting Subpart 204.73 — elimination of 252.204-7019 and renumbering of 252.204-7020 to 252.240-7997",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "The SSL connection could not be established, see inner exception.",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 6
+    },
+    {
+      "reg_id": "REG-R06",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program — final rule, including Summary of Public Comments and DoD Responses",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 1,
+      "vectors": 0,
+      "findings": 4,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-R07",
+      "title": "DFARS: Assessing Contractor Implementation of Cybersecurity Requirements — final rule, including Discussion and Analysis of public comments",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 1,
+      "vectors": 0,
+      "findings": 5,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-S05",
+      "title": "Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings",
+      "version": "unversioned",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "error",
+      "reason": "HTTP 403 Forbidden",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 5
+    }
+  ],
+  "findings": [
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-N01",
+      "message": "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata).",
+      "detail": {}
+    },
+    {
+      "code": "source_missing",
+      "severity": "error",
+      "reg_id": "REG-N01",
+      "message": "800-171 Rev. 2 control file not found at 'input/800-171r2.controls.json'. This row is JSON-primary and cannot be built from its url alone.",
+      "detail": {
+        "expected_path": "input/800-171r2.controls.json",
+        "resolved_path": "/corpus/registry/input/800-171r2.controls.json"
+      }
+    },
+    {
+      "code": "source_missing",
+      "severity": "error",
+      "reg_id": "REG-N02",
+      "message": "800-171A assessment objective file not found at 'input/800-171A.objectives.json'. This row is JSON-primary and cannot be built from its url alone.",
+      "detail": {
+        "expected_path": "input/800-171A.objectives.json",
+        "resolved_path": "/corpus/registry/input/800-171A.objectives.json"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-N01b",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N01b",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-N02b",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N02b",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/a/final"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N03",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N04",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/171/a/r3/final"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-N05",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N05",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://www.nist.gov/publications/protecting-controlled-unclassified-information-cui-nist-special-publication-800-171"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-N06",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N06",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://www.nist.gov/news-events/news/2026/09/small-business-primer-sp-800-171a-revision-3-assessing-security"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N07",
+      "message": "Registry declares format 'oscal-json' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "oscal-json",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N08",
+      "message": "Registry declares format 'oscal-json' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "oscal-json",
+        "sniffed": "html",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/a/r5/final"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-N09",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://www.nist.gov/cyberframework"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R01",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-R02",
+      "message": "Source list said 'Part 2000' (ISOO classified-information procedures); Part 2002 assumed. Confirm.",
+      "detail": {}
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R02",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R03",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.01).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.01",
+        "excerpt": "FAC Number: 2026-01\nEffective Date: 03/13/2026"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "-\n-\n-\n-"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.47).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.47",
+        "excerpt": "<?xml encoding=\"UTF-8\" ?>52.204-21 Basic Safeguarding of Covered Contractor Information Systems."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.37).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.37",
+        "excerpt": "As prescribed in 4.1903 , insert the following clause:"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.44).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.44",
+        "excerpt": "Basic Safeguarding of Covered Contractor Information Systems (Nov 2021)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.34).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.34",
+        "excerpt": "(a) Definitions . As used in this clause—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.39).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.39",
+        "excerpt": "Information system means a discrete set of information resources organized for the collection, processing, maintenanc..."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.16).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.16",
+        "excerpt": "(b) Safeguarding requirements and procedures."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.21).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.21",
+        "excerpt": "(iii) Verify and control/limit connections to and use of external information systems ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "(iv) Control information posted or processed on publicly accessible information systems ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.21).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.21",
+        "excerpt": "(v) Identify information system users, processes acting on behalf of users, or devices."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.30).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.30",
+        "excerpt": "(ix) Escort visitors and monitor visitor activity; maintain audit logs of physical access; and control and manage phy..."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.36).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.36",
+        "excerpt": "(xii) Identify, report, and correct information and information system flaws in a timely manner."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.46).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.46",
+        "excerpt": "(xiv) Update malicious code protection mechanisms when new releases are available."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(End of clause)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Definitions"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Toggle"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Changes"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Toggle"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Style Formatter"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Toggle"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "×"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "- FAR Overhaul\n- Regulations\n- Tools"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "  - Archives\n  - Smart Matrix\n  - Regulations Search\n  - Acquisition Regulation Comparator (ARC)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Policy Network"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Search"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C01",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "4"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Record the clause edition date shown on acquisition.gov at ingest.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "Change Number: DFARS Change 5/7/2026\nEffective Date: 05/07/2026"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "-\n-\n-\n-"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.39).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.39",
+        "excerpt": "<?xml encoding=\"UTF-8\" ?>252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.46).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.46",
+        "excerpt": "As prescribed in 204.7304 (c), use the following clause:"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.24).",
+      "detail": {
+        "detected": "no",
+        "confidence": "0.24",
+        "excerpt": "SAFEGUARDING COVERED DEFENSE INFORMATION AND CYBER INCIDENT REPORTING (MAY 2024)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.34).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.34",
+        "excerpt": "(a) Definitions . As used in this clause—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.32).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.32",
+        "excerpt": "“Information system” means a discrete set of information resources organized for the collection, processing, maintena..."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.18).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.18",
+        "excerpt": "(c) Cyber incident reporting requirement ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.39).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.39",
+        "excerpt": "(ii) Rapidly report cyber incidents to DoD at https://dibnet.dod.mil."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.34).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.34",
+        "excerpt": "(m) Subcontracts . The Contractor shall—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.01).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.01",
+        "excerpt": "(2) Require subcontractors to—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(End of clause)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "×"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "- FAR Overhaul\n- Regulations\n- Tools"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "  - Archives\n  - Smart Matrix\n  - Regulations Search\n  - Acquisition Regulation Comparator (ARC)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Policy Network"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Search"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C02",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "7"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-C03",
+      "message": "Confirm elimination and effective date on acquisition.gov / DPC class deviation list.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C03",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_enum_undeclared",
+      "severity": "warning",
+      "reg_id": "REG-C03",
+      "message": "Row uses status 'superseded', which the pipeline implements but the registry header does not declare. Declared: active, missing, cancelled, planned.",
+      "detail": {
+        "field": "status",
+        "value": "superseded"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Confirm renumbering and text on acquisition.gov.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "Change Number: DFARS Change 5/7/2026\nEffective Date: 05/07/2026"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "-\n-\n-\n-"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.17).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.17",
+        "excerpt": "<?xml encoding=\"UTF-8\" ?>252.204-7020 NIST SP 800-171DoD Assessment Requirements."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.43).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.43",
+        "excerpt": "As prescribed in 204.7304 (e), use the following clause:"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.08).",
+      "detail": {
+        "detected": "no",
+        "confidence": "0.08",
+        "excerpt": "NIST SP 800-171 DOD ASSESSMENT             REQUIREMENTS (NOV 2023)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(a) Definitions ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.46).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.46",
+        "excerpt": "Basic Assessment” means a contractor’s self-assessment of the contractor’s implementation of NIST SP 800-171 that—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(1) Consists of—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.23).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.23",
+        "excerpt": "(i) A review of a contractor’s Basic Assessment;"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.33).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.33",
+        "excerpt": "(ii) A thorough document review;"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.38).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.38",
+        "excerpt": "(2) Results in a confidence level of “High” in the resulting score."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(1) Consists of—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.23).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.23",
+        "excerpt": "(i) A review of a contractor’s Basic Assessment;"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.41).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.41",
+        "excerpt": "(ii) A thorough document review; and"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.37).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.37",
+        "excerpt": "(2) Results in a confidence level of “Medium” in the resulting score."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.35).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.35",
+        "excerpt": "(B) Organization conducting the assessment (e.g., Contractor self-assessment)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.43).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.43",
+        "excerpt": "(D) Date the assessment was completed."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.14).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.14",
+        "excerpt": "(i) The standard assessed (e.g., NIST SP 800-171 Rev 1)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.40).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.40",
+        "excerpt": "(v) Date and level of the assessment, i.e., medium or high."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(e) Rebuttals ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(f) Accessibility ."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(g) Subcontracts."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(End of clause)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "×"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "- FAR Overhaul\n- Regulations\n- Tools"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "  - Archives\n  - Smart Matrix\n  - Regulations Search\n  - Acquisition Regulation Comparator (ARC)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Policy Network"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Search"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C04",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "5"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "Change Number: DFARS Change 5/7/2026\nEffective Date: 05/07/2026"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "-\n-\n-\n-"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.45).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.45",
+        "excerpt": "As prescribed in 204.7504 (a), use the following clause:"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.20).",
+      "detail": {
+        "detected": "no",
+        "confidence": "0.20",
+        "excerpt": "CONTRACTOR COMPLIANCE WITH THE CYBERSECURITY MATURITY MODEL CERTIFICATION LEVEL REQUIREMENTS (NOV 2025)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.34).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.34",
+        "excerpt": "(a) Definitions. As used in this clause—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "“Current” means—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.44).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.44",
+        "excerpt": "(1) With regard to Conditional Cybersecurity Maturity Model Certification (CMMC) Status—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.42).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.42",
+        "excerpt": "(B) A corresponding affirmation of continuous compliance by an affirming official;"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.12).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.12",
+        "excerpt": "(2) With regard to Final CMMC Status—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(1) Final Level 1 (Self)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.06).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.06",
+        "excerpt": "(2) Conditional Level 2 (Self)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(3) Final Level 2 (Self)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.05).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.05",
+        "excerpt": "(4) Conditional Level 2 (C3PAO)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(5) Final Level 2 (C3PAO)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.04).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.04",
+        "excerpt": "(6) Conditional Level 3 (DIBCAC)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(7) Final Level 3 (DIBCAC)."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.34).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.34",
+        "excerpt": "(d) Requirements. The Contractor shall—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.42).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.42",
+        "excerpt": "(e) Reporting.  The Contractor shall—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.31).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.31",
+        "excerpt": "(1) Submit to the Contracting Officer—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.38).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.38",
+        "excerpt": "(f) Subcontracts. The Contractor shall—"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(End of clause)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "×"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "- FAR Overhaul\n- Regulations\n- Tools"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "  - Archives\n  - Smart Matrix\n  - Regulations Search\n  - Acquisition Regulation Comparator (ARC)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Policy Network"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Search"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C05",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "5"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "Change Number: DFARS Change 5/7/2026\nEffective Date: 05/07/2026"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "-\n-\n-\n-"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.32).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.32",
+        "excerpt": "<?xml encoding=\"UTF-8\" ?>252.204-7025 Notice of Cybersecurity Maturity Model Certification Level Requirements."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.44).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.44",
+        "excerpt": "As prescribed in 204.7504 (b), use the following provision:"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.08).",
+      "detail": {
+        "detected": "no",
+        "confidence": "0.08",
+        "excerpt": "NOTICE OF CYBERSECURITY MATURITY MODEL CERTIFICATION LEVEL REQUIREMENTS (NOV 2025)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "(End of provision)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "« Previous Next »"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "×"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.07).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.07",
+        "excerpt": "- FAR Overhaul\n- Regulations\n- Tools"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.09).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.09",
+        "excerpt": "  - Archives\n  - Smart Matrix\n  - Regulations Search\n  - Acquisition Regulation Comparator (ARC)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Policy Network"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "- Search"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C06",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "3"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-S01",
+      "message": "Record current change number/date at ingest.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S01",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-S01",
+      "message": "Fetch of https://www.dodcui.mil/ failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://www.dodcui.mil/",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D01",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D02",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D03",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D04",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3v2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3v2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D05",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D06",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-D07",
+      "message": "Record version/date from the document.",
+      "detail": {}
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-D07",
+      "message": "Supply the canonical publisher url, then set ingest back to 'chunk'.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-D07",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-D08",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-D09",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-D09",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-D10",
+      "message": "Supply the canonical publisher url, then set ingest back to 'chunk'.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-D10",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-D11",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S02",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S03",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S04",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-F01",
+      "message": "Registry declares format 'oscal-json' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "oscal-json",
+        "sniffed": "html",
+        "url": "https://securecontrolsframework.com/free-content/scf-download"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-F02",
+      "message": "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest.",
+      "detail": {}
+    },
+    {
+      "code": "magic_byte_mismatch",
+      "severity": "error",
+      "reg_id": "REG-F02",
+      "message": "Registry declares format 'pdf' but the payload looks like 'html'.",
+      "detail": {
+        "declared_format": "pdf",
+        "sniffed": "html",
+        "url": "https://cyberab.org/"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "A v2.1a has also circulated; confirm current.",
+      "detail": {}
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.13).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.13",
+        "excerpt": "Cybersecurity Maturity Model Certification"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "of"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Version 2.0"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "December 2024"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.27).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.27",
+        "excerpt": "                                     “Instilling Trust and Confidence in CMMC”"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.27).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.27",
+        "excerpt": "                                   This page intentionally left blank."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                       Document Revision History"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.16).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.16",
+        "excerpt": "CMMC Code of Professional Conduct (CoPC) v2.0                                                                        ..."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "Authorities"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "        Recitals"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.50).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.50",
+        "excerpt": "        WHERAS, 32 CFR §170.8(b)(17)(ii) requires the CMMC Accreditation Body to develop\n        and maintain a Code ..."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.16).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.16",
+        "excerpt": "CMMC Code of Professional Conduct (CoPC) v2.0                                               Page 3"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.15).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.15",
+        "excerpt": "1.          Article I: Purpose and Scope"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "2"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.49).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.49",
+        "excerpt": "3\n    Including Applicant, Candidate, Authorized, and Accredited C3PAOs"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.16).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.16",
+        "excerpt": "CMMC Code of Professional Conduct (CoPC) v2.0                                                      Page 4"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.14).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.14",
+        "excerpt": "    2.      Article II: Guiding Principles"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "4"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "5"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "5"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "6"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                                          7"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "8"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                    faith."
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "9"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.26).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.26",
+        "excerpt": "3.      Article III: Conflicts of Interest"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                  10"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                   11"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                     12"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                  13"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "14"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                                 16"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                  17"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "        B.1 Assessors"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                  18"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                  19"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                 20"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.01).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.01",
+        "excerpt": "        _____________________________\n        Name"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.25).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.25",
+        "excerpt": "         _____________________________\n         Company or Organization (enter “Self” if individual)"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "da",
+        "confidence": "0.00",
+        "excerpt": "         _____________________________\n         Date"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.01).",
+      "detail": {
+        "detected": "en",
+        "confidence": "0.01",
+        "excerpt": "         _____________________________\n         Signature"
+      }
+    },
+    {
+      "code": "language_low_confidence",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "Paragraph kept and flagged: language identification was not confident (0.00).",
+      "detail": {
+        "detected": "und",
+        "confidence": "0.00",
+        "excerpt": "                                                 21"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-F03",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "32"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Confirm current revision and that it has not been rescinded or superseded.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Row states no ingest mode; treated as 'chunk'.",
+      "detail": {
+        "field": "ingest",
+        "assumed": "chunk"
+      }
+    },
+    {
+      "code": "fetch_retried",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Fetch succeeded after 3 attempts.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-R04",
+      "message": "Fetch of https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf failed: The SSL connection could not be established, see inner exception.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf",
+        "status": "0",
+        "attempts": "3"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-R05",
+      "message": "Identify the specific deviation number(s) covering 204.73 and record them.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R05",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R05",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R05",
+      "message": "Row states no ingest mode; treated as 'chunk'.",
+      "detail": {
+        "field": "ingest",
+        "assumed": "chunk"
+      }
+    },
+    {
+      "code": "fetch_retried",
+      "severity": "info",
+      "reg_id": "REG-R05",
+      "message": "Fetch succeeded after 3 attempts.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-R05",
+      "message": "Fetch of https://www.acq.osd.mil/dpap/dars/class_deviations.html failed: The SSL connection could not be established, see inner exception.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
+        "status": "0",
+        "attempts": "3"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R06",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R06",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R06",
+      "message": "Row states no ingest mode; treated as 'chunk'.",
+      "detail": {
+        "field": "ingest",
+        "assumed": "chunk"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R06",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "Confirm the FR page citation.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "Row states no ingest mode; treated as 'chunk'.",
+      "detail": {
+        "field": "ingest",
+        "assumed": "chunk"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "Confirm URL and whether any later DoD CIO guidance supersedes.",
+      "detail": {}
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "Row states no version; artifacts use 'unversioned'. Recording the real version will start a new version directory.",
+      "detail": {
+        "field": "version",
+        "assumed": "unversioned"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "Row states no status; treated as 'active'.",
+      "detail": {
+        "field": "status",
+        "assumed": "active"
+      }
+    },
+    {
+      "code": "registry_default_applied",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "Row states no ingest mode; treated as 'chunk'.",
+      "detail": {
+        "field": "ingest",
+        "assumed": "chunk"
+      }
+    },
+    {
+      "code": "fetch_failed",
+      "severity": "error",
+      "reg_id": "REG-S05",
+      "message": "Fetch of https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf failed: HTTP 403 Forbidden",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
+        "status": "403",
+        "attempts": "1"
+      }
+    }
+  ],
+  "confirm": [
+    {
+      "reg_id": "REG-N01",
+      "item": "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
+    },
+    {
+      "reg_id": "REG-R02",
+      "item": "Source list said 'Part 2000' (ISOO classified-information procedures); Part 2002 assumed. Confirm."
+    },
+    {
+      "reg_id": "REG-C02",
+      "item": "Record the clause edition date shown on acquisition.gov at ingest."
+    },
+    {
+      "reg_id": "REG-C03",
+      "item": "Confirm elimination and effective date on acquisition.gov / DPC class deviation list."
+    },
+    {
+      "reg_id": "REG-C04",
+      "item": "Confirm renumbering and text on acquisition.gov."
+    },
+    {
+      "reg_id": "REG-S01",
+      "item": "Record current change number/date at ingest."
+    },
+    {
+      "reg_id": "REG-D07",
+      "item": "Record version/date from the document."
+    },
+    {
+      "reg_id": "REG-D07",
+      "item": "Supply the canonical publisher url, then set ingest back to 'chunk'."
+    },
+    {
+      "reg_id": "REG-D10",
+      "item": "Supply the canonical publisher url, then set ingest back to 'chunk'."
+    },
+    {
+      "reg_id": "REG-F02",
+      "item": "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest."
+    },
+    {
+      "reg_id": "REG-F03",
+      "item": "A v2.1a has also circulated; confirm current."
+    },
+    {
+      "reg_id": "REG-R04",
+      "item": "Confirm current revision and that it has not been rescinded or superseded."
+    },
+    {
+      "reg_id": "REG-R05",
+      "item": "Identify the specific deviation number(s) covering 204.73 and record them."
+    },
+    {
+      "reg_id": "REG-R07",
+      "item": "Confirm the FR page citation."
+    },
+    {
+      "reg_id": "REG-S05",
+      "item": "Confirm URL and whether any later DoD CIO guidance supersedes."
+    }
+  ],
+  "counts": {
+    "documents_total": 43,
+    "by_outcome": {
+      "error": 24,
+      "new": 11,
+      "skipped": 8
+    },
+    "chunks_total": 61,
+    "chunks_added": 61,
+    "chunks_changed": 0,
+    "chunks_removed": 0,
+    "vectors_written": 0,
+    "sections_excluded": 0,
+    "sections_unclassified": 0,
+    "paragraphs_language_dropped": 0,
+    "fields_dropped": 0,
+    "findings_by_code": {
+      "embedding_skipped": 11,
+      "fetch_failed": 11,
+      "fetch_retried": 2,
+      "language_low_confidence": 160,
+      "magic_byte_mismatch": 11,
+      "registry_confirm": 15,
+      "registry_default_applied": 33,
+      "registry_enum_undeclared": 1,
+      "source_missing": 2
+    }
+  }
+}
