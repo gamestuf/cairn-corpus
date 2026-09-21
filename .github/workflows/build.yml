@@ -15,6 +15,10 @@ on:
         required: false
         type: boolean
         default: false
+      image:
+        description: "Override the pinned pipeline image for this run only. For testing a candidate before pinning it."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -28,9 +32,9 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Pin the pipeline by digest, not by a moving tag. A corpus build is only reproducible if the thing that
-  # built it is. Update this when cairn-pipeline cuts a release.
-  PIPELINE_IMAGE: ghcr.io/gamestuf/cairn-pipeline:v0.1.0
+  # The image is pinned in .github/pipeline-image, written by cairn-pipeline's publish-to-corpus workflow.
+  # It is not an env var here because the pin is data this repository owns and reviews, not workflow config.
+  PIN_FILE: .github/pipeline-image
   RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
 
 jobs:
@@ -45,44 +49,54 @@ jobs:
           # Full history so the commit this build makes lands on top of the real branch tip.
           fetch-depth: 0
 
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: "8.0.x"
-
-      # pdftotext is invoked out of process by the PDF extractor. The pinned image also carries it; this is
-      # here for the fallback path below, which runs the pipeline outside the container.
-      - name: Install poppler-utils
+      - name: Read the pinned pipeline image
+        id: pin
         run: |
-          sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends poppler-utils
+          set -euo pipefail
+          override="${{ inputs.image }}"
 
-      - name: Pull the pinned pipeline image
-        id: image
-        run: |
-          if docker pull "$PIPELINE_IMAGE"; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          else
-            # Before the first cairn-pipeline release exists there is no image to pull. Say so plainly and
-            # fall back to building from source at the pinned ref, rather than failing the corpus build.
-            echo "::warning::Could not pull $PIPELINE_IMAGE; building the pipeline from source instead."
-            echo "available=false" >> "$GITHUB_OUTPUT"
+          if [ -n "$override" ]; then
+            echo "::notice::Using the override image $override; the pin is unchanged."
+            echo "image=$override" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
-      - name: Check out the pipeline source (fallback)
-        if: steps.image.outputs.available == 'false'
-        uses: actions/checkout@v4
-        with:
-          repository: gamestuf/cairn-pipeline
-          path: .pipeline-src
-          ref: main
+          if [ ! -f "$PIN_FILE" ]; then
+            echo "::error::No pipeline image is pinned. $PIN_FILE is written by cairn-pipeline's" \
+                 "publish-to-corpus workflow; run it for a released tag, or pass the 'image' input to" \
+                 "test a candidate."
+            exit 1
+          fi
 
-      - name: Build the pipeline from source (fallback)
-        if: steps.image.outputs.available == 'false'
-        working-directory: .pipeline-src
+          # '|| true': grep exits 1 when nothing matches, and under pipefail that would abort the step
+          # before the explicit check below could say why.
+          image=$(grep -v '^[[:space:]]*#' "$PIN_FILE" \
+                  | grep -v '^[[:space:]]*$' \
+                  | head -1 \
+                  | tr -d '[:space:]' || true)
+
+          if [ -z "$image" ]; then
+            echo "::error::$PIN_FILE holds no image reference (only comments or blank lines)."
+            exit 1
+          fi
+
+          echo "image=$image" >> "$GITHUB_OUTPUT"
+          echo "Pinned image: $image"
+
+      # cairn-pipeline is private, so this repository cannot authenticate to its packages and cannot check
+      # out its source. The image lives in a public package under this repository's own namespace and is
+      # pulled with no credentials at all; that is the whole reason publish-to-corpus exists.
+      - name: Pull the pinned pipeline image
         run: |
-          dotnet publish src/Cairn.Public/Cairn.Public.csproj \
-            --configuration Release --output "$GITHUB_WORKSPACE/.pipeline-bin"
+          set -euo pipefail
+          image="${{ steps.pin.outputs.image }}"
+
+          if ! docker pull "$image"; then
+            echo "::error::Could not pull $image anonymously. If the package exists, it is probably still" \
+                 "private: make it public once in its package settings. This build has no registry" \
+                 "credentials by design."
+            exit 1
+          fi
 
       - name: Run the pipeline
         id: run
@@ -102,17 +116,13 @@ jobs:
           args+=(--raw-root "$RUNNER_TEMP/cairn-raw")
 
           status=0
-          if [ "${{ steps.image.outputs.available }}" = "true" ]; then
-            docker run --rm \
-              --volume "$PWD:/corpus" \
-              --volume "$RUNNER_TEMP/cairn-raw:$RUNNER_TEMP/cairn-raw" \
-              --user "$(id -u):$(id -g)" \
-              --env RUNNER_TEMP \
-              --workdir /corpus \
-              "$PIPELINE_IMAGE" "${args[@]}" || status=$?
-          else
-            "$GITHUB_WORKSPACE/.pipeline-bin/cairn" "${args[@]}" || status=$?
-          fi
+          docker run --rm \
+            --volume "$PWD:/corpus" \
+            --volume "$RUNNER_TEMP/cairn-raw:$RUNNER_TEMP/cairn-raw" \
+            --user "$(id -u):$(id -g)" \
+            --env RUNNER_TEMP \
+            --workdir /corpus \
+            "${{ steps.pin.outputs.image }}" "${args[@]}" || status=$?
 
           echo "exit_code=$status" >> "$GITHUB_OUTPUT"
 
@@ -189,6 +199,7 @@ jobs:
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
           git commit -m "corpus: build ${RUN_ID}" \
+                     -m "Pipeline: ${{ steps.pin.outputs.image }}" \
                      -m "Registry: $(jq -r '.registry_hash' "reports/${RUN_ID}.json")" \
                      -m "Warnings: ${{ steps.report.outputs.warnings }}"
 
