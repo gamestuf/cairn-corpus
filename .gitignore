@@ -1,0 +1,11 @@
+# Raw source bytes are archived, never committed (invariant 3). They go to the object store; in CI they
+# are uploaded as a job artifact until S3 is enabled.
+raw/
+.cairn-raw/
+
+# Signing scratch. The signature and certificate that accompany the manifest ARE committed.
+*.tmp
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
