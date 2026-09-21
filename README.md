@@ -40,6 +40,9 @@ held back and why, and the manifest's `archive_published` says so per row.
 A document over 25 MB is held back the same way, so one outsized file cannot quietly make this repository
 expensive to clone.
 
+Open questions — everything the corpus is waiting on, grouped by what would unblock it — are tracked in
+[`docs/open-questions.md`](docs/open-questions.md).
+
 ## Using the corpus
 
 Verify before you trust it:
