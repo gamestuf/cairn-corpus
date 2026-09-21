@@ -67,7 +67,7 @@
       "document_number": "NIST SP 800-171 Rev. 2",
       "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
       "publisher": "csrc.nist.gov",
-      "version": "Rev. 2",
+      "version": "Rev. 2 Upd 1",
       "published": "2020-02 (updated 2021-01-28)",
       "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final",
       "tier": "public",
@@ -78,7 +78,7 @@
       "chunking": "one chunk per field per control: {id}/statement, {id}/discussion; page from PDF at ingest",
       "format": "json (SEP-authored control file) + pdf (verification, pages)",
       "corpus_role": "The 110 security requirements; source of controls.json; the assessment target.",
-      "notes": "Withdrawn by NIST 2025-05-14; retained as DoD assessment basis under Class Deviation 2024-O0013. Primary source is the SEP JSON control file (all fields). Stage 2 validates schema and 110-control coverage, string-matches every statement to the Upd 1 PDF once (mismatch = QA finding), and enriches chunks with page numbers from the PDF without writing back to the JSON.",
+      "notes": "Withdrawn by NIST 2025-05-14; retained as DoD assessment basis under Class Deviation 2024-O0013. Primary source is the SEP JSON control file (all fields). Stage 2 validates schema and 110-control coverage, string-matches every statement to the Upd 1 PDF once (mismatch = QA finding), and enriches chunks with page numbers from the PDF without writing back to the JSON. Version corrected from 'Rev. 2' to 'Rev. 2 Upd 1': this row and REG-N01b share a url and REG-N01b's notes record them as the same PDF, so they are the same artifact at one version.",
       "intake": "scheduled",
       "normativity_map": {
         "requirement": [
@@ -94,7 +94,11 @@
         "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
       ],
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r2u1",
+      "part": "controls-json"
     },
     {
       "id": "REG-N02",
@@ -125,7 +129,11 @@
       },
       "notes": "Primary source is the SEP JSON objective file. Stage 2 validates 320-objective coverage and parent-control existence, string-matches each determination statement to the PDF once, and page-enriches. Exposed as get_objective() so model calls always receive verbatim text from this source.",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "initial",
+      "part": "objectives-json"
     },
     {
       "id": "REG-N01b",
@@ -175,7 +183,11 @@
             "covered_by": "REG-N01"
           }
         ]
-      }
+      },
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r2u1",
+      "part": "pdf"
     },
     {
       "id": "REG-N02b",
@@ -217,7 +229,11 @@
             "covered_by": "REG-N02"
           }
         ]
-      }
+      },
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "initial",
+      "part": "pdf"
     },
     {
       "id": "REG-N03",
@@ -247,7 +263,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r3"
     },
     {
       "id": "REG-N04",
@@ -277,7 +296,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "r3"
     },
     {
       "id": "REG-N05",
@@ -306,7 +328,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-1318",
+      "version_slug": "current"
     },
     {
       "id": "REG-N06",
@@ -335,7 +360,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-1352",
+      "version_slug": "current"
     },
     {
       "id": "REG-N07",
@@ -366,7 +394,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-53",
+      "version_slug": "r5"
     },
     {
       "id": "REG-N08",
@@ -395,7 +426,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "sp-800-53a",
+      "version_slug": "r5"
     },
     {
       "id": "REG-N09",
@@ -422,7 +456,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "nist",
+      "doc_id": "csf",
+      "version_slug": "2.0"
     },
     {
       "id": "REG-R01",
@@ -451,7 +488,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "cfr",
+      "doc_id": "32-cfr-170",
+      "version_slug": "final-rule"
     },
     {
       "id": "REG-R02",
@@ -483,7 +523,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "cfr",
+      "doc_id": "32-cfr-2002",
+      "version_slug": "final-rule"
     },
     {
       "id": "REG-R03",
@@ -512,7 +555,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "federal-register",
+      "doc_id": "dfars-case-2019-d041",
+      "version_slug": "final-rule"
     },
     {
       "id": "REG-C01",
@@ -538,7 +584,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "far",
+      "doc_id": "52.204-21",
+      "version_slug": "current"
     },
     {
       "id": "REG-C02",
@@ -566,7 +615,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "252.204-7012",
+      "version_slug": "current"
     },
     {
       "id": "REG-C03",
@@ -596,7 +648,10 @@
         "Confirm elimination and effective date on acquisition.gov / DPC class deviation list."
       ],
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "252.204-7019",
+      "version_slug": "current"
     },
     {
       "id": "REG-C04",
@@ -626,10 +681,15 @@
         "Confirm renumbering and text on acquisition.gov."
       ],
       "aliases": [
-        "DFARS 252.204-7020"
+        "DFARS 252.204-7020",
+        "252.204-7020",
+        "252.240-7997"
       ],
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "252.240-7997",
+      "version_slug": "current"
     },
     {
       "id": "REG-C05",
@@ -656,7 +716,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "252.204-7021",
+      "version_slug": "current"
     },
     {
       "id": "REG-C06",
@@ -682,7 +745,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "252.204-7025",
+      "version_slug": "current"
     },
     {
       "id": "REG-S01",
@@ -713,7 +779,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod",
+      "doc_id": "dodi-5200.48",
+      "version_slug": "current"
     },
     {
       "id": "REG-D01",
@@ -742,7 +811,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-model-overview",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D02",
@@ -775,7 +847,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l1",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D03",
@@ -809,7 +884,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l2",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D04",
@@ -842,7 +920,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l3",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D05",
@@ -871,7 +952,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-scoping-guide-l1",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D06",
@@ -902,7 +986,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-scoping-guide-l2",
+      "version_slug": "2.13"
     },
     {
       "id": "REG-D07",
@@ -923,7 +1010,10 @@
       "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
-      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added."
+      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added.",
+      "org": "dod-cio",
+      "doc_id": "cmmc-101-brief",
+      "version_slug": "current"
     },
     {
       "id": "REG-D08",
@@ -938,7 +1028,10 @@
       "corpus_role": "Transcribe before ingest, or skip.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-overview-briefing",
+      "version_slug": "current"
     },
     {
       "id": "REG-D09",
@@ -956,7 +1049,10 @@
       "corpus_role": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-alignment-to-nist",
+      "version_slug": "current"
     },
     {
       "id": "REG-D10",
@@ -977,7 +1073,10 @@
       "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added.",
       "confirm": [
         "Supply the canonical publisher url, then set ingest back to 'chunk'."
-      ]
+      ],
+      "org": "dod-cio",
+      "doc_id": "cmmc-sprs-briefing",
+      "version_slug": "current"
     },
     {
       "id": "REG-D11",
@@ -992,7 +1091,10 @@
       "corpus_role": "Marketing sheet; marginal value.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "dib-csaas-slick-sheet",
+      "version_slug": "current"
     },
     {
       "id": "REG-S02",
@@ -1007,7 +1109,10 @@
       "corpus_role": "Registered as a source with URL; not chunked. Optionally ingest the SPRS NIST SP 800-171 Assessment user guide.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "disa",
+      "doc_id": "sprs-portal",
+      "version_slug": "current"
     },
     {
       "id": "REG-S03",
@@ -1022,7 +1127,10 @@
       "corpus_role": "Program home; re-crawl on a schedule to detect guide revisions.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "cmmc-program-site",
+      "version_slug": "current"
     },
     {
       "id": "REG-S04",
@@ -1037,7 +1145,10 @@
       "corpus_role": "CUI Registry and marking guidance; REG-S01 is the ingested document.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod",
+      "doc_id": "cui-program-site",
+      "version_slug": "current"
     },
     {
       "id": "REG-F01",
@@ -1067,7 +1178,10 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "scf",
+      "doc_id": "scf-catalog",
+      "version_slug": "2026.2"
     },
     {
       "id": "REG-F02",
@@ -1097,7 +1211,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "cyber-ab",
+      "doc_id": "cap",
+      "version_slug": "2.0"
     },
     {
       "id": "REG-F03",
@@ -1129,7 +1246,10 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "cyber-ab",
+      "doc_id": "copc",
+      "version_slug": "2.0"
     },
     {
       "id": "REG-R04",
@@ -1160,7 +1280,10 @@
       ],
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "class-deviation-2024-o0013",
+      "version_slug": "r1"
     },
     {
       "id": "REG-R05",
@@ -1189,7 +1312,10 @@
       ],
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-02-01-rfo",
+      "version_slug": "current"
     },
     {
       "id": "REG-R06",
@@ -1216,7 +1342,10 @@
       },
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "federal-register",
+      "doc_id": "89-fr-83092",
+      "version_slug": "2024-10-15"
     },
     {
       "id": "REG-R07",
@@ -1246,7 +1375,10 @@
       ],
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "federal-register",
+      "doc_id": "90-fr-43560",
+      "version_slug": "2025-09-10"
     },
     {
       "id": "REG-S05",
@@ -1275,7 +1407,10 @@
       ],
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "org": "dod-cio",
+      "doc_id": "fedramp-moderate-equivalency",
+      "version_slug": "2023-12-21"
     }
   ]
 }
