@@ -1,0 +1,298 @@
+name: build
+
+on:
+  schedule:
+    # Daily at 06:00 UTC.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated registry ids to run. Dependencies are pulled in automatically."
+        required: false
+        type: string
+      dry_run:
+        description: "Validate and print the plan for every row without writing or committing anything."
+        required: false
+        type: boolean
+        default: false
+      image:
+        description: "Override the pinned pipeline image for this run only. For testing a candidate before pinning it."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  # cosign keyless signing uses the workflow's OIDC identity; there is no private key to hold.
+  id-token: write
+
+# Two runs must never commit at once: the second would push onto a tree the first had already changed.
+concurrency:
+  group: corpus-build
+  cancel-in-progress: false
+
+env:
+  # The image is pinned in .github/pipeline-image, written by cairn-pipeline's publish-to-corpus workflow.
+  # It is not an env var here because the pin is data this repository owns and reviews, not workflow config.
+  PIN_FILE: .github/pipeline-image
+  RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out the corpus
+        uses: actions/checkout@v4
+        with:
+          # Full history so the commit this build makes lands on top of the real branch tip.
+          fetch-depth: 0
+
+      - name: Read the pinned pipeline image
+        id: pin
+        run: |
+          set -euo pipefail
+          override="${{ inputs.image }}"
+
+          if [ -n "$override" ]; then
+            echo "::notice::Using the override image $override; the pin is unchanged."
+            echo "image=$override" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ ! -f "$PIN_FILE" ]; then
+            echo "::error::No pipeline image is pinned. $PIN_FILE is written by cairn-pipeline's" \
+                 "publish-to-corpus workflow; run it for a released tag, or pass the 'image' input to" \
+                 "test a candidate."
+            exit 1
+          fi
+
+          # '|| true': grep exits 1 when nothing matches, and under pipefail that would abort the step
+          # before the explicit check below could say why.
+          image=$(grep -v '^[[:space:]]*#' "$PIN_FILE" \
+                  | grep -v '^[[:space:]]*$' \
+                  | head -1 \
+                  | tr -d '[:space:]' || true)
+
+          if [ -z "$image" ]; then
+            echo "::error::$PIN_FILE holds no image reference (only comments or blank lines)."
+            exit 1
+          fi
+
+          echo "image=$image" >> "$GITHUB_OUTPUT"
+          echo "Pinned image: $image"
+
+      # cairn-pipeline is private, so this repository cannot authenticate to its packages and cannot check
+      # out its source. The image lives in a public package under this repository's own namespace and is
+      # pulled with no credentials at all; that is the whole reason publish-to-corpus exists.
+      - name: Pull the pinned pipeline image
+        run: |
+          set -euo pipefail
+          image="${{ steps.pin.outputs.image }}"
+
+          if ! docker pull "$image"; then
+            echo "::error::Could not pull $image anonymously. If the package exists, it is probably still" \
+                 "private: make it public once in its package settings. This build has no registry" \
+                 "credentials by design."
+            exit 1
+          fi
+
+      - name: Run the pipeline
+        id: run
+        env:
+          ONLY: ${{ inputs.only }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+
+          args=(run --registry registry/public.json --out . --run-id "$RUN_ID" --verbose)
+          [ -n "${ONLY:-}" ]          && args+=(--only "$ONLY")
+          [ "${DRY_RUN:-false}" = "true" ] && args+=(--dry-run)
+
+          # Raw is archived outside the corpus tree so it can never be committed (invariant 3).
+          # Create it first: a bind mount of a missing path would be created root-owned by the daemon.
+          mkdir -p "$RUNNER_TEMP/cairn-raw"
+          args+=(--raw-root "$RUNNER_TEMP/cairn-raw")
+
+          status=0
+          docker run --rm \
+            --volume "$PWD:/corpus" \
+            --volume "$RUNNER_TEMP/cairn-raw:$RUNNER_TEMP/cairn-raw" \
+            --user "$(id -u):$(id -g)" \
+            --env RUNNER_TEMP \
+            --workdir /corpus \
+            "${{ steps.pin.outputs.image }}" "${args[@]}" || status=$?
+
+          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
+
+          # Exit 2 means a row reached the report with no outcome, or the registry did not validate. Either
+          # is a pipeline or registry defect and must fail the build.
+          if [ "$status" -ne 0 ]; then
+            echo "::error::cairn exited $status"
+            exit "$status"
+          fi
+
+      - name: Read the run report
+        if: inputs.dry_run != true
+        id: report
+        run: |
+          set -euo pipefail
+          report="reports/${RUN_ID}.json"
+
+          if [ ! -f "$report" ]; then
+            echo "::error::Expected $report to exist."
+            exit 1
+          fi
+
+          warnings=$(jq -r '.warnings' "$report")
+          echo "warnings=$warnings" >> "$GITHUB_OUTPUT"
+          echo "path=$report" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "## Corpus build \`${RUN_ID}\`"
+            echo
+            jq -r '
+              "| reg_id | version | outcome | chunks | vectors | findings |",
+              "| --- | --- | --- | ---: | ---: | ---: |",
+              (.documents[] | "| \(.reg_id) | \(.version) | \(.outcome) | \(.chunks) | \(.vectors) | \(.findings) |")
+            ' "$report"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Install cosign
+        if: inputs.dry_run != true
+        uses: sigstore/cosign-installer@v3
+
+      # Keyless: the signature binds to this workflow's OIDC identity, recorded in the Rekor transparency
+      # log. One signature over the manifest covers every artifact, because the manifest carries their hashes.
+      - name: Sign the manifest
+        if: inputs.dry_run != true
+        run: |
+          set -euo pipefail
+          cosign sign-blob --yes \
+            --output-signature   manifest/manifest.json.sig \
+            --output-certificate manifest/manifest.json.crt \
+            manifest/manifest.json
+
+          cosign verify-blob \
+            --certificate manifest/manifest.json.crt \
+            --signature   manifest/manifest.json.sig \
+            --certificate-identity-regexp "^https://github\.com/${GITHUB_REPOSITORY}/\.github/workflows/build\.yml@" \
+            --certificate-oidc-issuer https://token.actions.githubusercontent.com \
+            manifest/manifest.json
+
+      - name: Commit the corpus
+        if: inputs.dry_run != true
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name  "cairn-corpus[bot]"
+          git config user.email "cairn-corpus[bot]@users.noreply.github.com"
+
+          git add derived/ manifest/ reports/
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Corpus unchanged; nothing to commit."
+            exit 0
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git commit -m "corpus: build ${RUN_ID}" \
+                     -m "Pipeline: ${{ steps.pin.outputs.image }}" \
+                     -m "Registry: $(jq -r '.registry_hash' "reports/${RUN_ID}.json")" \
+                     -m "Warnings: ${{ steps.report.outputs.warnings }}"
+
+          # Another run may have landed while this one was building; rebase rather than force.
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push attempt ${attempt} failed; retrying"
+            sleep $((2 ** attempt))
+          done
+
+          echo "::error::Could not push the corpus after 4 attempts."
+          exit 1
+
+      - name: Upload the run report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-report-${{ github.run_id }}
+          path: reports/
+          if-no-files-found: warn
+
+      # Raw bytes are not committed. Until S3 is enabled this artifact is the only archive of them, so its
+      # retention is what invariant 3 rests on in CI.
+      - name: Upload the raw archive
+        if: always() && inputs.dry_run != true
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ github.run_id }}
+          path: ${{ runner.temp }}/cairn-raw/
+          retention-days: 90
+          if-no-files-found: warn
+
+      # One issue, updated in place. A new issue per warning run would bury the signal it exists to raise.
+      - name: Open or update the warnings issue
+        if: inputs.dry_run != true && steps.report.outputs.warnings == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync(process.env.REPORT_PATH, 'utf8'));
+
+            const flagged = report.documents.filter(
+              d => d.outcome === 'missing' || d.outcome === 'quarantined');
+
+            const counts = Object.entries(
+              report.findings.reduce((acc, f) => {
+                if (f.severity === 'info') return acc;
+                acc[f.code] = (acc[f.code] || 0) + 1;
+                return acc;
+              }, {}));
+
+            const body = [
+              `Latest build: \`${report.run_id}\` (${new Date().toISOString()})`,
+              '',
+              `[Run](${process.env.RUN_URL})`,
+              '',
+              '## Documents needing attention',
+              '',
+              flagged.length
+                ? ['| reg_id | outcome | reason |', '| --- | --- | --- |',
+                   ...flagged.map(d => `| \`${d.reg_id}\` | ${d.outcome} | ${d.reason ?? ''} |`)].join('\n')
+                : '_None._',
+              '',
+              '## Findings',
+              '',
+              counts.length
+                ? counts.map(([code, n]) => `- \`${code}\`: ${n}`).join('\n')
+                : '_None above info level._',
+              '',
+              '---',
+              'A quarantined document means the **previous version is still current and still correct**.',
+              'A missing document means the source was unreachable and the previous version still stands.',
+              '',
+              'This issue is updated in place by each build with warnings. Close it once the findings are',
+              'triaged; the next build with warnings will reopen it.',
+            ].join('\n');
+
+            const title = 'Corpus warnings';
+            const { owner, repo } = context.repo;
+
+            const existing = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${owner}/${repo} is:issue in:title "${title}"`,
+            });
+
+            const match = existing.data.items.find(i => i.title === title);
+
+            if (match) {
+              await github.rest.issues.update({
+                owner, repo, issue_number: match.number, body, state: 'open',
+              });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }
+        env:
+          REPORT_PATH: ${{ steps.report.outputs.path }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
