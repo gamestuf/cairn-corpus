@@ -15,7 +15,9 @@ internal-tier content lives on the consuming side, in a separate repository. A r
 ## Layout
 
     registry/public.json              the single input: every document and the rules for handling it
-    sources/{reg_id}/                 committed copies, used only when a live fetch fails
+    sources/{reg_id}/                 hand-committed copies, used only when a live fetch fails
+    raw/public/{org}/{doc_id}/{version}[/{part}]/
+                                      the original document, exactly as fetched
     derived/public/{org}/{doc_id}/{version}[/{part}]/
                                       text.md, chunks.jsonl, nodes.jsonl, edges.jsonl, vectors.jsonl
     manifest/manifest.json            every document: version, outcome, hashes, counts, model
@@ -28,8 +30,15 @@ Artifacts are organized by the issuing organization and the publisher's own docu
 last so revisions sit together — `nist/sp-800-171/r2u1/`, `/r3/`, later `/r4/`. Tier is the root, so
 everything in this public repository is under `public/` and anything outside it is wrong at a glance.
 
-`raw/` is **never** committed. Raw bytes are archived to the object store; in CI they are uploaded as a job
-artifact with 90-day retention until S3 is enabled.
+`raw/` holds the original documents as fetched, so every chunk can be checked against the bytes it came
+from and a document the publisher later pulls or moves is still here. Almost everything the registry names
+is United States federal government work and carries no copyright. Three rows are not — the SCF catalog and
+the Cyber AB's CAP and CoPC — and those set no `redistribute` flag: their text is derived and published as
+usual, their original files are archived outside this repository. The run report names every document it
+held back and why, and the manifest's `archive_published` says so per row.
+
+A document over 25 MB is held back the same way, so one outsized file cannot quietly make this repository
+expensive to clone.
 
 ## Using the corpus
 

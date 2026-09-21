@@ -119,12 +119,14 @@ node id, so changing them costs a re-derive and never a re-embed.
 | `doc_id` | The publisher's own identifier: `sp-800-171`, `252.204-7012`, `cmmc-assessment-guide-l2`. Adopting the publisher's id rather than inventing one means the path is the string people already search for. |
 | `version_slug` | Path-friendly version: `r2u1`, `2.13`, `current`. Separate from `version`, which feeds `chunk_id` — a living clause reads `current` in the tree while its identity stays `unversioned`. |
 | `part` | Separates renditions of one document at one revision: `controls-json` vs `pdf`. Only needed where two rows would otherwise collide. |
+| `redistribute` | `true` asserts that the original file may be republished in this repository, which is where it is then archived. **Absent means no**: republishing a document is a claim about its licence, and the pipeline does not make that claim on a publisher's behalf. A withheld row is still fetched, archived and chunked, and its `derived/` artifacts are published exactly as any other row's — only the original file stays out, and the run report names it. |
 
 Artifacts land at:
 
 ```
 derived/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/
-raw/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/
+raw/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/          # published originals
+raw-withheld/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/ # archived outside this repository
 ```
 
 Tier is the root so a public corpus is visibly public — anything outside `public/` in this repository is
