@@ -110,15 +110,17 @@ jobs:
           [ -n "${ONLY:-}" ]          && args+=(--only "$ONLY")
           [ "${DRY_RUN:-false}" = "true" ] && args+=(--dry-run)
 
-          # Raw is archived outside the corpus tree so it can never be committed (invariant 3).
-          # Create it first: a bind mount of a missing path would be created root-owned by the daemon.
-          mkdir -p "$RUNNER_TEMP/cairn-raw"
-          args+=(--raw-root "$RUNNER_TEMP/cairn-raw")
+          # Originals the registry clears for redistribution are archived into raw/ under --out and
+          # committed with the corpus. Everything else goes here, outside the tree, where no commit step
+          # can reach it. Create it first: a bind mount of a missing path would be created root-owned by
+          # the daemon.
+          mkdir -p "$RUNNER_TEMP/cairn-withheld"
+          args+=(--withheld-root "$RUNNER_TEMP/cairn-withheld")
 
           status=0
           docker run --rm \
             --volume "$PWD:/corpus" \
-            --volume "$RUNNER_TEMP/cairn-raw:$RUNNER_TEMP/cairn-raw" \
+            --volume "$RUNNER_TEMP/cairn-withheld:$RUNNER_TEMP/cairn-withheld" \
             --user "$(id -u):$(id -g)" \
             --env RUNNER_TEMP \
             --workdir /corpus \
@@ -189,7 +191,25 @@ jobs:
           git config user.name  "cairn-corpus[bot]"
           git config user.email "cairn-corpus[bot]@users.noreply.github.com"
 
-          git add derived/ manifest/ reports/
+          # raw/ holds only what the registry marks redistributable; the withheld originals were written
+          # to a root outside this checkout and are not reachable from here. Naming the directories
+          # explicitly, rather than 'git add -A', is the second guard: an untracked file that appeared for
+          # any other reason is not swept into a public commit.
+          #
+          # A directory can legitimately be absent - raw/ on a run where every fetch came back 304, for
+          # instance - and under pipefail 'git add' on a missing path would end the build. So stage what
+          # is there and let the emptiness check below decide whether there is anything to commit.
+          staged=()
+          for dir in derived manifest raw reports; do
+            [ -d "$dir" ] && staged+=("$dir")
+          done
+
+          if [ ${#staged[@]} -eq 0 ]; then
+            echo "::error::None of derived/, manifest/, raw/ or reports/ exist after a non-dry run."
+            exit 1
+          fi
+
+          git add -- "${staged[@]}"
 
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -221,14 +241,15 @@ jobs:
           path: reports/
           if-no-files-found: warn
 
-      # Raw bytes are not committed. Until S3 is enabled this artifact is the only archive of them, so its
-      # retention is what invariant 3 rests on in CI.
-      - name: Upload the raw archive
+      # The withheld originals are the ones the corpus does not publish, so the commit above is not their
+      # archive. Until S3 is enabled this artifact is, and its retention is what invariant 3 rests on for
+      # them in CI. The published originals need no artifact: they are in the commit.
+      - name: Upload the withheld archive
         if: always() && inputs.dry_run != true
         uses: actions/upload-artifact@v4
         with:
-          name: raw-${{ github.run_id }}
-          path: ${{ runner.temp }}/cairn-raw/
+          name: withheld-${{ github.run_id }}
+          path: ${{ runner.temp }}/cairn-withheld/
           retention-days: 90
           if-no-files-found: warn
 

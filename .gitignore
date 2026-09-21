@@ -1,6 +1,11 @@
-# Raw source bytes are archived, never committed (invariant 3). They go to the object store; in CI they
-# are uploaded as a job artifact until S3 is enabled.
-raw/
+# raw/ IS committed: it holds the originals the registry marks redistributable, so every chunk can be
+# checked against the bytes it came from and a document that is later pulled or moved is still here.
+#
+# Originals the registry does not clear are archived under a different root entirely - the pipeline never
+# writes them into this tree - so these entries are a backstop for a local run pointed at the repository,
+# not the mechanism.
+raw-withheld/
+.cairn-withheld/
 .cairn-raw/
 
 # Signing scratch. The signature and certificate that accompany the manifest ARE committed.

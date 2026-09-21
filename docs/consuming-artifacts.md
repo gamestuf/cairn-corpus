@@ -105,10 +105,16 @@ run you should look at, not a run you should discard.
 
 ## 7. What is not in the corpus
 
-`raw/` is archived but never committed. Raw hashes in the manifest are claims about bytes the public
-repository does not contain; verify them against the object store, or by re-fetching the URL — which is a
-different claim ("the source says this now"), and `fetched_at` and `etag` are what make the difference
-legible.
+Most originals **are** here, under `raw/`, so the manifest's source hash can be checked against the bytes
+next to it. What is not here is the original of a document the registry does not clear for redistribution,
+or one over the publishing size cap: for those, `source.archive_published` is `false` and the source hash
+is a claim about bytes this repository does not contain. Verify those against the object store, or by
+re-fetching the URL — which is a different claim ("the source says this now"), and `fetched_at` and `etag`
+are what make the difference legible.
+
+`source.origin` says where the bytes actually came from: `url` (the publisher, this run), `archive` (the
+copy this corpus archived earlier, because the fetch failed), `fallback` (a hand-committed copy, likewise)
+or `local`. Treat the middle two as snapshots of the age given by the previous run's `fetched_at`.
 
 No credentials, no internal-tier content, no `internal.json`. A row with any `tier` other than `public`
 fails the run.
