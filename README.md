@@ -15,6 +15,7 @@ internal-tier content lives on the on-prem side, in GitLab. A registry row with 
 ## Layout
 
     registry/public.json              the single input: every document and the rules for handling it
+    sources/{reg_id}/                 committed copies, used only when a live fetch fails
     derived/{reg_id}/{version}/       text.md, chunks.jsonl, nodes.jsonl, edges.jsonl, vectors.jsonl
     manifest/manifest.json            every document: version, outcome, hashes, counts, model
     manifest/manifest.json.sig        cosign signature over the manifest
@@ -72,6 +73,17 @@ no image to run yet.
 A build with `warnings: true` — any `missing` or `quarantined` document — opens or updates a single issue
 titled **Corpus warnings**. It does not fail the build: a warning is something to look at, not a reason to
 discard a corpus.
+
+## When a document cannot be fetched
+
+Some publishers block CI runners or present certificates the runner rejects. For those, commit a copy to
+`sources/{reg_id}/` and point the row at it with `fallback_path`. The pipeline still tries the publisher
+first and only falls back when that fails — and when it does, the run reports it and the manifest records
+`origin: fallback`, so a snapshot is never mistaken for the publisher's current text.
+
+This is not the fix for a row whose `url` returns a landing page instead of the document. That shows up as
+`payload is 'html', not 'pdf'`, and the answer there is to correct the url — a fallback would freeze a
+document that is perfectly reachable.
 
 ## Adding or changing a document
 
