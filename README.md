@@ -31,6 +31,9 @@ everything in this public repository is under `public/` and anything outside it 
 `raw/` is **never** committed. Raw bytes are archived to the object store; in CI they are uploaded as a job
 artifact with 90-day retention until S3 is enabled.
 
+Open questions — everything the corpus is waiting on, grouped by what would unblock it — are tracked in
+[`docs/open-questions.md`](docs/open-questions.md).
+
 ## Using the corpus
 
 Verify before you trust it:
