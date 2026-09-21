@@ -912,16 +912,18 @@
       "tier": "public",
       "authority": "derived",
       "status": "active",
-      "ingest": "chunk",
+      "ingest": "register-only",
       "chunking": "by slide",
       "format": "pdf",
       "corpus_role": "Awareness content; business tier.",
       "confirm": [
-        "Record version/date from the document."
+        "Record version/date from the document.",
+        "Supply the canonical publisher url, then set ingest back to 'chunk'."
       ],
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added."
     },
     {
       "id": "REG-D08",
@@ -965,13 +967,17 @@
       "tier": "public",
       "authority": "derived",
       "status": "active",
-      "ingest": "chunk",
+      "ingest": "register-only",
       "chunking": "by slide",
       "format": "pdf",
       "corpus_role": "SPRS score mechanics.",
       "intake": "scheduled",
       "language": "en",
-      "language_policy": "report-only"
+      "language_policy": "report-only",
+      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added.",
+      "confirm": [
+        "Supply the canonical publisher url, then set ingest back to 'chunk'."
+      ]
     },
     {
       "id": "REG-D11",
