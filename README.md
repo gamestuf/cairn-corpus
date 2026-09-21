@@ -16,12 +16,17 @@ internal-tier content lives on the on-prem side, in GitLab. A registry row with 
 
     registry/public.json              the single input: every document and the rules for handling it
     sources/{reg_id}/                 committed copies, used only when a live fetch fails
-    derived/{reg_id}/{version}/       text.md, chunks.jsonl, nodes.jsonl, edges.jsonl, vectors.jsonl
+    derived/public/{org}/{doc_id}/{version}[/{part}]/
+                                      text.md, chunks.jsonl, nodes.jsonl, edges.jsonl, vectors.jsonl
     manifest/manifest.json            every document: version, outcome, hashes, counts, model
     manifest/manifest.json.sig        cosign signature over the manifest
     manifest/manifest.json.crt        the signing certificate
     manifest/registry.snapshot.json   the registry as of the last run, for the next run's diff
     reports/{run_id}.{md,json}        per-run outcome table, findings and counts
+
+Artifacts are organized by the issuing organization and the publisher's own document id, with the version
+last so revisions sit together — `nist/sp-800-171/r2u1/`, `/r3/`, later `/r4/`. Tier is the root, so
+everything in this public repository is under `public/` and anything outside it is wrong at a glance.
 
 `raw/` is **never** committed. Raw bytes are archived to the object store; in CI they are uploaded as a job
 artifact with 90-day retention until S3 is enabled.
