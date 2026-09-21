@@ -108,6 +108,35 @@ registry, reported rather than fatal.
 - **`transcribe-or-skip`** — needs OCR. The OCR extractor is not wired up, so these are `skipped` with that
   reason stated. See `extractors/ocr/README.md`.
 
+### Path slugs
+
+These decide where a document's artifacts live. They are **path-only** — none of them feeds `chunk_id` or a
+node id, so changing them costs a re-derive and never a re-embed.
+
+| Field | Meaning |
+| --- | --- |
+| `org` | The organization that **issued** the document, as a slug: `nist`, `dod-cio`, `dfars`. Means the same thing in the public and internal trees — who wrote it, not who may read it. |
+| `doc_id` | The publisher's own identifier: `sp-800-171`, `252.204-7012`, `cmmc-assessment-guide-l2`. Adopting the publisher's id rather than inventing one means the path is the string people already search for. |
+| `version_slug` | Path-friendly version: `r2u1`, `2.13`, `current`. Separate from `version`, which feeds `chunk_id` — a living clause reads `current` in the tree while its identity stays `unversioned`. |
+| `part` | Separates renditions of one document at one revision: `controls-json` vs `pdf`. Only needed where two rows would otherwise collide. |
+
+Artifacts land at:
+
+```
+derived/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/
+raw/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/
+```
+
+Tier is the root so a public corpus is visibly public — anything outside `public/` in this repository is
+wrong at a glance — and so the downstream merge is a union of two disjoint subtrees. Version sits last so
+revisions of one document are siblings: `nist/sp-800-171/r2u1`, `/r3`, later `/r4`.
+
+**Two rows resolving to the same directory fails stage 0**, like a duplicate id. The second would otherwise
+overwrite the first's artifacts while the run reported both as ingested. Give one a `part`.
+
+Rows without these fields fall back to `{tier}/{reg_id}/{version}` and are reported, so the registry can be
+migrated a row at a time.
+
 ### Content rules
 
 | Field | Meaning |
