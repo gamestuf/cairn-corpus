@@ -117,6 +117,11 @@ jobs:
           mkdir -p "$RUNNER_TEMP/cairn-withheld"
           args+=(--withheld-root "$RUNNER_TEMP/cairn-withheld")
 
+          # Rows carrying source_api are resolved through the publisher's API. None of the providers in
+          # use needs a credential - federalregister.gov is open - so nothing is passed in below. When one
+          # does, add its secret to the step's env: block above and forward the variable with a matching
+          # --env here. It belongs in repository secrets, never in registry/public.json, which is public
+          # and has no field for a credential by design.
           status=0
           docker run --rm \
             --volume "$PWD:/corpus" \

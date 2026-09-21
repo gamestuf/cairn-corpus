@@ -549,7 +549,14 @@
       "publisher": "DoD / Federal Register",
       "version": "Final rule",
       "published": "2025-09-10 (effective 2025-11-10)",
-      "url": "https://www.federalregister.gov/",
+      "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
+      "source_api": {
+        "provider": "federal-register",
+        "document_number": "2025-17359"
+      },
+      "confirm": [
+        "REG-R03 and REG-R07 resolve to the same Federal Register document (FR Doc. 2025-17359, 90 FR 43560): R03 takes the amended clause text as requirements, R07 the preamble and comment responses as guidance. One fetch serves both. Confirm that split is intended, and whether the two should share a doc_id with distinct parts rather than carrying separate ones."
+      ],
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
@@ -1370,6 +1377,10 @@
       "publisher": "Federal Register",
       "published": "2024-10-15",
       "url": "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program",
+      "source_api": {
+        "provider": "federal-register",
+        "document_number": "2024-22905"
+      },
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
@@ -1401,6 +1412,10 @@
       "publisher": "Federal Register",
       "published": "2025-09-10",
       "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
+      "source_api": {
+        "provider": "federal-register",
+        "document_number": "2025-17359"
+      },
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
