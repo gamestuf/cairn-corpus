@@ -481,13 +481,23 @@
       "version": "Final rule",
       "published": "2024-10-15 (effective 2024-12-16)",
       "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-D/part-170",
+      "source_api": {
+        "provider": "ecfr",
+        "params": {
+          "title": "32",
+          "part": "170"
+        }
+      },
+      "confirm": [
+        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup."
+      ],
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
       "chunking": "by section (170.x)",
-      "format": "html",
+      "format": "xml",
       "corpus_role": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation.",
       "intake": "scheduled",
       "normativity_map": {
@@ -514,15 +524,23 @@
       "version": "Final rule",
       "published": "2016-09-14",
       "url": "https://www.ecfr.gov/current/title-32/subtitle-B/chapter-XX/part-2002",
+      "source_api": {
+        "provider": "ecfr",
+        "params": {
+          "title": "32",
+          "part": "2002"
+        }
+      },
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
       "chunking": "by section",
-      "format": "html",
+      "format": "xml",
       "corpus_role": "Government-wide CUI program rule (NARA/ISOO).",
       "confirm": [
+        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup.",
         "Source list said 'Part 2000' (ISOO classified-information procedures); Part 2002 assumed. Confirm."
       ],
       "intake": "scheduled",
