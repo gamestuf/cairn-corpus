@@ -40,12 +40,45 @@ a separate repository. A row with any `tier` other than `public` fails stage 0.
 
 | Field | Required | Meaning |
 | --- | --- | --- |
-| `url` | conditional | Remote source. |
-| `local_path` | conditional | Path to a local source, relative to the registry file. |
+| `url` | conditional | Remote source, and the source of record. |
+| `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
+| `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
 | `format` | **yes** for active chunked rows | `pdf`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (control file) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
+
+### Fallback copies
+
+Some publishers cannot be fetched from CI: at the time of writing, 9 registry rows return **HTTP 403**
+(the publisher blocks the runner) and 2 fail the **TLS handshake**. `fallback_path` points at a copy of the
+document committed to this repository, which the pipeline uses *only when the live fetch fails*:
+
+```json
+"url": "https://dodcio.defense.gov/.../AssessmentGuideL2v2.pdf",
+"fallback_path": "sources/REG-D03/AssessmentGuideL2v2.pdf"
+```
+
+Paths resolve against the registry file's directory first, then this repository's root — so the convention
+is `sources/{reg_id}/{filename}` at the top level.
+
+Three rules make this safe to rely on:
+
+1. **The url is always tried first.** A reachable document is never replaced by its snapshot.
+2. **Using a fallback is never silent.** It raises a `fallback_used` warning naming why the fetch failed,
+   and sets `warnings: true` on the run.
+3. **The manifest records `origin`** — `url`, `fallback` or `local` — plus `fallback_reason`. A snapshot of
+   unknown age and a document retrieved from the publisher today are different claims, and a consumer must
+   be able to tell them apart.
+
+`fallback_path` is deliberately *not* `local_path`. `local_path` is the source of record and skips fetching
+entirely; `fallback_path` is a stand-in for something whose source of record is still the publisher.
+
+A fallback is the right answer to a 403 or a TLS failure. It is the **wrong** answer to
+`payload is 'html', not 'pdf'` — that means the `url` points at a landing page rather than the asset, and
+the fix is to correct the url so the document stays current.
+
+### Shared fetches
 
 Two rows naming the **same `url`** are fetched once and the bytes reused — this is how REG-N01 and REG-N01b
 are "one fetch, two registry rows" without a field saying so. `shares_fetch_with` names the relationship
