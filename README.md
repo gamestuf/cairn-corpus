@@ -8,9 +8,8 @@ This repository is data only, and it is the public half of the system. The pipel
 published to this repository's own package namespace. Nothing here needs access to that repository —
 everything a consumer or a registry contributor needs is in this one.
 
-Everything here is public-tier. There is no `internal-tier registry` in this repository or in `cairn-pipeline` —
-internal-tier content lives on the consuming side, in a separate repository. A registry row with any `tier` other than
-`public` fails the build.
+Everything here is public-tier: every document is a published standard, regulation or program document,
+retrieved from the body that issued it. A registry row with any `tier` other than `public` fails the build.
 
 ## Layout
 
@@ -94,10 +93,23 @@ discard a corpus.
 
 ## When a document cannot be fetched
 
-Some publishers block CI runners or present certificates the runner rejects. For those, commit a copy to
-`sources/{reg_id}/` and point the row at it with `fallback_path`. The pipeline still tries the publisher
-first and only falls back when that fails — and when it does, the run reports it and the manifest records
-`origin: fallback`, so a snapshot is never mistaken for the publisher's current text.
+Some publishers block CI runners or present certificates the runner rejects. For those, commit a copy
+under `fallback/`, at the same coordinates the document's other artifacts use:
+
+    fallback/public/{org}/{doc_id}/{version_slug}[/{part}]/{filename}
+
+One file per directory, and no registry edit: the pipeline looks there for any row whose fetch fails.
+The path is built from the row's own `org`, `doc_id` and `version_slug`, so **a copy filed under a version
+the registry does not name will not be found** — that is deliberate, because guessing across versions is
+how a superseded snapshot ends up served as current text. The `raw`/`derived`/`fallback` columns in each
+run report say which subtrees actually hold a file for each row, which is the quickest way to spot a copy
+filed one directory off.
+
+A row may still name its copy explicitly with `fallback_path`, and that wins where both exist.
+
+Either way the pipeline tries the publisher first and only falls back when that fails — and when it does,
+the run reports it and the manifest records `origin: fallback`, so a snapshot is never mistaken for the
+publisher's current text.
 
 This is not the fix for a row whose `url` returns a landing page instead of the document. That shows up as
 `payload is 'html', not 'pdf'`, and the answer there is to correct the url — a fallback would freeze a

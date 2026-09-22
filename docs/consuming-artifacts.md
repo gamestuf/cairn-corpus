@@ -1,7 +1,7 @@
-# How the consuming side verifies and consumes the corpus
+# How to verify and consume the corpus
 
-This is the contract between `cairn-corpus` and the consuming system that merges it with internal content.
-Nothing here requires a shared database or a call back to this pipeline.
+This is the contract between `cairn-corpus` and anything that reads it. Nothing here requires a shared
+database, an account, or a call back to the pipeline that produced it.
 
 ## 1. Verify the signature
 
@@ -62,14 +62,14 @@ equally derived (`control:3.1.1`, `objective:3.1.1[a]`, `section:REG-D03:v2.13:3
 This is what makes the merge a plain equality join:
 
 - **chunks to vectors** — join `chunks.jsonl` and `vectors.jsonl` on `chunk_id`.
-- **public to internal** — if the internal side computes ids with the same formula and the same
-  normalization, ids collide exactly when the text is the same. That is the intended behaviour: two
+- **this corpus to any other** — a corpus that computes ids with the same formula and the same
+  normalization collides exactly when the text is the same. That is the intended behaviour: two
   descriptions of the same requirement are the same chunk.
 - **upserts are idempotent** — re-loading a document replaces its points and updates its nodes rather than
   duplicating them.
 
 The normalization is NFC, typographic punctuation folded to ASCII, all Unicode whitespace collapsed to
-single spaces, zero-width characters stripped, case preserved. An internal implementation must match it
+single spaces, zero-width characters stripped, case preserved. Any independent implementation must match it
 exactly; `TextNormalizer` is the reference and `ChunkIdentityTests` pins the behaviour.
 
 ## 5. Filter on metadata, not on text
@@ -116,5 +116,4 @@ are what make the difference legible.
 copy this corpus archived earlier, because the fetch failed), `fallback` (a hand-committed copy, likewise)
 or `local`. Treat the middle two as snapshots of the age given by the previous run's `fetched_at`.
 
-No credentials, no internal-tier content, no `internal-tier registry`. A row with any `tier` other than `public`
-fails the run.
+No credentials and no non-public content. A row with any `tier` other than `public` fails the run.

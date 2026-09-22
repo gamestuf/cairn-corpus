@@ -3,8 +3,7 @@
 The registry is the single input. `registry/public.json` in `cairn-corpus` is the real one;
 `samples/public.min.json` here is a synthetic offline copy used by the dev loop and the tests.
 
-There is no `internal-tier registry` in either repository. Internal-tier content lives on the consuming side, in
-a separate repository. A row with any `tier` other than `public` fails stage 0.
+Every row in this registry is public-tier. A row with any `tier` other than `public` fails stage 0.
 
 ## File header
 
@@ -44,7 +43,7 @@ a separate repository. A row with any `tier` other than `public` fails stage 0.
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
-| `format` | **yes** for active chunked rows | `pdf`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (control file) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
+| `format` | **yes** for active chunked rows | `pdf`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -115,7 +114,7 @@ node id, so changing them costs a re-derive and never a re-embed.
 
 | Field | Meaning |
 | --- | --- |
-| `org` | The organization that **issued** the document, as a slug: `nist`, `dod-cio`, `dfars`. Means the same thing in the public and internal trees — who wrote it, not who may read it. |
+| `org` | The organization that **issued** the document, as a slug: `nist`, `dod-cio`, `dfars`. Who wrote the document, not who may read it. |
 | `doc_id` | The publisher's own identifier: `sp-800-171`, `252.204-7012`, `cmmc-assessment-guide-l2`. Adopting the publisher's id rather than inventing one means the path is the string people already search for. |
 | `version_slug` | Path-friendly version: `r2u1`, `2.13`, `current`. Separate from `version`, which feeds `chunk_id` — a living clause reads `current` in the tree while its identity stays `unversioned`. |
 | `part` | Separates renditions of one document at one revision: `controls-json` vs `pdf`. Only needed where two rows would otherwise collide. |
@@ -131,7 +130,7 @@ raw-withheld/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/ # archived outside t
 ```
 
 Tier is the root so a public corpus is visibly public — anything outside `public/` in this repository is
-wrong at a glance — and so the downstream merge is a union of two disjoint subtrees. Version sits last so
+wrong at a glance, and a merge with any other corpus is a union of disjoint subtrees. Version sits last so
 revisions of one document are siblings: `nist/sp-800-171/r2u1`, `/r3`, later `/r4`.
 
 **Two rows resolving to the same directory fails stage 0**, like a duplicate id. The second would otherwise
@@ -219,7 +218,7 @@ registry drops them.
   },
   "language": "en",
   "language_policy": "keep",
-  "fields": { "drop": ["internal_note"] },
+  "fields": { "drop": ["editor_note"] },
   "qa": { "expected_requirements": 110, "verify_against": "REG-N01b" },
   "confirm": ["Confirm the discussion text tracks r2 and not r3."]
 }

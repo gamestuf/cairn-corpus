@@ -144,8 +144,8 @@ using one costs.
 
 | row | waiting for |
 | --- | --- |
-| `REG-N01` | the 800-171 Rev. 2 control JSON, at `sources/input/800-171r2.controls.json` |
-| `REG-N02` | the 800-171A objective JSON, at `sources/input/800-171A.objectives.json` |
+| `REG-N01` | machine-readable 800-171 Rev. 2 control text |
+| `REG-N02` | machine-readable 800-171A objective text |
 | `REG-D07` | a canonical publisher url for the CMMC 101 Brief; then set `ingest` back to `chunk` |
 | `REG-D10` | a canonical publisher url for the SPRS briefing; then set `ingest` back to `chunk` |
 

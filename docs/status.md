@@ -12,8 +12,8 @@ estimate. Re-derive them from the newest report in `reports/` when this looks st
 ## What the corpus is for
 
 A verifiable, signed, public corpus of the CMMC and CUI source documents, chunked so that every chunk
-carries its provenance, its normativity and a stable id — such that an consuming system can merge it with
-internal content and cite it without having to trust this repository's word for anything.
+carries its provenance, its normativity and a stable id — such that any consumer can merge it with
+other content and cite it without having to trust this repository's word for anything.
 
 "Done" is not "every document ingested". It is: **every registry row accounted for, every chunk traceable
 to bytes anyone can re-hash, and every gap visible in the report** rather than absent from it.
@@ -52,7 +52,7 @@ Two of these outrank the rest:
 
 - **`REG-N01` and `REG-N02` have never had their source files.** They are the rows the whole 800-171
   chunking design is built around — one chunk per field per control, verified against the paired PDF. Until
-  that JSON exists, **the corpus has no 800-171 control text at all**, and the QA gates that
+  that machine-readable control text is in place, **the corpus has no 800-171 control text at all**, and the QA gates that
   check for 110 requirements and 320 objectives never run.
 - **Seven of the nine 403s are `dodcio.defense.gov`** — the model overview, all three assessment guides,
   both scoping guides, the NIST-alignment briefing. That is most of the CMMC document set behind one host.
