@@ -75,7 +75,16 @@ dotnet run --project src/Cairn.Public -c Release -- \
 Use a scratch `--out`, never this repository, unless you intend to produce a real build. Read the run
 report's **Corpus presence** table to confirm a file is where the registry expects it.
 
-## 5. Ask before proceeding
+## 5. Publishing is the maintainer's decision
+
+**This repository is public, so anything pushed here is disclosed.** Commit when asked; never push, tag, or
+force-push. Prepare the work, leave the tree clean, say what is unpushed, and hand over the commands.
+
+That applies with more force to history: a rewrite plus a force-push does not un-publish anything already
+cloned, forked or indexed, and GitHub keeps unreachable objects addressable by SHA until it garbage
+collects. Treat anything that has been on the remote as disclosed.
+
+## 6. Ask before proceeding
 
 If two readings of a task would produce materially different work — which repository a change belongs in,
 whether a document is a source or an index, whether a fix belongs in the registry or the pipeline — ask
