@@ -586,9 +586,9 @@
       "document_number": "SCF 2026.2",
       "title": "Secure Controls Framework (SCF) — Control Catalog and Set Theory Relationship Mappings (STRM)",
       "publisher": "Secure Controls Framework Council",
-      "version": "2026.2",
+      "version": "2026.3",
       "published": "2026-07-07",
-      "url": "https://securecontrolsframework.com/free-content/scf-download",
+      "url": "https://raw.githubusercontent.com/securecontrolsframework/securecontrolsframework/main/secure-controls-framework-scf-2026-3.xlsx",
       "tier": "public",
       "redistribute": false,
       "confirm": [
@@ -598,7 +598,7 @@
       "status": "planned",
       "ingest": "chunk",
       "chunking": "STRM rows -> edges; control text -> derived nodes",
-      "format": "oscal-json",
+      "format": "xlsx",
       "corpus_role": "STRM sheets for 800-171 R2, 800-171A, 800-53 R5, CMMC 2.0 L2, FAR 52.204-21 ingested as MAPS_TO edges pinned to scf_version; SCF control text stored as derived and never cited for posture.",
       "notes": "authority applies to STRM edges; SCF control-text nodes carry authority=derived.",
       "intake": "scheduled",
@@ -615,7 +615,7 @@
       "language_policy": "report-only",
       "org": "scf",
       "doc_id": "scf-catalog",
-      "version_slug": "2026.2"
+      "version_slug": "2026.3"
     },
     {
       "id": "REG-F02",
@@ -1689,8 +1689,10 @@
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
-      "format": "pdf",
-      "chunking": "per deviation",
+      "status": "active",
+      "ingest": "register-only",
+      "format": "html",
+      "chunking": "per deviation, once the individual deviations are named",
       "corpus_role": "Explains the current status of the 7019/7020 assessment clauses; source for 'do we still have to post a self-assessment score'.",
       "normativity_map": {
         "requirement": [
@@ -1702,7 +1704,7 @@
         "example": []
       },
       "confirm": [
-        "Identify the specific deviation number(s) covering 204.73 and record them."
+        "The url is DPCAP's index of class deviations, not a deviation itself, so this row is register-only. Identify the specific deviation number(s) covering 204.73, add each as its own row pointing at its own PDF — as REG-R04 does — then set this row back to 'chunk' or retire it."
       ],
       "intake": "scheduled",
       "language": "en",

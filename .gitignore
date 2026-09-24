@@ -5,6 +5,7 @@
 # writes them into this tree - so these entries are a backstop for a local run pointed at the repository,
 # not the mechanism.
 raw-withheld/
+fallback-withheld/
 .cairn-withheld/
 .cairn-raw/
 
@@ -12,5 +13,6 @@ raw-withheld/
 *.tmp
 
 # Editor and OS noise
+~$*
 .DS_Store
 Thumbs.db
