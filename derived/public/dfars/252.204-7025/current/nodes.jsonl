@@ -1,0 +1,11 @@
+{"id":"document:REG-C06","labels":["Document"],"properties":{"reg_id":"REG-C06","title":"Notice of Cybersecurity Maturity Model Certification Level Requirements","version":"unversioned","tier":"public","authority":"authoritative","document_number":"DFARS 252.204-7025","url":"https://www.acquisition.gov/dfars/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements."}}
+{"id":"section:REG-C06:unversioned:252.204-7025_Notice_of_Cybersecurity_Maturity_Model_Certification_Level_Requirements.","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"unversioned","anchor":"252.204-7025 Notice of Cybersecurity Maturity Model Certification Level Requirements.","chunk_id":"16c208527254c392525cf362feaae19194d4a3f8db3f821068d5bb10fe51972d","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C06:unversioned:252.204-7025_Notice_of_Cybersecurity_Maturity_Model_Certification_Level_Requirements./DFARS_Appendix","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"unversioned","anchor":"252.204-7025 Notice of Cybersecurity Maturity Model Certification Level Requirements./DFARS Appendix","chunk_id":"330b4fce7e57ce8f31bb16b9cd767622b68f8d22fe52a608f3173a3447eaebaf","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C06:unversioned:DFARS","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"unversioned","anchor":"DFARS","chunk_id":"36eeb8c0ab390a617aa361c74e388630f21d58a9d7bdfb6a1569026ff74f6f48","normativity":"guidance","block_type":"prose"}}
+{"id":"term:c3pao","labels":["Term"],"properties":{"term":"c3pao"}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:fci","labels":["Term"],"properties":{"term":"fci"}}
+{"id":"term:poam","labels":["Term"],"properties":{"term":"poam"}}
