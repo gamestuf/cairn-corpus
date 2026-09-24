@@ -75,14 +75,19 @@ dotnet run --project src/Cairn.Public -c Release -- \
 Use a scratch `--out`, never this repository, unless you intend to produce a real build. Read the run
 report's **Corpus presence** table to confirm a file is where the registry expects it.
 
-## 5. Publishing is the maintainer's decision
+## 5. Git is the maintainer's
 
-**This repository is public, so anything pushed here is disclosed.** Commit when asked; never push, tag, or
-force-push. Prepare the work, leave the tree clean, say what is unpushed, and hand over the commands.
+**Do not commit, tag, push, or force-push.** Edit the registry, verify the change, and **leave it in the
+working tree** — then say what changed, why, and what you verified. What belongs in a commit and when it
+ships are the maintainer's judgements, not yours.
 
-That applies with more force to history: a rewrite plus a force-push does not un-publish anything already
-cloned, forked or indexed, and GitHub keeps unreachable objects addressable by SHA until it garbage
-collects. Treat anything that has been on the remote as disclosed.
+The one exception is a command asked for **in that message**, naming the operation. "Commit this"
+authorises that commit and nothing beyond it.
+
+This repository is public, so anything pushed here is disclosed — which is why the line is drawn before the
+commit rather than after it. It applies with more force to history: a rewrite plus a force-push does not
+un-publish anything already cloned, forked or indexed, and GitHub keeps unreachable objects addressable by
+SHA until it garbage collects. **Treat anything that has been on the remote as disclosed.**
 
 ## 6. Ask before proceeding
 
