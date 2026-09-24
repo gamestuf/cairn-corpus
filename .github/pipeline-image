@@ -4,5 +4,5 @@
 # release rather than by hand. Pinned by digest, not by tag: a corpus build is only
 # reproducible if the thing that built it is.
 #
-# release: v0.1.1
-ghcr.io/gamestuf/cairn-corpus/cairn-pipeline@sha256:3981ec832ef54733bdbf304a9be71e3c3cdf089ec65dca2e2ea1b0eced8164df
+# release: v0.2.0
+ghcr.io/gamestuf/cairn-corpus/cairn-pipeline@sha256:f0b61c976baa2d835696c0db2fcc130102ae09c092c0d0ef2bfc2df71d5a77bb
