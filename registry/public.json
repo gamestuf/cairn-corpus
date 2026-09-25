@@ -67,6 +67,7 @@
       "document_number": "FAR 52.204-21",
       "title": "Basic Safeguarding of Covered Contractor Information Systems",
       "publisher": "acquisition.gov",
+      "version": "2021-11",
       "published": "2021-11",
       "url": "https://www.acquisition.gov/far/52.204-21",
       "tier": "public",
@@ -97,6 +98,8 @@
       "document_number": "DFARS 252.204-7012",
       "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
       "publisher": "acquisition.gov",
+      "version": "2024-05",
+      "published": "2024-05",
       "url": "https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting.",
       "tier": "public",
       "redistribute": true,
@@ -106,9 +109,6 @@
       "chunking": "by paragraph",
       "format": "html",
       "corpus_role": "800-171 flow-down, 72-hour DIBNet reporting, cloud FedRAMP Moderate equivalency.",
-      "confirm": [
-        "Record the clause edition date shown on acquisition.gov at ingest."
-      ],
       "intake": "scheduled",
       "normativity_map": {
         "requirement": [
@@ -129,6 +129,7 @@
       "document_number": "DFARS 252.204-7019",
       "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
       "publisher": "acquisition.gov",
+      "version": "2023-11",
       "published": "2023-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7019-notice-nist-sp-800-171-dod-assessment-requirements.",
       "tier": "public",
@@ -148,9 +149,6 @@
         "example": []
       },
       "notes": "Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01. Retained in registry so a consumer can reject it by ID and the bot can explain its removal.",
-      "confirm": [
-        "Confirm elimination and effective date on acquisition.gov / DPC class deviation list."
-      ],
       "language": "en",
       "language_policy": "report-only",
       "org": "dfars",
@@ -163,6 +161,7 @@
       "document_number": "DFARS 252.240-7997 (formerly 252.204-7020)",
       "title": "NIST SP 800-171 DoD Assessment Requirements",
       "publisher": "acquisition.gov",
+      "version": "2023-11",
       "published": "2026-02 (RFO class deviation)",
       "url": "https://www.acquisition.gov/dfars/252.204-7020-nist-sp-800-171-dod-assessment-requirements.",
       "tier": "public",
@@ -182,9 +181,6 @@
         "example": []
       },
       "notes": "Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve.",
-      "confirm": [
-        "Confirm renumbering and text on acquisition.gov."
-      ],
       "aliases": [
         "DFARS 252.204-7020",
         "252.204-7020",
@@ -202,6 +198,7 @@
       "document_number": "DFARS 252.204-7021",
       "title": "Contractor Compliance With the Cybersecurity Maturity Model Certification Level Requirements",
       "publisher": "acquisition.gov",
+      "version": "2025-11",
       "published": "2025-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7021-contractor-compliance-cybersecurity-maturity-model-certification-level-requirements.",
       "tier": "public",
@@ -233,6 +230,7 @@
       "document_number": "DFARS 252.204-7025",
       "title": "Notice of Cybersecurity Maturity Model Certification Level Requirements",
       "publisher": "acquisition.gov",
+      "version": "2025-11",
       "published": "2025-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements.",
       "tier": "public",
@@ -714,10 +712,11 @@
           "requirement"
         ],
         "guidance": [
-          "discussion",
           "800-53 mapping"
         ],
-        "example": []
+        "example": [
+          "discussion"
+        ]
       },
       "confirm": [
         "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
@@ -903,12 +902,13 @@
           "security_requirement"
         ],
         "guidance": [
-          "discussion",
           "reference",
           "odp",
           "odp_statement"
         ],
-        "example": []
+        "example": [
+          "discussion"
+        ]
       },
       "notes": "CPRT export sp_800_171_3_0_0 carries the Rev 3 requirements and their discussion, and also restates the Rev 3 assessment content that REG-N04 ingests from sp_800_171_a_3_0_0. The two exports overlap by design on NIST's side; the determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N04 remains the row those are retrieved from.",
       "language": "en",
@@ -1155,13 +1155,12 @@
           "enhanced_security_requirement",
           "security_requirement"
         ],
-        "guidance": [
-          "discussion"
-        ],
+        "guidance": [],
         "example": [
           "adversary_effect",
           "example",
-          "expected_result"
+          "expected_result",
+          "discussion"
         ]
       },
       "notes": "CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b.",
@@ -1314,7 +1313,6 @@
           "security_requirement"
         ],
         "guidance": [
-          "discussion",
           "reference",
           "odp",
           "odp_statement"
@@ -1322,7 +1320,8 @@
         "example": [
           "adversary_effect",
           "example",
-          "expected_result"
+          "expected_result",
+          "discussion"
         ]
       },
       "notes": "CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from.",
@@ -1470,10 +1469,11 @@
           "control_statement"
         ],
         "guidance": [
-          "Discussion",
           "Related Controls"
         ],
-        "example": []
+        "example": [
+          "Discussion"
+        ]
       },
       "language": "en",
       "language_policy": "report-only",

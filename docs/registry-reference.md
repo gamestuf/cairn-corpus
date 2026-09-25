@@ -147,8 +147,9 @@ migrated a row at a time.
 | `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. |
 | `sections.include` | Section names or clause numbers to keep. |
 | `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
-| `language` | ISO 639-1 code, e.g. `en`. |
+| `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. |
 | `language_policy` | `keep` (filter not engaged), `drop-other` (off-language paragraphs removed and counted), `report-only` (kept and reported). |
+| `multilingual` | `true` where the document genuinely mixes languages. Optional; **false** is assumed, and no row sets it today. It does not switch the filter off: off-language prose is still dropped or reported per `language_policy` either way. What it changes is whether an *ambiguous* paragraph is worth a line in the report — in a monolingual document that is noise, and in a genuinely multilingual one it is the point. Paragraphs with too little prose to judge, and ambiguous ones in a monolingual row, are counted as `paragraphs_language_unjudged` rather than listed. |
 | `fields.include` | Allow-list for structured sources. Empty means "everything not dropped". |
 | `fields.drop` | Fields removed from structured sources. Every drop is a report line. |
 
