@@ -26,13 +26,8 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `id` | **yes** | Stable registry id, e.g. `REG-N01`. Addresses the document across runs and appears in every artifact path and node id. Must be unique. |
 | `document_number` | no | The publisher's own number, e.g. `NIST SP 800-171 Rev. 2`. |
 | `title` | **yes** | Human-readable title. |
-| `source` | no | Publishing body as the registry groups them, e.g. `NIST`, `DoD CIO CMMC`. |
-| `publisher` | no | Where it is published, e.g. `csrc.nist.gov`. |
 | `version` | no | Document version. Part of every artifact path and every `chunk_id`. **When absent, artifacts use the literal `unversioned`** and stage 0 reports the row; recording the real version later starts a new version directory, which is the correct outcome. |
-| `published` | no | Publication date, free text (`2020-02 (updated 2021-01-28)` is a real value). |
-| `corpus_role` | no | What the document is for in the corpus. Carried to the manifest; not used for processing. |
-| `intake` | no | How the row is picked up, e.g. `scheduled`. |
-| `notes` | no | Operator notes. Echoed into the manifest. |
+| `notes` | no | Free prose about the row: what the document is for in the corpus, how it is meant to be chunked, anything an author needs to know. Echoed into the manifest and read by nobody, which is the point — it is the one place for reasoning that the pipeline does not act on. `source`, `publisher`, `intake`, `chunking`, `published` and `corpus_role` were folded into this field: six documentation-only fields that no code consumed, where one suffices. Dates that `version` does not already carry were kept here verbatim. |
 | `aliases` | no | Alternative names. Also matched by the term extractor, so an alias appearing in text becomes a `term:` node. |
 
 ### Source
@@ -143,7 +138,6 @@ migrated a row at a time.
 
 | Field | Meaning |
 | --- | --- |
-| `chunking` | Human description of the intended chunking. The chunker actually used is chosen from the content and recorded in the manifest as `chunker`. |
 | `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. |
 | `sections.include` | Section names or clause numbers to keep. |
 | `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
@@ -224,3 +218,4 @@ registry drops them.
   "confirm": ["Confirm the discussion text tracks r2 and not r3."]
 }
 ```
+
