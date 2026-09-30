@@ -63,22 +63,17 @@
   "documents": [
     {
       "id": "REG-C01",
-      "source": "Contract clause",
       "document_number": "FAR 52.204-21",
       "title": "Basic Safeguarding of Covered Contractor Information Systems",
-      "publisher": "acquisition.gov",
       "version": "2021-11",
-      "published": "2021-11",
       "url": "https://www.acquisition.gov/far/52.204-21",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "whole clause + per requirement (b)(1)(i)-(xv)",
       "format": "html",
-      "corpus_role": "The 15 FCI safeguarding requirements; CMMC Level 1 basis.",
-      "intake": "scheduled",
+      "notes": "The 15 FCI safeguarding requirements; CMMC Level 1 basis. Chunking intent: whole clause + per requirement (b)(1)(i)-(xv).",
       "normativity_map": {
         "requirement": [
           "clause text"
@@ -94,22 +89,17 @@
     },
     {
       "id": "REG-C02",
-      "source": "Contract clause",
       "document_number": "DFARS 252.204-7012",
       "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
-      "publisher": "acquisition.gov",
       "version": "2024-05",
-      "published": "2024-05",
       "url": "https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting.",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by paragraph",
       "format": "html",
-      "corpus_role": "800-171 flow-down, 72-hour DIBNet reporting, cloud FedRAMP Moderate equivalency.",
-      "intake": "scheduled",
+      "notes": "800-171 flow-down, 72-hour DIBNet reporting, cloud FedRAMP Moderate equivalency. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "clause text"
@@ -125,22 +115,17 @@
     },
     {
       "id": "REG-C03",
-      "source": "Contract clause",
       "document_number": "DFARS 252.204-7019",
       "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
-      "publisher": "acquisition.gov",
       "version": "2023-11",
-      "published": "2023-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7019-notice-nist-sp-800-171-dod-assessment-requirements.",
       "tier": "public",
       "redistribute": true,
       "authority": "never-cite",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by paragraph",
       "format": "html",
-      "corpus_role": "SPRS score posting requirement (solicitation provision).",
-      "intake": "scheduled",
+      "notes": "SPRS score posting requirement (solicitation provision). Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01. Retained in registry so a consumer can reject it by ID and the bot can explain its removal. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "provision text"
@@ -148,7 +133,6 @@
         "guidance": [],
         "example": []
       },
-      "notes": "Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01. Retained in registry so a consumer can reject it by ID and the bot can explain its removal.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dfars",
@@ -157,22 +141,17 @@
     },
     {
       "id": "REG-C04",
-      "source": "Contract clause",
       "document_number": "DFARS 252.240-7997 (formerly 252.204-7020)",
       "title": "NIST SP 800-171 DoD Assessment Requirements",
-      "publisher": "acquisition.gov",
       "version": "2023-11",
-      "published": "2026-02 (RFO class deviation)",
       "url": "https://www.acquisition.gov/dfars/252.204-7020-nist-sp-800-171-dod-assessment-requirements.",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by paragraph",
       "format": "html",
-      "corpus_role": "DoD Medium/High assessment access; basic self-assessment and SPRS-upload obligation removed under the RFO.",
-      "intake": "scheduled",
+      "notes": "DoD Medium/High assessment access; basic self-assessment and SPRS-upload obligation removed under the RFO. Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve. Chunking intent: by paragraph. Published 2026-02 (RFO class deviation).",
       "normativity_map": {
         "requirement": [
           "clause text"
@@ -180,7 +159,6 @@
         "guidance": [],
         "example": []
       },
-      "notes": "Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve.",
       "aliases": [
         "DFARS 252.204-7020",
         "252.204-7020",
@@ -194,23 +172,17 @@
     },
     {
       "id": "REG-C05",
-      "source": "Contract clause",
       "document_number": "DFARS 252.204-7021",
       "title": "Contractor Compliance With the Cybersecurity Maturity Model Certification Level Requirements",
-      "publisher": "acquisition.gov",
       "version": "2025-11",
-      "published": "2025-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7021-contractor-compliance-cybersecurity-maturity-model-certification-level-requirements.",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by paragraph",
       "format": "html",
-      "corpus_role": "Maintain certification at the required level; FCI/CUI only on systems meeting the level.",
-      "notes": "DoD CIO resources page still lists this clause as TBD; this is the retitled final clause.",
-      "intake": "scheduled",
+      "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "clause text"
@@ -226,22 +198,17 @@
     },
     {
       "id": "REG-C06",
-      "source": "Contract clause",
       "document_number": "DFARS 252.204-7025",
       "title": "Notice of Cybersecurity Maturity Model Certification Level Requirements",
-      "publisher": "acquisition.gov",
       "version": "2025-11",
-      "published": "2025-11",
       "url": "https://www.acquisition.gov/dfars/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements.",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by paragraph",
       "format": "html",
-      "corpus_role": "Solicitation provision paired with 252.204-7021.",
-      "intake": "scheduled",
+      "notes": "Solicitation provision paired with 252.204-7021. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "provision text"
@@ -257,22 +224,17 @@
     },
     {
       "id": "REG-D01",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00001",
       "title": "CMMC Model Overview",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section",
       "format": "pdf",
-      "corpus_role": "Level structure; practice identifier form (AC.L2-3.1.1); mapping to 800-171.",
-      "intake": "scheduled",
+      "notes": "Level structure; practice identifier form (AC.L2-3.1.1); mapping to 800-171. Chunking intent: by section. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "practice identifiers / level structure"
@@ -290,22 +252,17 @@
     },
     {
       "id": "REG-D02",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00002",
       "title": "CMMC Assessment Guide – Level 1",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by practice",
       "format": "pdf",
-      "corpus_role": "FCI self-assessment guidance.",
-      "intake": "scheduled",
+      "notes": "FCI self-assessment guidance. Chunking intent: by practice. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "Assessment Objectives (verbatim 171A)"
@@ -327,22 +284,17 @@
     },
     {
       "id": "REG-D03",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00003",
       "title": "CMMC Assessment Guide – Level 2",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by practice, sub-chunk per objective",
       "format": "pdf",
-      "corpus_role": "Per-objective discussion, further discussion, and assessment considerations; second most-retrieved document after REG-N02.",
-      "intake": "scheduled",
+      "notes": "Per-objective discussion, further discussion, and assessment considerations; second most-retrieved document after REG-N02. Chunking intent: by practice, sub-chunk per objective. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "Assessment Objectives (verbatim 171A)"
@@ -365,22 +317,17 @@
     },
     {
       "id": "REG-D04",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00004",
       "title": "CMMC Assessment Guide – Level 3",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "reference-only",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by practice",
       "format": "pdf",
-      "corpus_role": "Only if Level 3 questions are expected.",
-      "intake": "scheduled",
+      "notes": "Only if Level 3 questions are expected. Chunking intent: by practice. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "Assessment Objectives"
@@ -402,22 +349,17 @@
     },
     {
       "id": "REG-D05",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00005",
       "title": "CMMC Scoping Guide – Level 1",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section",
       "format": "pdf",
-      "corpus_role": "Level 1 asset scoping.",
-      "intake": "scheduled",
+      "notes": "Level 1 asset scoping. Chunking intent: by section. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "asset category definitions"
@@ -435,22 +377,17 @@
     },
     {
       "id": "REG-D06",
-      "source": "DoD CIO CMMC",
       "document_number": "DoD-CIO-00006",
       "title": "CMMC Scoping Guide – Level 2",
-      "publisher": "DoD CIO",
       "version": "2.13",
-      "published": "2024-09",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section, asset table as structured rows",
       "format": "pdf",
-      "corpus_role": "Asset categories (CUI Asset, SPA, CRMA, Specialized, Out-of-Scope) — the asset-type vocabulary CMMC scoping is expressed in.",
-      "intake": "scheduled",
+      "notes": "Asset categories (CUI Asset, SPA, CRMA, Specialized, Out-of-Scope) — the asset-type vocabulary CMMC scoping is expressed in. Chunking intent: by section, asset table as structured rows. Published 2024-09.",
       "normativity_map": {
         "requirement": [
           "asset category definitions and requirements table"
@@ -470,42 +407,34 @@
     },
     {
       "id": "REG-D07",
-      "source": "DoD CIO CMMC",
       "title": "CMMC 101 Brief",
-      "publisher": "DoD CIO",
       "tier": "public",
       "redistribute": true,
       "authority": "derived",
       "status": "active",
       "ingest": "register-only",
-      "chunking": "by slide",
       "format": "pdf",
-      "corpus_role": "Awareness content; business tier.",
+      "notes": "Awareness content; business tier. Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added. Chunking intent: by slide.",
       "confirm": [
         "Record version/date from the document.",
         "Supply the canonical publisher url, then set ingest back to 'chunk'."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
-      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added.",
       "org": "dod-cio",
       "doc_id": "cmmc-101-brief",
       "version_slug": "current"
     },
     {
       "id": "REG-D08",
-      "source": "DoD CIO CMMC",
       "title": "CMMC Overview Briefing (Audio)",
-      "publisher": "DoD CIO",
       "tier": "public",
       "redistribute": true,
       "authority": "derived",
       "status": "active",
       "ingest": "transcribe-or-skip",
       "format": "audio",
-      "corpus_role": "Transcribe before ingest, or skip.",
-      "intake": "scheduled",
+      "notes": "Transcribe before ingest, or skip.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod-cio",
@@ -514,20 +443,15 @@
     },
     {
       "id": "REG-D09",
-      "source": "DoD CIO CMMC",
       "title": "CMMC Briefing: CMMC Alignment to NIST Standards",
-      "publisher": "DoD CIO",
-      "published": "2025-02",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "derived",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by slide",
       "format": "pdf",
-      "corpus_role": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions.",
-      "intake": "scheduled",
+      "notes": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions. Chunking intent: by slide. Published 2025-02.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod-cio",
@@ -536,22 +460,16 @@
     },
     {
       "id": "REG-D10",
-      "source": "DoD CIO CMMC",
       "title": "CMMC Briefing: DoD SPRS",
-      "publisher": "DoD CIO",
-      "published": "2025-02",
       "tier": "public",
       "redistribute": true,
       "authority": "derived",
       "status": "active",
       "ingest": "register-only",
-      "chunking": "by slide",
       "format": "pdf",
-      "corpus_role": "SPRS score mechanics.",
-      "intake": "scheduled",
+      "notes": "SPRS score mechanics. Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added. Chunking intent: by slide. Published 2025-02.",
       "language": "en",
       "language_policy": "report-only",
-      "notes": "Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added.",
       "confirm": [
         "Supply the canonical publisher url, then set ingest back to 'chunk'."
       ],
@@ -561,17 +479,14 @@
     },
     {
       "id": "REG-D11",
-      "source": "DoD CIO CMMC",
       "title": "DoD Defense Industrial Base Cybersecurity Services (DIB CSaaS) Slick Sheet",
-      "publisher": "DoD CIO",
       "tier": "public",
       "redistribute": true,
       "authority": "reference-only",
       "status": "active",
       "ingest": "optional",
       "format": "pdf",
-      "corpus_role": "Marketing sheet; marginal value.",
-      "intake": "scheduled",
+      "notes": "Marketing sheet; marginal value.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod-cio",
@@ -580,12 +495,9 @@
     },
     {
       "id": "REG-F01",
-      "source": "Secure Controls Framework",
       "document_number": "SCF 2026.2",
       "title": "Secure Controls Framework (SCF) — Control Catalog and Set Theory Relationship Mappings (STRM)",
-      "publisher": "Secure Controls Framework Council",
       "version": "2026.3",
-      "published": "2026-07-07",
       "url": "https://raw.githubusercontent.com/securecontrolsframework/securecontrolsframework/main/secure-controls-framework-scf-2026-3.xlsx",
       "tier": "public",
       "redistribute": false,
@@ -595,11 +507,8 @@
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "STRM rows -> edges; control text -> derived nodes",
       "format": "xlsx",
-      "corpus_role": "STRM sheets for 800-171 R2, 800-171A, 800-53 R5, CMMC 2.0 L2, FAR 52.204-21 ingested as MAPS_TO edges pinned to scf_version; SCF control text stored as derived and never cited for posture.",
-      "notes": "authority applies to STRM edges; SCF control-text nodes carry authority=derived.",
-      "intake": "scheduled",
+      "notes": "STRM sheets for 800-171 R2, 800-171A, 800-53 R5, CMMC 2.0 L2, FAR 52.204-21 ingested as MAPS_TO edges pinned to scf_version; SCF control text stored as derived and never cited for posture. authority applies to STRM edges; SCF control-text nodes carry authority=derived. Chunking intent: STRM rows -> edges; control text -> derived nodes. Published 2026-07-07.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -617,26 +526,21 @@
     },
     {
       "id": "REG-F02",
-      "source": "Cyber AB",
       "document_number": "CAP",
       "title": "CMMC Assessment Process (CAP)",
-      "publisher": "Cyber AB",
       "version": "2.0",
-      "published": "2024-12",
       "url": "https://cyberab.org/Portals/0/CMMC%20Assessment%20Process%20v2.0.pdf?ver=fEk1pUK1Fg26fVtopxv_DA%3d%3d",
       "tier": "public",
       "redistribute": false,
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by phase",
       "format": "pdf",
-      "corpus_role": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01).",
+      "notes": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01). Chunking intent: by phase. Published 2024-12.",
       "confirm": [
         "Confirm whether the Cyber AB permits republishing the CAP document itself here. Held back meanwhile: the derived text is published, the original is not.",
         "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest."
       ],
-      "intake": "scheduled",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -652,10 +556,8 @@
     },
     {
       "id": "REG-F03",
-      "source": "Cyber AB",
       "document_number": "CoPC",
       "title": "CMMC Code of Professional Conduct (CoPC)",
-      "publisher": "Cyber AB",
       "version": "2.0",
       "url": "https://cyberab.org/Portals/0/CMMC%20Code%20of%20Professional%20Conduct%20v2.0.pdf",
       "tier": "public",
@@ -663,15 +565,12 @@
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by principle",
       "format": "pdf",
-      "corpus_role": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only.",
-      "notes": "audience: reference — router surfaces only for ecosystem intents.",
+      "notes": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only. audience: reference — router surfaces only for ecosystem intents. Chunking intent: by principle.",
       "confirm": [
         "Confirm whether the Cyber AB permits republishing the CoPC document itself here. Held back meanwhile: the derived text is published, the original is not.",
         "A v2.1a has also circulated; confirm current."
       ],
-      "intake": "scheduled",
       "normativity_map": {
         "requirement": [
           "principles binding CMMC ecosystem participants"
@@ -689,12 +588,9 @@
     },
     {
       "id": "REG-N01",
-      "source": "NIST",
       "document_number": "NIST SP 800-171 Rev. 2",
       "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 2 Upd 1",
-      "published": "2020-02 (updated 2021-01-28)",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_171_2_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -702,11 +598,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per field per control: {id}/statement, {id}/discussion; page from PDF at ingest",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "The 110 security requirements; source of controls.json; the assessment target.",
-      "notes": "Withdrawn by NIST 2025-05-14; retained as DoD assessment basis under Class Deviation 2024-O0013. Primary source is the NIST CPRT export (all elements). Stage 2 validates schema and 110-control coverage, string-matches every statement to the Upd 1 PDF once (mismatch = QA finding), and enriches chunks with page numbers from the PDF without writing back to the JSON. Version corrected from 'Rev. 2' to 'Rev. 2 Upd 1': this row and REG-N01b share a url and REG-N01b's notes record them as the same PDF, so they are the same artifact at one version.",
-      "intake": "scheduled",
+      "notes": "The 110 security requirements; source of controls.json; the assessment target. Withdrawn by NIST 2025-05-14; retained as DoD assessment basis under Class Deviation 2024-O0013. Primary source is the NIST CPRT export (all elements). Stage 2 validates schema and 110-control coverage, string-matches every statement to the Upd 1 PDF once (mismatch = QA finding), and enriches chunks with page numbers from the PDF without writing back to the JSON. Version corrected from 'Rev. 2' to 'Rev. 2 Upd 1': this row and REG-N01b share a url and REG-N01b's notes record them as the same PDF, so they are the same artifact at one version. Chunking intent: one chunk per field per control: {id}/statement, {id}/discussion; page from PDF at ingest. Published 2020-02 (updated 2021-01-28).",
       "normativity_map": {
         "requirement": [
           "requirement"
@@ -735,12 +628,9 @@
     },
     {
       "id": "REG-N01b",
-      "source": "NIST",
       "document_number": "NIST SP 800-171 Rev. 2 (PDF, lead material)",
       "title": "Protecting CUI in Nonfederal Systems and Organizations — Chapters 1–2 and Appendices A–E",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 2 Upd 1",
-      "published": "2021-01-28",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf",
       "tier": "public",
       "redistribute": true,
@@ -748,8 +638,7 @@
       "framework_rev": 2,
       "format": "pdf",
       "ingest": "chunk",
-      "chunking": "by heading; Appendix B → Term nodes (defined_in: 800-171r2); Appendix D → MAPS_TO edges; Appendix E → NFO list; Appendix F skipped (discussion comes from REG-N01 JSON)",
-      "corpus_role": "Introduction, fundamentals (basic vs derived requirements, CUI framing), references, glossary, acronyms, 800-53/ISO mapping, tailoring criteria and NFO controls — the material business users' 'what is' questions land on.",
+      "notes": "Introduction, fundamentals (basic vs derived requirements, CUI framing), references, glossary, acronyms, 800-53/ISO mapping, tailoring criteria and NFO controls — the material business users' 'what is' questions land on. Same PDF as used to verify and page-enrich REG-N01; one fetch, two registry rows. Chunking intent: by heading; Appendix B → Term nodes (defined_in: 800-171r2); Appendix D → MAPS_TO edges; Appendix E → NFO list; Appendix F skipped (discussion comes from REG-N01 JSON). Published 2021-01-28.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -758,8 +647,6 @@
         ],
         "example": []
       },
-      "intake": "scheduled",
-      "notes": "Same PDF as used to verify and page-enrich REG-N01; one fetch, two registry rows.",
       "language": "en",
       "language_policy": "report-only",
       "sections": {
@@ -790,12 +677,9 @@
     },
     {
       "id": "REG-N02",
-      "source": "NIST",
       "document_number": "NIST SP 800-171A",
       "title": "Assessing Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2018-06",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_171a_1_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -803,10 +687,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per field per objective: {id}/determination, {id}/methods_objects",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "The 320 assessment objectives; supplied verbatim, never paraphrased.",
-      "intake": "scheduled",
+      "notes": "The 320 assessment objectives; supplied verbatim, never paraphrased. Primary source is the NIST CPRT export. Stage 2 validates 320-objective coverage and parent-control existence, string-matches each determination statement to the PDF once, and page-enriches. Chunking intent: one chunk per field per objective: {id}/determination, {id}/methods_objects. Published 2018-06.",
       "normativity_map": {
         "requirement": [
           "determination"
@@ -819,7 +701,6 @@
         ],
         "example": []
       },
-      "notes": "Primary source is the NIST CPRT export. Stage 2 validates 320-objective coverage and parent-control existence, string-matches each determination statement to the PDF once, and page-enriches.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -829,12 +710,9 @@
     },
     {
       "id": "REG-N02b",
-      "source": "NIST",
       "document_number": "NIST SP 800-171A (PDF, lead material)",
       "title": "Assessing Security Requirements for CUI — Chapters 1–2 and Appendices",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2018-06",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171A.pdf",
       "tier": "public",
       "redistribute": true,
@@ -842,8 +720,7 @@
       "framework_rev": 2,
       "format": "pdf",
       "ingest": "chunk",
-      "chunking": "by heading; assessment method definitions (examine / interview / test, depth and coverage) → Term nodes",
-      "corpus_role": "Assessment procedure fundamentals and method definitions — answers 'what does examine mean' and 'what is an assessment objective'.",
+      "notes": "Assessment procedure fundamentals and method definitions — answers 'what does examine mean' and 'what is an assessment objective'. Same PDF as used to verify and page-enrich REG-N02. Chunking intent: by heading; assessment method definitions (examine / interview / test, depth and coverage) → Term nodes. Published 2018-06.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -852,8 +729,6 @@
         ],
         "example": []
       },
-      "intake": "scheduled",
-      "notes": "Same PDF as used to verify and page-enrich REG-N02.",
       "language": "en",
       "language_policy": "report-only",
       "sections": {
@@ -876,12 +751,9 @@
     },
     {
       "id": "REG-N03",
-      "source": "NIST",
       "document_number": "NIST SP 800-171 Rev. 3",
       "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_171_3_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -889,10 +761,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per element per requirement, from the CPRT export",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "Comparison intents only ('what changes in Rev 3'); never support for current posture.",
-      "intake": "scheduled",
+      "notes": "Comparison intents only ('what changes in Rev 3'); never support for current posture. CPRT export sp_800_171_3_0_0 carries the Rev 3 requirements and their discussion, and also restates the Rev 3 assessment content that REG-N04 ingests from sp_800_171_a_3_0_0. The two exports overlap by design on NIST's side; the determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N04 remains the row those are retrieved from. Chunking intent: one chunk per element per requirement, from the CPRT export. Published 2024-05.",
       "qa": {
         "verify_against": "REG-N03b"
       },
@@ -910,7 +780,6 @@
           "discussion"
         ]
       },
-      "notes": "CPRT export sp_800_171_3_0_0 carries the Rev 3 requirements and their discussion, and also restates the Rev 3 assessment content that REG-N04 ingests from sp_800_171_a_3_0_0. The two exports overlap by design on NIST's side; the determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N04 remains the row those are retrieved from.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -920,12 +789,9 @@
     },
     {
       "id": "REG-N03b",
-      "source": "NIST",
       "document_number": "NIST SP 800-171 Rev. 3 (PDF)",
       "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf",
       "tier": "public",
       "redistribute": true,
@@ -933,10 +799,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed Rev 3: front matter, chapter 1-2 framing and appendices, and the text REG-N03's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed Rev 3: front matter, chapter 1-2 framing and appendices, and the text REG-N03's CPRT export is verified against. Same publication as REG-N03, fetched as the PDF. Supplies page numbers to REG-N03's chunks and is the authority its statements are checked against. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -945,7 +809,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N03, fetched as the PDF. Supplies page numbers to REG-N03's chunks and is the authority its statements are checked against.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -955,12 +818,9 @@
     },
     {
       "id": "REG-N04",
-      "source": "NIST",
       "document_number": "NIST SP 800-171A Rev. 3",
       "title": "Assessing Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_171_a_3_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -968,10 +828,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per element per objective, from the CPRT export",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "As REG-N03; not admissible as support for a Rev 2 claim.",
-      "intake": "scheduled",
+      "notes": "As REG-N03; not admissible as support for a Rev 2 claim. CPRT export sp_800_171_a_3_0_0. The security_requirement elements it carries are the Rev 3 requirements restated for context and are retrieved from REG-N03, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2024-05.",
       "qa": {
         "verify_against": "REG-N04b"
       },
@@ -988,7 +846,6 @@
         ],
         "example": []
       },
-      "notes": "CPRT export sp_800_171_a_3_0_0. The security_requirement elements it carries are the Rev 3 requirements restated for context and are retrieved from REG-N03, not here.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -998,12 +855,9 @@
     },
     {
       "id": "REG-N04b",
-      "source": "NIST",
       "document_number": "NIST SP 800-171A Rev. 3 (PDF)",
       "title": "Assessing Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1011,10 +865,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed Rev 3 assessment guide: procedure fundamentals and method definitions, and the text REG-N04's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed Rev 3 assessment guide: procedure fundamentals and method definitions, and the text REG-N04's CPRT export is verified against. Same publication as REG-N04, fetched as the PDF. Supplies page numbers to REG-N04's chunks and is the authority its determinations are checked against. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1023,7 +875,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N04, fetched as the PDF. Supplies page numbers to REG-N04's chunks and is the authority its determinations are checked against.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1033,11 +884,8 @@
     },
     {
       "id": "REG-N05",
-      "source": "NIST",
       "document_number": "NIST SP 1318",
       "title": "Protecting Controlled Unclassified Information (CUI): NIST Special Publication 800-171, Revision 3 Small Business Primer",
-      "publisher": "csrc.nist.gov",
-      "published": "2025-08-13",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1318.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1045,10 +893,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section",
       "format": "pdf",
-      "corpus_role": "Plain-language explainer; business-audience entry text. Rev 3 framing.",
-      "intake": "scheduled",
+      "notes": "Plain-language explainer; business-audience entry text. Rev 3 framing. Chunking intent: by section. Published 2025-08-13.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1066,11 +912,8 @@
     },
     {
       "id": "REG-N06",
-      "source": "NIST",
       "document_number": "NIST SP 1352",
       "title": "Assessing Security Requirements for Controlled Unclassified Information (CUI): NIST SP 800-171Ar3 Small Business Primer",
-      "publisher": "csrc.nist.gov",
-      "published": "2026-09-16",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1352.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1078,10 +921,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section",
       "format": "pdf",
-      "corpus_role": "Companion to REG-N05.",
-      "intake": "scheduled",
+      "notes": "Companion to REG-N05. Chunking intent: by section. Published 2026-09-16.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1099,22 +940,17 @@
     },
     {
       "id": "REG-N09",
-      "source": "NIST",
       "document_number": "NIST CSF 2.0",
       "title": "The NIST Cybersecurity Framework (CSF) 2.0",
-      "publisher": "csrc.nist.gov",
       "version": "2.0",
-      "published": "2024-02-26",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/csf_2_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
       "authority": "reference-only",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by function/category",
       "format": "json",
-      "corpus_role": "Only for 'how does CMMC relate to CSF' questions.",
-      "intake": "scheduled",
+      "notes": "Only for 'how does CMMC relate to CSF' questions. Chunking intent: by function/category. Published 2024-02-26.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1130,12 +966,9 @@
     },
     {
       "id": "REG-N10",
-      "source": "NIST",
       "document_number": "NIST SP 800-172",
       "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2021-02",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172_1_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -1143,10 +976,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by enhanced security requirement",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "The 35 enhanced security requirements for APT-resistant CUI protection; the basis for CMMC Level 3.",
-      "intake": "scheduled",
+      "notes": "The 35 enhanced security requirements for APT-resistant CUI protection; the basis for CMMC Level 3. CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b. Chunking intent: by enhanced security requirement. Published 2021-02.",
       "qa": {
         "verify_against": "REG-N10b"
       },
@@ -1163,7 +994,6 @@
           "discussion"
         ]
       },
-      "notes": "CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b.",
       "confirm": [
         "Confirm CMMC Level 3 draws on the initial revision rather than Rev 3 (REG-N12)."
       ],
@@ -1176,12 +1006,9 @@
     },
     {
       "id": "REG-N10b",
-      "source": "NIST",
       "document_number": "NIST SP 800-172 (PDF)",
       "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2021-02",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1189,10 +1016,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed 800-172: chapters 1-2, the adversary-effects framing and appendices, and the text REG-N10's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed 800-172: chapters 1-2, the adversary-effects framing and appendices, and the text REG-N10's CPRT export is verified against. Same publication as REG-N10, fetched as the PDF. Supplies page numbers to REG-N10's chunks and is the authority its requirements are checked against. Chunking intent: by heading. Published 2021-02.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1201,7 +1026,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N10, fetched as the PDF. Supplies page numbers to REG-N10's chunks and is the authority its requirements are checked against.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1211,12 +1035,9 @@
     },
     {
       "id": "REG-N11",
-      "source": "NIST",
       "document_number": "NIST SP 800-172A",
       "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2022-03",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172a_1_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -1224,10 +1045,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per field per objective: {id}/determination, {id}/methods_objects",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "The assessment objectives for the 35 enhanced requirements; the Level 3 assessment target.",
-      "intake": "scheduled",
+      "notes": "The assessment objectives for the 35 enhanced requirements; the Level 3 assessment target. CPRT export sp_800_172a_1_0_0 reports 103 determination elements against 35 security requirements. Paired PDF NIST.SP.800-172A.pdf; see REG-N11b. Chunking intent: one chunk per field per objective: {id}/determination, {id}/methods_objects. Published 2022-03.",
       "qa": {
         "verify_against": "REG-N11b"
       },
@@ -1242,7 +1061,6 @@
         ],
         "example": []
       },
-      "notes": "CPRT export sp_800_172a_1_0_0 reports 103 determination elements against 35 security requirements. Paired PDF NIST.SP.800-172A.pdf; see REG-N11b.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1252,12 +1070,9 @@
     },
     {
       "id": "REG-N11b",
-      "source": "NIST",
       "document_number": "NIST SP 800-172A (PDF)",
       "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Initial",
-      "published": "2022-03",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172A.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1265,10 +1080,8 @@
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed 800-172A: assessment procedure fundamentals and method definitions, and the text REG-N11's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed 800-172A: assessment procedure fundamentals and method definitions, and the text REG-N11's CPRT export is verified against. Same publication as REG-N11, fetched as the PDF. Supplies page numbers to REG-N11's chunks and is the authority its determinations are checked against. Chunking intent: by heading. Published 2022-03.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1277,7 +1090,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N11, fetched as the PDF. Supplies page numbers to REG-N11's chunks and is the authority its determinations are checked against.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1287,12 +1099,9 @@
     },
     {
       "id": "REG-N12",
-      "source": "NIST",
       "document_number": "NIST SP 800-172 Rev. 3",
       "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172_3_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -1300,10 +1109,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per element per enhanced requirement, from the CPRT export",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "Comparison intents only ('what changes in Rev 3'); never support for current Level 3 posture.",
-      "intake": "scheduled",
+      "notes": "Comparison intents only ('what changes in Rev 3'); never support for current Level 3 posture. CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from. Chunking intent: one chunk per element per enhanced requirement, from the CPRT export. Published 2024-05.",
       "qa": {
         "verify_against": "REG-N12b"
       },
@@ -1324,7 +1131,6 @@
           "discussion"
         ]
       },
-      "notes": "CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1334,12 +1140,9 @@
     },
     {
       "id": "REG-N12b",
-      "source": "NIST",
       "document_number": "NIST SP 800-172 Rev. 3 (PDF)",
       "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172r3.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1347,10 +1150,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed Rev 3 enhanced requirements, and the text REG-N12's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed Rev 3 enhanced requirements, and the text REG-N12's CPRT export is verified against. Same publication as REG-N12, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1359,7 +1160,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N12, fetched as the PDF.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1369,12 +1169,9 @@
     },
     {
       "id": "REG-N13",
-      "source": "NIST",
       "document_number": "NIST SP 800-172A Rev. 3",
       "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172a_3_0_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
@@ -1382,10 +1179,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "one chunk per element per objective, from the CPRT export",
       "format": "json (NIST CPRT export) + pdf (verification, pages)",
-      "corpus_role": "Comparison intents only; the Rev 3 assessment procedures, not the current Level 3 basis.",
-      "intake": "scheduled",
+      "notes": "Comparison intents only; the Rev 3 assessment procedures, not the current Level 3 basis. CPRT export sp_800_172a_3_0_0. The enhanced_security_requirement elements it carries are restated for context and are retrieved from REG-N12, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2024-05.",
       "qa": {
         "verify_against": "REG-N13b"
       },
@@ -1402,7 +1197,6 @@
         ],
         "example": []
       },
-      "notes": "CPRT export sp_800_172a_3_0_0. The enhanced_security_requirement elements it carries are restated for context and are retrieved from REG-N12, not here.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1412,12 +1206,9 @@
     },
     {
       "id": "REG-N13b",
-      "source": "NIST",
       "document_number": "NIST SP 800-172A Rev. 3 (PDF)",
       "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 3",
-      "published": "2024-05",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172Ar3.pdf",
       "tier": "public",
       "redistribute": true,
@@ -1425,10 +1216,8 @@
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by heading",
       "format": "pdf",
-      "corpus_role": "The printed Rev 3 enhanced assessment procedures, and the text REG-N13's CPRT export is verified against.",
-      "intake": "scheduled",
+      "notes": "The printed Rev 3 enhanced assessment procedures, and the text REG-N13's CPRT export is verified against. Same publication as REG-N13, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1437,7 +1226,6 @@
         ],
         "example": []
       },
-      "notes": "Same publication as REG-N13, fetched as the PDF.",
       "language": "en",
       "language_policy": "report-only",
       "org": "nist",
@@ -1447,23 +1235,17 @@
     },
     {
       "id": "REG-N50",
-      "source": "NIST",
       "document_number": "NIST SP 800-53 Rev. 5.2",
       "title": "Security and Privacy Controls for Information Systems and Organizations",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 5",
-      "published": "2020-09 (updated 2020-12-10)",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_5_2_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by control, subset filter applied at ingest",
       "format": "json",
-      "corpus_role": "Subset only: controls mapped from 800-171 R2 Appendix D plus the NFO set from 800-171r2 Appendix E. Subset held as a regenerable list (see subset_rule).",
-      "notes": "subset_rule: the 800-171r2 Appendix D mapping, together with the NFO control IDs listed in 800-171r2 Appendix E.",
-      "intake": "scheduled",
+      "notes": "Subset only: controls mapped from 800-171 R2 Appendix D plus the NFO set from 800-171r2 Appendix E. Subset held as a regenerable list (see subset_rule). subset_rule: the 800-171r2 Appendix D mapping, together with the NFO control IDs listed in 800-171r2 Appendix E. Chunking intent: by control, subset filter applied at ingest. Published 2020-09 (updated 2020-12-10).",
       "normativity_map": {
         "requirement": [
           "control_statement"
@@ -1483,22 +1265,17 @@
     },
     {
       "id": "REG-N51",
-      "source": "NIST",
       "document_number": "NIST SP 800-53A Rev. 5.2",
       "title": "Assessing Security and Privacy Controls in Information Systems and Organizations",
-      "publisher": "csrc.nist.gov",
       "version": "Rev. 5",
-      "published": "2022-01",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_a_5_2_0/export/json?element=all",
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by assessment procedure, same subset filter as REG-N50",
       "format": "json",
-      "corpus_role": "Assessment procedures for the REG-N50 subset only.",
-      "intake": "scheduled",
+      "notes": "Assessment procedures for the REG-N50 subset only. Chunking intent: by assessment procedure, same subset filter as REG-N50. Published 2022-01.",
       "normativity_map": {
         "requirement": [
           "determination"
@@ -1518,12 +1295,9 @@
     },
     {
       "id": "REG-R01",
-      "source": "Federal regulation",
       "document_number": "32 CFR Part 170",
       "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
-      "publisher": "DoD / eCFR",
       "version": "Final rule",
-      "published": "2024-10-15 (effective 2024-12-16)",
       "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170",
       "source_api": {
         "provider": "ecfr",
@@ -1540,10 +1314,8 @@
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section (170.x)",
       "format": "xml",
-      "corpus_role": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation.",
-      "intake": "scheduled",
+      "notes": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation. Chunking intent: by section (170.x). Published 2024-10-15 (effective 2024-12-16).",
       "normativity_map": {
         "requirement": [
           "rule text (170.x)"
@@ -1561,12 +1333,9 @@
     },
     {
       "id": "REG-R02",
-      "source": "Federal regulation",
       "document_number": "32 CFR Part 2002",
       "title": "Controlled Unclassified Information",
-      "publisher": "NARA / eCFR",
       "version": "Final rule",
-      "published": "2016-09-14",
       "url": "https://www.ecfr.gov/current/title-32/subtitle-B/chapter-XX/part-2002",
       "source_api": {
         "provider": "ecfr",
@@ -1580,14 +1349,12 @@
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section",
       "format": "xml",
-      "corpus_role": "Government-wide CUI program rule (NARA/ISOO).",
+      "notes": "Government-wide CUI program rule (NARA/ISOO). Chunking intent: by section. Published 2016-09-14.",
       "confirm": [
         "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup.",
         "Confirmed as Part 2002 (NARA/ISOO CUI program rule), not Part 2000."
       ],
-      "intake": "scheduled",
       "normativity_map": {
         "requirement": [
           "rule text"
@@ -1605,12 +1372,9 @@
     },
     {
       "id": "REG-R03",
-      "source": "Federal regulation",
       "document_number": "48 CFR Parts 204, 212, 217, 252 (DFARS Case 2019-D041)",
       "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements",
-      "publisher": "DoD / Federal Register",
-      "version": "Final rule",
-      "published": "2025-09-10 (effective 2025-11-10)",
+      "version": "2025-09-10",
       "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
       "source_api": {
         "provider": "federal-register",
@@ -1624,10 +1388,8 @@
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by amended section",
       "format": "html",
-      "corpus_role": "Acquisition rule that places CMMC in contracts; source of clause text for REG-C05/REG-C06.",
-      "intake": "scheduled",
+      "notes": "Acquisition rule that places CMMC in contracts; source of clause text for REG-C05/REG-C06. Chunking intent: by amended section. Published 2025-09-10 (effective 2025-11-10).",
       "normativity_map": {
         "requirement": [
           "amended clause text"
@@ -1641,24 +1403,20 @@
       "language_policy": "report-only",
       "org": "federal-register",
       "doc_id": "dfars-case-2019-d041",
-      "version_slug": "final-rule"
+      "version_slug": "2025-09-10"
     },
     {
       "id": "REG-R04",
-      "source": "Federal regulation",
       "document_number": "DFARS Class Deviation 2024-O0013, Revision 1",
       "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting — class deviation pinning DFARS 252.204-7012 to NIST SP 800-171 Revision 2",
-      "publisher": "DoD Defense Pricing, Contracting, and Acquisition Policy",
       "version": "Rev. 1",
-      "published": "2024-05-02 (Rev. 1 later in 2024)",
       "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "framework_rev": 2,
       "format": "pdf",
-      "chunking": "whole memo + per paragraph",
-      "corpus_role": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'.",
+      "notes": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'. Chunking intent: whole memo + per paragraph. Published 2024-05-02 (Rev. 1 later in 2024).",
       "normativity_map": {
         "requirement": [
           "deviation text"
@@ -1671,7 +1429,6 @@
       "confirm": [
         "Confirm current revision and that it has not been rescinded or superseded."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "dfars",
@@ -1680,11 +1437,8 @@
     },
     {
       "id": "REG-R05",
-      "source": "Federal regulation",
       "document_number": "DFARS class deviations of 2026-02-01 (Revolutionary FAR Overhaul)",
       "title": "RFO DFARS class deviations affecting Subpart 204.73 — elimination of 252.204-7019 and renumbering of 252.204-7020 to 252.240-7997",
-      "publisher": "DoD DPCAP",
-      "published": "2026-02-01",
       "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
       "tier": "public",
       "redistribute": true,
@@ -1692,8 +1446,7 @@
       "status": "active",
       "ingest": "register-only",
       "format": "html",
-      "chunking": "per deviation, once the individual deviations are named",
-      "corpus_role": "Explains the current status of the 7019/7020 assessment clauses; source for 'do we still have to post a self-assessment score'.",
+      "notes": "Explains the current status of the 7019/7020 assessment clauses; source for 'do we still have to post a self-assessment score'. Chunking intent: per deviation, once the individual deviations are named. Published 2026-02-01.",
       "normativity_map": {
         "requirement": [
           "deviation text"
@@ -1706,7 +1459,6 @@
       "confirm": [
         "The url is DPCAP's index of class deviations, not a deviation itself, so this row is register-only. Identify the specific deviation number(s) covering 204.73, add each as its own row pointing at its own PDF — as REG-R04 does — then set this row back to 'chunk' or retire it."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "dfars",
@@ -1715,11 +1467,9 @@
     },
     {
       "id": "REG-R06",
-      "source": "Federal Register",
       "document_number": "89 FR 83092 (2024-10-15), Docket DoD-2023-OS-0063",
       "title": "Cybersecurity Maturity Model Certification (CMMC) Program — final rule, including Summary of Public Comments and DoD Responses",
-      "publisher": "Federal Register",
-      "published": "2024-10-15",
+      "version": "2024-10-15",
       "url": "https://www.federalregister.gov/d/2024-22905/page-83092",
       "source_api": {
         "provider": "federal-register",
@@ -1729,8 +1479,7 @@
       "redistribute": true,
       "authority": "corroborating",
       "format": "html",
-      "chunking": "by comment topic / response",
-      "corpus_role": "DoD's stated interpretation of 32 CFR 170 — ESP/CSP scope, MSPs, FedRAMP equivalency, POA&M limits, affirmation. Retrieved for 'why' and 'does this apply to' questions; never cited as the rule itself.",
+      "notes": "DoD's stated interpretation of 32 CFR 170 — ESP/CSP scope, MSPs, FedRAMP equivalency, POA&M limits, affirmation. Retrieved for 'why' and 'does this apply to' questions; never cited as the rule itself. Chunking intent: by comment topic / response.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1741,7 +1490,6 @@
           "commenter scenarios"
         ]
       },
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "federal-register",
@@ -1750,11 +1498,9 @@
     },
     {
       "id": "REG-R07",
-      "source": "Federal Register",
       "document_number": "90 FR 43560 (2025-09-10), FR Doc. 2025-17359, DFARS Case 2019-D041",
       "title": "DFARS: Assessing Contractor Implementation of Cybersecurity Requirements — final rule, including Discussion and Analysis of public comments",
-      "publisher": "Federal Register",
-      "published": "2025-09-10",
+      "version": "2025-09-10",
       "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
       "source_api": {
         "provider": "federal-register",
@@ -1764,8 +1510,7 @@
       "redistribute": true,
       "authority": "corroborating",
       "format": "html",
-      "chunking": "by comment topic / response",
-      "corpus_role": "DoD's interpretation of the contract clause — flow-down, subcontractor level determination, timing, ESPs. Guidance only.",
+      "notes": "DoD's interpretation of the contract clause — flow-down, subcontractor level determination, timing, ESPs. Guidance only. Chunking intent: by comment topic / response.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1779,7 +1524,6 @@
       "confirm": [
         "Confirm the FR page citation."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "federal-register",
@@ -1788,11 +1532,9 @@
     },
     {
       "id": "REG-R08",
-      "source": "Federal Register",
       "document_number": "81 FR 63324 (2016-09-14), FR Doc. 2016-21665",
       "title": "Controlled Unclassified Information — final rule, including response to public comments",
-      "publisher": "Federal Register",
-      "published": "2016-09-14",
+      "version": "2016-09-14",
       "url": "https://www.federalregister.gov/documents/2016/09/14/2016-21665/controlled-unclassified-information",
       "source_api": {
         "provider": "federal-register",
@@ -1804,8 +1546,7 @@
       "status": "active",
       "ingest": "chunk",
       "format": "html",
-      "chunking": "by comment topic / response",
-      "corpus_role": "NARA/ISOO's stated interpretation of the CUI program rule it implements (32 CFR Part 2002, REG-R02). Retrieved for 'why' questions; never cited as the rule itself.",
+      "notes": "NARA/ISOO's stated interpretation of the CUI program rule it implements (32 CFR Part 2002, REG-R02). Retrieved for 'why' questions; never cited as the rule itself. Implements 32 CFR Part 2002 (REG-R02), the same relationship REG-R06 has to 32 CFR Part 170 (REG-R01). Chunking intent: by comment topic / response.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1816,11 +1557,9 @@
           "commenter scenarios"
         ]
       },
-      "notes": "Implements 32 CFR Part 2002 (REG-R02), the same relationship REG-R06 has to 32 CFR Part 170 (REG-R01).",
       "confirm": [
         "Source list cited '81 FR 63336'; the Federal Register API resolves FR Doc. 2016-21665 to citation 81 FR 63324, with 63336 a page inside the document. Confirm which the corpus should record."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "federal-register",
@@ -1829,23 +1568,19 @@
     },
     {
       "id": "REG-S01",
-      "source": "DoD CUI Program",
       "document_number": "DoDI 5200.48",
       "title": "Controlled Unclassified Information (CUI)",
-      "publisher": "DoD / dodcui.mil",
       "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
-      "chunking": "by section and enclosure",
       "format": "pdf",
-      "corpus_role": "DoD marking and handling; ingested as a document from the DoD CUI Program site.",
+      "notes": "DoD marking and handling; ingested as a document from the DoD CUI Program site. Chunking intent: by section and enclosure.",
       "confirm": [
         "Record current change number/date at ingest."
       ],
-      "intake": "scheduled",
       "normativity_map": {
         "requirement": [
           "policy statements",
@@ -1864,17 +1599,14 @@
     },
     {
       "id": "REG-S02",
-      "source": "Portal",
       "title": "Supplier Performance Risk System (SPRS)",
-      "publisher": "DISA",
       "url": "https://www.sprs.csd.disa.mil/",
       "tier": "public",
       "redistribute": true,
       "authority": "pointer",
       "status": "active",
       "ingest": "pointer",
-      "corpus_role": "Registered as a source with URL; not chunked. Optionally ingest the SPRS NIST SP 800-171 Assessment user guide.",
-      "intake": "scheduled",
+      "notes": "Registered as a source with URL; not chunked. Optionally ingest the SPRS NIST SP 800-171 Assessment user guide.",
       "language": "en",
       "language_policy": "report-only",
       "org": "disa",
@@ -1883,17 +1615,14 @@
     },
     {
       "id": "REG-S03",
-      "source": "Portal",
       "title": "DoD CIO CMMC Program Site — Resources & Documentation",
-      "publisher": "DoD CIO",
       "url": "https://dodcio.defense.gov/cmmc/Resources-Documentation/",
       "tier": "public",
       "redistribute": true,
       "authority": "pointer",
       "status": "active",
       "ingest": "pointer",
-      "corpus_role": "Program home; re-crawl on a schedule to detect guide revisions.",
-      "intake": "scheduled",
+      "notes": "Program home; re-crawl on a schedule to detect guide revisions.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod-cio",
@@ -1902,17 +1631,14 @@
     },
     {
       "id": "REG-S04",
-      "source": "Portal",
       "title": "DoD CUI Program",
-      "publisher": "DoD",
       "url": "https://www.dodcui.mil/",
       "tier": "public",
       "redistribute": true,
       "authority": "pointer",
       "status": "active",
       "ingest": "pointer",
-      "corpus_role": "CUI Registry and marking guidance; REG-S01 is the ingested document.",
-      "intake": "scheduled",
+      "notes": "CUI Registry and marking guidance; REG-S01 is the ingested document.",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod",
@@ -1921,18 +1647,14 @@
     },
     {
       "id": "REG-S05",
-      "source": "DoD CIO",
       "document_number": "DoD CIO Memorandum, 2023-12-21",
       "title": "Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings",
-      "publisher": "DoD CIO",
-      "published": "2023-12-21",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
       "format": "pdf",
-      "chunking": "by section",
-      "corpus_role": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors.",
+      "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21.",
       "normativity_map": {
         "requirement": [
           "memo directives"
@@ -1945,7 +1667,6 @@
       "confirm": [
         "Confirm URL and whether any later DoD CIO guidance supersedes."
       ],
-      "intake": "scheduled",
       "language": "en",
       "language_policy": "report-only",
       "org": "dod-cio",
