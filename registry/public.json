@@ -83,7 +83,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "far",
       "doc_id": "52.204-21",
       "version_slug": "current"
@@ -109,7 +109,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.204-7012",
       "version_slug": "current"
@@ -135,7 +135,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.204-7019",
       "version_slug": "current"
@@ -166,7 +166,7 @@
         "252.240-7997"
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.240-7997",
       "version_slug": "current"
@@ -192,7 +192,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.204-7021",
       "version_slug": "current"
@@ -218,7 +218,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.204-7025",
       "version_slug": "current"
@@ -246,7 +246,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-model-overview",
       "version_slug": "2.13"
@@ -278,7 +278,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-assessment-guide-l1",
       "version_slug": "2.13"
@@ -311,7 +311,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-assessment-guide-l2",
       "version_slug": "2.13"
@@ -343,7 +343,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-assessment-guide-l3",
       "version_slug": "2.13"
@@ -371,7 +371,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-scoping-guide-l1",
       "version_slug": "2.13"
@@ -401,7 +401,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-scoping-guide-l2",
       "version_slug": "2.13"
@@ -421,7 +421,7 @@
         "Supply the canonical publisher url, then set ingest back to 'chunk'."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-101-brief",
       "version_slug": "current"
@@ -437,7 +437,7 @@
       "format": "audio",
       "notes": "Transcribe before ingest, or skip.",
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-overview-briefing",
       "version_slug": "current"
@@ -454,7 +454,7 @@
       "format": "pdf",
       "notes": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions. Chunking intent: by slide. Published 2025-02.",
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-alignment-to-nist",
       "version_slug": "2.13"
@@ -470,7 +470,7 @@
       "format": "pdf",
       "notes": "SPRS score mechanics. Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added. Chunking intent: by slide. Published 2025-02.",
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "confirm": [
         "Supply the canonical publisher url, then set ingest back to 'chunk'."
       ],
@@ -489,7 +489,7 @@
       "format": "pdf",
       "notes": "Marketing sheet; marginal value.",
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "dib-csaas-slick-sheet",
       "version_slug": "current"
@@ -520,7 +520,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "scf",
       "doc_id": "scf-catalog",
       "version_slug": "2026.3"
@@ -550,7 +550,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "cyber-ab",
       "doc_id": "cap",
       "version_slug": "2.0"
@@ -582,7 +582,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "cyber-ab",
       "doc_id": "copc",
       "version_slug": "2.0"
@@ -621,7 +621,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171",
       "version_slug": "r2u1",
@@ -650,7 +650,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "sections": {
         "include": [
           "ch1",
@@ -704,7 +704,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171a",
       "version_slug": "initial",
@@ -733,7 +733,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "sections": {
         "include": [
           "ch1",
@@ -784,7 +784,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171",
       "version_slug": "r3",
@@ -813,7 +813,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171",
       "version_slug": "r3",
@@ -850,7 +850,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171a",
       "version_slug": "r3",
@@ -879,7 +879,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-171a",
       "version_slug": "r3",
@@ -908,7 +908,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-1318",
       "version_slug": "current"
@@ -936,7 +936,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-1352",
       "version_slug": "current"
@@ -962,7 +962,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "csf",
       "version_slug": "2.0"
@@ -1001,7 +1001,7 @@
         "Confirm CMMC Level 3 draws on the initial revision rather than Rev 3 (REG-N12)."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172",
       "version_slug": "initial",
@@ -1030,7 +1030,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172",
       "version_slug": "initial",
@@ -1065,7 +1065,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172a",
       "version_slug": "initial",
@@ -1094,7 +1094,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172a",
       "version_slug": "initial",
@@ -1135,7 +1135,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172",
       "version_slug": "r3",
@@ -1164,7 +1164,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172",
       "version_slug": "r3",
@@ -1201,7 +1201,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172a",
       "version_slug": "r3",
@@ -1230,7 +1230,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-172a",
       "version_slug": "r3",
@@ -1261,7 +1261,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-53",
       "version_slug": "r5"
@@ -1291,7 +1291,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-53a",
       "version_slug": "r5"
@@ -1329,7 +1329,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "cfr",
       "doc_id": "32-cfr-170",
       "version_slug": "final-rule"
@@ -1368,7 +1368,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "cfr",
       "doc_id": "32-cfr-2002",
       "version_slug": "final-rule"
@@ -1403,7 +1403,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "federal-register",
       "doc_id": "dfars-case-2019-d041",
       "version_slug": "2025-09-10"
@@ -1435,7 +1435,7 @@
         "Confirm current revision and that it has not been rescinded or superseded."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "class-deviation-2024-o0013",
       "version_slug": "r1"
@@ -1465,7 +1465,7 @@
         "The url is DPCAP's index of class deviations, not a deviation itself, so this row is register-only. Identify the specific deviation number(s) covering 204.73, add each as its own row pointing at its own PDF — as REG-R04 does — then set this row back to 'chunk' or retire it."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dfars",
       "doc_id": "class-deviation-2026-02-01-rfo",
       "version_slug": "current"
@@ -1498,7 +1498,7 @@
         ]
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "federal-register",
       "doc_id": "89-fr-83092",
       "version_slug": "2024-10-15"
@@ -1534,7 +1534,7 @@
         "Confirm the FR page citation."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "federal-register",
       "doc_id": "90-fr-43560",
       "version_slug": "2025-09-10"
@@ -1570,7 +1570,7 @@
         "Source list cited '81 FR 63336'; the Federal Register API resolves FR Doc. 2016-21665 to citation 81 FR 63324, with 63336 a page inside the document. Confirm which the corpus should record."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "federal-register",
       "doc_id": "81-fr-63324",
       "version_slug": "2016-09-14"
@@ -1601,7 +1601,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod",
       "doc_id": "dodi-5200.48",
       "version_slug": "current"
@@ -1617,7 +1617,7 @@
       "ingest": "pointer",
       "notes": "Registered as a source with URL; not chunked. Optionally ingest the SPRS NIST SP 800-171 Assessment user guide.",
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "disa",
       "doc_id": "sprs-portal",
       "version_slug": "current"
@@ -1679,7 +1679,7 @@
         "Confirm URL and whether any later DoD CIO guidance supersedes."
       ],
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "fedramp-moderate-equivalency",
       "version_slug": "2023-12-21"
@@ -1710,7 +1710,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod",
       "doc_id": "dodi-5230.24",
       "version_slug": "2023-01-10"
@@ -1739,7 +1739,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "isoo",
       "doc_id": "cui-notice-2019-03",
       "version_slug": "2019-07-15"
@@ -1768,7 +1768,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "isoo",
       "doc_id": "isoo-notice-2022-01",
       "version_slug": "2022-05-09"
@@ -1797,7 +1797,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "isoo",
       "doc_id": "isoo-notice-2026-01",
       "version_slug": "2026-03-30"
@@ -1826,7 +1826,7 @@
         "example": []
       },
       "language": "en",
-      "language_policy": "report-only",
+      "language_policy": "single",
       "org": "dod",
       "doc_id": "cti-marking-guidance",
       "version_slug": "2021-03-31"
