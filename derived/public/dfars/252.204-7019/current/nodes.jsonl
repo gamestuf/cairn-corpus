@@ -1,0 +1,12 @@
+{"id":"control:3.12.4","labels":["Control"],"properties":{"control_id":"3.12.4","authority":"never-cite"}}
+{"id":"document:REG-C03","labels":["Document"],"properties":{"reg_id":"REG-C03","title":"Notice of NIST SP 800-171 DoD Assessment Requirements","version":"2023-11","tier":"public","authority":"never-cite","document_number":"DFARS 252.204-7019","url":"https://www.acquisition.gov/dfars/252.204-7019-notice-nist-sp-800-171-dod-assessment-requirements."}}
+{"id":"section:REG-C03:v2023-11:252.204-7019_Notice_of_NISTSP_800-171_DoD_Assessment_Requirements.","labels":["Section"],"properties":{"reg_id":"REG-C03","version":"2023-11","anchor":"252.204-7019 Notice of NISTSP 800-171 DoD Assessment Requirements."}}
+{"id":"section:REG-C03:v2023-11:252.204-7019_Notice_of_NISTSP_800-171_DoD_Assessment_Requirements./DFARS_Appendix","labels":["Section"],"properties":{"reg_id":"REG-C03","version":"2023-11","anchor":"252.204-7019 Notice of NISTSP 800-171 DoD Assessment Requirements./DFARS Appendix","chunk_id":"cd48573ed1cf303d03184466804a4ebe5b13b8f0562c395e128fd61bb3b77277","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C03:v2023-11:252.204-7019_Notice_of_NISTSP_800-171_DoD_Assessment_Requirements.1","labels":["Section"],"properties":{"reg_id":"REG-C03","version":"2023-11","anchor":"252.204-7019 Notice of NISTSP 800-171 DoD Assessment Requirements.#1","chunk_id":"081b333479c5a9a5d9522804dfc622882b96ffc90e0e37cf31c485918dbe5181","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C03:v2023-11:252.204-7019_Notice_of_NISTSP_800-171_DoD_Assessment_Requirements.2","labels":["Section"],"properties":{"reg_id":"REG-C03","version":"2023-11","anchor":"252.204-7019 Notice of NISTSP 800-171 DoD Assessment Requirements.#2","chunk_id":"18c96406598511eee7074cbf508f34eb73a4e17a0d1eac07c98f21ae0f69c48b","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C03:v2023-11:DFARS","labels":["Section"],"properties":{"reg_id":"REG-C03","version":"2023-11","anchor":"DFARS","chunk_id":"367d1f346f64f6ce4f232629498f58c76d497918debcffd27d6f2614b91aa294","normativity":"guidance","block_type":"prose"}}
+{"id":"term:cdi","labels":["Term"],"properties":{"term":"cdi"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}
+{"id":"term:ssp","labels":["Term"],"properties":{"term":"ssp"}}
