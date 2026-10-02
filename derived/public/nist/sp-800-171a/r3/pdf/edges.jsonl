@@ -1,0 +1,856 @@
+{"from":"control:AC-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-11","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-12","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-17","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-18","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-19","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-20","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-22","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AT-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AT-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AT-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-09","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-11","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-12","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-12","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CP-09","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-11","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MA-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MA-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MA-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MA-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-17","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PL-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PL-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PL-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SA-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SA-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SA-09","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SA-22","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-07","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-08","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-10","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-12","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-13","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-15","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-18","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-23","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-28","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-04","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-12","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-01","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-02","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-03","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-05","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-06","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:(preamble)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:(preamble)1","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:(preamble)2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:(preamble)2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:(preamble)2","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/CNSS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/CNSS","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/GRC","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/GRC","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_C._Security_Requirement_Assessment","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_D._Organization-Defined_Parameters","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_E._Change_Log","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/REFERENCES","to":"control:AC-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.01_Account_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/REFERENCES","to":"control:AC-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.02_Access_Enforcement","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/REFERENCES","to":"control:AC-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.03_Information_Flow_Enforcement","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/REFERENCES","to":"control:AC-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.04_Separation_of_Duties","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/REFERENCES","to":"control:AC-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/REFERENCES","to":"control:AU-09","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.05_Least_Privilege","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/REFERENCES","to":"control:AC-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES1","to":"control:AC-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES1","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES1","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES2","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES2","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name/REFERENCES2","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.06_Least_Privilege_-_Privileged_Accounts_Security_Requirement_Name","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/REFERENCES","to":"control:AC-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.07_Least_Privilege_-_Privileged_Functions","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/REFERENCES","to":"control:AC-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.08_Unsuccessful_Logon_Attempts","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/REFERENCES","to":"control:AC-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.09_System_Use_Notification","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/REFERENCES","to":"control:AC-11","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.10_Device_Lock","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/REFERENCES","to":"control:AC-12","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.11_Session_Termination","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/REFERENCES","to":"control:AC-17","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.12_Remote_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.15_Withdrawn","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.15_Withdrawn","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/REFERENCES","to":"control:AC-18","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.16_Wireless_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_OBJECTIVE","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/REFERENCES","to":"control:AC-19","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.18_Access_Control_for_Mobile_Devices","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/REFERENCES","to":"control:AC-20","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.20_Use_of_External_Systems","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_OBJECTIVE","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/REFERENCES","to":"control:AC-22","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.01.22_Publicly_Accessible_Content","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/REFERENCES","to":"control:AT-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.01_Literacy_Training_and_Awareness","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/REFERENCES","to":"control:AT-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.02.02_Role-Based_Training","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/REFERENCES","to":"control:AU-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.01_Event_Logging","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/REFERENCES","to":"control:AU-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.02_Audit_Record_Content","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/REFERENCES","to":"control:AU-11","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/REFERENCES","to":"control:AU-12","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.03_Audit_Record_Generation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/REFERENCES","to":"control:AU-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.04_Response_to_Audit_Logging_Process_Failures","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/REFERENCES","to":"control:AU-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.05_Audit_Record_Review_Analysis_and_Reporting","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/REFERENCES","to":"control:AU-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.06_Audit_Record_Reduction_and_Report_Generation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/REFERENCES","to":"control:AU-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.07_Time_Stamps","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/REFERENCES","to":"control:AU-09","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.03.08_Protection_of_Audit_Information","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/REFERENCES","to":"control:CM-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.01_Baseline_Configuration","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/REFERENCES","to":"control:CM-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.02_Configuration_Settings","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/REFERENCES","to":"control:CM-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.03_Configuration_Change_Control","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/REFERENCES","to":"control:CM-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.04_Impact_Analyses","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/REFERENCES","to":"control:CM-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.05_Access_Restrictions_for_Change","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/REFERENCES","to":"control:CM-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.06_Least_Functionality","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/REFERENCES","to":"control:CM-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.08_Authorized_Software_-_Allow_by_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/REFERENCES","to":"control:CM-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.10_System_Component_Inventory","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/REFERENCES","to":"control:CM-12","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.11_Information_Location","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/REFERENCES","to":"control:CM-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.04.12_System_and_Component_Configuration_for_High-Risk_Areas","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/REFERENCES","to":"control:IA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/REFERENCES","to":"control:IA-11","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.01_User_Identification_Authentication_and_Re-Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/REFERENCES","to":"control:IA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.02_Device_Identification_and_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/REFERENCES","to":"control:IA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.03_Multi-Factor_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/REFERENCES","to":"control:IA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.04_Replay-Resistant_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/REFERENCES","to":"control:IA-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.05_Identifier_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/REFERENCES","to":"control:IA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.07_Password_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.10_Withdrawn","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.10_Withdrawn","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/REFERENCES","to":"control:IA-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.11_Authentication_Feedback","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/REFERENCES","to":"control:IA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.05.12_Authenticator_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/REFERENCES","to":"control:IR-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.01_Incident_Handling","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/REFERENCES","to":"control:IR-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/REFERENCES","to":"control:IR-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/REFERENCES","to":"control:IR-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.02_Incident_Monitoring_Reporting_and_Response_Assistance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/REFERENCES","to":"control:IR-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.03_Incident_Response_Testing","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/REFERENCES","to":"control:IR-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.04_Incident_Response_Training","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/REFERENCES","to":"control:IR-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.06.05_Incident_Response_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.03_Withdrawn","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.03_Withdrawn","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.03_Withdrawn","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/REFERENCES","to":"control:MA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.04_Maintenance_Tools","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/REFERENCES","to":"control:MA-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.05_Nonlocal_Maintenance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/REFERENCES","to":"control:MA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.07.06_Maintenance_Personnel","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/REFERENCES","to":"control:MP-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.01_Media_Storage","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/REFERENCES","to":"control:MP-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.02_Media_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/REFERENCES","to":"control:MP-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.03_Media_Sanitization","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/REFERENCES","to":"control:MP-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.04_Media_Marking","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/REFERENCES","to":"control:MP-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/REFERENCES","to":"control:SC-28","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.05_Media_Transport","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/REFERENCES","to":"control:MP-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.07_Media_Use","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/REFERENCES","to":"control:CP-09","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.08.09_System_Backup_-_Cryptographic_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/REFERENCES","to":"control:PS-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.01_Personnel_Screening","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/REFERENCES","to":"control:PS-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/REFERENCES","to":"control:PS-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.09.02_Personnel_Termination_and_Transfer","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/REFERENCES","to":"control:PE-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.01_Physical_Access_Authorizations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/REFERENCES","to":"control:PE-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.02_Monitoring_Physical_Access","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.05_Withdrawn","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.05_Withdrawn","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/REFERENCES","to":"control:PE-17","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.06_Alternate_Work_Site","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/REFERENCES","to":"control:PE-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/REFERENCES","to":"control:PE-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.07_Physical_Access_Control","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/REFERENCES","to":"control:PE-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.10.08_Access_Control_for_Transmission","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/REFERENCES","to":"control:RA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/REFERENCES","to":"control:SR-06","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.01_Risk_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/REFERENCES","to":"control:RA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.02_Vulnerability_Monitoring_and_Scanning","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/REFERENCES","to":"control:RA-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.11.04_Risk_Response","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/REFERENCES","to":"control:CA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/REFERENCES","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.01_Security_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/REFERENCES","to":"control:CA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.02_Plan_of_Action_and_Milestones","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/REFERENCES","to":"control:CA-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.03_Continuous_Monitoring","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/REFERENCES","to":"control:CA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.12.05_Information_Exchange","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/REFERENCES","to":"control:SC-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.01_Boundary_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/REFERENCES","to":"control:SC-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.04_Information_in_Shared_System_Resources","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/REFERENCES","to":"control:SC-07","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.06_Network_Communications_-_Deny_by_Default_-_Allow_by_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_OBJECTIVE","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/REFERENCES","to":"control:SC-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/REFERENCES","to":"control:SC-28","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.08_Transmission_and_Storage_Confidentiality","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/REFERENCES","to":"control:SC-10","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.09_Network_Disconnect","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/REFERENCES","to":"control:SC-12","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.10_Cryptographic_Key_Establishment_and_Management","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/REFERENCES","to":"control:SC-13","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.11_Cryptographic_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/REFERENCES","to":"control:SC-15","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.12_Collaborative_Computing_Devices_and_Applications","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/REFERENCES","to":"control:SC-18","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.13_Mobile_Code","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/REFERENCES","to":"control:SC-23","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.13.15_Session_Authenticity","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/REFERENCES","to":"control:SI-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.01_Flaw_Remediation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/REFERENCES","to":"control:SI-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.02_Malicious_Code_Protection","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/REFERENCES","to":"control:SI-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.03_Security_Alerts_Advisories_and_Directives","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/ASSESSMENT_OBJECTIVE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/ASSESSMENT_OBJECTIVE","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/REFERENCES","to":"control:SI-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.06_System_Monitoring","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/REFERENCES","to":"control:SI-12","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.14.08_Information_Management_and_Retention","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:AC-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:AT-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:AU-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:CA-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:CM-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:IA-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:IR-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:MA-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:MP-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:PE-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:PL-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:PS-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:RA-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:SA-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:SC-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:SI-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"control:SR-01","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.01_Policy_and_Procedures","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/REFERENCES","to":"control:PL-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.02_System_Security_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/REFERENCES","to":"control:PL-04","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.15.03_Rules_of_Behavior","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/REFERENCES","to":"control:SA-08","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.01_Systems_Security_Engineering_Principles","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/REFERENCES","to":"control:SA-22","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.02_Unsupported_System_Components","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/REFERENCES","to":"control:SA-09","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.16.03_External_System_Services","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/REFERENCES","to":"control:SR-02","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.01_Supply_Chain_Risk_Management_Plan","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/REFERENCES","to":"control:SR-05","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.02_Acquisition_Strategies_Tools_and_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/REFERENCES","to":"control:SR-03","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/REFERENCES","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/REFERENCES","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes/REFERENCES","to":"section:REG-N04b:Rev. 3:Table_1._Security_Requirement_Families/03.17.03_Supply_Chain_Requirements_and_Processes","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_2._Summary_of_Assessment_Preparation_Phase/PURPOSE","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_2._Summary_of_Assessment_Preparation_Phase/PURPOSE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_2._Summary_of_Assessment_Preparation_Phase/PURPOSE","to":"section:REG-N04b:Rev. 3:Table_2._Summary_of_Assessment_Preparation_Phase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_2_provides_a_summary_of_the_purpose_and_expected_outcomes_of_the_assessment","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_4_provides_a_summary_of_the_purpose_and_expected_outcomes_of_the_assessment","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT1","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT1","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_7._Change_Log","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_7_shows_the_changes_incorporated_into_this_publication._Errata_updates_can_include","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_of_Contents1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_of_Contents1","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_of_Contents2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_of_Contents2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_of_Contents2","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cui","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:poam","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:ssp","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}

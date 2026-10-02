@@ -1,0 +1,1722 @@
+{
+  "schema_version": "1",
+  "run_id": "36973639960-1",
+  "generated": "2026-10-02T06:28:43.6148462+00:00",
+  "tier": "public",
+  "registry_hash": "8fc6b2346e92e60d9a298ba56809d022e5ea5994f67bc65b1c534dd7bdb2f880",
+  "documents": {
+    "REG-C01": {
+      "reg_id": "REG-C01",
+      "title": "Basic Safeguarding of Covered Contractor Information Systems",
+      "version": "2021-11",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/far/52.204-21",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300964-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:49:24 GMT",
+        "fetched_at": "2026-10-02T06:27:45.6713815+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "6682b1936c49a18adf3f3522af32f72f7da073f8cd18eb59a70df4c8e51c617d",
+        "bytes": 124720,
+        "raw_path": "raw/public/far/52.204-21/current/52.204-21",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/far/52.204-21/current/chunks.jsonl": "6f9fa4a4be63b16cb83fabdb5f7c2c553890be6c221b1c155da63bf77b73d2f3",
+        "derived/public/far/52.204-21/current/edges.jsonl": "cfc644ac55ff08556b6d24446244e384443791243f18513ac050502082529ffb",
+        "derived/public/far/52.204-21/current/nodes.jsonl": "4a82c1deb0cd4e87f9540cc7373f5caa8fbb312bb11bf617a01f61f5b4a3ee0c",
+        "derived/public/far/52.204-21/current/text.md": "36e3d018243bf041a1ff573ea529f24b15c77ffca7b5332437b1ec4185d33589"
+      },
+      "chunk_count": 4,
+      "vector_count": 0,
+      "node_count": 8,
+      "edge_count": 10,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-C02": {
+      "reg_id": "REG-C02",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
+      "version": "2024-05",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting.",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300193-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:36:33 GMT",
+        "fetched_at": "2026-10-02T06:27:45.9237476+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "4dedfe7298f67aae29741e054aa49247a123a161e23a28a7016d7cafead4a974",
+        "bytes": 119964,
+        "raw_path": "raw/public/dfars/252.204-7012/current/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/252.204-7012/current/chunks.jsonl": "8fabec831ec916817e884b525a49e58dd5c0b610d2acb57e9fb4815c957ab2b7",
+        "derived/public/dfars/252.204-7012/current/edges.jsonl": "83f58f827e5bf047588a9b13f545855882628bb77783865fa1cc25990320456d",
+        "derived/public/dfars/252.204-7012/current/nodes.jsonl": "dc21b801183fbeaa2d9b0acb590a37d58c2fd85166cbac41d4c3e1f52cca103c",
+        "derived/public/dfars/252.204-7012/current/text.md": "cc413a10e634a784c61ae73183a9d5af8b3c702ce76f6dbfac4c5b68e571dfad"
+      },
+      "chunk_count": 7,
+      "vector_count": 0,
+      "node_count": 16,
+      "edge_count": 29,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-C03": {
+      "reg_id": "REG-C03",
+      "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
+      "version": "2023-11",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/dfars/252.204-7019-notice-nist-sp-800-171-dod-assessment-requirements.",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300193-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:36:33 GMT",
+        "fetched_at": "2026-10-02T06:27:46.0548970+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "1809c32b1839c3f1e1cfed0a4dd8430235b247effa6442dbcf8a380d00709a89",
+        "bytes": 111626,
+        "raw_path": "raw/public/dfars/252.204-7019/current/252.204-7019-notice-nist-sp-800-171-dod-assessment-requirements",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/252.204-7019/current/chunks.jsonl": "7c7c731dff44801ceb47b3756b42d88cf8711dcb9acb5329425d59f85879e3f8",
+        "derived/public/dfars/252.204-7019/current/edges.jsonl": "739bbf0ac1e15f10e7f8481ddc38bf48958b8ba1c02a67281206dd24d0554066",
+        "derived/public/dfars/252.204-7019/current/nodes.jsonl": "b38bf3b3a5a8c401822a5d256503b3ab35cd2a1c43a7ac43b6cabfb0d29ab1f3",
+        "derived/public/dfars/252.204-7019/current/text.md": "ff0f8cd89a8d63c69fb2a3498388a89e22bb4d51742d5792da235cfc4df744c0"
+      },
+      "chunk_count": 4,
+      "vector_count": 0,
+      "node_count": 12,
+      "edge_count": 20,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-C04": {
+      "reg_id": "REG-C04",
+      "title": "NIST SP 800-171 DoD Assessment Requirements",
+      "version": "2023-11",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/dfars/252.204-7020-nist-sp-800-171-dod-assessment-requirements.",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300175-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:36:15 GMT",
+        "fetched_at": "2026-10-02T06:27:46.1810255+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "9a98267a035e1b6f92955dce8712d375882769202793094901c98f0d226d0691",
+        "bytes": 116113,
+        "raw_path": "raw/public/dfars/252.240-7997/current/252.204-7020-nist-sp-800-171-dod-assessment-requirements",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/252.240-7997/current/chunks.jsonl": "6674c9ae04a0a12f1d449fb5fa3c88d7653098efca98993d9be313c822a00e2d",
+        "derived/public/dfars/252.240-7997/current/edges.jsonl": "fcf8245ff60030047d48437a92d237309a144247dd8acd8eebfd8ba27510267b",
+        "derived/public/dfars/252.240-7997/current/nodes.jsonl": "454c51f5d091b6d0ec78a97a39a8e8dcda031f828035014516e59fc0287b6940",
+        "derived/public/dfars/252.240-7997/current/text.md": "f40140fb31b099a663ec8d0cd4e6ffb1855e3b53150cf4454a0253d72171c726"
+      },
+      "chunk_count": 5,
+      "vector_count": 0,
+      "node_count": 15,
+      "edge_count": 31,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-C05": {
+      "reg_id": "REG-C05",
+      "title": "Contractor Compliance With the Cybersecurity Maturity Model Certification Level Requirements",
+      "version": "2025-11",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/dfars/252.204-7021-contractor-compliance-cybersecurity-maturity-model-certification-level-requirements.",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300194-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:36:34 GMT",
+        "fetched_at": "2026-10-02T06:27:46.2634543+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "2b05327a65fec3efb74c41e885b1081cbdd60b5d06569c1b0914034b8b3c1fc6",
+        "bytes": 112014,
+        "raw_path": "raw/public/dfars/252.204-7021/current/252.204-7021-contractor-compliance-cybersecurity-maturity-model-certification-level-requirements",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/252.204-7021/current/chunks.jsonl": "4d4ce04f319791534eed1b13f991981ef4d5022c7e14e741b88b33aa5c23ac63",
+        "derived/public/dfars/252.204-7021/current/edges.jsonl": "2f0c8172883d7a8d830ea447e52be9c3073ff73e51348054b6768d808a9062ad",
+        "derived/public/dfars/252.204-7021/current/nodes.jsonl": "a9d34a060dc8581fc76164b1e83fc254f2500a6dfd2612468c9802b825e50ad2",
+        "derived/public/dfars/252.204-7021/current/text.md": "ee2626f678b16a3c7132ea0cb8d613a1a551c6fdfa44a086bc48c8b322b645a6"
+      },
+      "chunk_count": 5,
+      "vector_count": 0,
+      "node_count": 13,
+      "edge_count": 27,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-C06": {
+      "reg_id": "REG-C06",
+      "title": "Notice of Cybersecurity Maturity Model Certification Level Requirements",
+      "version": "2025-11",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acquisition.gov/dfars/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements.",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"1790300114-gzip\"",
+        "last_modified": "Fri, 25 Sep 2026 01:35:14 GMT",
+        "fetched_at": "2026-10-02T06:27:46.3428768+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "ec25d2e99781a0e6f91c86add9b6c56246bee3a6b6791ce84531d6548cc5f721",
+        "bytes": 104141,
+        "raw_path": "raw/public/dfars/252.204-7025/current/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/252.204-7025/current/chunks.jsonl": "1b78497d2668c9cb6dca5327b517ccfbe7f05508877a56d7e1c011e077059f43",
+        "derived/public/dfars/252.204-7025/current/edges.jsonl": "a9619f0cbf4c4d0fe9b3afed7d95f07d114791e6743ad80a699c4a6ea57d7731",
+        "derived/public/dfars/252.204-7025/current/nodes.jsonl": "ca0d8eba9d9278777aee49b2adafc52e871b45f3c686a5f779427cde2f540ab5",
+        "derived/public/dfars/252.204-7025/current/text.md": "6ae21f722e14f55e5af005ac7170bc634f2858dc68e9538ae7498c502d50715d"
+      },
+      "chunk_count": 3,
+      "vector_count": 0,
+      "node_count": 11,
+      "edge_count": 20,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D01": {
+      "reg_id": "REG-D01",
+      "title": "CMMC Model Overview",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.4590394+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "3521adb262f431433bc0be3a3f7f717b0b05c61f1e5eb127c38c81d2979f4a00",
+        "bytes": 977491,
+        "raw_path": "raw/public/dod-cio/cmmc-model-overview/2.13/ModelOverviewv2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-model-overview/2.13/chunks.jsonl": "60ee44457e9a5de17ea00b198f028ab38d6eb269b4d66c1288a100bd2e22e62e",
+        "derived/public/dod-cio/cmmc-model-overview/2.13/edges.jsonl": "73b20a85430ade10a6ae20031d4b92efafeb503a468cf52b40745396124e8e63",
+        "derived/public/dod-cio/cmmc-model-overview/2.13/nodes.jsonl": "c1492c3edf2988c2fd42f68a539d84c40d718cc1b52d62dc756eec892e1d389f",
+        "derived/public/dod-cio/cmmc-model-overview/2.13/text.md": "478ab0564e94521ccec932cb7ab06d92540bb94f5f655b5a7fdb35bde6b42837"
+      },
+      "chunk_count": 128,
+      "vector_count": 0,
+      "node_count": 248,
+      "edge_count": 814,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D02": {
+      "reg_id": "REG-D02",
+      "title": "CMMC Assessment Guide – Level 1",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.5312836+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "88116fa807b3685703f08c1992580ad0cfbc22ad2bcf76f99378fadf964f7368",
+        "bytes": 819911,
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l1/2.13/AssessmentGuideL1v2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/chunks.jsonl": "f3a092c673c535daa53bbcf06e97aecf1a0d5156ce04df01e6d1cbd7993172ba",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/edges.jsonl": "3c07609407afb524ab7a06001bd2dc11eba7b50ed231456561cc11d4c8ba4350",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/nodes.jsonl": "2e703b1143f0058fed087acf4ad6825ef9e1be5771612a2dacb8a6a9b3065976",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/text.md": "47bd75fd55db3bb82608fa61096cfee1552bb722f4e2abba50dfc6df75323c06"
+      },
+      "chunk_count": 120,
+      "vector_count": 0,
+      "node_count": 150,
+      "edge_count": 492,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D03": {
+      "reg_id": "REG-D03",
+      "title": "CMMC Assessment Guide – Level 2",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.6096733+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "0dcaba1626a0d23893981d74dd3f0f2338fff54cece67d81bc811ce76392d867",
+        "bytes": 2272014,
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l2/2.13/AssessmentGuideL2v2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-assessment-guide-l2/2.13/chunks.jsonl": "907b4530a2f0e5613c52984a12769084d9ad39d7c5506d99f736a5cba5d6447b",
+        "derived/public/dod-cio/cmmc-assessment-guide-l2/2.13/edges.jsonl": "a7490fd9d81106a74436439e07c877e581d9a855fe6daa73ecff737f903c410c",
+        "derived/public/dod-cio/cmmc-assessment-guide-l2/2.13/nodes.jsonl": "d1bc8c2bd132b76a023d0495ed68ea8bf1c537d9ad8436c75f9723afd3205b8e",
+        "derived/public/dod-cio/cmmc-assessment-guide-l2/2.13/text.md": "7d63f7049b178111c4062b87cc021a8537fa69bb50f820a7e7bf63769675d036"
+      },
+      "chunk_count": 637,
+      "vector_count": 0,
+      "node_count": 548,
+      "edge_count": 2163,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D04": {
+      "reg_id": "REG-D04",
+      "title": "CMMC Assessment Guide – Level 3",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.7787633+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "6601eb20e8f1490b49c4addd83505eb269062abb3c2bae9b5256449187048ef3",
+        "bytes": 1069207,
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l3/2.13/AssessmentGuideL3.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/chunks.jsonl": "8f07a7789f3c9fb9fc4a9688ea22d84563adac9b939678d3806ef109289ade62",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/edges.jsonl": "e2c0d857e26982d3e1fadaedb7172f215887fbc204068337cc926fb7317d0559",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/nodes.jsonl": "baa3f7efdfa331e425c5acc11d13a1702d8787a8a6fe04a76b1e5589328f1650",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/text.md": "5c3f7a8ce482327b5c3297e86f11b9ec2bc2140b5f2d6453c8cd88af3a86ea66"
+      },
+      "chunk_count": 167,
+      "vector_count": 0,
+      "node_count": 64,
+      "edge_count": 181,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D05": {
+      "reg_id": "REG-D05",
+      "title": "CMMC Scoping Guide – Level 1",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.8420190+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "fef1da3962dc1ba4f98ebdd41bb71bdaf17bcaf9cc0359bbd5dbe14b807c8cad",
+        "bytes": 589054,
+        "raw_path": "raw/public/dod-cio/cmmc-scoping-guide-l1/2.13/ScopingGuideL1v2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-scoping-guide-l1/2.13/chunks.jsonl": "30c7901b8192da6c0899d23581448c3140c17919f6335ac35d46f8291404d74a",
+        "derived/public/dod-cio/cmmc-scoping-guide-l1/2.13/edges.jsonl": "e353d11e9f13d947dcee8234d3134f2bfccf1e8424bcbbd20ed88d9c1c7250da",
+        "derived/public/dod-cio/cmmc-scoping-guide-l1/2.13/nodes.jsonl": "ac43ac952bd92d258af60c1e3805a1494291d186e4d80b6d458fd5667958e348",
+        "derived/public/dod-cio/cmmc-scoping-guide-l1/2.13/text.md": "0361715852fe93235e97e0f0a66ca3c72839fda9de771441bb887d6cac460cf6"
+      },
+      "chunk_count": 4,
+      "vector_count": 0,
+      "node_count": 10,
+      "edge_count": 18,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D06": {
+      "reg_id": "REG-D06",
+      "title": "CMMC Scoping Guide – Level 2",
+      "version": "2.13",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:46.9390998+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "377b758393908d6c20a9813fa213c5d3ec36e00018a798d09e59f00eb8627981",
+        "bytes": 699925,
+        "raw_path": "raw/public/dod-cio/cmmc-scoping-guide-l2/2.13/ScopingGuideL2v2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-scoping-guide-l2/2.13/chunks.jsonl": "050ffce450cbbf79765ff65b7eda81d516f7d52c322a83b039b678d537a415f6",
+        "derived/public/dod-cio/cmmc-scoping-guide-l2/2.13/edges.jsonl": "ff8fea7627e8c612198967e6b2ce3dc58bf678c5875c62aef7926fd7fc049328",
+        "derived/public/dod-cio/cmmc-scoping-guide-l2/2.13/nodes.jsonl": "0d62ce17dd86e0ef410986fccc463dc4665f01ee325b1d8172f8947e18cb7f10",
+        "derived/public/dod-cio/cmmc-scoping-guide-l2/2.13/text.md": "12d23ad199951a8e96895d9de27a026884b8ebe4edfd3b22e1454cadf7b76f54"
+      },
+      "chunk_count": 13,
+      "vector_count": 0,
+      "node_count": 27,
+      "edge_count": 73,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D07": {
+      "reg_id": "REG-D07",
+      "title": "CMMC 101 Brief",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "Record version/date from the document.",
+        "Supply the canonical publisher url, then set ingest back to 'chunk'."
+      ]
+    },
+    "REG-D08": {
+      "reg_id": "REG-D08",
+      "title": "CMMC Overview Briefing (Audio)",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-D09": {
+      "reg_id": "REG-D09",
+      "title": "CMMC Briefing: CMMC Alignment to NIST Standards",
+      "version": "unversioned",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:27:47.0063108+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "796e59e8f04412975255c0c943740ab1bf694a24820553fdcdb216127042d643",
+        "bytes": 428787,
+        "raw_path": "raw/public/dod-cio/cmmc-alignment-to-nist/2.13/CMMC-AlignmentNIST-Standards.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/cmmc-alignment-to-nist/2.13/chunks.jsonl": "99717c3fc8caeb121a182d8b08c8b3e7cba372219b1377fbcef8870670a1cad7",
+        "derived/public/dod-cio/cmmc-alignment-to-nist/2.13/edges.jsonl": "6a67fb558f2d9baa19ebeae1b7486b91dfa7ab76e30d36b5983ffb6a0360da55",
+        "derived/public/dod-cio/cmmc-alignment-to-nist/2.13/nodes.jsonl": "a0ba888fcb2dfda22d77ac32732ced3c2d13051cbff193a7426ca875b1377514",
+        "derived/public/dod-cio/cmmc-alignment-to-nist/2.13/text.md": "8dcd6e30a83bf80ec2949b264e74c2331af1d853987476d67d3d59954a5bde91"
+      },
+      "chunk_count": 13,
+      "vector_count": 0,
+      "node_count": 23,
+      "edge_count": 52,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-D10": {
+      "reg_id": "REG-D10",
+      "title": "CMMC Briefing: DoD SPRS",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "Supply the canonical publisher url, then set ingest back to 'chunk'."
+      ]
+    },
+    "REG-D11": {
+      "reg_id": "REG-D11",
+      "title": "DoD Defense Industrial Base Cybersecurity Services (DIB CSaaS) Slick Sheet",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-F01": {
+      "reg_id": "REG-F01",
+      "title": "Secure Controls Framework (SCF) — Control Catalog and Set Theory Relationship Mappings (STRM)",
+      "version": "2026.3",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "Confirm whether the SCF's terms permit republishing the catalog file itself here. Held back meanwhile: the derived text is published, the original is not."
+      ]
+    },
+    "REG-F02": {
+      "reg_id": "REG-F02",
+      "title": "CMMC Assessment Process (CAP)",
+      "version": "2.0",
+      "outcome": "new",
+      "source": {
+        "url": "https://cyberab.org/Portals/0/CMMC%20Assessment%20Process%20v2.0.pdf?ver=fEk1pUK1Fg26fVtopxv_DA%3d%3d",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"b0c22fc7c67ddb1:0\"",
+        "last_modified": "Thu, 13 Feb 2025 03:24:23 GMT",
+        "fetched_at": "2026-10-02T06:27:48.1839681+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "761401cd5bb82f679195d22ae1a82ff48e7a39c2b11fb96b5fd748ffa4462ee8",
+        "bytes": 428057,
+        "raw_path": "raw-withheld/public/cyber-ab/cap/2.0/CMMC_Assessment_Process_v2.0.pdf",
+        "archive_published": false
+      },
+      "derived": {
+        "derived/public/cyber-ab/cap/2.0/chunks.jsonl": "19252ac8f0b6ca0a444caf5ff2580347cb68fe7566bdaf7695bf25a69985960e",
+        "derived/public/cyber-ab/cap/2.0/edges.jsonl": "6c4b0d720bbc83fd9980dad434d8e46412b1c5186844c54de49f06f18e858ff4",
+        "derived/public/cyber-ab/cap/2.0/nodes.jsonl": "38eb82a9641029ec1825ae9b6c185be2dd8b0d0a35b08d66cc6b4a6fe94de1ab",
+        "derived/public/cyber-ab/cap/2.0/text.md": "06ed4f8664568b7116fd6bcd22e17a9a09fe42ff6d141e7bb008ac4b9cdfdddb"
+      },
+      "chunk_count": 31,
+      "vector_count": 0,
+      "node_count": 58,
+      "edge_count": 189,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Confirm whether the Cyber AB permits republishing the CAP document itself here. Held back meanwhile: the derived text is published, the original is not.",
+        "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest."
+      ]
+    },
+    "REG-F03": {
+      "reg_id": "REG-F03",
+      "title": "CMMC Code of Professional Conduct (CoPC)",
+      "version": "2.0",
+      "outcome": "new",
+      "source": {
+        "url": "https://cyberab.org/Portals/0/CMMC%20Code%20of%20Professional%20Conduct%20v2.0.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"b0c22fc7c67ddb1:0\"",
+        "last_modified": "Thu, 13 Feb 2025 03:24:23 GMT",
+        "fetched_at": "2026-10-02T06:27:48.4138688+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "cc5c113ba54eec37481eaa655ced3e40aa891ec8597fe9b43461253932089fd6",
+        "bytes": 289099,
+        "raw_path": "raw-withheld/public/cyber-ab/copc/2.0/CMMC_Code_of_Professional_Conduct_v2.0.pdf",
+        "archive_published": false
+      },
+      "derived": {
+        "derived/public/cyber-ab/copc/2.0/chunks.jsonl": "9f1aba71316145b94c0d2769817e7165ccee8f387ac43fd1a29c279d5d5f1aa6",
+        "derived/public/cyber-ab/copc/2.0/edges.jsonl": "731b872e3a55c505fda83a8b99f86392c5da5f9e0a1ee51f0ec26268aedec1fc",
+        "derived/public/cyber-ab/copc/2.0/nodes.jsonl": "93948ca83881b6347e4d0b7d742c7271ef965e47c70686471ab66663a1b0ab86",
+        "derived/public/cyber-ab/copc/2.0/text.md": "d8bc6f8297bc0c7d54acc9fdd27fd261bda38b5e00b70d209530889b6543e51a"
+      },
+      "chunk_count": 32,
+      "vector_count": 0,
+      "node_count": 42,
+      "edge_count": 100,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Confirm whether the Cyber AB permits republishing the CoPC document itself here. Held back meanwhile: the derived text is published, the original is not.",
+        "A v2.1a has also circulated; confirm current."
+      ]
+    },
+    "REG-N01": {
+      "reg_id": "REG-N01",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "version": "Rev. 2 Upd 1",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
+      ]
+    },
+    "REG-N01b": {
+      "reg_id": "REG-N01b",
+      "title": "Protecting CUI in Nonfederal Systems and Organizations — Chapters 1–2 and Appendices A–E",
+      "version": "Rev. 2 Upd 1",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"913869118a6da1:0\"",
+        "last_modified": "Tue, 14 May 2024 16:05:41 GMT",
+        "fetched_at": "2026-10-02T06:27:48.8921772+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "298bdbfcf6a4890a564b225c893230a0b32b2e69e3b98dd898aaeb1d544c5e12",
+        "bytes": 1539170,
+        "raw_path": "raw/public/nist/sp-800-171/r2u1/pdf/NIST.SP.800-171r2.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-171/r2u1/pdf/chunks.jsonl": "8dd49b6f8560956268786529ec8b7ba7bb1b9dce58e16e2cec13c47146da6395",
+        "derived/public/nist/sp-800-171/r2u1/pdf/edges.jsonl": "193252c502b3a72d23dd3464bc2055b60fa9421eddc4c2e9470cfa17843b4a48",
+        "derived/public/nist/sp-800-171/r2u1/pdf/nodes.jsonl": "1f27b1dadb291f88baf0deb2eeeb653390dd5d737133225ba93571bdac62ddae",
+        "derived/public/nist/sp-800-171/r2u1/pdf/text.md": "b5ae0089695d5402abbd29382335e737f4c38f074b3177ab81a5bee63036448c"
+      },
+      "chunk_count": 330,
+      "vector_count": 0,
+      "node_count": 580,
+      "edge_count": 1435,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N02": {
+      "reg_id": "REG-N02",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "version": "Initial",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N02b": {
+      "reg_id": "REG-N02b",
+      "title": "Assessing Security Requirements for CUI — Chapters 1–2 and Appendices",
+      "version": "Initial",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171A.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"468f5c718a6da1:0\"",
+        "last_modified": "Tue, 14 May 2024 16:07:12 GMT",
+        "fetched_at": "2026-10-02T06:27:49.0766794+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "21bf3acc43f4284f723639b82eb71e3ce597fa3610f7e9dcf5e8484e22bc0f71",
+        "bytes": 1233537,
+        "raw_path": "raw/public/nist/sp-800-171a/initial/pdf/NIST.SP.800-171A.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-171a/initial/pdf/chunks.jsonl": "f80a35360919c55ff3323d2f2081217acd592361ede35eea72397181647f372c",
+        "derived/public/nist/sp-800-171a/initial/pdf/edges.jsonl": "0f175bb884c90c9818f620481cad104684c47f98c2601548f8df21a257b57412",
+        "derived/public/nist/sp-800-171a/initial/pdf/nodes.jsonl": "750a5f79a2c42855f6550188b9e2d7ce20be31dd82d94c66a524c46c9e5bcb9d",
+        "derived/public/nist/sp-800-171a/initial/pdf/text.md": "7aaff4fba9395072b94a28b07fe4659b43713c3c2e29eea9af7930435a98dacd"
+      },
+      "chunk_count": 360,
+      "vector_count": 0,
+      "node_count": 505,
+      "edge_count": 1172,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N03": {
+      "reg_id": "REG-N03",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "version": "Rev. 3",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N03b": {
+      "reg_id": "REG-N03b",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "version": "Rev. 3",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"88841b781a5da1:0\"",
+        "last_modified": "Mon, 13 May 2024 22:05:50 GMT",
+        "fetched_at": "2026-10-02T06:27:49.2700941+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "3e4631df8b5d61f40a6e542b52779ef30ddbbfff31e09214fa94ad6e6f5e6d08",
+        "bytes": 1593213,
+        "raw_path": "raw/public/nist/sp-800-171/r3/pdf/NIST.SP.800-171r3.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-171/r3/pdf/chunks.jsonl": "1646b23278902ed7fd47703ae44ae762f12851800e35b991aed20f1a3b353fff",
+        "derived/public/nist/sp-800-171/r3/pdf/edges.jsonl": "c7d23ab48738ad57b69d73cbcfdd2a7aae4974f9b8a38af1a74487ba60efb365",
+        "derived/public/nist/sp-800-171/r3/pdf/nodes.jsonl": "454a481e396192e3e82a3a9b7a63eb936f5a821900fccddf0438b1700125ef43",
+        "derived/public/nist/sp-800-171/r3/pdf/text.md": "9df9065989e02775261d951130d4fb3b81fec424a517f323bbcdbb64e88cd8fc"
+      },
+      "chunk_count": 351,
+      "vector_count": 0,
+      "node_count": 634,
+      "edge_count": 1358,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N04": {
+      "reg_id": "REG-N04",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N04b": {
+      "reg_id": "REG-N04b",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"76c11a482a5da1:0\"",
+        "last_modified": "Mon, 13 May 2024 22:07:59 GMT",
+        "fetched_at": "2026-10-02T06:27:49.4988398+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "946d963707cdaba19901c49d5c89517adb00844fe5d101e9dac7febc68e34cfa",
+        "bytes": 1228943,
+        "raw_path": "raw/public/nist/sp-800-171a/r3/pdf/NIST.SP.800-171Ar3.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-171a/r3/pdf/chunks.jsonl": "f2b088638491280b772f71fee7818300bc8bf2b485febe687dc65011e761558c",
+        "derived/public/nist/sp-800-171a/r3/pdf/edges.jsonl": "85268df2dc052a1dc4301b5bfddf8f6828e0e30609a8cda721498385a9441d35",
+        "derived/public/nist/sp-800-171a/r3/pdf/nodes.jsonl": "98a7764c7934a792b1636faa8d7de6f5b3cd96d33b480636c41550c8d3c6d238",
+        "derived/public/nist/sp-800-171a/r3/pdf/text.md": "f603860c264dcd7807277a13d732fe80495d896560830a43f2e78672d4ba52cf"
+      },
+      "chunk_count": 241,
+      "vector_count": 0,
+      "node_count": 459,
+      "edge_count": 856,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N05": {
+      "reg_id": "REG-N05",
+      "title": "Protecting Controlled Unclassified Information (CUI): NIST Special Publication 800-171, Revision 3 Small Business Primer",
+      "version": "unversioned",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1318.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"8c3610ba6fcdc1:0\"",
+        "last_modified": "Wed, 13 Aug 2025 16:31:31 GMT",
+        "fetched_at": "2026-10-02T06:27:52.4875342+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "056fca508087b796d1db897a11031ed9b5446593b8d47bd8fc3bb8dc3d644aa9",
+        "bytes": 2101838,
+        "raw_path": "raw/public/nist/sp-1318/current/NIST.SP.1318.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-1318/current/chunks.jsonl": "db6b01eb6457f68ed2510eea06e71426dc7be808f2b198116d9c16ce52d6a55b",
+        "derived/public/nist/sp-1318/current/edges.jsonl": "140844a9276a12e344df375e64db9611ee2c5a0f67c5a8a7a9a830df5d93953b",
+        "derived/public/nist/sp-1318/current/nodes.jsonl": "7d7ef7391f259f87ce0c9d5f3fea69d0ae6d66a9560cc5d74a65e5780c7bb32a",
+        "derived/public/nist/sp-1318/current/text.md": "48c13e27ed4781787c7b6d7efbe2e9f447ce79f6145cdce5c2cfd5b2b4659439"
+      },
+      "chunk_count": 26,
+      "vector_count": 0,
+      "node_count": 35,
+      "edge_count": 93,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N06": {
+      "reg_id": "REG-N06",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information (CUI): NIST SP 800-171Ar3 Small Business Primer",
+      "version": "unversioned",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1352.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"74b9e2e8dc45dd1:0\"",
+        "last_modified": "Wed, 16 Sep 2026 13:11:39 GMT",
+        "fetched_at": "2026-10-02T06:27:53.1070326+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "75bac8aee517979a4a7f834d07b13cb80c5c529d9f4e061fee6eb2ffbbd0b3b1",
+        "bytes": 1162275,
+        "raw_path": "raw/public/nist/sp-1352/current/NIST.SP.1352.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-1352/current/chunks.jsonl": "ee81d31f712d9637c659b7175521606d48a900ed30c26200a2f79a4fb3b2015a",
+        "derived/public/nist/sp-1352/current/edges.jsonl": "dea804e3d6c257a6f4fe3b8328d510787e4c3cefad53a73aa925296e208b20a9",
+        "derived/public/nist/sp-1352/current/nodes.jsonl": "aa722014745136f2bec49e39fefa6a99f825cdf0f660b70dd87f17008266a6ec",
+        "derived/public/nist/sp-1352/current/text.md": "84af11ec455654a8a5685a807c7d69698f01fe52569d3b2da09bcd037f9a95a1"
+      },
+      "chunk_count": 18,
+      "vector_count": 0,
+      "node_count": 28,
+      "edge_count": 71,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N09": {
+      "reg_id": "REG-N09",
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "version": "2.0",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N10": {
+      "reg_id": "REG-N10",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "version": "Initial",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "Confirm CMMC Level 3 draws on the initial revision rather than Rev 3 (REG-N12)."
+      ]
+    },
+    "REG-N10b": {
+      "reg_id": "REG-N10b",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "version": "Initial",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"9e75e7cc1e6dc1:0\"",
+        "last_modified": "Mon, 18 May 2026 12:26:00 GMT",
+        "fetched_at": "2026-10-02T06:27:53.2553940+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "3847d851bdd52eb8824fbf57c4d2294099fa68e4b9a505401ba3f0f48fec721b",
+        "bytes": 1302225,
+        "raw_path": "raw/public/nist/sp-800-172/initial/pdf/NIST.SP.800-172.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-172/initial/pdf/chunks.jsonl": "b114b8928c7a4066bcb3967401421d9abac5324501474a7c7bf90979acd41c1b",
+        "derived/public/nist/sp-800-172/initial/pdf/edges.jsonl": "7c2bb490347d043c3f679bca77f0978702f56de3849f80f99e0adec077f122be",
+        "derived/public/nist/sp-800-172/initial/pdf/nodes.jsonl": "eaf4957036c66e969a6425bd33b46c9242c88e15077210cf4b8bb0f3e6f0746a",
+        "derived/public/nist/sp-800-172/initial/pdf/text.md": "1604de781b399b1f74af44a57b92e71211581ccec29be5e6cfcf12d774506c27"
+      },
+      "chunk_count": 235,
+      "vector_count": 0,
+      "node_count": 242,
+      "edge_count": 526,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N11": {
+      "reg_id": "REG-N11",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "version": "Initial",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N11b": {
+      "reg_id": "REG-N11b",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "version": "Initial",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172A.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"c14eddc5c0e6dc1:0\"",
+        "last_modified": "Mon, 18 May 2026 12:20:54 GMT",
+        "fetched_at": "2026-10-02T06:27:53.8284594+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "2fdde6c8726831a2aa4d550fb4cda052c3408a4ddd0b06baf19c701b7cc8f9ac",
+        "bytes": 1090089,
+        "raw_path": "raw/public/nist/sp-800-172a/initial/pdf/NIST.SP.800-172A.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-172a/initial/pdf/chunks.jsonl": "17e4a4bdcec22209986fac0254a3ed17c8ccc93b7545b6d5f90da0f8bb648e9e",
+        "derived/public/nist/sp-800-172a/initial/pdf/edges.jsonl": "8762e918117c06bddb6b063486a2825f514f11231671c4b0a17b4fc1d37e57df",
+        "derived/public/nist/sp-800-172a/initial/pdf/nodes.jsonl": "5fd194712769d32ab5a37dab18bf7999fe65de85654c3764942fb1e4ce5a4aed",
+        "derived/public/nist/sp-800-172a/initial/pdf/text.md": "e874dacf1353b22bfe8666eac9c564f5b2c2469f1e91c4110fac31ebb0943f1d"
+      },
+      "chunk_count": 168,
+      "vector_count": 0,
+      "node_count": 141,
+      "edge_count": 269,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N12": {
+      "reg_id": "REG-N12",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N12b": {
+      "reg_id": "REG-N12b",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172r3.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"b65ed86c49e2dc1:0\"",
+        "last_modified": "Tue, 12 May 2026 19:56:30 GMT",
+        "fetched_at": "2026-10-02T06:27:54.0899350+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "e70f2e81b0131f83aaf6973c7e5563de8d8bd7f034e03ea64125c90c16c5afca",
+        "bytes": 1385625,
+        "raw_path": "raw/public/nist/sp-800-172/r3/pdf/NIST.SP.800-172r3.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-172/r3/pdf/chunks.jsonl": "75a5ea4c2708d3d449f522136a610b9d88e65dbcd851d2a6105d8d0d4c09f862",
+        "derived/public/nist/sp-800-172/r3/pdf/edges.jsonl": "859ff4728ba59d50169b41152321a85720f9dd3266e3b1d8ed1dffc13741e6e3",
+        "derived/public/nist/sp-800-172/r3/pdf/nodes.jsonl": "58862a0637829c9f3f2bc9da6975cd96809c64f63d8e0fac867fdaedd4dca9e9",
+        "derived/public/nist/sp-800-172/r3/pdf/text.md": "03aeae2898363f705e90862aa38ad994c2ee50d45027bd34d015e81482a41b61"
+      },
+      "chunk_count": 274,
+      "vector_count": 0,
+      "node_count": 135,
+      "edge_count": 333,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N13": {
+      "reg_id": "REG-N13",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-N13b": {
+      "reg_id": "REG-N13b",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "version": "Rev. 3",
+      "outcome": "new",
+      "source": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-172Ar3.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"d08b347bcee2dc1:0\"",
+        "last_modified": "Wed, 13 May 2026 11:48:57 GMT",
+        "fetched_at": "2026-10-02T06:27:54.7389795+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "e8cd66061367d0d76a241d5ac5ba8c802e34c19b8f62e32b5687e4dbae3b30df",
+        "bytes": 1314805,
+        "raw_path": "raw/public/nist/sp-800-172a/r3/pdf/NIST.SP.800-172Ar3.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-172a/r3/pdf/chunks.jsonl": "c419bb7b990f5cc866b0eba437545a5def5a4c63c1854e2eb419f118236a9206",
+        "derived/public/nist/sp-800-172a/r3/pdf/edges.jsonl": "621dff0029189ae6f643422c491680f5d84f4afce8802716dd3a0b59b7c5c8b0",
+        "derived/public/nist/sp-800-172a/r3/pdf/nodes.jsonl": "25326cef7059947b3ab6f8b003ffa56cbbf3e17c66ffddf34e1ec6d17b3b070f",
+        "derived/public/nist/sp-800-172a/r3/pdf/text.md": "49bf6675ed2fbf356a724f611c383a416c5a50f44dec91dd3505ef825e18d667"
+      },
+      "chunk_count": 308,
+      "vector_count": 0,
+      "node_count": 106,
+      "edge_count": 272,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-N50": {
+      "reg_id": "REG-N50",
+      "title": "Security and Privacy Controls for Information Systems and Organizations",
+      "version": "Rev. 5",
+      "outcome": "new",
+      "source": {
+        "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_5_2_0/export/json?element=all",
+        "origin": "url",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:00.3341232+00:00",
+        "http_status": 200,
+        "mime": "application/json",
+        "hash": "599e2cff39c9af41d80eefa6e2fbd285b413de8bc65cd1f53054b4b647fe19c7",
+        "bytes": 14086095,
+        "raw_path": "raw/public/nist/sp-800-53/r5/REG-N50.json",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/nist/sp-800-53/r5/chunks.jsonl": "85a8a72ef34f7dd8135b6739073d19f7e0bdfd8042873197e50100566d9001d6",
+        "derived/public/nist/sp-800-53/r5/edges.jsonl": "66b6339c495d3759cb8e7f18d9797d4a4c3b11a6047cce89d29cb7d0a29b3ef1",
+        "derived/public/nist/sp-800-53/r5/nodes.jsonl": "fe9b51556eaac46c8a1a8d122578c27c3d591fa3073f8621fcb6d47a6169c36c",
+        "derived/public/nist/sp-800-53/r5/text.md": "6022475509194fade6a65e986b3184de9f1e20604f5c734c5dbaf26d00f4d12f"
+      },
+      "chunk_count": 12297,
+      "vector_count": 0,
+      "node_count": 28739,
+      "edge_count": 45133,
+      "extractor": "system-text-json",
+      "extractor_version": "10.0.0.0",
+      "chunker": "cprt-json-elements",
+      "confirm": []
+    },
+    "REG-N51": {
+      "reg_id": "REG-N51",
+      "title": "Assessing Security and Privacy Controls in Information Systems and Organizations",
+      "version": "Rev. 5",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-R01": {
+      "reg_id": "REG-R01",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
+      "version": "Final rule",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-16/title-32.xml?part=170",
+        "origin": "url",
+        "used_browser_identity": false,
+        "api_provider": "ecfr",
+        "api_metadata": {
+          "title": "32",
+          "part": "170",
+          "citation": "32 CFR 170",
+          "as_of": "2024-12-16",
+          "date_source": "part's latest amendment",
+          "latest_amended_on": "2024-12-16"
+        },
+        "fetched_at": "2026-10-02T06:28:01.5365884+00:00",
+        "http_status": 200,
+        "mime": "application/xml",
+        "hash": "4df7572a76794b236c0d5f9fb1d2ff814d8c973cf2d030067d00f9c0b0fb2680",
+        "bytes": 178017,
+        "raw_path": "raw/public/cfr/32-cfr-170/final-rule/REG-R01.xml",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/cfr/32-cfr-170/final-rule/chunks.jsonl": "d4f0d34cdfc7908b112c951245cc7ac7f5871ecb521fb9ba22a661c270ad8ee0",
+        "derived/public/cfr/32-cfr-170/final-rule/edges.jsonl": "05305f5d7fb99a880ab4f6a6d1c0c1066702d49446125b869d939a520b369f13",
+        "derived/public/cfr/32-cfr-170/final-rule/nodes.jsonl": "531d0b3e572367ec737ce1ebbb78f371ec0e64b6569e1d42628ccac7b5ccc70f",
+        "derived/public/cfr/32-cfr-170/final-rule/text.md": "2a8ed12bcf4153ef6dbae029ec9431b2859b6304ded2c34b787d333eac1a8baa"
+      },
+      "chunk_count": 49,
+      "vector_count": 0,
+      "node_count": 133,
+      "edge_count": 436,
+      "extractor": "cfr-xml",
+      "extractor_version": "1.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup."
+      ]
+    },
+    "REG-R02": {
+      "reg_id": "REG-R02",
+      "title": "Controlled Unclassified Information",
+      "version": "Final rule",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2016-12-22/title-32.xml?part=2002",
+        "origin": "url",
+        "used_browser_identity": false,
+        "api_provider": "ecfr",
+        "api_metadata": {
+          "title": "32",
+          "part": "2002",
+          "citation": "32 CFR 2002",
+          "as_of": "2016-12-22",
+          "date_source": "part's latest amendment",
+          "latest_amended_on": "2016-12-22"
+        },
+        "fetched_at": "2026-10-02T06:28:01.9956753+00:00",
+        "http_status": 200,
+        "mime": "application/xml",
+        "hash": "bd6980cc4e0b069ed7996d073ad71d29ce28996b2ae0286bff3e44d66b61087d",
+        "bytes": 89639,
+        "raw_path": "raw/public/cfr/32-cfr-2002/final-rule/REG-R02.xml",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/cfr/32-cfr-2002/final-rule/chunks.jsonl": "8f05342272d519ecc82bddf114cbee1e98925a93fcb9f048fa624d0d5e1b2482",
+        "derived/public/cfr/32-cfr-2002/final-rule/edges.jsonl": "b8d4afec7b8eb52934ee9fd53f3b6111fab31f50b813401b2ab44d96238c614b",
+        "derived/public/cfr/32-cfr-2002/final-rule/nodes.jsonl": "182be46381fc46281b57ebbcd9186fc71019f516927e1c313288d67560de994a",
+        "derived/public/cfr/32-cfr-2002/final-rule/text.md": "7e5a29593e0c8eebc9bef2c2f49c470cf3d7528471b56172c3cf3f031eefa6bc"
+      },
+      "chunk_count": 39,
+      "vector_count": 0,
+      "node_count": 45,
+      "edge_count": 123,
+      "extractor": "cfr-xml",
+      "extractor_version": "1.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup.",
+        "Confirmed as Part 2002 (NARA/ISOO CUI program rule), not Part 2000."
+      ]
+    },
+    "REG-R03": {
+      "reg_id": "REG-R03",
+      "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements",
+      "version": "2025-09-10",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html",
+        "origin": "url",
+        "used_browser_identity": false,
+        "api_provider": "federal-register",
+        "api_metadata": {
+          "document_number": "2025-17359",
+          "citation": "90 FR 43560",
+          "publication_date": "2025-09-10",
+          "type": "Rule",
+          "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements (DFARS Case 2019-D041)",
+          "docket_ids": "Docket DARS-2020-0034",
+          "regulation_id_numbers": "0750-AK81",
+          "html_url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/pdf/2025-17359.pdf",
+          "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2025/09/10/2025-17359.xml"
+        },
+        "last_modified": "Fri, 01 May 2026 10:26:16 GMT",
+        "fetched_at": "2026-10-02T06:28:02.0587791+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "a84a572d0ccc5af65bb4daba97471918906eb56bce570305068c41e6d271cdcb",
+        "bytes": 192222,
+        "raw_path": "raw/public/federal-register/dfars-case-2019-d041/2025-09-10/REG-R03.html",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/federal-register/dfars-case-2019-d041/2025-09-10/chunks.jsonl": "4f1d4ccc4373f654f11387f02804b5f7f690c31d013cf88490a5f39cf3e4f2ea",
+        "derived/public/federal-register/dfars-case-2019-d041/2025-09-10/edges.jsonl": "2b2036d72da20a180d35258fabbaf7f4ed161ca6548d24601fba071fdc43535f",
+        "derived/public/federal-register/dfars-case-2019-d041/2025-09-10/nodes.jsonl": "0e7f69882835ca862591aa004d99faa46f0fa4f8ea00f4d72a105d8c50470342",
+        "derived/public/federal-register/dfars-case-2019-d041/2025-09-10/text.md": "a112fd17a7f88e160bae18c94c113d26d3132e3c76cc19b386ce931f82b3ef95"
+      },
+      "chunk_count": 70,
+      "vector_count": 0,
+      "node_count": 84,
+      "edge_count": 353,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "REG-R03 and REG-R07 resolve to the same Federal Register document (FR Doc. 2025-17359, 90 FR 43560): R03 takes the amended clause text as requirements, R07 the preamble and comment responses as guidance. One fetch serves both. Confirm that split is intended, and whether the two should share a doc_id with distinct parts rather than carrying separate ones."
+      ]
+    },
+    "REG-R04": {
+      "reg_id": "REG-R04",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting — class deviation pinning DFARS 252.204-7012 to NIST SP 800-171 Revision 2",
+      "version": "Rev. 1",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf",
+        "origin": "archive",
+        "fallback_reason": "The SSL connection could not be established, see inner exception.",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:08.9673145+00:00",
+        "http_status": 0,
+        "mime": "application/pdf",
+        "hash": "a8d3a11d3cebe1a0caa512edf4fbf7e32314f0f00a78e953131ae9c6e84b1059",
+        "bytes": 421540,
+        "raw_path": "raw/public/dfars/class-deviation-2024-o0013/r1/USA001074-24-DPC.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dfars/class-deviation-2024-o0013/r1/chunks.jsonl": "0c5e8a1b742871be07540c2ed07df4627f9dfdcf097b506af0293829d5e9fec4",
+        "derived/public/dfars/class-deviation-2024-o0013/r1/edges.jsonl": "f87dfe8a1bd10d36c6cc77182ad0c901f3fff4627040226c8d5654c8a7956713",
+        "derived/public/dfars/class-deviation-2024-o0013/r1/nodes.jsonl": "e865360b2556102f24365ddec245f5ffb100bc18f290deeaf5dc8c870638d48d",
+        "derived/public/dfars/class-deviation-2024-o0013/r1/text.md": "2e612b3344bd4ca6e25d45134d92e354797c5cd9acc788e959528158c01bdd04"
+      },
+      "chunk_count": 9,
+      "vector_count": 0,
+      "node_count": 19,
+      "edge_count": 44,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Confirm current revision and that it has not been rescinded or superseded."
+      ]
+    },
+    "REG-R05": {
+      "reg_id": "REG-R05",
+      "title": "RFO DFARS class deviations affecting Subpart 204.73 — elimination of 252.204-7019 and renumbering of 252.204-7020 to 252.240-7997",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": [
+        "The url is DPCAP's index of class deviations, not a deviation itself, so this row is register-only. Identify the specific deviation number(s) covering 204.73, add each as its own row pointing at its own PDF — as REG-R04 does — then set this row back to 'chunk' or retire it."
+      ]
+    },
+    "REG-R06": {
+      "reg_id": "REG-R06",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program — final rule, including Summary of Public Comments and DoD Responses",
+      "version": "2024-10-15",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.federalregister.gov/documents/full_text/html/2024/10/15/2024-22905.html",
+        "origin": "url",
+        "used_browser_identity": false,
+        "api_provider": "federal-register",
+        "api_metadata": {
+          "document_number": "2024-22905",
+          "citation": "89 FR 83092",
+          "publication_date": "2024-10-15",
+          "type": "Rule",
+          "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
+          "docket_ids": "Docket ID: DoD-2023-OS-0063",
+          "regulation_id_numbers": "0790-AL49",
+          "html_url": "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2024-10-15/pdf/2024-22905.pdf",
+          "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2024/10/15/2024-22905.xml"
+        },
+        "last_modified": "Fri, 01 May 2026 10:01:33 GMT",
+        "fetched_at": "2026-10-02T06:28:09.0395235+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "9cc8371dac8540c699d0d4ee20e7f9335e9d5df93ab3373ce32b7e48dd2ed0d8",
+        "bytes": 1390592,
+        "raw_path": "raw/public/federal-register/89-fr-83092/2024-10-15/REG-R06.html",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/federal-register/89-fr-83092/2024-10-15/chunks.jsonl": "b7f4cd2565e749979bb7066ebbeaf8d093a8c7c92060584a4022227bfa9c41bb",
+        "derived/public/federal-register/89-fr-83092/2024-10-15/edges.jsonl": "bec19eb3a9d65112a74e4a5e3eb436174d39362dba1b850507cfd8dc422e45ed",
+        "derived/public/federal-register/89-fr-83092/2024-10-15/nodes.jsonl": "6a0724b90a6ac4e1cbe634efad7784cb18c6a1aaf3f99e3237fedd4d5f39f0d8",
+        "derived/public/federal-register/89-fr-83092/2024-10-15/text.md": "dd24428f4d0bd5a3156df690c3e1ecd06d5a62c590851c0d153c12feba55f287"
+      },
+      "chunk_count": 278,
+      "vector_count": 0,
+      "node_count": 331,
+      "edge_count": 1602,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-R07": {
+      "reg_id": "REG-R07",
+      "title": "DFARS: Assessing Contractor Implementation of Cybersecurity Requirements — final rule, including Discussion and Analysis of public comments",
+      "version": "2025-09-10",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html",
+        "used_browser_identity": false,
+        "api_provider": "federal-register",
+        "api_metadata": {
+          "document_number": "2025-17359",
+          "citation": "90 FR 43560",
+          "publication_date": "2025-09-10",
+          "type": "Rule",
+          "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements (DFARS Case 2019-D041)",
+          "docket_ids": "Docket DARS-2020-0034",
+          "regulation_id_numbers": "0750-AK81",
+          "html_url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-10/pdf/2025-17359.pdf",
+          "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2025/09/10/2025-17359.xml"
+        },
+        "last_modified": "Fri, 01 May 2026 10:26:16 GMT",
+        "fetched_at": "2026-10-02T06:28:02.0587791+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "a84a572d0ccc5af65bb4daba97471918906eb56bce570305068c41e6d271cdcb",
+        "bytes": 192222,
+        "raw_path": "raw/public/federal-register/90-fr-43560/2025-09-10/REG-R07.html",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/federal-register/90-fr-43560/2025-09-10/chunks.jsonl": "3c8e459adaf0b5185b54c0f1d0db93ec2fd07471a0530fc7c8a1f7528d6913d9",
+        "derived/public/federal-register/90-fr-43560/2025-09-10/edges.jsonl": "131c0a5e333ee273507e2452c72c0dc139859bca28adcef1e2a834bc72421906",
+        "derived/public/federal-register/90-fr-43560/2025-09-10/nodes.jsonl": "051960c52e32b381864e1ec4d174f5f1cf33d5d9f3d2e663c737dd9581bc2641",
+        "derived/public/federal-register/90-fr-43560/2025-09-10/text.md": "a112fd17a7f88e160bae18c94c113d26d3132e3c76cc19b386ce931f82b3ef95"
+      },
+      "chunk_count": 70,
+      "vector_count": 0,
+      "node_count": 84,
+      "edge_count": 353,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Confirm the FR page citation."
+      ]
+    },
+    "REG-R08": {
+      "reg_id": "REG-R08",
+      "title": "Controlled Unclassified Information — final rule, including response to public comments",
+      "version": "2016-09-14",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.federalregister.gov/documents/full_text/html/2016/09/14/2016-21665.html",
+        "origin": "url",
+        "used_browser_identity": false,
+        "api_provider": "federal-register",
+        "api_metadata": {
+          "document_number": "2016-21665",
+          "citation": "81 FR 63324",
+          "publication_date": "2016-09-14",
+          "type": "Rule",
+          "title": "Controlled Unclassified Information",
+          "docket_ids": "FDMS No. NARA-15-0001, NARA-2016-048",
+          "regulation_id_numbers": "3095-AB80",
+          "html_url": "https://www.federalregister.gov/documents/2016/09/14/2016-21665/controlled-unclassified-information",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2016-09-14/pdf/2016-21665.pdf",
+          "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2016/09/14/2016-21665.xml"
+        },
+        "last_modified": "Thu, 04 Sep 2025 11:38:44 GMT",
+        "fetched_at": "2026-10-02T06:28:09.2240571+00:00",
+        "http_status": 200,
+        "mime": "text/html",
+        "hash": "2faf0e56080fcd3f55a85adcef966f3e6a12d00cdf1fdab6ec7a47915de92adb",
+        "bytes": 249870,
+        "raw_path": "raw/public/federal-register/81-fr-63324/2016-09-14/REG-R08.html",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/federal-register/81-fr-63324/2016-09-14/chunks.jsonl": "f9275ca755b251166ab5cf99ca4c720b0be524c88f4a9275eec1630611e41472",
+        "derived/public/federal-register/81-fr-63324/2016-09-14/edges.jsonl": "a89313a174e08bc791c74e00f6f8b6ddbb8cf77b273690ffb0d4d47c560c637a",
+        "derived/public/federal-register/81-fr-63324/2016-09-14/nodes.jsonl": "ab8d495c01f2eabcaccee5dbd2fb57ae3ff2253aff3dd03ce4931a9e8ce41e83",
+        "derived/public/federal-register/81-fr-63324/2016-09-14/text.md": "e4e1694d0b9a7ce758996c60131cd804ca63188cbd6a16ec99d43adff4ff8738"
+      },
+      "chunk_count": 59,
+      "vector_count": 0,
+      "node_count": 67,
+      "edge_count": 176,
+      "extractor": "anglesharp-readability",
+      "extractor_version": "1.8.2.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Source list cited '81 FR 63336'; the Federal Register API resolves FR Doc. 2016-21665 to citation 81 FR 63324, with 63336 a page inside the document. Confirm which the corpus should record."
+      ]
+    },
+    "REG-S01": {
+      "reg_id": "REG-S01",
+      "title": "Controlled Unclassified Information (CUI)",
+      "version": "unversioned",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:09.7621441+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "bbbe4937419808636b21e060c7bc3912edb4bdb20dbe4737d26edb1b7c0a040d",
+        "bytes": 471078,
+        "raw_path": "raw/public/dod/dodi-5200.48/current/520048p.PDF",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod/dodi-5200.48/current/chunks.jsonl": "aa8e7ba3fbed3f58e3f6c1b3549b40951a7b68cd229f77c96ce5b48b3ea2872a",
+        "derived/public/dod/dodi-5200.48/current/edges.jsonl": "8fcfd291cecd1cd3ec9af459b5577523000efb91a15f6df7f33b0a9ce9a2bf6d",
+        "derived/public/dod/dodi-5200.48/current/nodes.jsonl": "bc6405d0599dc76083f03b423cf719ad5b2c257fdee28b4eb1ba94988c44037e",
+        "derived/public/dod/dodi-5200.48/current/text.md": "08841113ab028460851213d92db1914815cb6e553909d617651cdc5c88ce8cb6"
+      },
+      "chunk_count": 44,
+      "vector_count": 0,
+      "node_count": 53,
+      "edge_count": 132,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Record current change number/date at ingest."
+      ]
+    },
+    "REG-S02": {
+      "reg_id": "REG-S02",
+      "title": "Supplier Performance Risk System (SPRS)",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-S03": {
+      "reg_id": "REG-S03",
+      "title": "DoD CIO CMMC Program Site — Resources & Documentation",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-S04": {
+      "reg_id": "REG-S04",
+      "title": "DoD CUI Program",
+      "version": "unversioned",
+      "outcome": "skipped",
+      "source": {
+        "used_browser_identity": false
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    },
+    "REG-S05": {
+      "reg_id": "REG-S05",
+      "title": "Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings",
+      "version": "unversioned",
+      "outcome": "new",
+      "source": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:09.8082857+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "c69306918d68be3020a2835853ec56600824f9da831e8da5884fdc25abd33219",
+        "bytes": 1347486,
+        "raw_path": "raw/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/chunks.jsonl": "38ead47ba58c01fecdc10b0da667094f11977f415beb9accd04790263db4f4f6",
+        "derived/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/edges.jsonl": "6923db44c6f89baec50a95063e51ce9f23075f95f7164044480ad75b60cee0de",
+        "derived/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/nodes.jsonl": "1b1ba90410a2b0f2ee69e06abace62997289b83d0f8b5bf4d769a0ffb3cac9b6",
+        "derived/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/text.md": "aeb566ed14c06f76c558efa1231e161fa3488e7722c10436daa488241123a253"
+      },
+      "chunk_count": 1,
+      "vector_count": 0,
+      "node_count": 2,
+      "edge_count": 1,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": [
+        "Confirm URL and whether any later DoD CIO guidance supersedes."
+      ]
+    },
+    "REG-S06": {
+      "reg_id": "REG-S06",
+      "title": "Distribution Statements on DoD Technical Information",
+      "version": "2023-01-10",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/523024p.pdf",
+        "origin": "archive",
+        "fallback_reason": "HTTP 403 Forbidden",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:10.4803069+00:00",
+        "http_status": 403,
+        "mime": "application/pdf",
+        "hash": "9b75546a6acbdfa1a8ab9ab42b08dd3113735b5e9952ac91c72f2abe9bf769d8",
+        "bytes": 437717,
+        "raw_path": "raw/public/dod/dodi-5230.24/2023-01-10/523024p.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/dod/dodi-5230.24/2023-01-10/chunks.jsonl": "464d6e2aa0d0258d4ab716342540765520efe800e58aa9d7a288a643e24bbf62",
+        "derived/public/dod/dodi-5230.24/2023-01-10/edges.jsonl": "75b3ad08042821cf97e34c0c842cf5fc4ba309a11ec23cdeb64fdb43676ab98c",
+        "derived/public/dod/dodi-5230.24/2023-01-10/nodes.jsonl": "0915f1790faa8b9569cf0a5f1372feb71b6a0ae8a259dff0d91e2ecc135389d5",
+        "derived/public/dod/dodi-5230.24/2023-01-10/text.md": "3cfc9675dd3428f6720ce8501bbd0d55ffd15cfaa2adda57cc3bb9d95b594c6f"
+      },
+      "chunk_count": 36,
+      "vector_count": 0,
+      "node_count": 48,
+      "edge_count": 104,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-S07": {
+      "reg_id": "REG-S07",
+      "title": "Destroying Controlled Unclassified Information (CUI) in Paper Form",
+      "version": "2019-07-15",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.archives.gov/files/cui/documents/20190715-cui-notice-2019-03-destroying-cui-in-paper-form.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"5e334-59f529d188dc0\"",
+        "last_modified": "Mon, 24 Feb 2020 13:47:35 GMT",
+        "fetched_at": "2026-10-02T06:28:10.6279489+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "32ecff18bfa55f33fb86c012b8e1edc20daa0f55bbe045cb5d40f94b9bc960db",
+        "bytes": 385844,
+        "raw_path": "raw/public/isoo/cui-notice-2019-03/2019-07-15/20190715-cui-notice-2019-03-destroying-cui-in-paper-form.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/chunks.jsonl": "a9553ff5123283aea9fb7bfad1a28109cea11dd277d77b3d2ab700e1de96e5fc",
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/edges.jsonl": "bd96647fa4cda0ee156a8d4fdc6e37a53f73852a98c2d6a5bde666fa7bde1a8e",
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/nodes.jsonl": "b7c580b063df43b770fc1ed1f679d2d633fab800fc4e8e046d0a9054a110dff2",
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/text.md": "37f92969ddd0e75315e7ae0fd3a08a6ba566859017a13ff3360c01ecb7c69acd"
+      },
+      "chunk_count": 4,
+      "vector_count": 0,
+      "node_count": 8,
+      "edge_count": 11,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-S08": {
+      "reg_id": "REG-S08",
+      "title": "Digital Signatures on Standard Form (SF) 312, Classified Information Nondisclosure Agreement",
+      "version": "2022-05-09",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.archives.gov/files/isoo/notices/isoo-notice-2022-01-digital-signatures-on-sf-312.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"59bd5-5dea95caabd30\"",
+        "last_modified": "Tue, 10 May 2022 14:44:29 GMT",
+        "fetched_at": "2026-10-02T06:28:10.6650109+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "184282a8aaa7b5e3d9397549406c6dd0fb57b57cfa8e70c2bcd551d25f5b2065",
+        "bytes": 367573,
+        "raw_path": "raw/public/isoo/isoo-notice-2022-01/2022-05-09/isoo-notice-2022-01-digital-signatures-on-sf-312.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/isoo/isoo-notice-2022-01/2022-05-09/chunks.jsonl": "b22f7bc5a9baeb47d11deb7bfc9331130913daa1e03ef6f16f40c5413e123e70",
+        "derived/public/isoo/isoo-notice-2022-01/2022-05-09/edges.jsonl": "9a02a9ffbc877060929090e76c3040025311e29366e2d0f537ab8ba602ceae41",
+        "derived/public/isoo/isoo-notice-2022-01/2022-05-09/nodes.jsonl": "6ccb087b5dfdc9d9396e4ba4e25e9d87b5a90bc02b4aadd2cf2677bafa6e889d",
+        "derived/public/isoo/isoo-notice-2022-01/2022-05-09/text.md": "eba0c2c589162d4e766e93f1f60780baa73d8ba65fd482e70ca99a44d20a0dd4"
+      },
+      "chunk_count": 3,
+      "vector_count": 0,
+      "node_count": 4,
+      "edge_count": 3,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-S09": {
+      "reg_id": "REG-S09",
+      "title": "Responsible Use of Classified National Security Information and Controlled Unclassified Information with Artificial Intelligence",
+      "version": "2026-03-30",
+      "outcome": "new",
+      "source": {
+        "url": "https://www.archives.gov/files/isoo/notices/isoo-notice-2026-01-responsible-use-of-cnsi-and-cui-with-ai-508.pdf",
+        "origin": "url",
+        "used_browser_identity": false,
+        "etag": "\"34d60-64e0052b81c20\"",
+        "last_modified": "Fri, 27 Mar 2026 12:05:55 GMT",
+        "fetched_at": "2026-10-02T06:28:10.7336409+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "d922ea744d2ddcd99a6ace4ebc03cf10a5a4674359b99face64506cca35151ff",
+        "bytes": 216416,
+        "raw_path": "raw/public/isoo/isoo-notice-2026-01/2026-03-30/isoo-notice-2026-01-responsible-use-of-cnsi-and-cui-with-ai-508.pdf",
+        "archive_published": true
+      },
+      "derived": {
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/chunks.jsonl": "013f6db1362941f80a1a74e28869bfa026e3bb296d3cf2a5c5963dcd72f03cf3",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/edges.jsonl": "a56b8adcb3eb3957fc953b138124f445dcd7a762febdc035ba77ee6fccbe0b53",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/nodes.jsonl": "8cdd509a66561aef7432d71c2eb2f2750cfafb086b0a417e6258cf57167752fd",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/text.md": "48b3461ea2fa9e1aa6b81c3891df13199b710ed08c95ff35c2dab7ae3fae4ef2"
+      },
+      "chunk_count": 5,
+      "vector_count": 0,
+      "node_count": 9,
+      "edge_count": 13,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "confirm": []
+    },
+    "REG-S10": {
+      "reg_id": "REG-S10",
+      "title": "Clarifying Guidance for Marking and Handling Controlled Technical Information in accordance with DoD Instruction 5200.48",
+      "version": "2021-03-31",
+      "outcome": "error",
+      "source": {
+        "url": "https://www.dodcui.mil/Portals/109/Documents/Policy%20Docs/Clarifying%20Guidance%20for%20Marking%20and%20Handling_CTI%2020210331.pdf?ver=HXGACULisTzB7tYu7MtHIg%3D%3D",
+        "used_browser_identity": false,
+        "fetched_at": "2026-10-02T06:28:11.1650876+00:00",
+        "http_status": 403
+      },
+      "derived": {},
+      "chunk_count": 0,
+      "vector_count": 0,
+      "node_count": 0,
+      "edge_count": 0,
+      "confirm": []
+    }
+  }
+}

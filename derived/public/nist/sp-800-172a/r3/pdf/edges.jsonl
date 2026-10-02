@@ -1,0 +1,272 @@
+{"from":"control:AC-02","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-04","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-10","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-17","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AC-20","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AT-02","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AT-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:AU-09","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-02","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-07","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-08","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CA-09","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-02","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-08","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CM-6","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CP-09","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:CP-10","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-12","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IA-13","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-04","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:IR-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MA-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:MP-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PE-16","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PL-08","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PM-16","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:PS-06","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-03","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-09","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:RA-10","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SA-23","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-05","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-07","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-25","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-26","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-27","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-29","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-30","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-32","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-41","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SC-44","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-04","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-07","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-10","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-11","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-14","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-16","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SI-20","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-04","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-08","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-10","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:SR-11","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)1","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)1","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:(preamble)2","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/ASSESSMENT_OBJECTIVE","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/ASSESSMENT_OBJECTIVE","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/ASSESSMENT_OBJECTIVE","to":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-17","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AC-20","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AT-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AT-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AU-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AU-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:AU-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CA-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CA-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CA-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CM-6","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CP-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:CP-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IA-12","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IA-13","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IR-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:IR-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:MA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:MP-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PE-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PE-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PL-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PM-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PS-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:PS-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:RA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:RA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:RA-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:RA-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SA-23","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-25","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-26","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-27","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-29","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-30","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-32","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-41","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SC-44","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-11","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-14","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SI-20","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SR-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SR-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SR-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"control:SR-11","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their/REFERENCES","to":"section:REG-N13b:Rev. 3:172_[3]._Organizations_that_conduct_security_requirement_assessments_can_develop_their","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/CONOPS","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/CONOPS","to":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/GRC","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/GRC","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/GRC","to":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/OMB","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/OMB","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms/OMB","to":"section:REG-N13b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_C._Summary_of_Enhanced_Security_Requirements","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_D._Security_Requirement_Assessments","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_E._Organization-Defined_Parameters","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Appendix_F._Change_Log","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/ASSESSMENT_OBJECTIVE","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/ASSESSMENT_OBJECTIVE","to":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES1","to":"control:AC-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES1","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES1","to":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES2","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES2","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES2","to":"section:REG-N13b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-17","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AC-20","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AT-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AT-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AU-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AU-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:AU-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CA-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CA-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CA-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CA-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CM-02","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CM-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CM-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CM-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CM-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CP-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:CP-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IA-12","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IA-13","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IR-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:IR-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:MA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:MP-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PE-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PE-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PL-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PM-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PS-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:PS-06","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:RA-03","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:RA-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:RA-09","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:RA-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SA-23","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-05","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-25","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-26","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-27","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-29","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-30","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-32","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-41","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SC-44","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-07","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-11","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-14","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-16","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SI-20","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SR-04","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SR-08","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SR-10","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"control:SR-11","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements/REQUIREMENT","to":"section:REG-N13b:Rev. 3:Table_2._Enhanced_security_requirements","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_3._Summary_of_assessment_preparation_phase/PURPOSE","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_3._Summary_of_assessment_preparation_phase/PURPOSE","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_3._Summary_of_assessment_preparation_phase/PURPOSE","to":"section:REG-N13b:Rev. 3:Table_3._Summary_of_assessment_preparation_phase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_3_provides_a_summary_of_the_purpose_and_expected_outcomes_of_the_assessment","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_4._Summary_of_assessment_plan_development_phase","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_4._Summary_of_assessment_plan_development_phase","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_5._Summary_of_assessment_execution_phase/PURPOSE","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_5._Summary_of_assessment_execution_phase/PURPOSE","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_5._Summary_of_assessment_execution_phase/PURPOSE","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_5._Summary_of_assessment_execution_phase/PURPOSE","to":"section:REG-N13b:Rev. 3:Table_5._Summary_of_assessment_execution_phase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_5_provides_a_summary_of_the_purpose_and_expected_outcomes_of_the_assessment","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_6._Summary_of_assessment_analysis_documentation_and_reporting_phase","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_6._Summary_of_assessment_analysis_documentation_and_reporting_phase","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_6._Summary_of_assessment_analysis_documentation_and_reporting_phase","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT","to":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT1","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT1","to":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT2","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters/REQUIREMENT2","to":"section:REG-N13b:Rev. 3:Table_7._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_of_Contents1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_of_Contents1","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_of_Contents2","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_of_Contents2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N13b:Rev. 3:Table_of_Contents2","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cui","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:poam","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:ssp","to":"document:REG-N13b","type":"IN_DOCUMENT","properties":{}}

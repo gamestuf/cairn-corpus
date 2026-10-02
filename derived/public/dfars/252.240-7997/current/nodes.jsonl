@@ -1,0 +1,15 @@
+{"id":"control:3.12.4","labels":["Control"],"properties":{"control_id":"3.12.4","authority":"authoritative"}}
+{"id":"document:REG-C04","labels":["Document"],"properties":{"reg_id":"REG-C04","title":"NIST SP 800-171 DoD Assessment Requirements","version":"2023-11","tier":"public","authority":"authoritative","document_number":"DFARS 252.240-7997 (formerly 252.204-7020)","url":"https://www.acquisition.gov/dfars/252.204-7020-nist-sp-800-171-dod-assessment-requirements."}}
+{"id":"section:REG-C04:v2023-11:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements."}}
+{"id":"section:REG-C04:v2023-11:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements./DFARS_Appendix","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements./DFARS Appendix","chunk_id":"73414760249daf52a4195ac2e0da424446d0f2b5a48f6cc57391add8501524e9","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:v2023-11:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.1","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#1","chunk_id":"54de1a619cf933cedde1fb6a7a774c2a29faae70c06d9d296f53296922e0bf8d","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:v2023-11:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.2","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#2","chunk_id":"6704385e9e9f3b00a14c383dea54ef5cb3093c44e0290b3adbb6c2f903ca839f","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:v2023-11:252.204-7020_NIST_SP_800-171DoD_Assessment_Requirements.3","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"252.204-7020 NIST SP 800-171DoD Assessment Requirements.#3","chunk_id":"fd5cf2c43925182781bc6fbfa77e8666a8717da960d6e5c482bf3ac9f710550c","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-C04:v2023-11:DFARS","labels":["Section"],"properties":{"reg_id":"REG-C04","version":"2023-11","anchor":"DFARS","chunk_id":"1ebc17f971a212bedecf65f93bec831d96d84cfcf68ee2c9982062a7eb554f55","normativity":"guidance","block_type":"prose"}}
+{"id":"term:252.204-7020","labels":["Term"],"properties":{"term":"252.204-7020"}}
+{"id":"term:cdi","labels":["Term"],"properties":{"term":"cdi"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}
+{"id":"term:ssp","labels":["Term"],"properties":{"term":"ssp"}}
