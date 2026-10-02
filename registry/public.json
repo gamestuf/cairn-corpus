@@ -1703,6 +1703,93 @@
       "org": "dod",
       "doc_id": "dodi-5230.24",
       "version_slug": "2023-01-10"
+    },
+    {
+      "id": "REG-S07",
+      "document_number": "CUI Notice 2019-03",
+      "title": "Destroying Controlled Unclassified Information (CUI) in Paper Form",
+      "version": "2019-07-15",
+      "url": "https://www.archives.gov/files/cui/documents/20190715-cui-notice-2019-03-destroying-cui-in-paper-form.pdf",
+      "tier": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "notes": "CUI Notice issued by ISOO as CUI Executive Agent: single-step and multi-step methods for destroying CUI in paper form, including the 1 mm x 5 mm cross-cut particle standard, under 32 CFR 2002.14(f). Dated 2019-07-15. Chunking intent: by numbered paragraph and the attachment's guidelines.",
+      "normativity_map": {
+        "requirement": [
+          "notice directives"
+        ],
+        "guidance": [
+          "purpose",
+          "background"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "report-only",
+      "org": "isoo",
+      "doc_id": "cui-notice-2019-03",
+      "version_slug": "2019-07-15"
+    },
+    {
+      "id": "REG-S08",
+      "document_number": "ISOO Notice 2022-01",
+      "title": "Digital Signatures on Standard Form (SF) 312, Classified Information Nondisclosure Agreement",
+      "version": "2022-05-09",
+      "url": "https://www.archives.gov/files/isoo/notices/isoo-notice-2022-01-digital-signatures-on-sf-312.pdf",
+      "tier": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "notes": "Permits agencies to use digital signatures on the SF 312 Classified Information Nondisclosure Agreement when they meet the notice's requirements. Effective 2022-05-09. Chunking intent: by section.",
+      "normativity_map": {
+        "requirement": [
+          "notice directives"
+        ],
+        "guidance": [
+          "purpose",
+          "background"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "report-only",
+      "org": "isoo",
+      "doc_id": "isoo-notice-2022-01",
+      "version_slug": "2022-05-09"
+    },
+    {
+      "id": "REG-S09",
+      "document_number": "ISOO Notice 2026-01",
+      "title": "Responsible Use of Classified National Security Information and Controlled Unclassified Information with Artificial Intelligence",
+      "version": "2026-03-30",
+      "url": "https://www.archives.gov/files/isoo/notices/isoo-notice-2026-01-responsible-use-of-cnsi-and-cui-with-ai-508.pdf",
+      "tier": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "notes": "Agency handling of classified national security information and CUI with AI systems and tools: neither may be entered into AI systems that are internet-connected or not accredited for it. Dated 2026-03-30; this url is the Section 508 accessible rendition. Chunking intent: by section.",
+      "normativity_map": {
+        "requirement": [
+          "notice directives"
+        ],
+        "guidance": [
+          "purpose",
+          "background"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "report-only",
+      "org": "isoo",
+      "doc_id": "isoo-notice-2026-01",
+      "version_slug": "2026-03-30"
     }
   ]
 }
