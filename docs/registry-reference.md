@@ -38,7 +38,7 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
-| `format` | **yes** for active chunked rows | `pdf`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
+| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -102,6 +102,13 @@ registry, reported rather than fatal.
 - **`transcribe-or-skip`** — needs OCR. The OCR extractor is not wired up, so these are `skipped` with that
   reason stated. See `extractors/ocr/README.md`.
 
+A row can also need OCR without saying so in `ingest`: **`format: pdf-scan`** means the PDF is page images
+with no text layer. Such a row keeps `ingest: chunk`, because it should chunk once OCR exists, and is
+`skipped` until then with `format is 'pdf-scan' and OCR is not enabled` as its reason. The format has to say
+it — a scanned PDF's magic bytes and MIME type are those of any other PDF, so nothing about the payload
+distinguishes it, and a plain `pdf` would be handed to the text extractor, which would return a few
+characters and report success. `pdf-scan` is one token and does not also register as `pdf`.
+
 ### Path slugs
 
 These decide where a document's artifacts live. They are **path-only** — none of them feeds `chunk_id` or a
@@ -141,14 +148,42 @@ migrated a row at a time.
 | `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. |
 | `sections.include` | Section names or clause numbers to keep. |
 | `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
-| `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. |
-| `language_policy` | `keep` (filter not engaged), `drop-other` (off-language paragraphs removed and counted), `report-only` (kept and reported). |
+| `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. Under `language_policy: single` it must name exactly one language; `en/fr` is a registry error. |
+| `language_policy` | `keep` (filter not engaged), `drop-other` (off-language paragraphs removed and counted), `report-only` (kept and reported), `single` (the row asserts its language; no identification, no language findings — see below). |
 | `multilingual` | `true` where the document genuinely mixes languages. Optional; **false** is assumed, and no row sets it today. It does not switch the filter off: off-language prose is still dropped or reported per `language_policy` either way. What it changes is whether an *ambiguous* paragraph is worth a line in the report — in a monolingual document that is noise, and in a genuinely multilingual one it is the point. Paragraphs with too little prose to judge, and ambiguous ones in a monolingual row, are counted as `paragraphs_language_unjudged` rather than listed. |
 | `fields.include` | Allow-list for structured sources. Empty means "everything not dropped". |
 | `fields.drop` | Fields removed from structured sources. Every drop is a report line. |
 
 A section matched by neither list is **kept** and reported as `unclassified_section`. A section named on both
 lists fails stage 0. See ADR-0004.
+
+#### `language_policy: single`
+
+Two of the four policies identify paragraphs and two do not. `drop-other` and `report-only` run the detector;
+`keep` and `single` do not.
+
+The difference between the two that do not is what the row is saying. `keep` says *do not filter this
+document* — a reason not to look. `single` says *this document is in the language I declared* — an assertion,
+and the pipeline takes it at its word: no identification runs and **no language finding is reported for the
+row at all**, including the `paragraphs_language_unjudged` count, because a paragraph nobody asked about is
+not an open question.
+
+That assertion is checkable, which is the point of the value existing:
+
+| `language` under `single` | Result |
+| --- | --- |
+| `en`, `fr`, or any one code | Used as declared; no detection |
+| `en/fr`, `fr/en`, or any value naming two | **Stage 0 error `language_not_single`; the run stops** |
+
+The error matters because nothing downstream would catch it. Under `single` no paragraph is ever compared
+against the declared language, so an impossible value like `en/fr` would sail through and the corpus would
+record a language that is not a language. Under `drop-other` or `report-only` the same value is loud — every
+paragraph is compared against `"en/fr"`, matches nothing, and is dropped or reported — so the check applies
+to `single` only.
+
+Use `single` for a body of material known to be in one language, where identification only generates findings
+nobody can act on: the whole `training-info` registry is `single`/`en`. Use `report-only` where the language
+is an open question.
 
 ### QA
 

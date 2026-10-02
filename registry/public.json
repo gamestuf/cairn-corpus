@@ -42,7 +42,8 @@
     "language_policy": [
       "keep",
       "drop-other",
-      "report-only"
+      "report-only",
+      "single"
     ]
   },
   "rules": [
@@ -636,6 +637,7 @@
       "redistribute": true,
       "authority": "authoritative",
       "framework_rev": 2,
+      "status": "active",
       "format": "pdf",
       "ingest": "chunk",
       "notes": "Introduction, fundamentals (basic vs derived requirements, CUI framing), references, glossary, acronyms, 800-53/ISO mapping, tailoring criteria and NFO controls — the material business users' 'what is' questions land on. Same PDF as used to verify and page-enrich REG-N01; one fetch, two registry rows. Chunking intent: by heading; Appendix B → Term nodes (defined_in: 800-171r2); Appendix D → MAPS_TO edges; Appendix E → NFO list; Appendix F skipped (discussion comes from REG-N01 JSON). Published 2021-01-28.",
@@ -718,6 +720,7 @@
       "redistribute": true,
       "authority": "authoritative",
       "framework_rev": 2,
+      "status": "active",
       "format": "pdf",
       "ingest": "chunk",
       "notes": "Assessment procedure fundamentals and method definitions — answers 'what does examine mean' and 'what is an assessment objective'. Same PDF as used to verify and page-enrich REG-N02. Chunking intent: by heading; assessment method definitions (examine / interview / test, depth and coverage) → Term nodes. Published 2018-06.",
@@ -1415,6 +1418,8 @@
       "redistribute": true,
       "authority": "authoritative",
       "framework_rev": 2,
+      "status": "active",
+      "ingest": "chunk",
       "format": "pdf",
       "notes": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'. Chunking intent: whole memo + per paragraph. Published 2024-05-02 (Rev. 1 later in 2024).",
       "normativity_map": {
@@ -1478,6 +1483,8 @@
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
+      "status": "active",
+      "ingest": "chunk",
       "format": "html",
       "notes": "DoD's stated interpretation of 32 CFR 170 — ESP/CSP scope, MSPs, FedRAMP equivalency, POA&M limits, affirmation. Retrieved for 'why' and 'does this apply to' questions; never cited as the rule itself. Chunking intent: by comment topic / response.",
       "normativity_map": {
@@ -1509,6 +1516,8 @@
       "tier": "public",
       "redistribute": true,
       "authority": "corroborating",
+      "status": "active",
+      "ingest": "chunk",
       "format": "html",
       "notes": "DoD's interpretation of the contract clause — flow-down, subcontractor level determination, timing, ESPs. Guidance only. Chunking intent: by comment topic / response.",
       "normativity_map": {
@@ -1653,7 +1662,9 @@
       "tier": "public",
       "redistribute": true,
       "authority": "authoritative",
-      "format": "pdf",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf-scan",
       "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21.",
       "normativity_map": {
         "requirement": [
