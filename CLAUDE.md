@@ -68,7 +68,7 @@ change if you alter what a field means.
 
 ```bash
 # from the pipeline checkout, against this registry — validates and writes nothing
-dotnet run --project src/Cairn.Public -c Release -- \
+dotnet run --project src/Cairn.Cli -c Release -- \
   run --registry ../Cairn-Corpus/registry/public.json --out <scratch> --dry-run --offline
 ```
 

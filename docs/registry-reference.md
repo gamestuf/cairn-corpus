@@ -82,7 +82,7 @@ explicitly where the URLs differ.
 
 | Field | Values | Meaning |
 | --- | --- | --- |
-| `tier` | `public` | Anything else fails the run (invariant 9). |
+| `tier` | `public` in this registry; the vocabulary is `public`, `private`, `training-info` | Must equal the run's lane. The corpus build runs the `public` lane, so anything else here fails the run (invariant 9). The other two tiers are built locally from their own repositories and never appear in this one (pipeline ADR-0008). Copied to every chunk and to `manifest.tier`. |
 | `authority` | **closed set** declared in `enums.authority`: `authoritative-apex`, `authoritative`, `authoritative-site`, `authoritative-delta`, `corroborating`, `derived`, `reference-only`, `never-cite`, `pointer`, `none` | Who publishes it, and whether it may be cited at all. A value outside the declared set fails the run, because it would otherwise fall into whichever bucket a consumer defaults to. Copied to every chunk. |
 | `framework_rev` | number or string | Framework revision, e.g. `2` or `"3"`. Both spellings are accepted; it is carried on chunks as a string. Checked by a QA gate (invariant 7). |
 | `status` | `active`, `missing`, `cancelled`, `planned`, `superseded` | Only `active` rows are acquired; the rest are `skipped` with the status as the reason. **Defaults to `active` when absent**, and stage 0 reports the row. |
