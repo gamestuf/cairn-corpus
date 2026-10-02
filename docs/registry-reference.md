@@ -38,7 +38,7 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
-| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
+| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `sep-policy-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -148,9 +148,10 @@ migrated a row at a time.
 | `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. |
 | `sections.include` | Section names or clause numbers to keep. |
 | `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
-| `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. Under `language_policy: single` it must name exactly one language; `en/fr` is a registry error. |
+| `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. A row may name more than one, separated by `/` — `en/fr` for genuinely bilingual material — and a paragraph in any declared language is on-language. Under `language_policy: single` it must name exactly one; `en/fr` is a registry error there. |
 | `language_policy` | `keep` (filter not engaged), `drop-other` (off-language paragraphs removed and counted), `report-only` (kept and reported), `single` (the row asserts its language; no identification, no language findings — see below). |
 | `multilingual` | `true` where the document genuinely mixes languages. Optional; **false** is assumed, and no row sets it today. It does not switch the filter off: off-language prose is still dropped or reported per `language_policy` either way. What it changes is whether an *ambiguous* paragraph is worth a line in the report — in a monolingual document that is noise, and in a genuinely multilingual one it is the point. Paragraphs with too little prose to judge, and ambiguous ones in a monolingual row, are counted as `paragraphs_language_unjudged` rather than listed. |
+| `select` | Which records of a multi-document source are this row's, as field/value pairs all of which must match: `{"domain_key": "AST"}`. Case-insensitive; a record missing the field does not match. Only a format whose chunker reads it may set it (`sep-policy-json` today) — stage 0 refuses it elsewhere, because the row would otherwise be built from the whole source while appearing to select part of it. A selector matching nothing is an error finding, not an empty document. See ADR-0012. |
 | `fields.include` | Allow-list for structured sources. Empty means "everything not dropped". |
 | `fields.drop` | Fields removed from structured sources. Every drop is a report line. |
 
@@ -176,10 +177,10 @@ That assertion is checkable, which is the point of the value existing:
 | `en/fr`, `fr/en`, or any value naming two | **Stage 0 error `language_not_single`; the run stops** |
 
 The error matters because nothing downstream would catch it. Under `single` no paragraph is ever compared
-against the declared language, so an impossible value like `en/fr` would sail through and the corpus would
-record a language that is not a language. Under `drop-other` or `report-only` the same value is loud — every
-paragraph is compared against `"en/fr"`, matches nothing, and is dropped or reported — so the check applies
-to `single` only.
+against the declared language, so the row's assertion is never tested and a corpus would record a language
+that is not one. Under `drop-other` or `report-only`, `en/fr` is a legitimate and useful value — both
+languages are on-language and only a third is reported (ADR-0011) — so the check applies to `single` only,
+where naming two contradicts what the policy asserts.
 
 Use `single` for a body of material known to be in one language, where identification only generates findings
 nobody can act on: the whole `training-info` registry is `single`/`en`. Use `report-only` where the language
