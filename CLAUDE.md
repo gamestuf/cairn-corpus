@@ -33,6 +33,12 @@ so check the flag, not your memory.
 internal infrastructure. That last one includes prose inside `notes` and `corpus_role` fields — it has
 happened before, and once pushed it is in the history whether or not the file is later edited.
 
+**Check for sensitive words before handing back any change.** The pipeline repository keeps the list of
+names that must never appear here, with the commands that check for them, in its `SENSITIVE-WORDS.md`. Run
+those commands; they must print nothing. The list stays in the pipeline repository — never copy it, or any
+term from it, into this one. Examples in `docs/` are invented, never taken from a private document's
+headings, text or figures.
+
 ## 2. The registry is the single input
 
 `registry/public.json` is the only thing edited by hand. Everything else — `derived/`, `manifest/`,

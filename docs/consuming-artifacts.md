@@ -90,8 +90,8 @@ Every chunk carries:
 ### The graph's section nodes carry an anchor slug
 
 A `Section` node has a `heading_slug` property — the anchor form of that section's own heading,
-`active-directory-architecture` for `### Active Directory Architecture`. It is how one document cites a
-section of another: SEP's control JSON names the parts of a system security plan narrative it relies on by
+`access-control-overview` for `### Access Control Overview`. It is how one document cites a
+section of another: ORGANIZATION's control JSON names the parts of a system security plan narrative it relies on by
 anchor, and the slug is the key those resolve against.
 
 Two things worth knowing if you traverse it. **Every ancestor heading has a node**, not only the headings
