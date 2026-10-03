@@ -37,7 +37,8 @@
     "normativity": [
       "requirement",
       "guidance",
-      "example"
+      "example",
+      "assertion"
     ],
     "language_policy": [
       "keep",

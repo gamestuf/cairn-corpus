@@ -79,13 +79,28 @@ Every chunk carries:
 | Field | Use |
 | --- | --- |
 | `tier` | Always `public` here. Your discriminator after the merge. |
-| `normativity` | `requirement` \| `guidance` \| `example`, assigned structurally from the registry, never by a model. Filter to `requirement` when the question is about obligations. |
+| `normativity` | `requirement` \| `guidance` \| `example` \| `assertion`, assigned structurally from the registry, never by a model. Filter to `requirement` when the question is about obligations, and to `assertion` when it is about how a named system satisfies them — a system security plan's content is `assertion`, which is a claim to be tested, not an obligation (ADR-0013). |
 | `framework_rev` | Filter to avoid mixing revisions in one answer. |
 | `authority` | Who published it. |
 | `control_ids` / `scf_ids` | Crosswalks. |
 | `section_anchor` | Stable within-document address. |
 | `page` | Page in the source PDF, where one is known. For citation. |
 | `terms` | Controlled vocabulary mentioned, from a closed list. |
+
+### The graph's section nodes carry an anchor slug
+
+A `Section` node has a `heading_slug` property — the anchor form of that section's own heading,
+`active-directory-architecture` for `### Active Directory Architecture`. It is how one document cites a
+section of another: SEP's control JSON names the parts of a system security plan narrative it relies on by
+anchor, and the slug is the key those resolve against.
+
+Two things worth knowing if you traverse it. **Every ancestor heading has a node**, not only the headings
+that carry prose of their own, so the `IN_SECTION` chain from a leaf to the document root has no gaps.
+And `section_anchor` on a chunk is still the heading *path*; the slug is on the node, so nothing about chunk
+identity changed.
+
+Edges added for that join: **`REFERENCES`** (a control or objective cites a section of a narrative) and
+**`INHERITS_FROM`** (a control takes its implementation from the same control in another system).
 
 ## 6. Decide what to do with each outcome
 

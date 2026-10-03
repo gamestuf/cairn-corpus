@@ -38,7 +38,7 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
-| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `sep-policy-json`, `docx`, `xlsx`, `xml` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
+| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `sep-policy-json`, `docx`, `xlsx`, `xml`, `md` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -145,7 +145,7 @@ migrated a row at a time.
 
 | Field | Meaning |
 | --- | --- |
-| `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. |
+| `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. Values: `requirement`, `guidance`, `example`, and `assertion` for a claim about how a named system satisfies an obligation — a system security plan's narrative, which derives `content_class: contextual` because it is not the obligation (ADR-0013). |
 | `sections.include` | Section names or clause numbers to keep. |
 | `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
 | `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. A row may name more than one, separated by `/` — `en/fr` for genuinely bilingual material — and a paragraph in any declared language is on-language. Under `language_policy: single` it must name exactly one; `en/fr` is a registry error there. |
