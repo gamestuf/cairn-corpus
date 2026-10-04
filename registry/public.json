@@ -505,6 +505,7 @@
     {
       "id": "REG-D08",
       "title": "CMMC Overview Briefing (Audio)",
+      "version": "2024-11-04",
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
@@ -518,7 +519,7 @@
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-overview-briefing",
-      "version_slug": "current"
+      "version_slug": "2024-11-04"
     },
     {
       "id": "REG-D09",
@@ -993,6 +994,7 @@
       "id": "REG-N05",
       "document_number": "NIST SP 1318",
       "title": "Protecting Controlled Unclassified Information (CUI): NIST Special Publication 800-171, Revision 3 Small Business Primer",
+      "version": "2025-08",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1318.pdf",
       "tier": "public",
       "visibility": "public",
@@ -1017,12 +1019,13 @@
       "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-1318",
-      "version_slug": "current"
+      "version_slug": "2025-08"
     },
     {
       "id": "REG-N06",
       "document_number": "NIST SP 1352",
       "title": "Assessing Security Requirements for Controlled Unclassified Information (CUI): NIST SP 800-171Ar3 Small Business Primer",
+      "version": "2026-09",
       "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1352.pdf",
       "tier": "public",
       "visibility": "public",
@@ -1047,7 +1050,7 @@
       "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-1352",
-      "version_slug": "current"
+      "version_slug": "2026-09"
     },
     {
       "id": "REG-N09",
@@ -1717,6 +1720,7 @@
       "id": "REG-S01",
       "document_number": "DoDI 5200.48",
       "title": "Controlled Unclassified Information (CUI)",
+      "version": "2020-03-06",
       "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF",
       "tier": "public",
       "visibility": "public",
@@ -1744,7 +1748,7 @@
       "language_policy": "single",
       "org": "dod",
       "doc_id": "dodi-5200.48",
-      "version_slug": "current"
+      "version_slug": "2020-03-06"
     },
     {
       "id": "REG-S02",
