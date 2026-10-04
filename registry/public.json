@@ -279,6 +279,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 46,
+        "max_pages": 46
+      },
       "sections": {
         "exclude": [
           {
@@ -442,6 +446,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 8,
+        "max_pages": 8
+      },
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
@@ -473,6 +481,10 @@
         "example": [
           "scenario figures"
         ]
+      },
+      "qa": {
+        "min_pages": 16,
+        "max_pages": 16
       },
       "language": "en",
       "language_policy": "single",
@@ -538,7 +550,11 @@
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-alignment-to-nist",
-      "version_slug": "2.13"
+      "version_slug": "2.13",
+      "qa": {
+        "min_pages": 10,
+        "max_pages": 10
+      }
     },
     {
       "id": "REG-D10",
@@ -638,6 +654,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 29,
+        "max_pages": 29
+      },
       "language": "en",
       "language_policy": "single",
       "org": "cyber-ab",
@@ -671,6 +691,10 @@
           "commentary"
         ],
         "example": []
+      },
+      "qa": {
+        "min_pages": 22,
+        "max_pages": 22
       },
       "language": "en",
       "language_policy": "single",
@@ -1015,6 +1039,10 @@
           "scenarios"
         ]
       },
+      "qa": {
+        "min_pages": 27,
+        "max_pages": 27
+      },
       "language": "en",
       "language_policy": "single",
       "org": "nist",
@@ -1045,6 +1073,10 @@
         "example": [
           "scenarios"
         ]
+      },
+      "qa": {
+        "min_pages": 14,
+        "max_pages": 14
       },
       "language": "en",
       "language_policy": "single",
@@ -1564,6 +1596,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 8,
+        "max_pages": 8
+      },
       "confirm": [
         "Confirm current revision and that it has not been rescinded or superseded."
       ],
@@ -1744,6 +1780,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 40,
+        "max_pages": 40
+      },
       "language": "en",
       "language_policy": "single",
       "org": "dod",
@@ -1860,6 +1900,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 36,
+        "max_pages": 36
+      },
       "language": "en",
       "language_policy": "single",
       "org": "dod",
@@ -1890,6 +1934,10 @@
           "background"
         ],
         "example": []
+      },
+      "qa": {
+        "min_pages": 3,
+        "max_pages": 3
       },
       "language": "en",
       "language_policy": "single",
@@ -1922,6 +1970,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 2,
+        "max_pages": 2
+      },
       "language": "en",
       "language_policy": "single",
       "org": "isoo",
@@ -1953,6 +2005,10 @@
         ],
         "example": []
       },
+      "qa": {
+        "min_pages": 4,
+        "max_pages": 4
+      },
       "language": "en",
       "language_policy": "single",
       "org": "isoo",
@@ -1983,6 +2039,10 @@
           "attachments"
         ],
         "example": []
+      },
+      "qa": {
+        "min_pages": 4,
+        "max_pages": 4
       },
       "language": "en",
       "language_policy": "single",
