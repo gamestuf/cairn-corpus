@@ -912,6 +912,7 @@
       "format_profile": "cprt-json",
       "notes": "Comparison intents only ('what changes in Rev 3'); never support for current posture. CPRT export sp_800_171_3_0_0 carries the Rev 3 requirements and their discussion, and also restates the Rev 3 assessment content that REG-N04 ingests from sp_800_171_a_3_0_0. The two exports overlap by design on NIST's side; the determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N04 remains the row those are retrieved from. Chunking intent: one chunk per element per requirement, from the CPRT export. Published 2024-05.",
       "qa": {
+        "expected_requirements": 97,
         "verify_against": "REG-N03b"
       },
       "normativity_map": {
@@ -981,6 +982,7 @@
       "format_profile": "cprt-json",
       "notes": "As REG-N03; not admissible as support for a Rev 2 claim. CPRT export sp_800_171_a_3_0_0. The security_requirement elements it carries are the Rev 3 requirements restated for context and are retrieved from REG-N03, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2024-05.",
       "qa": {
+        "expected_objectives": 422,
         "verify_against": "REG-N04b"
       },
       "normativity_map": {
@@ -1147,6 +1149,7 @@
       "format_profile": "cprt-json",
       "notes": "The 35 enhanced security requirements for APT-resistant CUI protection; the basis for CMMC Level 3. CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b. Chunking intent: by enhanced security requirement. Published 2021-02.",
       "qa": {
+        "expected_requirements": 35,
         "verify_against": "REG-N10b"
       },
       "normativity_map": {
@@ -1218,6 +1221,7 @@
       "format_profile": "cprt-json",
       "notes": "The assessment objectives for the 35 enhanced requirements; the Level 3 assessment target. CPRT export sp_800_172a_1_0_0 reports 103 determination elements against 35 security requirements. Paired PDF NIST.SP.800-172A.pdf; see REG-N11b. Chunking intent: one chunk per field per objective: {id}/determination, {id}/methods_objects. Published 2022-03.",
       "qa": {
+        "expected_objectives": 103,
         "verify_against": "REG-N11b"
       },
       "normativity_map": {
@@ -1284,6 +1288,7 @@
       "format_profile": "cprt-json",
       "notes": "Comparison intents only ('what changes in Rev 3'); never support for current Level 3 posture. CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from. Chunking intent: one chunk per element per enhanced requirement, from the CPRT export. Published 2024-05.",
       "qa": {
+        "expected_requirements": 103,
         "verify_against": "REG-N12b"
       },
       "normativity_map": {
@@ -1356,6 +1361,7 @@
       "format_profile": "cprt-json",
       "notes": "Comparison intents only; the Rev 3 assessment procedures, not the current Level 3 basis. CPRT export sp_800_172a_3_0_0. The enhanced_security_requirement elements it carries are restated for context and are retrieved from REG-N12, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2024-05.",
       "qa": {
+        "expected_objectives": 199,
         "verify_against": "REG-N13b"
       },
       "normativity_map": {
@@ -1422,15 +1428,17 @@
       "format": "json",
       "format_profile": "cprt-json",
       "notes": "Subset only: controls mapped from 800-171 R2 Appendix D plus the NFO set from 800-171r2 Appendix E. Subset held as a regenerable list (see subset_rule). subset_rule: the 800-171r2 Appendix D mapping, together with the NFO control IDs listed in 800-171r2 Appendix E. Chunking intent: by control, subset filter applied at ingest. Published 2020-09 (updated 2020-12-10).",
+      "qa": {
+        "expected_requirements": 1014
+      },
       "normativity_map": {
         "requirement": [
-          "control_statement"
+          "control",
+          "control_enhancement"
         ],
-        "guidance": [
-          "Related Controls"
-        ],
+        "guidance": [],
         "example": [
-          "Discussion"
+          "discussion"
         ]
       },
       "language": "en",
