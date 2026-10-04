@@ -15,9 +15,9 @@ retrieved from the body that issued it. A registry row with any `tier` other tha
 
     registry/public.json              the single input: every document and the rules for handling it
     sources/{reg_id}/                 hand-committed copies, used only when a live fetch fails
-    raw/public/{org}/{doc_id}/{version}[/{part}]/
+    raw/public/{org}/{doc_id}/{version_slug}/{format_profile}/
                                       the original document, exactly as fetched
-    derived/public/{org}/{doc_id}/{version}[/{part}]/
+    derived/public/{org}/{doc_id}/{version_slug}/{format_profile}/
                                       text.md, chunks.jsonl, nodes.jsonl, edges.jsonl, vectors.jsonl
     manifest/manifest.json            every document: version, outcome, hashes, counts, model
     manifest/manifest.json.sig        cosign signature over the manifest
@@ -96,10 +96,10 @@ discard a corpus.
 Some publishers block CI runners or present certificates the runner rejects. For those, commit a copy
 under `fallback/`, at the same coordinates the document's other artifacts use:
 
-    fallback/public/{org}/{doc_id}/{version_slug}[/{part}]/{filename}
+    fallback/public/{org}/{doc_id}/{version_slug}/{format_profile}/{filename}
 
 One file per directory, and no registry edit: the pipeline looks there for any row whose fetch fails.
-The path is built from the row's own `org`, `doc_id` and `version_slug`, so **a copy filed under a version
+The path is built from the row's own `org`, `doc_id`, `version_slug` and `format_profile`, so **a copy filed under a version
 the registry does not name will not be found** — that is deliberate, because guessing across versions is
 how a superseded snapshot ends up served as current text. The `raw`/`derived`/`fallback` columns in each
 run report say which subtrees actually hold a file for each row, which is the quickest way to spot a copy

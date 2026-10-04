@@ -38,7 +38,8 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
-| `format` | **yes** for active chunked rows | `pdf`, `pdf-scan`, `html`, `json`, `oscal-json`, `org-policy-json`, `org-ssp-json`, `docx`, `xlsx`, `xml`, `md` — or prose naming more than one, e.g. `json (NIST CPRT export) + pdf (verification, pages)`. Recognised tokens are extracted in order: **the first is the format the row is chunked from**, and the rest are companions it is verified against. The magic-byte check accepts a payload matching any declared token. |
+| `format` | **yes** for active chunked rows | What the bytes are — exactly one of `pdf`, `html`, `xml`, `json`, `xlsx`, `docx`, `pptx`, `md`, `audio`. The magic-byte check holds the payload to it. Anything else — prose naming two sources, a processing path such as `pdf-scan` — fails stage 0 (`format_not_a_byte_type`): a verifying PDF is named by `qa.verify_against`, and the path by `format_profile`. |
+| `format_profile` | no; **`general` when absent** | How the bytes become text and chunks — one path per row (pipeline ADR-0014). `general` for every format; and `nist-companion`, `cmmc-guide`, `scan` (PDF), `cprt-json`, `org-policy-json`, `org-ssp-json` (JSON), `regulation-html` (HTML), `ecfr-xml` (XML), `scf-workbook` (XLSX), `transcript` (audio). A profile that is not a path for the row's `format` fails stage 0. It chooses the chunker and the `--commands` entry that runs the row, and it is the last directory of the row's path. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -83,10 +84,11 @@ explicitly where the URLs differ.
 | Field | Values | Meaning |
 | --- | --- | --- |
 | `tier` | `public` in this registry; the vocabulary is `public`, `private`, `training-info`, `other-info` | Must equal the run's lane. The corpus build runs the `public` lane, so anything else here fails the run (invariant 9). The other two tiers are built locally from their own repositories and never appear in this one (pipeline ADR-0008). Copied to every chunk and to `manifest.tier`. |
+| `visibility` | `public` in this registry; the vocabulary, declared in `enums.visibility`, is `public`, `internal`, `technical`, `cmmc-program`, `security` | Who inside the organisation may see the document's content. A different axis from `tier`: tier says which corpus a row is built into, visibility which readers a consumer may show it to. **Absent means `security`**, the narrowest audience, and is reported as a warning. A public-tier row must state `public` — anything else, the default included, fails the run, because a public repository cannot restrict what it shows (pipeline ADR-0015). Copied to every chunk and to its manifest entry. |
 | `authority` | **closed set** declared in `enums.authority`: `authoritative-apex`, `authoritative`, `authoritative-site`, `authoritative-delta`, `corroborating`, `derived`, `reference-only`, `never-cite`, `pointer`, `none` | Who publishes it, and whether it may be cited at all. A value outside the declared set fails the run, because it would otherwise fall into whichever bucket a consumer defaults to. Copied to every chunk. |
 | `framework_rev` | number or string | Framework revision, e.g. `2` or `"3"`. Both spellings are accepted; it is carried on chunks as a string. Checked by a QA gate (invariant 7). |
 | `status` | `active`, `missing`, `cancelled`, `planned`, `superseded` | Only `active` rows are acquired; the rest are `skipped` with the status as the reason. **Defaults to `active` when absent**, and stage 0 reports the row. |
-| `ingest` | `chunk`, `register-only`, `pointer`, `transcribe-or-skip`, `optional` | What to do with the row. **Defaults to `chunk` when absent**, and stage 0 reports the row. |
+| `ingest` | `chunk`, `register-only`, `pointer`, `optional` | What to do with the row. **Defaults to `chunk` when absent**, and stage 0 reports the row. |
 
 Defaults are assumptions, and invariant 2 says assumptions are visible: every row relying on one produces a
 `registry_default_applied` finding naming the field and the value assumed. A row using a value the pipeline
@@ -99,15 +101,14 @@ registry, reported rather than fatal.
 - **`register-only`** — record the row; do not fetch. Outcome `skipped`.
 - **`pointer`** — the row names a source held elsewhere. Outcome `skipped`.
 - **`optional`** — skipped unless named by `--only`.
-- **`transcribe-or-skip`** — needs OCR. The OCR extractor is not wired up, so these are `skipped` with that
-  reason stated. See `extractors/ocr/README.md`.
+`ingest` says whether a row takes part, never how it is read. A scanned PDF is **`format: pdf`,
+`format_profile: scan`**: its bytes are a PDF and the magic-byte check says so, while the profile keeps the
+text extractor away — a scan handed to it returns a few characters and reports success. A row whose profile
+has no implementation yet (`scan`, `transcript`) keeps `ingest: chunk`, because it should chunk once its path
+exists, and is `skipped` before it is fetched with the profile and plan phase named.
 
-A row can also need OCR without saying so in `ingest`: **`format: pdf-scan`** means the PDF is page images
-with no text layer. Such a row keeps `ingest: chunk`, because it should chunk once OCR exists, and is
-`skipped` until then with `format is 'pdf-scan' and OCR is not enabled` as its reason. The format has to say
-it — a scanned PDF's magic bytes and MIME type are those of any other PDF, so nothing about the payload
-distinguishes it, and a plain `pdf` would be handed to the text extractor, which would return a few
-characters and report success. `pdf-scan` is one token and does not also register as `pdf`.
+A `general` PDF that extracts to fewer than 200 characters a page is refused as `scan_suspected` rather than
+published thin. A document that really is that sparse sets `qa.min_chars_per_page`.
 
 ### Path slugs
 
@@ -118,27 +119,29 @@ node id, so changing them costs a re-derive and never a re-embed.
 | --- | --- |
 | `org` | The organization that **issued** the document, as a slug: `nist`, `dod-cio`, `dfars`. Who wrote the document, not who may read it. |
 | `doc_id` | The publisher's own identifier: `sp-800-171`, `252.204-7012`, `cmmc-assessment-guide-l2`. Adopting the publisher's id rather than inventing one means the path is the string people already search for. |
-| `version_slug` | Path-friendly version: `r2u1`, `2.13`, `current`. Separate from `version`, which feeds `chunk_id` — a living clause reads `current` in the tree while its identity stays `unversioned`. |
-| `part` | Separates renditions of one document at one revision: `controls-json` vs `pdf`. Only needed where two rows would otherwise collide. |
+| `version_slug` | Path-friendly revision: `r2u1`, `2.13`, `2021-11`. Separate from `version`, which feeds `chunk_id`. It must name a revision: `current` on an `ingest: chunk` row is reported as `version_slug_not_revision`, because the next revision would be written over this one's directory. Pointer and register-only rows may keep it. |
 | `source_api` | Resolve this row through a publisher API instead of fetching `url` directly. `{"provider": "federal-register", "document_number": "2025-17359"}`, or `search` conditions in place of a document number. The `ecfr` provider takes `params`: `{"title": "32", "part": "170"}`, plus an optional `date` — omit it and the part is pinned to its own most recent amendment, which is reported as `as_of`. `url` stays set to the page a reader should be sent to — this says how to find the text behind it. Carries **no credential field**: a provider names the environment variable it reads, so no registry file can hold a secret. A search matching anything but exactly one document is an error listing the candidates, never a pick. |
 | `redistribute` | `true` asserts that the original file may be republished in this repository, which is where it is then archived. **Absent means no**: republishing a document is a claim about its licence, and the pipeline does not make that claim on a publisher's behalf. A withheld row is still fetched, archived and chunked, and its `derived/` artifacts are published exactly as any other row's — only the original file stays out, and the run report names it. |
 
 Artifacts land at:
 
-```
-derived/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/
-raw/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/          # published originals
-raw-withheld/{tier}/{org}/{doc_id}/{version_slug}[/{part}]/ # archived outside this repository
+```text
+derived/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/
+raw/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/          # published originals
+raw-withheld/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/ # archived outside this repository
+fallback/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/     # committed copies, found by convention
 ```
 
 Tier is the root so a public corpus is visibly public — anything outside `public/` in this repository is
 wrong at a glance, and a merge with any other corpus is a union of disjoint subtrees. Version sits last so
-revisions of one document are siblings: `nist/sp-800-171/r2u1`, `/r3`, later `/r4`.
+revisions of one document are siblings: `nist/sp-800-171/r2u1`, `/r3`, later `/r4`. The profile is last, so
+two forms of one document at one revision sit side by side: `r2u1/cprt-json` and `r2u1/nist-companion`.
 
-**Two rows resolving to the same directory fails stage 0**, like a duplicate id. The second would otherwise
-overwrite the first's artifacts while the run reported both as ingested. Give one a `part`.
+**Two rows resolving to the same directory fails stage 0**, like a duplicate id: it means the same form of the
+same document twice, and the second would otherwise overwrite the first's artifacts while the run reported
+both as ingested.
 
-Rows without these fields fall back to `{tier}/{reg_id}/{version}` and are reported, so the registry can be
+Rows without these fields fall back to `{tier}/{reg_id}/{version}/{format_profile}` and are reported, so the registry can be
 migrated a row at a time.
 
 ### Content rules
@@ -147,15 +150,15 @@ migrated a row at a time.
 | --- | --- |
 | `normativity_map` | **Normativity-first**: one entry per normativity, listing the block types that carry it — `{"requirement": ["statement"], "guidance": ["discussion", "800-53 mapping"], "example": []}`. Inverted once at load. The block-type-first spelling (`{"statement": "requirement"}`) is also accepted. Applied structurally, never inferred (invariant 8). An unmapped block type defaults to `guidance`, the conservative choice: labelling guidance as a requirement would invent an obligation the source does not state. Values: `requirement`, `guidance`, `example`, and `assertion` for a claim about how a named system satisfies an obligation — a system security plan's narrative, which derives `content_class: contextual` because it is not the obligation (ADR-0013). |
 | `sections.include` | Section names or clause numbers to keep. |
-| `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the row that carries the material instead. |
+| `sections.exclude` | `[{section, covered_by}]`. Dropped, counted, and attributed to the rows that carry the material instead. `covered_by` is one registry id or a list of them — a section can restate more than one document. A row may exclude without an include list; everything else is then kept. |
 | `language` | ISO 639-1 code, e.g. `en`. **Optional — `en` is assumed.** Every document this corpus names is published by a US federal body or a US standards organisation, so English is the default rather than something each row restates. A row may name more than one, separated by `/` — `en/fr` for genuinely bilingual material — and a paragraph in any declared language is on-language. Under `language_policy: single` it must name exactly one; `en/fr` is a registry error there. |
 | `language_policy` | `keep` (filter not engaged), `drop-other` (off-language paragraphs removed and counted), `report-only` (kept and reported), `single` (the row asserts its language; no identification, no language findings — see below). |
 | `multilingual` | `true` where the document genuinely mixes languages. Optional; **false** is assumed, and no row sets it today. It does not switch the filter off: off-language prose is still dropped or reported per `language_policy` either way. What it changes is whether an *ambiguous* paragraph is worth a line in the report — in a monolingual document that is noise, and in a genuinely multilingual one it is the point. Paragraphs with too little prose to judge, and ambiguous ones in a monolingual row, are counted as `paragraphs_language_unjudged` rather than listed. |
-| `select` | Which records of a multi-document source are this row's, as field/value pairs all of which must match: `{"domain_key": "AST"}`. Case-insensitive; a record missing the field does not match. Only a format whose chunker reads it may set it (`org-policy-json` and `org-ssp-json` today) — stage 0 refuses it elsewhere, because the row would otherwise be built from the whole source while appearing to select part of it. A selector matching nothing is an error finding, not an empty document. See ADR-0012. |
+| `select` | Which records of a multi-document source are this row's, as field/value pairs all of which must match: `{"domain_key": "AST"}`. Case-insensitive; a record missing the field does not match. Only a `format_profile` whose chunker reads it may set it (`org-policy-json` and `org-ssp-json` today) — stage 0 refuses it elsewhere, because the row would otherwise be built from the whole source while appearing to select part of it. A selector matching nothing is an error finding, not an empty document. See ADR-0012. |
 | `fields.include` | Allow-list for structured sources. Empty means "everything not dropped". |
 | `fields.drop` | Fields removed from structured sources. Every drop is a report line. |
 
-A section matched by neither list is **kept** and reported as `unclassified_section`. A section named on both
+Where a row has an include list, a section matched by neither list is **kept** and reported as `unclassified_section`. A section named on both
 lists fails stage 0. See ADR-0004.
 
 #### `language_policy: single`
@@ -209,7 +212,9 @@ revision that changes a count without waiting for a pipeline release.
 | `expected_requirements` | Exact count of distinct controls yielding a `statement` chunk. |
 | `expected_objectives` | Exact count of `determination` chunks. |
 | `min_pages` / `max_pages` | Page-count bounds for paged sources. |
-| `verify_against` | Registry id of the PDF row whose extracted text this row's statements are verified against. |
+| `verify_against` | Registry id of the PDF row whose extracted text this row's statements are verified against. That row must be `format_profile: nist-companion`, and every companion must be some row's target. |
+| `suppress_against` | Registry ids of the `cprt-json` rows whose statements a `cmmc-guide` row must not repeat. **Required on that profile**, and never inferred: a guide quoting 800-171 r2 names the r2 rows. |
+| `min_chars_per_page` | Lowers the 200-characters-a-page floor below which a PDF is refused as `scan_suspected`, for a document that really is that sparse. |
 | `verify_threshold` | Fraction of statements that must match. Defaults to `1.0`. |
 
 A JSON-primary row whose authored file is absent is marked `error` with the expected path named, and the run
@@ -241,6 +246,7 @@ registry drops them.
   "status": "active",
   "ingest": "chunk",
   "format": "json",
+  "format_profile": "cprt-json",
   "chunking": "One chunk per field per control.",
   "normativity_map": {
     "requirement": ["statement"],

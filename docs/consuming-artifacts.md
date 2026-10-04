@@ -42,7 +42,7 @@ corpus without trusting a version string.
 
 ## 3. Read the artifacts
 
-Per document, under `derived/{reg_id}/{version}/`:
+Per document, under `derived/public/{org}/{doc_id}/{version_slug}/{format_profile}/` — the manifest entry lists the exact paths:
 
 | File | Use |
 | --- | --- |
@@ -79,6 +79,7 @@ Every chunk carries:
 | Field | Use |
 | --- | --- |
 | `tier` | Always `public` here. Your discriminator after the merge. |
+| `visibility` | Who inside the organisation may be shown the chunk: `public` \| `internal` \| `technical` \| `cmmc-program` \| `security`. Always `public` here; non-public tiers carry the others. **Enforce it before a chunk reaches a reader.** The manifest entry carries the same field from the current registry, and wins where the two disagree: a reclassified document is not rebuilt until its source changes, so its chunks can hold the earlier value. |
 | `normativity` | `requirement` \| `guidance` \| `example` \| `assertion`, assigned structurally from the registry, never by a model. Filter to `requirement` when the question is about obligations, and to `assertion` when it is about how a named system satisfies them — a system security plan's content is `assertion`, which is a claim to be tested, not an obligation (ADR-0013). |
 | `framework_rev` | Filter to avoid mixing revisions in one answer. |
 | `authority` | Who published it. |

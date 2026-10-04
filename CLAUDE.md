@@ -18,13 +18,13 @@ republished?" before anything reads the row:
 
 | | committed | for |
 | --- | --- | --- |
-| `fallback/{tier}/{org}/{doc_id}/{version}/` | **yes** | rows with `redistribute: true` |
-| `fallback-withheld/{tier}/{org}/{doc_id}/{version}/` | **no** — gitignored | rows without it |
+| `fallback/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/` | **yes** | rows with `redistribute: true` |
+| `fallback-withheld/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/` | **no** — gitignored | rows without it |
 
 Most of what the registry names is United States federal government work and carries no copyright. Three
 rows are not: the **SCF catalog** and the Cyber AB's **CAP** and **CoPC**. Their text is derived and
 published; their original files must never be committed. The SCF workbook lives at
-`fallback-withheld/public/scf/scf-catalog/2026.3/` for local runs and stays there.
+`fallback-withheld/public/scf/scf-catalog/2026.3/scf-workbook/` for local runs and stays there.
 
 The pipeline errors if a non-redistributable row has a copy under `fallback/`, but `git add .` does not —
 so check the flag, not your memory.
@@ -61,7 +61,7 @@ change if you alter what a field means.
 - **A url must resolve to the document, not to a page about it.** A landing page produces
   `payload is 'html', not 'pdf'`. An index of documents is not a document: set `ingest: register-only` and
   add each real document as its own row — `REG-R05` and `REG-R04` are the worked example.
-- **Path slugs are exact.** Convention-based fallback discovery keys on `org`, `doc_id` and `version_slug`,
+- **Path slugs are exact.** Convention-based fallback discovery keys on `org`, `doc_id`, `version_slug` and `format_profile`,
   so a copy filed under a version the registry does not name is invisible. That is deliberate — guessing
   across versions is how a superseded snapshot gets served as current text.
 - **`status: planned` is the phase-in lever.** A planned row is skipped with its reason named, so a row can
