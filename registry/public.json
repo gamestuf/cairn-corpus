@@ -99,9 +99,12 @@
       "notes": "The 15 FCI safeguarding requirements; CMMC Level 1 basis. Chunking intent: whole clause + per requirement (b)(1)(i)-(xv).",
       "normativity_map": {
         "requirement": [
-          "clause text"
+          "clause text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "language": "en",
@@ -127,9 +130,12 @@
       "notes": "800-171 flow-down, 72-hour DIBNet reporting, cloud FedRAMP Moderate equivalency. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
-          "clause text"
+          "clause text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "language": "en",
@@ -155,9 +161,12 @@
       "notes": "SPRS score posting requirement (solicitation provision). Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01. Retained in registry so a consumer can reject it by ID and the bot can explain its removal. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
-          "provision text"
+          "provision text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "language": "en",
@@ -183,9 +192,12 @@
       "notes": "DoD Medium/High assessment access; basic self-assessment and SPRS-upload obligation removed under the RFO. Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve. Chunking intent: by paragraph. Published 2026-02 (RFO class deviation).",
       "normativity_map": {
         "requirement": [
-          "clause text"
+          "clause text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "aliases": [
@@ -216,9 +228,12 @@
       "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
-          "clause text"
+          "clause text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "language": "en",
@@ -244,9 +259,12 @@
       "notes": "Solicitation provision paired with 252.204-7021. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
-          "provision text"
+          "provision text",
+          "definition"
         ],
-        "guidance": [],
+        "guidance": [
+          "prescription"
+        ],
         "example": []
       },
       "language": "en",
@@ -1480,10 +1498,12 @@
       "notes": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation. Chunking intent: by section (170.x). Published 2024-10-15 (effective 2024-12-16).",
       "normativity_map": {
         "requirement": [
-          "rule text (170.x)"
+          "rule text",
+          "definition"
         ],
         "guidance": [
-          "Federal Register preamble / response to comments"
+          "regulatory note",
+          "appendix text"
         ],
         "example": []
       },
@@ -1521,10 +1541,12 @@
       ],
       "normativity_map": {
         "requirement": [
-          "rule text"
+          "rule text",
+          "definition"
         ],
         "guidance": [
-          "preamble"
+          "regulatory note",
+          "appendix text"
         ],
         "example": []
       },
@@ -1558,12 +1580,25 @@
       "notes": "Acquisition rule that places CMMC in contracts; source of clause text for REG-C05/REG-C06. Chunking intent: by amended section. Published 2025-09-10 (effective 2025-11-10).",
       "normativity_map": {
         "requirement": [
-          "amended clause text"
+          "rule text",
+          "clause text",
+          "provision text",
+          "definition"
         ],
         "guidance": [
-          "preamble"
+          "prescription",
+          "amendatory instruction",
+          "regulatory note"
         ],
         "example": []
+      },
+      "sections": {
+        "exclude": [
+          {
+            "section": "SUPPLEMENTARY INFORMATION:",
+            "covered_by": "REG-R07"
+          }
+        ]
       },
       "language": "en",
       "language_policy": "single",
@@ -1663,11 +1698,47 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "responses to comments",
-          "preamble"
+          "preamble",
+          "response"
         ],
         "example": [
-          "commenter scenarios"
+          "comment"
+        ]
+      },
+      "sections": {
+        "exclude": [
+          {
+            "section": "List of Subjects in 32 CFR Part 170",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "PART 170—CYBERSECURITY MATURITY MODEL CERTIFICATION (CMMC) PROGRAM",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Subpart A—General Information.",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Note 1 to paragraph (b):",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Subpart B—Government Roles and Responsibilities.",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Subpart C—CMMC Assessment and Certification Ecosystem.",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Subpart D—Key Elements of the CMMC Program",
+            "covered_by": "REG-R01"
+          },
+          {
+            "section": "Appendix A to Part 170—Guidance",
+            "covered_by": "REG-R01"
+          }
         ]
       },
       "language": "en",
@@ -1698,11 +1769,39 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "responses to comments",
-          "preamble"
+          "preamble",
+          "response"
         ],
         "example": [
-          "commenter scenarios"
+          "comment"
+        ]
+      },
+      "sections": {
+        "exclude": [
+          {
+            "section": "List of Subjects in 48 CFR Parts 204, 212, 217, and 252",
+            "covered_by": "REG-R03"
+          },
+          {
+            "section": "PART 204—ADMINISTRATIVE AND INFORMATION MATTERS",
+            "covered_by": "REG-R03"
+          },
+          {
+            "section": "Subpart 204.75—Cybersecurity Maturity Model Certification",
+            "covered_by": "REG-R03"
+          },
+          {
+            "section": "PART 212—ACQUISITION OF COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES",
+            "covered_by": "REG-R03"
+          },
+          {
+            "section": "PART 217—SPECIAL CONTRACTING METHODS",
+            "covered_by": "REG-R03"
+          },
+          {
+            "section": "PART 252—SOLICITATION PROVISIONS AND CONTRACT CLAUSES",
+            "covered_by": "REG-R03"
+          }
         ]
       },
       "confirm": [
@@ -1736,11 +1835,39 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "responses to comments",
-          "preamble"
+          "preamble",
+          "response"
         ],
         "example": [
-          "commenter scenarios"
+          "comment"
+        ]
+      },
+      "sections": {
+        "exclude": [
+          {
+            "section": "List of Subjects in 32 CFR Part 2002",
+            "covered_by": "REG-R02"
+          },
+          {
+            "section": "PART 2002—CONTROLLED UNCLASSIFIED INFORMATION (CUI)",
+            "covered_by": "REG-R02"
+          },
+          {
+            "section": "Subpart A—General Information",
+            "covered_by": "REG-R02"
+          },
+          {
+            "section": "Subpart B—Key Elements of the CUI Program",
+            "covered_by": "REG-R02"
+          },
+          {
+            "section": "Subpart C—CUI Program Management",
+            "covered_by": "REG-R02"
+          },
+          {
+            "section": "Appendix A to Part 2002—Acronyms",
+            "covered_by": "REG-R02"
+          }
         ]
       },
       "confirm": [

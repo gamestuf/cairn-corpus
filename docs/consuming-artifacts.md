@@ -87,6 +87,22 @@ Every chunk carries:
 | `section_anchor` | Stable within-document address. |
 | `page` | Page in the source PDF, where one is known. For citation. |
 | `terms` | Controlled vocabulary mentioned, from a closed list. |
+| `provision` | For a regulation chunk, the provision it is part of, as a canonical citation: `FAR 52.204-21`, `DFARS 252.204-7012`, `DFARS 204.7501`, `32 CFR 170.4`. Null elsewhere. |
+| `provision_title` | That provision's own title — "Safeguarding Covered Defense Information and Cyber Incident Reporting". Carried beside the text, so the regulation's words stay exactly its own. |
+| `references` | Provisions the chunk's text cites, in the same canonical form. Filter on it to find every chunk that invokes a clause or a section. |
+
+### Regulations meet at `Provision` nodes
+
+A regulation chunk's section links `IN_SECTION` to a `Provision` node named by its canonical citation —
+`provision:dfars_252.204-7012`, `provision:32_cfr_170.4` — and links `REFERENCES` to the `Provision` node of every
+provision its text cites. The id comes from the citation alone, so DFARS 252.204-7021 citing 32 CFR 170.4 and 32 CFR
+part 170's own § 170.4 name the same node: the cross-document join is already made. A `Provision` with an
+`IN_DOCUMENT` edge is held by this corpus; one without is cited but not held.
+
+Block types for regulations are `clause text`, `provision text`, `rule text`, `definition`, `prescription`,
+`amendatory instruction`, `regulatory note`, `appendix text`, and for a Federal Register rule's preamble
+`preamble`, `comment` and `response`. Section anchors are `{provision}({paragraph})/{type}`:
+`252.204-7012(b)/clause text`, `§ 170.4(b) Affirming Official/definition`.
 
 ### The graph's section nodes carry an anchor slug
 
