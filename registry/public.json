@@ -336,15 +336,22 @@
       "notes": "FCI self-assessment guidance. Chunking intent: by practice. Published 2024-09.",
       "normativity_map": {
         "requirement": [
-          "Assessment Objectives (verbatim 171A)"
+          "requirement",
+          "assessment objective"
         ],
         "guidance": [
-          "Discussion",
-          "Further Discussion",
-          "Potential Assessment Considerations"
+          "examine",
+          "interview",
+          "test",
+          "discussion",
+          "further discussion",
+          "assessment consideration",
+          "key references",
+          "footnote",
+          "prose"
         ],
         "example": [
-          "Examples"
+          "example"
         ]
       },
       "qa": {
@@ -376,16 +383,22 @@
       "notes": "Per-objective discussion, further discussion, and assessment considerations; second most-retrieved document after REG-N02. Chunking intent: by practice, sub-chunk per objective. Published 2024-09.",
       "normativity_map": {
         "requirement": [
-          "Assessment Objectives (verbatim 171A)"
+          "requirement",
+          "assessment objective"
         ],
         "guidance": [
-          "Discussion",
-          "Further Discussion",
-          "Potential Assessment Considerations",
-          "Key References"
+          "examine",
+          "interview",
+          "test",
+          "discussion",
+          "further discussion",
+          "assessment consideration",
+          "key references",
+          "footnote",
+          "prose"
         ],
         "example": [
-          "Examples"
+          "example"
         ]
       },
       "qa": {
@@ -409,23 +422,30 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "cmmc-guide",
-      "notes": "Only if Level 3 questions are expected. Chunking intent: by practice. Published 2024-09.",
+      "notes": "Only if Level 3 questions are expected. Authoritative for Level 3, as REG-D03 is for Level 2 (decided 2026-10-04); its restatements of NIST SP 800-172/172A are dropped where REG-N10/N11 hold them (qa.suppress_against). Chunking intent: by practice. Published 2024-09.",
       "normativity_map": {
         "requirement": [
-          "Assessment Objectives"
+          "requirement",
+          "assessment objective"
         ],
         "guidance": [
-          "Discussion",
-          "Further Discussion",
-          "Potential Assessment Considerations"
+          "examine",
+          "interview",
+          "test",
+          "discussion",
+          "further discussion",
+          "assessment consideration",
+          "key references",
+          "footnote",
+          "prose"
         ],
         "example": [
-          "Examples"
+          "example"
         ]
       },
       "qa": {
@@ -778,36 +798,26 @@
       "ingest": "chunk",
       "notes": "Introduction, fundamentals (basic vs derived requirements, CUI framing), references, glossary, acronyms, 800-53/ISO mapping, tailoring criteria and NFO controls — the material business users' 'what is' questions land on. Same PDF as used to verify and page-enrich REG-N01; one fetch, two registry rows. Chunking intent: by heading; Appendix B → Term nodes (defined_in: 800-171r2); Appendix D → MAPS_TO edges; Appendix E → NFO list; Appendix F skipped (discussion comes from REG-N01 JSON). Published 2021-01-28.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1–2",
-          "appendix E tailoring criteria"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
       "language": "en",
       "language_policy": "single",
-      "sections": {
-        "include": [
-          "CHAPTER ONE",
-          "CHAPTER TWO",
-          "APPENDIX A",
-          "APPENDIX B",
-          "APPENDIX C",
-          "APPENDIX D",
-          "APPENDIX E",
-          "TABLE 1",
-          "FIGURE 1",
-          "TABLE D",
-          "TABLE E"
-        ],
-        "exclude": [
-          {
-            "section": "CHAPTER THREE",
-            "covered_by": "REG-N01"
-          }
-        ]
-      },
       "org": "nist",
       "doc_id": "sp-800-171",
       "version_slug": "r2u1"
@@ -863,34 +873,26 @@
       "ingest": "chunk",
       "notes": "Assessment procedure fundamentals and method definitions — answers 'what does examine mean' and 'what is an assessment objective'. Same PDF as used to verify and page-enrich REG-N02. Chunking intent: by heading; assessment method definitions (examine / interview / test, depth and coverage) → Term nodes. Published 2018-06.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1–2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
       "language": "en",
       "language_policy": "single",
-      "sections": {
-        "include": [
-          "CHAPTER ONE",
-          "CHAPTER TWO",
-          "APPENDIX A",
-          "APPENDIX B",
-          "APPENDIX C",
-          "APPENDIX D",
-          "TABLE 1",
-          "FIGURE 1",
-          "TABLE D"
-        ],
-        "exclude": [
-          {
-            "section": "CHAPTER THREE",
-            "covered_by": "REG-N02"
-          }
-        ]
-      },
       "org": "nist",
       "doc_id": "sp-800-171a",
       "version_slug": "initial"
@@ -952,10 +954,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed Rev 3: front matter, chapter 1-2 framing and appendices, and the text REG-N03's CPRT export is verified against. Same publication as REG-N03, fetched as the PDF. Supplies page numbers to REG-N03's chunks and is the authority its statements are checked against. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
@@ -1021,10 +1034,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed Rev 3 assessment guide: procedure fundamentals and method definitions, and the text REG-N04's CPRT export is verified against. Same publication as REG-N04, fetched as the PDF. Supplies page numbers to REG-N04's chunks and is the authority its determinations are checked against. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
@@ -1191,10 +1215,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed 800-172: chapters 1-2, the adversary-effects framing and appendices, and the text REG-N10's CPRT export is verified against. Same publication as REG-N10, fetched as the PDF. Supplies page numbers to REG-N10's chunks and is the authority its requirements are checked against. Chunking intent: by heading. Published 2021-02.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
@@ -1258,10 +1293,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed 800-172A: assessment procedure fundamentals and method definitions, and the text REG-N11's CPRT export is verified against. Same publication as REG-N11, fetched as the PDF. Supplies page numbers to REG-N11's chunks and is the authority its determinations are checked against. Chunking intent: by heading. Published 2022-03.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
@@ -1331,10 +1377,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed Rev 3 enhanced requirements, and the text REG-N12's CPRT export is verified against. Same publication as REG-N12, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
@@ -1400,10 +1457,21 @@
       "format_profile": "nist-companion",
       "notes": "The printed Rev 3 enhanced assessment procedures, and the text REG-N13's CPRT export is verified against. Same publication as REG-N13, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
       "normativity_map": {
-        "requirement": [],
+        "requirement": [
+          "requirement",
+          "assessment objective"
+        ],
         "guidance": [
-          "chapters 1-2",
-          "appendices"
+          "discussion",
+          "examine",
+          "interview",
+          "test",
+          "references",
+          "protection strategy",
+          "adversary effects",
+          "organization-defined parameters",
+          "withdraw_reason",
+          "prose"
         ],
         "example": []
       },
