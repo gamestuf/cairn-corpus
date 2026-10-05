@@ -50,13 +50,14 @@ Per document, under `derived/public/{org}/{doc_id}/{version_slug}/{format_profil
 | `vectors.jsonl` | Dense (1024-d, normalized) and sparse embeddings, keyed by `chunk_id` |
 | `nodes.jsonl` / `edges.jsonl` | The graph |
 | `text.md` | The whole document, for display or re-chunking |
+| `scf-id-map.json` | The SCF workbook (`REG-F01`) only: SCF's legacy ids → 2026.3 ids (see *SCF ids have an edition*) |
 
-All are JSON Lines: stream them, do not load them whole.
+The `.jsonl` files are JSON Lines: stream them, do not load them whole.
 
 ## 4. Join on `chunk_id`
 
 `chunk_id = sha256(reg_id + "|" + version + "|" + section_anchor + "|" + normalized_text)`, and node ids are
-equally derived (`control:3.1.1`, `objective:3.1.1[a]`, `section:REG-D03:v2.13:3.1.1`, `scf:IAC-01:2026.2`,
+equally derived (`control:3.1.1`, `objective:3.1.1[a]`, `section:REG-D03:v2.13:3.1.1`, `scf:2026.3:IAC-01`,
 `term:cui`, `document:REG-N01`). No id is ever assigned by a database.
 
 This is what makes the merge a plain equality join:
@@ -83,7 +84,9 @@ Every chunk carries:
 | `normativity` | `requirement` \| `guidance` \| `example` \| `assertion`, assigned structurally from the registry, never by a model. Filter to `requirement` when the question is about obligations, and to `assertion` when it is about how a named system satisfies them — a system security plan's content is `assertion`, which is a claim to be tested, not an obligation (ADR-0013). |
 | `framework_rev` | Filter to avoid mixing revisions in one answer. |
 | `authority` | Who published it. |
-| `control_ids` / `scf_ids` | Crosswalks. `control_ids` holds NIST SP 800 control ids in canonical form: 800-171 `3.1.1` (Rev 2) or `03.01.01` (Rev 3), 800-172 `3.1.1e` or `03.01.01E`, 800-53 `AC-02(01)` — zero-padded, whatever the source printed; an 800-53 control that 800-171 Rev 2 Appendix E labels `NFO AC-1` is `AC-01`. `scf_ids` holds SCF control ids, `GOV-01` or `GOV-01.1`. Ids found in text are kept only when they are valid in that form, so a section number like `3.15.1` is never one; an id a source file sets that is not valid is kept and reported in the run. |
+| `control_ids` / `scf_ids` | Crosswalks. `control_ids` holds NIST SP 800 control ids in canonical form: 800-171 `3.1.1` (Rev 2) or `03.01.01` (Rev 3), 800-172 `3.1.1e` or `03.01.01E`, 800-53 `AC-02(01)` — zero-padded, whatever the source printed; an 800-53 control that 800-171 Rev 2 Appendix E labels `NFO AC-1` is `AC-01`. `scf_ids` holds SCF control ids, `GOV-02` or `GOV-01.1`, **always in the current SCF edition (2026.3)** — see *SCF ids have an edition* below. Control ids found in text are kept only when they are valid in that form, so a section number like `3.15.1` is never one; an id a source file sets that is not valid is kept and reported in the run. |
+| `scf_legacy_ids` | The SCF ids as the source wrote them, where it wrote them in the numbering before 2026.3 — each one's 2026.3 id is in `scf_ids`. Absent otherwise (always absent in this corpus's own documents). Transitional: it goes when the documents that use the old numbers are converted. |
+| `attributes` | Facts the source states about the element that are not text to retrieve, as string pairs. On the SCF workbook: a control's `domain`, `cadence`, `weighting` (1–10), `pptdf` and `errata`; an assessment objective's `sdp` (SCF's recommended parameter value), `pptdf`, `rigor`, `notes`, and `origin` (`SCF Created` where it has no external source); an evidence request's `area`; a risk's or threat's `grouping` and `csf_function`; a focal document's `geography`, `column`, `source`, `url` and `strm_url`. Absent where there are none. |
 | `section_anchor` | Stable within-document address. |
 | `page` | Page in the source PDF, where one is known. For citation. |
 | `ocr_confidence` | For text recognised from a scanned PDF, the OCR engine's mean word confidence (0–100) on the chunk's page. Absent for text read from a text layer. Weigh or filter on it: below 60 the run also reported the page. |
@@ -91,7 +94,62 @@ Every chunk carries:
 | `provision` | For a regulation chunk, the provision it is part of, as a canonical citation: `FAR 52.204-21`, `DFARS 252.204-7012`, `DFARS 204.7501`, `32 CFR 170.4`. For a CMMC assessment guide chunk, the practice: `AC.L2-3.1.1`, `AC.L1-b.1.i`, `AC.L3-3.1.2e` — its `control_ids` hold the NIST requirement the practice is (`3.1.1`, `3.1.2e`). Null elsewhere. |
 | `provision_title` | That provision's own title — "Safeguarding Covered Defense Information and Cyber Incident Reporting". Carried beside the text, so the regulation's words stay exactly its own. |
 | `references` | Provisions the chunk's text cites, in the same canonical form. Filter on it to find every chunk that invokes a clause or a section. |
-| `relations` | Typed links the source itself states from this chunk's element, each `{kind, target, target_framework, target_version}`. From the NIST CPRT exports: `maps-to` (an 800-171 r3 or 800-172 requirement to the 800-53 controls it derives from), `related-control` (between 800-53 controls), `incorporated-into` and `moved-to` (where a withdrawn requirement went), `addressed-by`. `target_framework` and `target_version` name the target's document and revision (`SP_800_53`, `5.1.1`) when it is another document, and are absent when the target is in this one. Recorded whether or not the corpus holds the target. Empty elsewhere. |
+| `relations` | Typed links the source itself states from this chunk's element, each `{kind, target, target_framework, target_version, qualifier}`. From the NIST CPRT exports: `maps-to` (an 800-171 r3 or 800-172 requirement to the 800-53 controls it derives from), `related-control` (between 800-53 controls), `incorporated-into` and `moved-to` (where a withdrawn requirement went), `addressed-by`. `target_framework` and `target_version` name the target's document and revision (`SP_800_53`, `5.1.1`) when it is another document, and are absent when the target is in this one. `qualifier`, where present, is what the source says about the link itself — an SCF risk's likelihood, a mapping's form. Recorded whether or not the corpus holds the target. The SCF workbook's kinds are listed in its section below. Empty elsewhere. |
+
+### SCF ids have an edition
+
+SCF 2026.3 renumbered its catalogue and gave 700 of the old numbers to *other* controls: legacy `GOV-01` is 2026.3
+`GOV-02`, and 2026.3 `GOV-01` is a new control. An SCF id therefore means nothing without its edition, and the corpus
+never reads one without it:
+
+- `scf_ids` holds 2026.3 ids only. A document written in the old numbering declares so in the registry
+  (`scf_edition: legacy`); its ids are translated through the SCF id map, and the ids as written stay in
+  `scf_legacy_ids`.
+- **The SCF id map** is `scf-id-map.json`, beside `REG-F01`'s chunks in
+  `derived/public/scf/scf-catalog/2026.3/scf-workbook/`: every 2026.3 id (`ids`), and every legacy id with the 2026.3
+  id it resolves to and how (`legacy`: `{"GOV-01": {"id": "GOV-02", "how": "renumbered"}}`; `how` is `renumbered`,
+  `merged` or `unchanged`), with the edition, the edition it translates from, and the hash of the workbook it was
+  built from. It holds ids only. A build that reads SCF ids in another numbering uses it and records it in its
+  manifest under `scf_maps` (edition, path, SHA-256).
+- In the graph an SCF node is named by edition: `scf:2026.3:GOV-02`, labelled `ScfControl`, with `scf_id` and
+  `scf_edition`. An id written in the old numbering has its own node, `scf:legacy:GOV-01`, with a `RENUMBERED_TO` edge
+  to the 2026.3 node; the SCF workbook's graph carries all 1,534 of those edges, so the renumbering itself can be
+  traversed.
+- SCF-shaped ids found in prose are recorded only where the registry row says its text cites SCF
+  (`scf_ids_from_text`), because the same shape is used by other numbering schemes — process codes, form numbers.
+
+### The SCF workbook (`REG-F01`)
+
+The SCF 2026.3 workbook is read into one chunk per element, every one `authority: derived` (never cited as an
+obligation; `content_class: informative`). Section anchors are `{id}/{type}`:
+
+| `block_type` | Anchor | `scf_ids` | `control_ids` |
+| --- | --- | --- | --- |
+| `control` | `GOV-02/control` | its own id | The NIST controls SCF maps it to: 800-53 (`PM-01`), 800-171 Rev 2 (`3.1.1`) and Rev 3 requirements (`03.15.01`), 800-172 (`03.01.17E`), CMMC Level 2 and 3 practices as their NIST requirement |
+| `control question`, `control risk`, `possible solutions` | `GOV-02/control question` … | the control's | — |
+| `assessment objective` | `GOV-02_A01/assessment objective` | the control's | — |
+| `evidence request` | `E-GOV-07/evidence request` | the controls it evidences | — |
+| `domain`, `risk`, `threat`, `focal document` | `GOV/domain`, `R-AC-1/risk`, `NT-1/threat`, `general-nist-800-171-r2/focal document` | — | — |
+
+`possible solutions` is `example` normativity (SCF's suggestions by business size, often naming products); the rest
+are `guidance`. A control's `relations` carry its mappings and links:
+
+| `kind` | Target |
+| --- | --- |
+| `maps-to` | An id in another framework. `target_framework` is the framework's identifier in SCF's Focal Documents sheet (`general-nist-800-171-r2`, `general-nist-800-171-r3`, `general-nist-800-53-r5-2`, `usa-federal-dow-cmmc-2-level-2`, `usa-federal-far-52-204-21`, `general-iso-27001-2022`, …). Ids are canonical: `CM.L2-3.4.1`, `AC.L1-b.1.iv`, `CM-08(05)`, 800-171 Rev 3 statement parts `03.15.01.a`, clause paragraphs `252.204-7012(b)(2)(ii)(D)`. `qualifier: nfo` marks an 800-53 control SCF lists under 800-171 Rev 2's Appendix E (`NFO`). ITSP-10-171 targets are 800-171 Rev 3 ids; its focal document `adopts` 800-171 Rev 3 and is `assessed-by` 800-171A Rev 3. |
+| `renumbered-from` | A legacy id (`target_framework: scf`, `target_version: legacy`, `qualifier`: how) |
+| `evidenced-by`, `compensated-by` | An evidence request (`E-GOV-07`), another control |
+| `addresses-risk`, `addresses-threat` | `R-AC-1`, `NT-1`, with `qualifier` the likelihood, `Possible` or `Likely` (SCF's `Unlikely` cells are not recorded) |
+
+An assessment objective's relations: `derived-from` the objective it comes from (800-53A Rev 5 `PM-01a.[01]` under
+`general-nist-800-53a-r5`, 800-171A `3.4.9[a]`, 800-171A Rev 3 `A.03.01.01.a[01]`, 800-172A `3.4.1e[c]` under
+`general-nist-800-172a`); `maps-to` a CMMC Level 1 objective (`AC.L1-b.1.i[c]`); `reciprocal-of` another SCF
+objective. An evidence request `evidences` its controls and the CMMC Level 2 practices SCF names.
+
+**How the frameworks meet.** A `control` chunk's `scf:2026.3:…` node links `IN_SECTION` to the chunk's section, and
+every NIST control in its `control_ids` links `MAPS_TO` that node — so `control:3.1.1` reaches the SCF controls the
+catalogue maps it to. Any other chunk that carries an SCF id `CITES` the same node. A merged corpus whose documents
+cite SCF controls, in either numbering, therefore joins to 800-171 through `scf:2026.3:…` with no further work.
 
 ### Regulations meet at `Provision` nodes
 

@@ -635,8 +635,8 @@
     },
     {
       "id": "REG-F01",
-      "document_number": "SCF 2026.2",
-      "title": "Secure Controls Framework (SCF) — Control Catalog and Set Theory Relationship Mappings (STRM)",
+      "document_number": "SCF 2026.3",
+      "title": "Secure Controls Framework (SCF) 2026.3 — Control Catalog, Assessment Objectives and Evidence Request List",
       "version": "2026.3",
       "url": "https://raw.githubusercontent.com/securecontrolsframework/securecontrolsframework/main/secure-controls-framework-scf-2026-3.xlsx",
       "tier": "public",
@@ -646,18 +646,41 @@
         "Confirm whether the SCF's terms permit republishing the catalog file itself here. Held back meanwhile: the derived text is published, the original is not."
       ],
       "authority": "corroborating",
-      "status": "planned",
+      "authority_map": {
+        "derived": [
+          "control",
+          "control question",
+          "control risk",
+          "possible solutions",
+          "assessment objective",
+          "evidence request",
+          "domain",
+          "risk",
+          "threat",
+          "focal document"
+        ]
+      },
+      "status": "active",
       "ingest": "chunk",
       "format": "xlsx",
       "format_profile": "scf-workbook",
-      "notes": "STRM sheets for 800-171 R2, 800-171A, 800-53 R5, CMMC 2.0 L2, FAR 52.204-21 ingested as MAPS_TO edges pinned to scf_version; SCF control text stored as derived and never cited for posture. authority applies to STRM edges; SCF control-text nodes carry authority=derived. Chunking intent: STRM rows -> edges; control text -> derived nodes. Published 2026-07-07.",
+      "scf_edition": "2026.3",
+      "notes": "The SCF 2026.3 workbook, read by the scf-workbook parser (PLAN Phase 10). Imported: the catalogue (1,591 controls: description, question, risk if not implemented, possible solutions by business size, cadence, weighting, PPTDF, errata), its mappings to NIST 800-53 R5.2, 800-171 R2/R3, 800-171A R2/R3, 800-172 R3, 800-172A R3, CMMC 2.0 L1/L1 AOs/L2/L3, DFARS 252.204-7012, FAR 52.204-21/-25/-27, DEFSTAN 05-138 L1-L3, ITSP-10-171 (= 800-171 R3) and ISO 27001/27002 (external) as maps-to relations named by the Focal Documents identifier; the assessment objectives with their origins (derived-from 800-53A/800-171A/800-172A objectives) and CMMC L1 AOs; the evidence request list; domains; the risk and threat catalogues (Possible and Likely kept, Unlikely skipped); the focal documents. READ THIS builds the SCF id map (scf-id-map.json beside the chunks), through which every row declaring scf_edition 'legacy' is read. The workbook holds no STRM sheets: the set-theory mappings are behind the Focal Documents' STRM URLs, recorded and not fetched. Every chunk carries authority=derived and is never cited for posture; the row's corroborating authority is the mapping relations'. Published 2026-07-07; 2026.3 renumbered the catalogue.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "STRM relationship notes"
+          "control",
+          "control question",
+          "control risk",
+          "assessment objective",
+          "evidence request",
+          "domain",
+          "risk",
+          "threat",
+          "focal document"
         ],
         "example": [
-          "SCF control text (paraphrase)"
+          "possible solutions"
         ]
       },
       "language": "en",
