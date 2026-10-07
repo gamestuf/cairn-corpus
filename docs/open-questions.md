@@ -15,7 +15,7 @@ Reviewed 2026-10-06 against the registry (59 rows) and the newest build report, 
 already, from the paired PDF rows (`REG-N01b` … `N13b`); the JSON rows would add NIST's own element structure. Several
 (`N02`–`N04`, `N11`, `N12`) fail verification against their PDF at the 100% threshold on real wording differences
 between NIST's two renditions. To decide, per row: accept the difference with a recorded `qa.verify_threshold`, or
-hold the row until NIST reconciles them. Tracked in the pipeline's `PLAN.md`, *Decisions to be made*. `REG-N01`'s
+hold the row until NIST reconciles them. Tracked in the pipeline's `Support/PLAN.md`, *Decisions to be made*. `REG-N01`'s
 `confirm` (was the JSON produced from Rev 2 Update 1?) is answered when that row is activated.
 
 ### 2. Waiting on a source

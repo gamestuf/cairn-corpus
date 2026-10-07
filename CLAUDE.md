@@ -3,7 +3,7 @@
 **This repository is public.** Everything committed here is visible to anyone. Read §1 before adding a file.
 
 This is data only. The pipeline that builds it is [`cairn-pipeline`](https://github.com/gamestuf/cairn-pipeline),
-a private repository; its `DESIGN_GUIDE.md` and `PLAN.md` explain how everything here is produced.
+a private repository; its `Support/DESIGN_GUIDE.md` and `Support/PLAN.md` explain how everything here is produced.
 
 | | |
 | --- | --- |
@@ -34,7 +34,7 @@ internal infrastructure. That last one includes prose inside `notes` and `corpus
 happened before, and once pushed it is in the history whether or not the file is later edited.
 
 **Check for sensitive words before handing back any change.** The pipeline repository keeps the list of
-names that must never appear here, with the commands that check for them, in its `SENSITIVE-WORDS.md`. Run
+names that must never appear here, with the commands that check for them, in its `Support/SENSITIVE-WORDS.md`. Run
 those commands; they must print nothing. The list stays in the pipeline repository — never copy it, or any
 term from it, into this one. Examples in `docs/` are invented, never taken from a private document's
 headings, text or figures.
