@@ -1,196 +1,94 @@
 # Open questions
 
-Everything the corpus is waiting on, in one place.
+Everything the corpus is waiting on, in one place, grouped by *what would unblock it*. The registry carries the
+same items as per-row `confirm` entries, and every run report repeats them.
 
-The registry already carries these as per-row `confirm` items, and every run report repeats them — but 21
-items spread across 43 rows is a list nobody works through. This is the same information grouped by *what
-would unblock it*, so each section has a single kind of answer.
+Reviewed 2026-10-06 against the registry (59 rows) and the newest build report, `reports/20261006T081442Z.json`:
+**41 rows built, 18 skipped by design, none errored.** Eight `confirm` items remain, on seven rows.
 
-Counts and causes below are from the last real build, `reports/35585084424-1.json`. They are what actually
-happened, not an estimate.
+## Still open
 
-## Where the corpus stands
+### 1. Decisions only you can make
 
-**11 of 43 rows produced artifacts.** 24 errored, 8 were deliberately skipped.
+**1.1 The NIST CPRT JSON rows.** `REG-N01`–`N04` and `REG-N10`–`N13` are `planned`. Their text is in the corpus
+already, from the paired PDF rows (`REG-N01b` … `N13b`); the JSON rows would add NIST's own element structure. Several
+(`N02`–`N04`, `N11`, `N12`) fail verification against their PDF at the 100% threshold on real wording differences
+between NIST's two renditions. To decide, per row: accept the difference with a recorded `qa.verify_threshold`, or
+hold the row until NIST reconciles them. Tracked in the pipeline's `PLAN.md`, *Decisions to be made*. `REG-N01`'s
+`confirm` (was the JSON produced from Rev 2 Update 1?) is answered when that row is activated.
 
-| | rows | |
-| --- | ---: | --- |
-| Produced artifacts | 11 | `REG-R01` `R02` `R03` `C01` `C02` `C04` `C05` `C06` `F03` `R06` `R07` |
-| Errored | 24 | see below |
-| Skipped by design | 8 | `C03` superseded · `D07` `D10` register-only · `D08` needs OCR · `D11` optional · `S02` `S03` `S04` pointers |
-
-Every error falls into one of four causes, and each has a different fix:
-
-| cause | rows | what fixes it |
-| --- | ---: | --- |
-| URL is a landing page, not the document | 11 | the real asset URL |
-| Publisher returns HTTP 403 to CI | 9 | a committed copy in `sources/` |
-| TLS handshake fails | 2 | a committed copy in `sources/` |
-| Local file never supplied | 2 | the file |
-
-None of this is a pipeline defect — every one of the 24 is a counted, attributed line in the report, which
-is invariant 2 working. They are inputs the corpus does not yet have.
-
----
-
-## 1. Decisions only you can make
-
-No external access needed. Each is blocking something concrete.
-
-### 1.1 Redistribution of three non-federal documents
-
-`REG-F01` (SCF catalog), `REG-F02` (Cyber AB CAP), `REG-F03` (Cyber AB CoPC) set `redistribute: false`, so
-their original files are archived outside this repository. Their derived text is published as usual.
-
-Forty rows are United States federal government work and carry no copyright. These three come from private
-bodies under their own terms, and republishing a document is a claim about its licence that the pipeline
-should not make on a publisher's behalf.
-
-**To decide:** whether each publisher's terms permit republishing the original file here. A yes is one
-field per row.
-
-> `REG-F02` was held on my initiative, not on instruction — the ask named the SCF and the CoPC. It is the
-> same publisher under the same terms as the CAP, which is why. If that reasoning does not hold, it is a
-> one-line change.
-
-### 1.2 `REG-R03` and `REG-R07` are one document
-
-Both resolve to FR Doc. 2025-17359 (90 FR 43560), split by normativity:
-
-| row | authority | takes |
-| --- | --- | --- |
-| `REG-R03` | `authoritative` | amended clause text → **requirement** |
-| `REG-R07` | `corroborating` | preamble, comment responses → **guidance** |
-
-That split was already implied by the registry's own fields; nobody had stated it. One fetch serves both,
-which the report notes as reused bytes — the same idiom `REG-N01`/`REG-N01b` uses.
-
-**To decide:** whether the split is intended, and whether the two should share a `doc_id` with distinct
-`part`s rather than carrying separate ones (`dfars-case-2019-d041` and `90-fr-43560`).
-
-### 1.3 Version slugs for the two living regulations
-
-`REG-R01` and `REG-R02` read `version_slug: final-rule`, which does not say which text a chunk came from.
-The eCFR now resolves each part to its own most recent amendment date, reported as `as_of`.
-
-**To decide:** whether to pin `version_slug` to that date. **Changing it reissues the row's chunk ids**, so
-it costs a re-embed, not just a re-derive. That is why it is a question and not a cleanup.
-
-### 1.4 `REG-R02`: Part 2002 or Part 2000
-
-The source list said Part 2000 (ISOO classified-information procedures). Part 2002 (Controlled Unclassified
-Information) was assumed, because that is the CUI rule and this is a CUI corpus. **Confirm.**
-
----
-
-## 2. Rows blocked on a real source URL
-
-These 11 rows point at a publication landing page. The fetch succeeds, returns HTML, and the magic-byte
-check rejects it — correctly, because a landing page is not the document.
-
-| row | document | current url |
-| --- | --- | --- |
-| `REG-N01b` | SP 800-171 r2u1 (PDF) | `csrc.nist.gov/pubs/sp/800/171/r2/upd1/final` |
-| `REG-N02b` | SP 800-171A (PDF) | `csrc.nist.gov/pubs/sp/800/171/a/final` |
-| `REG-N03` | SP 800-171 r3 | `csrc.nist.gov/pubs/sp/800/171/r3/final` |
-| `REG-N04` | SP 800-171A r3 | `csrc.nist.gov/pubs/sp/800/171/a/r3/final` |
-| `REG-N05` | SP 1318 | `nist.gov/publications/protecting-...` |
-| `REG-N06` | SP 1352 | `nist.gov/news-events/news/2026/09/...` |
-| `REG-N07` | SP 800-53 r5 (OSCAL) | `csrc.nist.gov/pubs/sp/800/53/r5/upd1/final` |
-| `REG-N08` | SP 800-53A r5 (OSCAL) | `csrc.nist.gov/pubs/sp/800/53/a/r5/final` |
-| `REG-N09` | CSF 2.0 | `nist.gov/cyberframework` |
-| `REG-F01` | SCF catalog | `securecontrolsframework.com/free-content/scf-download` |
-| `REG-F02` | CMMC CAP | `cyberab.org/` |
-
-**To do:** follow each landing page to the asset it links and record that url instead.
-
-Two notes that may save time. NIST publishes its PDFs on `nvlpubs.nist.gov` under a predictable path, and
-the OSCAL renderings of SP 800-53 live in NIST's own `oscal-content` repository rather than on `csrc` at
-all — so `REG-N07` and `REG-N08` may want a url in a different host entirely. **I have not verified any
-candidate url**: this session cannot reach those hosts, and a guessed url in the registry is worse than an
-honest landing page, because it would fail somewhere less obvious.
-
-`REG-F02`'s url is `cyberab.org/` — the site root. Like `REG-R03` before it, that one was never going to
-resolve to a document.
-
----
-
-## 3. Rows blocked on publisher access
-
-The publisher refuses CI, or the handshake fails. This is what `sources/` and `fallback_path` exist for.
-
-| cause | rows |
-| --- | --- |
-| HTTP 403 | `REG-S01` `REG-D01` `REG-D02` `REG-D03` `REG-D04` `REG-D05` `REG-D06` `REG-D09` `REG-S05` |
-| TLS handshake | `REG-R04` `REG-R05` |
-
-Seven of the nine 403s are `dodcio.defense.gov` — the CMMC model overview, all three assessment guides,
-both scoping guides, and the NIST-alignment briefing. That is most of the CMMC document set.
-
-**To do:** fetch each from a browser, commit it under `sources/{reg_id}/`, and point the row at it with
-`fallback_path`. See [`sources/README.md`](../sources/README.md) for when a copy belongs there and what
-using one costs.
-
-> Once the pending PRs land this gets cheaper over time, not more expensive: an original fetched
-> successfully **once** is committed to `raw/` and becomes that row's fallback for every later run. A
-> hand-committed copy is then only needed for a document that has *never* been reachable — which is
-> exactly this list, and no more of it.
-
-`REG-R05` additionally declares `pdf` while its url ends `.html`, so it has two problems.
-
----
-
-## 4. Rows blocked on a document nobody has supplied
+### 2. Waiting on a source
 
 | row | waiting for |
 | --- | --- |
-| `REG-N01` | machine-readable 800-171 Rev. 2 control text |
-| `REG-N02` | machine-readable 800-171A objective text |
-| `REG-D07` | a canonical publisher url for the CMMC 101 Brief; then set `ingest` back to `chunk` |
-| `REG-D10` | a canonical publisher url for the SPRS briefing; then set `ingest` back to `chunk` |
+| `REG-R04` | A fresh copy of Class Deviation 2024-O0013 Rev 1. The publisher returns 403, so the row builds from the copy archived 2026-10-06 (`archive_used`). Also `confirm`: is Rev 1 still current, and not rescinded or superseded? |
+| `REG-R05` | The deviation number(s) of the 2026-02-01 Revolutionary FAR Overhaul class deviations covering Subpart 204.73. The url is DPCAP's index, so the row is `register-only`; each deviation then gets its own row, as `REG-R04` does. |
+| `REG-D07` | The CMMC 101 Brief's canonical publisher url and its version/date; then `ingest` goes back to `chunk`. |
+| `REG-D10` | The SPRS briefing's canonical publisher url (`planned`). |
 
-`REG-N01` and `REG-N02` are the two rows the whole 800-171 chunking design is built around — one chunk per
-field per control, verified against the paired PDF. They are JSON-primary by design, so they error rather
-than falling through to their url, which is a landing page. Until those files exist the corpus has no
-800-171 control text at all.
+### 3. Editions to confirm
 
----
+| row | held | question |
+| --- | --- | --- |
+| `REG-F02` CMMC Assessment Process | v2.0, 16 Dec 2024 (its revision table; the text still invites comments on the "DRAFT CAP v2.0") | A rule-alignment update was announced for December 2025. Is a later edition published? |
+| `REG-F03` CMMC Code of Professional Conduct | v2.0, 16 Dec 2024 | A v2.1a has circulated. Which is current? |
+| `REG-S05` FedRAMP Moderate equivalency memo | DoD CIO memorandum, 2023-12-21 | Does any later DoD CIO guidance supersede it? (The url is confirmed: it builds.) |
 
-## 5. Editions to confirm at ingest
+### 4. Rows not activated yet
 
-Lower stakes: each row works, but nobody has confirmed it is the current edition.
+Not blockers. `REG-N09` (CSF 2.0) and `REG-N51` (SP 800-53A) are `planned`. `REG-D08` (the CMMC overview briefing,
+audio) is `planned` and would need a transcript. `REG-D11` is `planned` and optional. `REG-S03` and `REG-S04` are
+pointers, also `planned`.
 
-| row | question |
-| --- | --- |
-| `REG-N01` | was the JSON produced from Rev 2 Update 1 (2021-01-28 errata)? |
-| `REG-C02` | record the clause edition date shown on acquisition.gov |
-| `REG-C03` | confirm elimination and effective date |
-| `REG-C04` | confirm renumbering and text |
-| `REG-S01` | record current change number and date |
-| `REG-D07` | record version and date from the document |
-| `REG-F02` | a rule-alignment update was announced for Dec 2025 |
-| `REG-F03` | a v2.1a has circulated; which is current? |
-| `REG-R04` | confirm current revision, and that it is not rescinded or superseded |
-| `REG-R05` | identify the specific deviation number(s) covering 204.73 |
-| `REG-R07` | confirm the FR page citation |
-| `REG-S05` | confirm url, and whether later DoD CIO guidance supersedes |
-
----
-
-## 6. Deferred engineering
+### 5. Deferred engineering
 
 Not registry decisions. Recorded so they are not rediscovered.
 
-**OCR is not wired up.** `REG-D08` (CMMC Overview Briefing, audio) carries
-`ingest: transcribe-or-skip` and is skipped with the reason named. See `extractors/ocr/README.md` in the
-pipeline.
+- **Embeddings are not wired up.** No build passes `--embedding`, so no `vectors.jsonl` exists and every row reports
+  `embedding_skipped`. See [`status.md` §2](status.md#2-embeddings-are-not-wired-up).
+- **A newer eCFR amendment is not flagged.** `REG-R01` and `REG-R02` now name their text by its eCFR `as_of` date. When
+  the eCFR reports a later `as_of`, the row still fetches the latest text, but `version_slug` keeps the old date until
+  someone updates it. A finding when the two differ would make this visible.
+- **Repository growth.** `raw/` grows monotonically and git keeps every version. `S3ObjectStore` is implemented and
+  opt-in; Git LFS is the other option. Neither is needed at the present size, and adopting either costs a re-derive,
+  never a re-embed, because no path feeds `chunk_id`.
 
-**The XML extractor is CFR-shaped.** `CfrXmlExtractor` understands the CFR's `DIV1`..`DIV9` vocabulary and
-keeps the text of anything else — losing structure, never content. It is currently the *only* XML
-extractor, so a row declaring `oscal-xml` would land there. If `REG-N07`/`REG-N08` end up on OSCAL-XML
-rather than OSCAL-JSON, that wants its own extractor resolved ahead of it.
+## Closed
 
-**Repository growth.** `raw/` grows monotonically and git keeps every version. The per-file publishing cap
-bounds one pathological URL, not the total. `S3ObjectStore` is implemented and opt-in; Git LFS is the other
-option. Neither is needed at the registry's present size, and adopting either costs a re-derive and never a
-re-embed, because no path feeds `chunk_id`.
+### Decided 2026-10-06
+
+| was | decision |
+| --- | --- |
+| 1.1 Redistribution of `REG-F01`, `F02`, `F03` | **Not redistributed.** `redistribute: false` is correct. Their derived text is published; the originals are archived outside the repository. |
+| 1.2 `REG-R03` and `REG-R07` are one document | **The split is correct.** One Federal Register document (FR Doc. 2025-17359, 90 FR 43560), split by normativity: `R03` takes the clause text (requirement), `R07` the preamble and responses (guidance). Each keeps its own `doc_id`. |
+| 1.3 Version slugs for the living regulations | **`version_slug` is the eCFR `as_of` date:** `REG-R01` `2024-12-16`, `REG-R02` `2016-12-22`. Only the slug changed, and the slug names directories, so chunk ids are **not** reissued. (The old note said they would be; that was wrong — `version`, not `version_slug`, feeds `chunk_id`.) The next build writes these rows under the new path. |
+| 1.4 `REG-R02`: Part 2002 or Part 2000 | **Part 2002**, Controlled Unclassified Information. |
+
+### Resolved by the corpus itself
+
+Answered by the registry or by the text now held; each is recorded in the row's `notes`.
+
+| was | resolved by |
+| --- | --- |
+| `REG-N10`: does CMMC Level 3 draw on 800-172's initial revision or Rev 3? | 32 CFR 170 (`REG-R01`) incorporates "NIST SP 800-172, … February 2021" by reference and takes the 24 Level 3 requirements from "NIST SP 800-172 Feb2021": the initial revision. |
+| `REG-R07`: confirm the FR page citation | The Federal Register API resolves FR Doc. 2025-17359 to 90 FR 43560, the citation the row records. |
+| `REG-R08`: 81 FR 63336 or 81 FR 63324? | 81 FR 63324, the document's first page, which is what a Federal Register citation names; the API resolves FR Doc. 2016-21665 to it. 63336 is a page inside the document. |
+| `REG-S01`: record the current change number and date | The file the publisher serves reads "Effective: March 6, 2020" and carries no change notice; `version` 2020-03-06 records it. |
+| `REG-C02`, `C03`, `C04`: clause edition, elimination, renumbering | Recorded in each row's `version` and `notes`: 7012 2024-05; 7019 eliminated by the RFO class deviations effective 2026-02-01; 7020 renumbered to 252.240-7997, with an alias. |
+
+### Overtaken by later work
+
+The 2026-09 version of this page listed 24 of 43 rows as erroring. All of those causes are gone:
+
+- **Landing-page urls** (11 rows): every NIST PDF, the SCF workbook and the CAP now fetch the document itself.
+  `REG-N07`/`N08` (800-53 and 800-53A as OSCAL) were replaced by the CPRT rows `REG-N50` (active, scoped to the
+  controls the corpus's mappings reach) and `REG-N51` (planned), so the OSCAL-XML extractor question went with them.
+- **Publisher 403s and TLS failures** (11 rows): all build. A publisher that refuses the pipeline's identity is fetched
+  under a browser User-Agent, which is reported. Every original fetched once is archived and becomes the row's
+  fallback. `REG-R04` is the one that still uses its archived copy. `REG-R05` became `register-only` (§2).
+- **800-171 control text** (`REG-N01`, `N02` never supplied): the 110 requirements and 320 objectives come from the
+  PDF rows `REG-N01b` and `REG-N02b`. The QA gates run and pass: the crosswalk holds 110/110 requirements and 320/320
+  objectives.
+- **OCR** is wired up (Tesseract): `REG-S05`, a scan, builds through it.
+- **The five single-chunk regulations**: `REG-R01`/`R02` now come from the eCFR's XML (153 and 150 chunks),
+  `REG-R03`/`R06`/`R07` from the Federal Register's document body (43, 421, 111).

@@ -41,6 +41,12 @@
       "pointer",
       "none"
     ],
+    "relevance": [
+      "requirement",
+      "guidance",
+      "supporting",
+      "example"
+    ],
     "ingest": [
       "chunk",
       "register-only",
@@ -68,6 +74,7 @@
   },
   "rules": [
     "Citations may come only from authority in {authoritative-apex, authoritative, authoritative-site, authoritative-delta, corroborating}; derived/reference-only/never-cite nodes may be retrieved but never cited.",
+    "authority, relevance and visibility are three axes and none stands in for another: authority is the publisher's standing and decides citability (rule 1); relevance (requirement | guidance | supporting | example) is the part the document plays and is what retrieval ranks and filters on; visibility is who may be shown it. A document of lesser relevance keeps its publisher's authority.",
     "framework_rev=3 sources are admitted only for comparison intents.",
     "Definitions, tokens and Operational Scope vocabularies load only from the row a term is defined in, never from a document that merely uses it.",
     "Exactly one build of a document is current at a time; superseded builds are never-cite.",
@@ -92,6 +99,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -123,6 +131,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -154,6 +163,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "never-cite",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -185,6 +195,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -221,6 +232,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -252,6 +264,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -283,6 +296,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -328,7 +342,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -376,6 +391,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -423,6 +439,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -469,7 +486,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -504,6 +522,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -537,6 +556,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "register-only",
       "format": "pdf",
@@ -560,6 +580,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "chunk",
       "format": "audio",
@@ -579,6 +600,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -601,6 +623,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "register-only",
       "format": "pdf",
@@ -621,7 +644,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "derived",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "optional",
       "format": "pdf",
@@ -642,10 +666,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": false,
-      "confirm": [
-        "Confirm whether the SCF's terms permit republishing the catalog file itself here. Held back meanwhile: the derived text is published, the original is not."
-      ],
       "authority": "corroborating",
+      "relevance": "supporting",
       "authority_map": {
         "derived": [
           "control",
@@ -665,7 +687,7 @@
       "format": "xlsx",
       "format_profile": "scf-workbook",
       "scf_edition": "2026.3",
-      "notes": "The SCF 2026.3 workbook, read by the scf-workbook parser (PLAN Phase 10). Imported: the catalogue (1,591 controls: description, question, risk if not implemented, possible solutions by business size, cadence, weighting, PPTDF, errata), its mappings to NIST 800-53 R5.2, 800-171 R2/R3, 800-171A R2/R3, 800-172 R3, 800-172A R3, CMMC 2.0 L1/L1 AOs/L2/L3, DFARS 252.204-7012, FAR 52.204-21/-25/-27, DEFSTAN 05-138 L1-L3, ITSP-10-171 (= 800-171 R3) and ISO 27001/27002 (external) as maps-to relations named by the Focal Documents identifier; the assessment objectives with their origins (derived-from 800-53A/800-171A/800-172A objectives) and CMMC L1 AOs; the evidence request list; domains; the risk and threat catalogues (Possible and Likely kept, Unlikely skipped); the focal documents. READ THIS builds the SCF id map (scf-id-map.json beside the chunks), through which every row declaring scf_edition 'legacy' is read. The workbook holds no STRM sheets: the set-theory mappings are behind the Focal Documents' STRM URLs, recorded and not fetched. Every chunk carries authority=derived and is never cited for posture; the row's corroborating authority is the mapping relations'. Published 2026-07-07; 2026.3 renumbered the catalogue.",
+      "notes": "The SCF 2026.3 workbook, read by the scf-workbook parser (PLAN Phase 10). Imported: the catalogue (1,591 controls: description, question, risk if not implemented, possible solutions by business size, cadence, weighting, PPTDF, errata), its mappings to NIST 800-53 R5.2, 800-171 R2/R3, 800-171A R2/R3, 800-172 R3, 800-172A R3, CMMC 2.0 L1/L1 AOs/L2/L3, DFARS 252.204-7012, FAR 52.204-21/-25/-27, DEFSTAN 05-138 L1-L3, ITSP-10-171 (= 800-171 R3) and ISO 27001/27002 (external) as maps-to relations named by the Focal Documents identifier; the assessment objectives with their origins (derived-from 800-53A/800-171A/800-172A objectives) and CMMC L1 AOs; the evidence request list; domains; the risk and threat catalogues (Possible and Likely kept, Unlikely skipped); the focal documents. READ THIS builds the SCF id map (scf-id-map.json beside the chunks), through which every row declaring scf_edition 'legacy' is read. The workbook holds no STRM sheets: the set-theory mappings are behind the Focal Documents' STRM URLs, recorded and not fetched. Every chunk carries authority=derived and is never cited for posture; the row's corroborating authority is the mapping relations'. Published 2026-07-07; 2026.3 renumbered the catalogue. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -699,13 +721,13 @@
       "visibility": "public",
       "redistribute": false,
       "authority": "corroborating",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01). Chunking intent: by phase. Published 2024-12.",
+      "notes": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01). Chunking intent: by phase. Published 2024-12. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published.",
       "confirm": [
-        "Confirm whether the Cyber AB permits republishing the CAP document itself here. Held back meanwhile: the derived text is published, the original is not.",
         "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest."
       ],
       "normativity_map": {
@@ -735,13 +757,13 @@
       "visibility": "public",
       "redistribute": false,
       "authority": "corroborating",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only. audience: reference — router surfaces only for ecosystem intents. Chunking intent: by principle.",
+      "notes": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only. audience: reference — router surfaces only for ecosystem intents. Chunking intent: by principle. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published.",
       "confirm": [
-        "Confirm whether the Cyber AB permits republishing the CoPC document itself here. Held back meanwhile: the derived text is published, the original is not.",
         "A v2.1a has also circulated; confirm current."
       ],
       "normativity_map": {
@@ -773,6 +795,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "planned",
       "ingest": "chunk",
@@ -814,6 +837,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "active",
       "format": "pdf",
@@ -855,6 +879,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "planned",
       "ingest": "chunk",
@@ -889,6 +914,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "active",
       "format": "pdf",
@@ -929,7 +955,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "planned",
       "ingest": "chunk",
@@ -969,7 +996,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1010,7 +1038,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "planned",
       "ingest": "chunk",
@@ -1049,7 +1078,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1091,6 +1121,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1126,6 +1157,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1160,7 +1192,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "chunk",
       "format": "json",
@@ -1189,12 +1222,13 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "planned",
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
-      "notes": "The 35 enhanced security requirements for APT-resistant CUI protection; the basis for CMMC Level 3. CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b. Chunking intent: by enhanced security requirement. Published 2021-02.",
+      "notes": "The 35 enhanced security requirements for APT-resistant CUI protection; the basis for CMMC Level 3. CPRT export sp_800_172_1_0_0 reports 35 security_requirement elements. Paired PDF NIST.SP.800-172.pdf carries chapters 1-2 and appendices; see REG-N10b. Chunking intent: by enhanced security requirement. Published 2021-02. Resolved 2026-10-06: 32 CFR 170 (REG-R01) incorporates by reference \"NIST SP 800-172, ... February 2021\" and selects the 24 Level 3 requirements from \"NIST SP 800-172 Feb2021\" - the initial revision, not Rev 3.",
       "qa": {
         "expected_requirements": 35,
         "verify_against": "REG-N10b"
@@ -1212,9 +1246,6 @@
           "discussion"
         ]
       },
-      "confirm": [
-        "Confirm CMMC Level 3 draws on the initial revision rather than Rev 3 (REG-N12)."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "nist",
@@ -1231,6 +1262,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
@@ -1272,6 +1304,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "planned",
       "ingest": "chunk",
@@ -1309,6 +1342,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
@@ -1349,7 +1383,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "planned",
       "ingest": "chunk",
@@ -1392,7 +1427,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1433,7 +1469,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "planned",
       "ingest": "chunk",
@@ -1472,7 +1509,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "reference-only",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "framework_rev": 3,
       "status": "active",
       "ingest": "chunk",
@@ -1513,12 +1551,14 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
-      "notes": "Subset only: controls mapped from 800-171 R2 Appendix D plus the NFO set from 800-171r2 Appendix E. Subset held as a regenerable list (see subset_rule). subset_rule: the 800-171r2 Appendix D mapping, together with the NFO control IDs listed in 800-171r2 Appendix E. Chunking intent: by control, subset filter applied at ingest. Published 2020-09 (updated 2020-12-10).",
+      "subset": "sp800-53-scope",
+      "notes": "Subset (PLAN Phase 11): only the controls the corpus's mappings reach, computed in each build by subset 'sp800-53-scope' - 800-171 Rev 3's source controls and Appendix C CUI rows, 800-171 Rev 2's Appendix D mapping and Appendix E CUI/NFO rows, the NIST 800-53 R5.2 column of every SCF control mapping 800-171/171A (Rev 2 and Rev 3), CMMC Level 1 or 2, DFARS 252.204-7012, FAR 52.204-21/-25/-27 or ITSP-10-171, and the Rev 5 successors of any of those Rev 5 withdrew. The kept list, with each control's sources, is written beside the chunks as subset.json; the bibliography (reference) is kept whole. The export is read whole first, so expected_requirements still checks it. Published 2020-09 (updated 2020-12-10).",
       "qa": {
         "expected_requirements": 1014
       },
@@ -1547,7 +1587,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "chunk",
       "format": "json",
@@ -1583,18 +1624,16 @@
           "part": "170"
         }
       },
-      "confirm": [
-        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup."
-      ],
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "xml",
       "format_profile": "ecfr-xml",
-      "notes": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation. Chunking intent: by section (170.x). Published 2024-10-15 (effective 2024-12-16).",
+      "notes": "Program rule: levels, scoping, assessment, POA&M limits (§170.21), affirmation. Chunking intent: by section (170.x). Published 2024-10-15 (effective 2024-12-16). Decided 2026-10-06: version_slug is the eCFR 'as_of' date of the text held (2024-12-16, the part's latest amendment). When the eCFR reports a later as_of, update version_slug to it. version (which feeds chunk_id) is unchanged.",
       "normativity_map": {
         "requirement": [
           "rule text",
@@ -1610,7 +1649,7 @@
       "language_policy": "single",
       "org": "cfr",
       "doc_id": "32-cfr-170",
-      "version_slug": "final-rule"
+      "version_slug": "2024-12-16"
     },
     {
       "id": "REG-R02",
@@ -1629,15 +1668,12 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "xml",
       "format_profile": "ecfr-xml",
-      "notes": "Government-wide CUI program rule (NARA/ISOO). Chunking intent: by section. Published 2016-09-14.",
-      "confirm": [
-        "The eCFR now resolves this part to its own most recent amendment date, reported as 'as_of' and recorded in the manifest. Consider pinning version_slug to that date once it is known: a living regulation currently reads 'final-rule', which does not say which text a chunk came from. Changing it reissues this row's chunk ids, so it is a deliberate decision, not a cleanup.",
-        "Confirmed as Part 2002 (NARA/ISOO CUI program rule), not Part 2000."
-      ],
+      "notes": "Government-wide CUI program rule (NARA/ISOO). Chunking intent: by section. Published 2016-09-14. Decided 2026-10-06: version_slug is the eCFR 'as_of' date of the text held (2016-12-22, the part's latest amendment). When the eCFR reports a later as_of, update version_slug to it. version (which feeds chunk_id) is unchanged. Decided 2026-10-06: Part 2002 (Controlled Unclassified Information), not Part 2000.",
       "normativity_map": {
         "requirement": [
           "rule text",
@@ -1653,7 +1689,7 @@
       "language_policy": "single",
       "org": "cfr",
       "doc_id": "32-cfr-2002",
-      "version_slug": "final-rule"
+      "version_slug": "2016-12-22"
     },
     {
       "id": "REG-R03",
@@ -1665,18 +1701,16 @@
         "provider": "federal-register",
         "document_number": "2025-17359"
       },
-      "confirm": [
-        "REG-R03 and REG-R07 resolve to the same Federal Register document (FR Doc. 2025-17359, 90 FR 43560): R03 takes the amended clause text as requirements, R07 the preamble and comment responses as guidance. One fetch serves both. Confirm that split is intended, and whether the two should share a doc_id with distinct parts rather than carrying separate ones."
-      ],
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Acquisition rule that places CMMC in contracts; source of clause text for REG-C05/REG-C06. Chunking intent: by amended section. Published 2025-09-10 (effective 2025-11-10).",
+      "notes": "Acquisition rule that places CMMC in contracts; source of clause text for REG-C05/REG-C06. Chunking intent: by amended section. Published 2025-09-10 (effective 2025-11-10). Decided 2026-10-06: REG-R03 and REG-R07 are one Federal Register document (FR Doc. 2025-17359, 90 FR 43560) split by normativity: R03 the amended clause text (requirement), R07 the preamble and comment responses (guidance). The split is intended; one fetch serves both.",
       "normativity_map": {
         "requirement": [
           "rule text",
@@ -1715,6 +1749,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "framework_rev": 2,
       "status": "active",
       "ingest": "chunk",
@@ -1752,6 +1787,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "register-only",
       "format": "html",
@@ -1788,7 +1824,8 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
@@ -1859,12 +1896,13 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "DoD's interpretation of the contract clause — flow-down, subcontractor level determination, timing, ESPs. Guidance only. Chunking intent: by comment topic / response.",
+      "notes": "DoD's interpretation of the contract clause — flow-down, subcontractor level determination, timing, ESPs. Guidance only. Chunking intent: by comment topic / response. Resolved 2026-10-06: the Federal Register API resolves FR Doc. 2025-17359 to 90 FR 43560, the citation recorded here.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1903,9 +1941,6 @@
           }
         ]
       },
-      "confirm": [
-        "Confirm the FR page citation."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "federal-register",
@@ -1925,12 +1960,13 @@
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
-      "authority": "corroborating",
+      "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "NARA/ISOO's stated interpretation of the CUI program rule it implements (32 CFR Part 2002, REG-R02). Retrieved for 'why' questions; never cited as the rule itself. Implements 32 CFR Part 2002 (REG-R02), the same relationship REG-R06 has to 32 CFR Part 170 (REG-R01). Chunking intent: by comment topic / response.",
+      "notes": "NARA/ISOO's stated interpretation of the CUI program rule it implements (32 CFR Part 2002, REG-R02). Retrieved for 'why' questions; never cited as the rule itself. Implements 32 CFR Part 2002 (REG-R02), the same relationship REG-R06 has to 32 CFR Part 170 (REG-R01). Chunking intent: by comment topic / response. Resolved 2026-10-06: the citation is the document's first page, 81 FR 63324, as the Federal Register API resolves FR Doc. 2016-21665; 81 FR 63336, the source list's, is a page inside it.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -1969,9 +2005,6 @@
           }
         ]
       },
-      "confirm": [
-        "Source list cited '81 FR 63336'; the Federal Register API resolves FR Doc. 2016-21665 to citation 81 FR 63324, with 63336 a page inside the document. Confirm which the corpus should record."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "federal-register",
@@ -1988,14 +2021,12 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "DoD marking and handling; ingested as a document from the DoD CUI Program site. Chunking intent: by section and enclosure.",
-      "confirm": [
-        "Record current change number/date at ingest."
-      ],
+      "notes": "DoD marking and handling; ingested as a document from the DoD CUI Program site. Chunking intent: by section and enclosure. Resolved 2026-10-06: the file the publisher serves reads \"Effective: March 6, 2020\" and carries no change notice; version 2020-03-06 records it.",
       "normativity_map": {
         "requirement": [
           "policy statements",
@@ -2024,6 +2055,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "pointer",
+      "relevance": "supporting",
       "status": "active",
       "ingest": "pointer",
       "notes": "Registered as a source with URL; not chunked. Optionally ingest the SPRS NIST SP 800-171 Assessment user guide.",
@@ -2041,6 +2073,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "pointer",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "pointer",
       "notes": "Program home; re-crawl on a schedule to detect guide revisions.",
@@ -2058,6 +2091,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "pointer",
+      "relevance": "supporting",
       "status": "planned",
       "ingest": "pointer",
       "notes": "CUI Registry and marking guidance; REG-S01 is the ingested document.",
@@ -2076,11 +2110,12 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "scan",
-      "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21.",
+      "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21. URL confirmed 2026-10-06: it serves the memorandum, built by OCR.",
       "normativity_map": {
         "requirement": [
           "memo directives"
@@ -2090,14 +2125,14 @@
         ],
         "example": []
       },
-      "confirm": [
-        "Confirm URL and whether any later DoD CIO guidance supersedes."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "fedramp-moderate-equivalency",
-      "version_slug": "2023-12-21"
+      "version_slug": "2023-12-21",
+      "confirm": [
+        "Confirm whether any later DoD CIO guidance supersedes this memorandum."
+      ]
     },
     {
       "id": "REG-S06",
@@ -2109,6 +2144,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -2146,6 +2182,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -2181,6 +2218,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -2216,6 +2254,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
@@ -2251,6 +2290,7 @@
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
+      "relevance": "guidance",
       "status": "active",
       "ingest": "chunk",
       "format": "pdf",
