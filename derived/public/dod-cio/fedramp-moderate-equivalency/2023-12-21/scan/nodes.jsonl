@@ -1,0 +1,11 @@
+{"id":"control:CA-07","labels":["Control"],"properties":{"control_id":"CA-07","authority":"authoritative"}}
+{"id":"document:REG-S05","labels":["Document"],"properties":{"reg_id":"REG-S05","title":"Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings","version":"unversioned","tier":"public","authority":"authoritative","relevance":"requirement","visibility":"public","document_number":"DoD CIO Memorandum, 2023-12-21","url":"https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf"}}
+{"id":"section:REG-S05:unversioned:6000_DEFENSE_PENTAGON_WASHINGTON_D.C._20301-6000","labels":["Section"],"properties":{"reg_id":"REG-S05","version":"unversioned","anchor":"6000 DEFENSE PENTAGON WASHINGTON, D.C. 20301-6000","heading_slug":"6000-defense-pentagon-washington-dc-20301-6000"}}
+{"id":"section:REG-S05:unversioned:6000_DEFENSE_PENTAGON_WASHINGTON_D.C._20301-6000/DEC_2_1_20231","labels":["Section"],"properties":{"reg_id":"REG-S05","version":"unversioned","anchor":"6000 DEFENSE PENTAGON WASHINGTON, D.C. 20301-6000/DEC 2 1 2023#1","heading_slug":"dec-2-1-2023","chunk_id":"b3eb5d0ae149e66501c50968b16e5a009f0d85fc69b794d190303871ef1859a5","normativity":"guidance","block_type":"prose","page":1}}
+{"id":"section:REG-S05:unversioned:6000_DEFENSE_PENTAGON_WASHINGTON_D.C._20301-6000/DEC_2_1_20232","labels":["Section"],"properties":{"reg_id":"REG-S05","version":"unversioned","anchor":"6000 DEFENSE PENTAGON WASHINGTON, D.C. 20301-6000/DEC 2 1 2023#2","heading_slug":"dec-2-1-2023","chunk_id":"4dceeda5504bbac6bdd6693f00034a7b011d39760e5fc42245d8e9eed12ce1d7","normativity":"guidance","block_type":"prose","page":1}}
+{"id":"term:cdi","labels":["Term"],"properties":{"term":"cdi"}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:fedramp","labels":["Term"],"properties":{"term":"fedramp"}}
+{"id":"term:poam","labels":["Term"],"properties":{"term":"poam"}}
+{"id":"term:ssp","labels":["Term"],"properties":{"term":"ssp"}}

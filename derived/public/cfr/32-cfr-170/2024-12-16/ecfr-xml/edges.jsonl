@@ -1,0 +1,1156 @@
+{"from":"control:3.1.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.12","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.13","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.16","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.17","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.18","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.19","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.20","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.22","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.3e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.10.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.10.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.10.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.10.4","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.10.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.3e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.4e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.5e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.6e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.11.7e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.12.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.12.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.12.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.12.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.12.4","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.11","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.15","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.4e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.6","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.13.8","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.3e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.4","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.6","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.6e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.14.7","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.3.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.3.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.3.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.3e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.6","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.7","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.4.8","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.10","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.5.3e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.6.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.6.1e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.6.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.6.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.7.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.7.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.7.4","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.7.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.8.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.8.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.8.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.8.7","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.8.8","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.9.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.9.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.9.2e","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.1","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.10","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.11","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.12","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.13","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.14","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.15","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.16","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.17","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.18","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.19","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.2","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.20","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.21","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.22","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.23","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.24","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.3","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.4","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.5","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.6","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.7","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.8","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_170.9","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_appendix_a_to_part_170-guidance","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_1/regulatory_note","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_1/regulatory_note","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_1/regulatory_note","to":"section:REG-R01:Final rule:(preamble)_note_1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_2/regulatory_note","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_2/regulatory_note","to":"section:REG-R01:Final rule:(preamble)_note_2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_3/regulatory_note","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:(preamble)_note_3/regulatory_note","to":"section:REG-R01:Final rule:(preamble)_note_3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(a)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(a)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(a)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(a)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(b)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(b)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(b)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(b)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(c)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(c)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(c)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(c)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(d)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(d)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(d)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(d)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(e)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(e)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(e)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(e)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(f)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(f)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(f)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(f)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(g)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(g)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(g)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(g)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(h)/appendix_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(h)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(h)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(h)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance_(introduction)/appendix_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance_(introduction)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_170-guidance","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance_(introduction)/appendix_text","to":"section:REG-R01:Final rule:Appendix_A_to_Part_170-Guidance_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"provision:32_cfr_170.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(a)/rule_text","to":"section:REG-R01:Final rule:_170.1(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(b)/rule_text","to":"provision:32_cfr_170.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(b)/rule_text","to":"section:REG-R01:Final rule:_170.1(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"provision:32_cfr_170.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"section:REG-R01:Final rule:_170.1(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(c)/rule_text","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"provision:32_cfr_170.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(d)/rule_text","to":"section:REG-R01:Final rule:_170.1(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(e)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(e)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(e)/rule_text","to":"provision:32_cfr_170.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.1(e)/rule_text","to":"section:REG-R01:Final rule:_170.1(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(a)/rule_text","to":"provision:32_cfr_170.10","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(a)/rule_text","to":"section:REG-R01:Final rule:_170.10(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"provision:32_cfr_170.10","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"section:REG-R01:Final rule:_170.10(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.10(b)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"provision:32_cfr_170.11","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"section:REG-R01:Final rule:_170.11(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"provision:32_cfr_170.11","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"section:REG-R01:Final rule:_170.11(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"provision:5_cfr_1400.201","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.11(b)/rule_text","to":"provision:5_cfr_731.106","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(a)/rule_text","to":"provision:32_cfr_170.12","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(a)/rule_text","to":"section:REG-R01:Final rule:_170.12(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(b)/rule_text","to":"provision:32_cfr_170.12","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(b)/rule_text","to":"section:REG-R01:Final rule:_170.12(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(b)/rule_text","to":"provision:32_cfr_170.10","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"provision:32_cfr_170.12","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"section:REG-R01:Final rule:_170.12(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.12(c)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(a)/rule_text","to":"provision:32_cfr_170.13","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(a)/rule_text","to":"section:REG-R01:Final rule:_170.13(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"provision:32_cfr_170.13","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"section:REG-R01:Final rule:_170.13(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"provision:5_cfr_1400.201","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.13(b)/rule_text","to":"provision:5_cfr_731.106","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"provision:32_cfr_170.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"section:REG-R01:Final rule:_170.14(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(a)/rule_text","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"provision:32_cfr_170.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"section:REG-R01:Final rule:_170.14(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(b)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"provision:32_cfr_170.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"section:REG-R01:Final rule:_170.14(c)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)1/rule_text","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.1.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.1.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.4e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.5e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.6e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.11.7e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.12.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.13.4e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.14.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.14.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.14.6e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.2.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.2.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.4.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.4.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.4.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.5.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.5.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.6.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.6.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"control:3.9.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"provision:32_cfr_170.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(c)2/rule_text","to":"section:REG-R01:Final rule:_170.14(c)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"provision:32_cfr_170.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"section:REG-R01:Final rule:_170.14(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.14(d)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(a)/rule_text","to":"provision:32_cfr_170.15","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(a)/rule_text","to":"section:REG-R01:Final rule:_170.15(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(a)/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(b)/rule_text","to":"provision:32_cfr_170.15","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(b)/rule_text","to":"section:REG-R01:Final rule:_170.15(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.1.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.1.20","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.1.22","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.10.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.10.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.10.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.10.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.13.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.13.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.14.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.14.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.14.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.14.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.5.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.5.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"control:3.8.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"provision:32_cfr_170.15","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"section:REG-R01:Final rule:_170.15(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.15(c)/rule_text","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"provision:32_cfr_170.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"section:REG-R01:Final rule:_170.16(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"provision:32_cfr_170.15","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"provision:32_cfr_170.21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(a)/rule_text","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(b)/rule_text","to":"provision:32_cfr_170.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(b)/rule_text","to":"section:REG-R01:Final rule:_170.16(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"provision:32_cfr_170.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"section:REG-R01:Final rule:_170.16(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.16(c)/rule_text","to":"provision:32_cfr_170.24","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"provision:32_cfr_170.17","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"section:REG-R01:Final rule:_170.17(a)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"provision:32_cfr_170.15","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)1/rule_text","to":"provision:32_cfr_170.21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"provision:32_cfr_170.17","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"section:REG-R01:Final rule:_170.17(a)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(a)2/rule_text","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"provision:32_cfr_170.17","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(b)/rule_text","to":"section:REG-R01:Final rule:_170.17(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"provision:32_cfr_170.17","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"section:REG-R01:Final rule:_170.17(c)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"provision:32_cfr_170.21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)1/rule_text","to":"provision:32_cfr_170.24","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"provision:32_cfr_170.17","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"section:REG-R01:Final rule:_170.17(c)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.17(c)2/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"provision:32_cfr_170.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"section:REG-R01:Final rule:_170.18(a)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"provision:32_cfr_170.15","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)1/rule_text","to":"provision:32_cfr_170.21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"provision:32_cfr_170.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"section:REG-R01:Final rule:_170.18(a)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(a)2/rule_text","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(b)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(b)/rule_text","to":"provision:32_cfr_170.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(b)/rule_text","to":"section:REG-R01:Final rule:_170.18(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"provision:32_cfr_170.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"section:REG-R01:Final rule:_170.18(c)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"provision:32_cfr_170.21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)1/rule_text","to":"provision:32_cfr_170.24","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"provision:32_cfr_170.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"section:REG-R01:Final rule:_170.18(c)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.18(c)2/rule_text","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(a)/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(a)/rule_text","to":"section:REG-R01:Final rule:_170.19(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(b)/rule_text","to":"section:REG-R01:Final rule:_170.19(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)1/rule_text","to":"section:REG-R01:Final rule:_170.19(c)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"section:REG-R01:Final rule:_170.19(c)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(c)2/rule_text","to":"provision:dfars_252.204-7012","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)1/rule_text","to":"section:REG-R01:Final rule:_170.19(d)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"section:REG-R01:Final rule:_170.19(d)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(d)2/rule_text","to":"provision:dfars_252.204-7012","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"provision:32_cfr_170.19","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"section:REG-R01:Final rule:_170.19(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.19(e)/rule_text","to":"provision:32_cfr_170.18","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"provision:32_cfr_170.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"section:REG-R01:Final rule:_170.2(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"provision:32_cfr_170.11","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(a)/rule_text","to":"provision:32_cfr_170.4","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(b)/rule_text","to":"provision:32_cfr_170.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(b)/rule_text","to":"section:REG-R01:Final rule:_170.2(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2(b)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"provision:32_cfr_170.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"section:REG-R01:Final rule:_170.20(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(a)/rule_text","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(b)/rule_text","to":"provision:32_cfr_170.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.20(b)/rule_text","to":"section:REG-R01:Final rule:_170.20(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.1.20","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.1.22","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.10.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.10.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.10.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.11.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.11.4e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.11.6e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.11.7e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.12.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.13.11","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.14.3e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.6.1e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"control:3.6.2e","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"provision:32_cfr_170.21","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"section:REG-R01:Final rule:_170.21(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(a)/rule_text","to":"provision:32_cfr_170.24","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"provision:32_cfr_170.21","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.21(b)/rule_text","to":"section:REG-R01:Final rule:_170.21(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(a)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(a)/rule_text","to":"provision:32_cfr_170.22","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(a)/rule_text","to":"section:REG-R01:Final rule:_170.22(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"provision:32_cfr_170.22","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.22(b)/rule_text","to":"section:REG-R01:Final rule:_170.22(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"provision:32_cfr_170.23","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(a)/rule_text","to":"section:REG-R01:Final rule:_170.23(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(b)/rule_text","to":"provision:32_cfr_170.23","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.23(b)/rule_text","to":"section:REG-R01:Final rule:_170.23(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"control:3.5.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"provision:32_cfr_170.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"section:REG-R01:Final rule:_170.24(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"control:3.13.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"provision:32_cfr_170.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(b)/rule_text","to":"section:REG-R01:Final rule:_170.24(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.12","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.13","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.16","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.17","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.18","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.19","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.1.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.10.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.10.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.11.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.11.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.12.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.12.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.12.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.11","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.15","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.6","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.13.8","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.6","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.14.7","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.2.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.2.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.3.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.3.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.3.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.6","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.7","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.4.8","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.5.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.5.10","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.5.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.5.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.6.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.6.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.7.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.7.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.7.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.7.5","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.8.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.8.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.8.3","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.8.7","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.8.8","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.9.1","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"control:3.9.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"provision:32_cfr_170.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)1/rule_text","to":"section:REG-R01:Final rule:_170.24(c)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"control:3.12.4","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"control:3.13.11","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"provision:32_cfr_170.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"section:REG-R01:Final rule:_170.24(c)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"provision:dfars_252.204-7008","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.24(c)2/rule_text","to":"provision:dfars_252.204-7012","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2_(introduction)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2_(introduction)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2_(introduction)/rule_text","to":"provision:32_cfr_170.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.2_(introduction)/rule_text","to":"section:REG-R01:Final rule:_170.2_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"provision:32_cfr_170.3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(a)/rule_text","to":"section:REG-R01:Final rule:_170.3(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(b)/rule_text","to":"provision:32_cfr_170.3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(b)/rule_text","to":"section:REG-R01:Final rule:_170.3(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"provision:32_cfr_170.3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(c)/rule_text","to":"section:REG-R01:Final rule:_170.3(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"provision:32_cfr_170.3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(d)/rule_text","to":"section:REG-R01:Final rule:_170.3(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"provision:32_cfr_170.3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"section:REG-R01:Final rule:_170.3(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.3(e)/rule_text","to":"provision:dfars_part_204","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:dfars","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:external-service-provider","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:far","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(a)/rule_text","to":"section:REG-R01:Final rule:_170.4(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Access_Control_(AC)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Access_Control_(AC)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Access_Control_(AC)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Access_Control_(AC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Access_Control_(AC)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"section:REG-R01:Final rule:_170.4(b)_Accreditation","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation/definition","to":"provision:32_cfr_170.9","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body/definition","to":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Accreditation_Body/definition","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Advanced_Persistent_Threat_(APT)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Affirming_Official/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Affirming_Official/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Affirming_Official/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Affirming_Official/definition","to":"section:REG-R01:Final rule:_170.4(b)_Affirming_Official","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"section:REG-R01:Final rule:_170.4(b)_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment/definition","to":"provision:32_cfr_170.15","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report/definition","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report/definition","to":"section:REG-R01:Final rule:_170.4(b)_Assessment_Findings_Report","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team/definition","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team/definition","to":"section:REG-R01:Final rule:_170.4(b)_Assessment_Team","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Assessment_objective/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset/definition","to":"section:REG-R01:Final rule:_170.4(b)_Asset","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset_Categories/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset_Categories/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset_Categories/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Asset_Categories/definition","to":"section:REG-R01:Final rule:_170.4(b)_Asset_Categories","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authentication/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authentication/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authentication/definition","to":"section:REG-R01:Final rule:_170.4(b)_Authentication","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authentication/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"section:REG-R01:Final rule:_170.4(b)_Authorized","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Authorized/definition","to":"provision:32_cfr_170.9","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_Scope/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_Scope/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_Scope/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_Scope/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_Scope","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_and_Certification_Ecosystem/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_and_Certification_Ecosystem/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_and_Certification_Ecosystem/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_and_Certification_Ecosystem/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessment_and_Certification_Ecosystem","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Assessor_and_Instructor_Certification_Organization_(CAICO)/definition","to":"provision:32_cfr_170.10","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Instantiation_of_eMASS/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Instantiation_of_eMASS/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Instantiation_of_eMASS/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Instantiation_of_eMASS/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Instantiation_of_eMASS","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.15","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.16","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.18","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Security_Requirements/definition","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date/definition","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Status_Date","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)/definition","to":"term:c3pao","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)/definition","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)/definition","to":"section:REG-R01:Final rule:_170.4(b)_CMMC_Third-Party_Assessment_Organization_(C3PAO)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Capability/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Capability/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Capability/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Capability/definition","to":"section:REG-R01:Final rule:_170.4(b)_Capability","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Capability/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Cloud_Service_Provider_(CSP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Contractor/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Contractor/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Contractor/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Contractor/definition","to":"section:REG-R01:Final rule:_170.4(b)_Contractor","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Contractor/definition","to":"provision:32_cfr_170.19","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)/definition","to":"term:cui","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)/definition","to":"provision:32_cfr_2002.4","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets/definition","to":"term:cui","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets/definition","to":"section:REG-R01:Final rule:_170.4(b)_Controlled_Unclassified_Information_(CUI)_Assets","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_DCMA_DIBCAC_High_Assessment/definition","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Defense_Industrial_Base_(DIB)/definition","to":"provision:dfars_252.204-7012","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception/definition","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception/definition","to":"section:REG-R01:Final rule:_170.4(b)_Enduring_Exception","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enterprise/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enterprise/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enterprise/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enterprise/definition","to":"section:REG-R01:Final rule:_170.4(b)_Enterprise","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Enterprise/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"term:external-service-provider","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)/definition","to":"section:REG-R01:Final rule:_170.4(b)_External_Service_Provider_(ESP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Federal_Contract_Information_(FCI)/definition","to":"term:fci","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Federal_Contract_Information_(FCI)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Federal_Contract_Information_(FCI)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Federal_Contract_Information_(FCI)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Federal_Contract_Information_(FCI)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Industrial_Control_Systems_(ICS)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Information_System_(IS)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Internet_of_Things_(IoT)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_Technology_(OT)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"control:3.12.2","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2/definition","to":"section:REG-R01:Final rule:_170.4(b)_Operational_plan_of_action_as_used_in_security_requirement_CA.L2-3.12.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-Defined_Parameters_(ODPs)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-defined/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-defined/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-defined/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization-defined/definition","to":"section:REG-R01:Final rule:_170.4(b)_Organization-defined","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Assessment_(OSA)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Assessment_(OSA)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Assessment_(OSA)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Assessment_(OSA)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Assessment_(OSA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"term:osc","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Organization_Seeking_Certification_(OSC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets/definition","to":"section:REG-R01:Final rule:_170.4(b)_Out-of-Scope_Assets","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Periodically/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Periodically/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Periodically/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Periodically/definition","to":"section:REG-R01:Final rule:_170.4(b)_Periodically","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information/definition","to":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Personally_Identifiable_Information/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"term:poam","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Plan_of_Action_and_Milestones_(POAM)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Prime_Contractor/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Prime_Contractor/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Prime_Contractor/definition","to":"section:REG-R01:Final rule:_170.4(b)_Prime_Contractor","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Process_store_or_transmit/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Process_store_or_transmit/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Process_store_or_transmit/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Process_store_or_transmit/definition","to":"section:REG-R01:Final rule:_170.4(b)_Process_store_or_transmit","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Restricted_Information_Systems/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Restricted_Information_Systems/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Restricted_Information_Systems/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Restricted_Information_Systems/definition","to":"section:REG-R01:Final rule:_170.4(b)_Restricted_Information_Systems","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk/definition","to":"section:REG-R01:Final rule:_170.4(b)_Risk","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment/definition","to":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Risk_Assessment/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Assets_(SPA)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Assets_(SPA)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Assets_(SPA)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Assets_(SPA)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Assets_(SPA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"term:security-protection-data","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Security_Protection_Data_(SPD)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Specialized_Assets/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Specialized_Assets/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Specialized_Assets/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Specialized_Assets/definition","to":"section:REG-R01:Final rule:_170.4(b)_Specialized_Assets","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Subcontractor/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Subcontractor/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Subcontractor/definition","to":"section:REG-R01:Final rule:_170.4(b)_Subcontractor","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)/definition","to":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Supervisory_Control_and_Data_Acquisition_(SCADA)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"term:ssp","type":"DEFINES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_System_Security_Plan_(SSP)/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Temporary_deficiency/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Temporary_deficiency/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Temporary_deficiency/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Temporary_deficiency/definition","to":"section:REG-R01:Final rule:_170.4(b)_Temporary_deficiency","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Test_Equipment/definition","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Test_Equipment/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Test_Equipment/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_Test_Equipment/definition","to":"section:REG-R01:Final rule:_170.4(b)_Test_Equipment","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_User/definition","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_User/definition","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_User/definition","to":"provision:32_cfr_170.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_User/definition","to":"section:REG-R01:Final rule:_170.4(b)_User","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.4(b)_User/definition","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"provision:32_cfr_170.5","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"section:REG-R01:Final rule:_170.5(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"provision:32_cfr_170.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"provision:32_cfr_170.5","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(b)/rule_text","to":"section:REG-R01:Final rule:_170.5(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"provision:32_cfr_170.5","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"section:REG-R01:Final rule:_170.5(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(c)/rule_text","to":"provision:32_cfr_170.3","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(d)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(d)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(d)/rule_text","to":"provision:32_cfr_170.5","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(d)/rule_text","to":"section:REG-R01:Final rule:_170.5(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"term:cdi","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"provision:32_cfr_170.5","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"section:REG-R01:Final rule:_170.5(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"provision:dfars_252.204-7012","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.5(e)/rule_text","to":"provision:far_52.204-21","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(a)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(a)/rule_text","to":"section:REG-R01:Final rule:_170.6(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(b)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(b)/rule_text","to":"section:REG-R01:Final rule:_170.6(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(c)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(c)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(c)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(c)/rule_text","to":"section:REG-R01:Final rule:_170.6(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(d)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(d)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(d)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(d)/rule_text","to":"section:REG-R01:Final rule:_170.6(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(d)/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"section:REG-R01:Final rule:_170.6(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(e)/rule_text","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(f)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(f)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(f)/rule_text","to":"provision:32_cfr_170.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.6(f)/rule_text","to":"section:REG-R01:Final rule:_170.6(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"provision:32_cfr_170.7","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"section:REG-R01:Final rule:_170.7(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"provision:32_cfr_170.20","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"provision:32_cfr_170.6","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"provision:dfars_252.204-7019","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(a)/rule_text","to":"provision:dfars_252.204-7020","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"provision:32_cfr_170.7","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.7(b)/rule_text","to":"section:REG-R01:Final rule:_170.7(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"provision:32_cfr_170.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"section:REG-R01:Final rule:_170.8(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(a)/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:32_cfr_170.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"section:REG-R01:Final rule:_170.8(b)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:32_cfr_117.11","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:32_cfr_170.9","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:5_cfr_1400.201","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)1/rule_text","to":"provision:5_cfr_731.106","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"provision:32_cfr_170.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"section:REG-R01:Final rule:_170.8(b)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)2/rule_text","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)3/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)3/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)3/rule_text","to":"provision:32_cfr_170.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.8(b)3/rule_text","to":"section:REG-R01:Final rule:_170.8(b)3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(a)/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(a)/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(a)/rule_text","to":"provision:32_cfr_170.9","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(a)/rule_text","to":"section:REG-R01:Final rule:_170.9(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:32_cfr_170.9","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"section:REG-R01:Final rule:_170.9(b)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:32_cfr_117.11","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:32_cfr_170.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:5_cfr_1400.201","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)1/rule_text","to":"provision:5_cfr_731.106","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"term:c3pao","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"term:osc","type":"CITES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"provision:32_cfr_170.9","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"section:REG-R01:Final rule:_170.9(b)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"provision:32_cfr_170.11","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"provision:32_cfr_170.17","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R01:Final rule:_170.9(b)2/rule_text","to":"provision:32_cfr_170.2","type":"REFERENCES","properties":{}}
+{"from":"term:c3pao","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cdi","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cmmc","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cui","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:dfars","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:external-service-provider","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:far","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:fci","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:fedramp","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:osc","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:poam","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:security-protection-data","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:ssp","to":"document:REG-R01","type":"IN_DOCUMENT","properties":{}}

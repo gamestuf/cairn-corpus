@@ -1,0 +1,15 @@
+{"from":"provision:dfars_252.204-7016","to":"document:REG-C08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(a)/provision_text","to":"document:REG-C08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(a)/provision_text","to":"provision:dfars_252.204-7016","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(a)/provision_text","to":"section:REG-C08:v2019-12:252.204-7016(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(a)/provision_text","to":"provision:dfars_252.204-7018","type":"REFERENCES","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(b)/provision_text","to":"document:REG-C08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(b)/provision_text","to":"provision:dfars_252.204-7016","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(b)/provision_text","to":"section:REG-C08:v2019-12:252.204-7016(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(c)/provision_text","to":"document:REG-C08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(c)/provision_text","to":"provision:dfars_252.204-7016","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016(c)/provision_text","to":"section:REG-C08:v2019-12:252.204-7016(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016_prescription/prescription","to":"document:REG-C08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016_prescription/prescription","to":"provision:dfars_252.204-7016","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016_prescription/prescription","to":"section:REG-C08:v2019-12:252.204-7016_prescription","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C08:v2019-12:252.204-7016_prescription/prescription","to":"provision:dfars_204.2105","type":"REFERENCES","properties":{}}

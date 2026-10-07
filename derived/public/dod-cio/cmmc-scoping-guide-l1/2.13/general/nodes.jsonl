@@ -1,0 +1,10 @@
+{"id":"document:REG-D05","labels":["Document"],"properties":{"reg_id":"REG-D05","title":"CMMC Scoping Guide – Level 1","version":"2.13","tier":"public","authority":"authoritative","relevance":"guidance","visibility":"public","document_number":"DoD-CIO-00005","url":"https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf"}}
+{"id":"section:REG-D05:v2.13:(preamble)","labels":["Section"],"properties":{"reg_id":"REG-D05","version":"2.13","anchor":"(preamble)","heading_slug":"preamble","chunk_id":"5c1105ec752b49993ea8ceab342bc530fced394b010db845d229e44f1fdffebc","normativity":"guidance","block_type":"prose","page":1}}
+{"id":"section:REG-D05:v2.13:NOTICES1","labels":["Section"],"properties":{"reg_id":"REG-D05","version":"2.13","anchor":"NOTICES#1","heading_slug":"notices","chunk_id":"7394ff380dcd0b6c54d977354225e790cf74379130af42db1099d505082b0924","normativity":"guidance","block_type":"prose","page":2}}
+{"id":"section:REG-D05:v2.13:NOTICES2","labels":["Section"],"properties":{"reg_id":"REG-D05","version":"2.13","anchor":"NOTICES#2","heading_slug":"notices","chunk_id":"7838119dfca38cf37b17a84ac13fec6588d617d7d522d74cdcea960aba5cf66e","normativity":"guidance","block_type":"prose","page":2}}
+{"id":"section:REG-D05:v2.13:NOTICES3","labels":["Section"],"properties":{"reg_id":"REG-D05","version":"2.13","anchor":"NOTICES#3","heading_slug":"notices","chunk_id":"2446667e509b1dc145427183f6f271781af93b076936aaaebb38264b0ad114f7","normativity":"guidance","block_type":"prose","page":2}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:external-service-provider","labels":["Term"],"properties":{"term":"external-service-provider"}}
+{"id":"term:fci","labels":["Term"],"properties":{"term":"fci"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}
+{"id":"term:ssp","labels":["Term"],"properties":{"term":"ssp"}}

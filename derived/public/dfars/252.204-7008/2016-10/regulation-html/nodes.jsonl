@@ -1,0 +1,16 @@
+{"id":"document:REG-C07","labels":["Document"],"properties":{"reg_id":"REG-C07","title":"Compliance with Safeguarding Covered Defense Information Controls","version":"2016-10","tier":"public","authority":"authoritative","relevance":"requirement","visibility":"public","document_number":"DFARS 252.204-7008","url":"https://www.acquisition.gov/dfars/252.204-7008-compliance-safeguarding-covered-defense-information-controls."}}
+{"id":"provision:dfars_204.7304","labels":["Provision"],"properties":{"citation":"DFARS 204.7304"}}
+{"id":"provision:dfars_252.204-7008","labels":["Provision"],"properties":{"citation":"DFARS 252.204-7008","title":"Compliance with Safeguarding Covered Defense Information Controls"}}
+{"id":"provision:dfars_252.204-7012","labels":["Provision"],"properties":{"citation":"DFARS 252.204-7012"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(a)","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(a)","heading_slug":"252204-7008a"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(a)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(a)/provision text","heading_slug":"provision-text","chunk_id":"94d931de8b63b18239cfd3ad0947bfd629342c9ed28bbcd690300d430f7d9da0","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(b)","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(b)","heading_slug":"252204-7008b"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(b)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(b)/provision text","heading_slug":"provision-text","chunk_id":"177e6fe992ccf27208b3515ab857143a78f17750ee8d9649183a4ad771110597","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(c)","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(c)","heading_slug":"252204-7008c"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008(c)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008(c)/provision text","heading_slug":"provision-text","chunk_id":"4a6bcaa9822e11c901c749663585caa094e89feee2d44fee719e8b97e85323e4","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008_prescription","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008 prescription","heading_slug":"252204-7008-prescription"}}
+{"id":"section:REG-C07:v2016-10:252.204-7008_prescription/prescription","labels":["Section"],"properties":{"reg_id":"REG-C07","version":"2016-10","anchor":"252.204-7008 prescription/prescription","heading_slug":"prescription","chunk_id":"aca7b2ded847973c4dc36c5c0c2cc2ddec6ce8e641a5f37995c0d80570410b12","normativity":"guidance","block_type":"prescription"}}
+{"id":"term:cdi","labels":["Term"],"properties":{"term":"cdi"}}
+{"id":"term:cti","labels":["Term"],"properties":{"term":"cti"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}

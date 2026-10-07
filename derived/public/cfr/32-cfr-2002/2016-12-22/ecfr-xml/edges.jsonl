@@ -1,0 +1,636 @@
+{"from":"provision:32_cfr_2002.1","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.10","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.12","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.14","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.16","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.18","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.2","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.20","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.22","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.24","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.30","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.32","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.34","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.36","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.38","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.4","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.44","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.46","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.48","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.50","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.52","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.54","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.56","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.6","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_2002.8","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"provision:32_cfr_appendix_a_to_part_2002-acronyms","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_1/regulatory_note","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_1/regulatory_note","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_1/regulatory_note","to":"section:REG-R02:Final rule:(preamble)_note_1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_2/regulatory_note","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_2/regulatory_note","to":"section:REG-R02:Final rule:(preamble)_note_2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_3/regulatory_note","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:(preamble)_note_3/regulatory_note","to":"section:REG-R02:Final rule:(preamble)_note_3","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:Appendix_A_to_Part_2002-Acronyms_(introduction)/appendix_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:Appendix_A_to_Part_2002-Acronyms_(introduction)/appendix_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:Appendix_A_to_Part_2002-Acronyms_(introduction)/appendix_text","to":"provision:32_cfr_appendix_a_to_part_2002-acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:Appendix_A_to_Part_2002-Acronyms_(introduction)/appendix_text","to":"section:REG-R02:Final rule:Appendix_A_to_Part_2002-Acronyms_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(a)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(a)/rule_text","to":"section:REG-R02:Final rule:_2002.1(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(b)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(b)/rule_text","to":"section:REG-R02:Final rule:_2002.1(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(c)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(c)/rule_text","to":"section:REG-R02:Final rule:_2002.1(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(d)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(d)/rule_text","to":"section:REG-R02:Final rule:_2002.1(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(e)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(e)/rule_text","to":"section:REG-R02:Final rule:_2002.1(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(f)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(f)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(f)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(f)/rule_text","to":"section:REG-R02:Final rule:_2002.1(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(f)/rule_text","to":"provision:32_cfr_2002.4","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(g)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(g)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(g)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(g)/rule_text","to":"section:REG-R02:Final rule:_2002.1(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(h)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(h)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(h)/rule_text","to":"section:REG-R02:Final rule:_2002.1(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(i)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(i)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(i)/rule_text","to":"provision:32_cfr_2002.1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.1(i)/rule_text","to":"section:REG-R02:Final rule:_2002.1(i)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(a)/rule_text","to":"provision:32_cfr_2002.10","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(a)/rule_text","to":"section:REG-R02:Final rule:_2002.10(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(b)/rule_text","to":"provision:32_cfr_2002.10","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.10(b)/rule_text","to":"section:REG-R02:Final rule:_2002.10(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(a)/rule_text","to":"provision:32_cfr_2002.12","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(a)/rule_text","to":"section:REG-R02:Final rule:_2002.12(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(b)/rule_text","to":"provision:32_cfr_2002.12","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.12(b)/rule_text","to":"section:REG-R02:Final rule:_2002.12(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(a)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(a)/rule_text","to":"section:REG-R02:Final rule:_2002.14(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(b)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(b)/rule_text","to":"section:REG-R02:Final rule:_2002.14(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"section:REG-R02:Final rule:_2002.14(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(c)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(d)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(d)/rule_text","to":"section:REG-R02:Final rule:_2002.14(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(d)/rule_text","to":"provision:32_cfr_2002.20","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"section:REG-R02:Final rule:_2002.14(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(e)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"section:REG-R02:Final rule:_2002.14(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"provision:32_cfr_2001.47","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(f)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"section:REG-R02:Final rule:_2002.14(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(g)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"provision:32_cfr_2002.14","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"section:REG-R02:Final rule:_2002.14(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.14(h)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)1/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)1/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)1/rule_text","to":"provision:32_cfr_2002.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)1/rule_text","to":"section:REG-R02:Final rule:_2002.16(a)1","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)1/rule_text","to":"provision:32_cfr_2004.4","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)2/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)2/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)2/rule_text","to":"provision:32_cfr_2002.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(a)2/rule_text","to":"section:REG-R02:Final rule:_2002.16(a)2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(b)/rule_text","to":"provision:32_cfr_2002.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(b)/rule_text","to":"section:REG-R02:Final rule:_2002.16(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"provision:32_cfr_2002.16","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"section:REG-R02:Final rule:_2002.16(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.16(c)/rule_text","to":"provision:32_cfr_2002.2","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(a)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(a)/rule_text","to":"section:REG-R02:Final rule:_2002.18(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(b)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(b)/rule_text","to":"section:REG-R02:Final rule:_2002.18(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(b)/rule_text","to":"provision:32_cfr_2002.20","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(c)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(c)/rule_text","to":"section:REG-R02:Final rule:_2002.18(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(d)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(d)/rule_text","to":"section:REG-R02:Final rule:_2002.18(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(e)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(e)/rule_text","to":"section:REG-R02:Final rule:_2002.18(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(f)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(f)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(f)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(f)/rule_text","to":"section:REG-R02:Final rule:_2002.18(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(g)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(g)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(g)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(g)/rule_text","to":"section:REG-R02:Final rule:_2002.18(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(h)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(h)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(h)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(h)/rule_text","to":"section:REG-R02:Final rule:_2002.18(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(i)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(i)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(i)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(i)/rule_text","to":"section:REG-R02:Final rule:_2002.18(i)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(j)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(j)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(j)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(j)/rule_text","to":"section:REG-R02:Final rule:_2002.18(j)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(k)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(k)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(k)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(k)/rule_text","to":"section:REG-R02:Final rule:_2002.18(k)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(l)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(l)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(l)/rule_text","to":"section:REG-R02:Final rule:_2002.18(l)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(m)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(m)/rule_text","to":"provision:32_cfr_2002.18","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(m)/rule_text","to":"section:REG-R02:Final rule:_2002.18(m)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(m)/rule_text","to":"provision:32_cfr_2002.34","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.18(m)/rule_text","to":"provision:36_cfr_part_1235","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(a)/rule_text","to":"provision:32_cfr_2002.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(a)/rule_text","to":"section:REG-R02:Final rule:_2002.2(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"provision:32_cfr_2002.2","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"section:REG-R02:Final rule:_2002.2(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.2(b)/rule_text","to":"provision:32_cfr_2002.14","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(a)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(a)/rule_text","to":"section:REG-R02:Final rule:_2002.20(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(a)/rule_text","to":"provision:32_cfr_2002.38","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(b)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(b)/rule_text","to":"section:REG-R02:Final rule:_2002.20(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(b)/rule_text","to":"provision:32_cfr_2002.16","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(c)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(c)/rule_text","to":"section:REG-R02:Final rule:_2002.20(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(d)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(d)/rule_text","to":"section:REG-R02:Final rule:_2002.20(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(e)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(e)/rule_text","to":"section:REG-R02:Final rule:_2002.20(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(f)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(f)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(f)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(f)/rule_text","to":"section:REG-R02:Final rule:_2002.20(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(g)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(g)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(g)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(g)/rule_text","to":"section:REG-R02:Final rule:_2002.20(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(h)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(h)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(h)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(h)/rule_text","to":"section:REG-R02:Final rule:_2002.20(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(h)/rule_text","to":"provision:10_cfr_part_1045","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(j)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(j)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(j)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(j)/rule_text","to":"section:REG-R02:Final rule:_2002.20(j)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(k)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(k)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(k)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(k)/rule_text","to":"section:REG-R02:Final rule:_2002.20(k)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(l)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(l)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(l)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(l)/rule_text","to":"section:REG-R02:Final rule:_2002.20(l)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(m)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(m)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(m)/rule_text","to":"provision:32_cfr_2002.20","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(m)/rule_text","to":"section:REG-R02:Final rule:_2002.20(m)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.20(m)/rule_text","to":"provision:32_cfr_2002.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(a)/rule_text","to":"provision:32_cfr_2002.22","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(a)/rule_text","to":"section:REG-R02:Final rule:_2002.22(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(b)/rule_text","to":"provision:32_cfr_2002.22","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.22(b)/rule_text","to":"section:REG-R02:Final rule:_2002.22(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(a)/rule_text","to":"provision:32_cfr_2002.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(a)/rule_text","to":"section:REG-R02:Final rule:_2002.24(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(a)/rule_text","to":"provision:32_cfr_2002.8","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(b)/rule_text","to":"provision:32_cfr_2002.24","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.24(b)/rule_text","to":"section:REG-R02:Final rule:_2002.24(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(a)/rule_text","to":"provision:32_cfr_2002.30","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(a)/rule_text","to":"section:REG-R02:Final rule:_2002.30(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(b)/rule_text","to":"provision:32_cfr_2002.30","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(b)/rule_text","to":"section:REG-R02:Final rule:_2002.30(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(c)/rule_text","to":"provision:32_cfr_2002.30","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(c)/rule_text","to":"section:REG-R02:Final rule:_2002.30(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(d)/rule_text","to":"provision:32_cfr_2002.30","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.30(d)/rule_text","to":"section:REG-R02:Final rule:_2002.30(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(a)/rule_text","to":"provision:32_cfr_2002.32","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(a)/rule_text","to":"section:REG-R02:Final rule:_2002.32(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(b)/rule_text","to":"provision:32_cfr_2002.32","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.32(b)/rule_text","to":"section:REG-R02:Final rule:_2002.32(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(a)/rule_text","to":"provision:32_cfr_2002.34","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(a)/rule_text","to":"section:REG-R02:Final rule:_2002.34(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(b)/rule_text","to":"provision:32_cfr_2002.34","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(b)/rule_text","to":"section:REG-R02:Final rule:_2002.34(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(b)/rule_text","to":"provision:36_cfr_part_1235","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(c)/rule_text","to":"provision:32_cfr_2002.34","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.34(c)/rule_text","to":"section:REG-R02:Final rule:_2002.34(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(a)/rule_text","to":"provision:32_cfr_2002.36","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(a)/rule_text","to":"section:REG-R02:Final rule:_2002.36(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(a)/rule_text","to":"provision:32_cfr_2002.20","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(b)/rule_text","to":"provision:32_cfr_2002.36","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(b)/rule_text","to":"section:REG-R02:Final rule:_2002.36(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(b)/rule_text","to":"provision:32_cfr_2002.38","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(c)/rule_text","to":"provision:32_cfr_2002.36","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.36(c)/rule_text","to":"section:REG-R02:Final rule:_2002.36(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(a)/rule_text","to":"provision:32_cfr_2002.38","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(a)/rule_text","to":"section:REG-R02:Final rule:_2002.38(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(b)/rule_text","to":"provision:32_cfr_2002.38","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(b)/rule_text","to":"section:REG-R02:Final rule:_2002.38(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(c)/rule_text","to":"provision:32_cfr_2002.38","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(c)/rule_text","to":"section:REG-R02:Final rule:_2002.38(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(d)/rule_text","to":"provision:32_cfr_2002.38","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(d)/rule_text","to":"section:REG-R02:Final rule:_2002.38(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(d)/rule_text","to":"provision:32_cfr_2002.20","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(e)/rule_text","to":"provision:32_cfr_2002.38","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.38(e)/rule_text","to":"section:REG-R02:Final rule:_2002.38(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(a)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(a)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(a)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(a)/definition","to":"section:REG-R02:Final rule:_2002.4(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(aa)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(aa)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(aa)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(aa)/definition","to":"section:REG-R02:Final rule:_2002.4(aa)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(b)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(b)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(b)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(b)/definition","to":"section:REG-R02:Final rule:_2002.4(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(bb)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(bb)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(bb)/definition","to":"section:REG-R02:Final rule:_2002.4(bb)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(c)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(c)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(c)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(c)/definition","to":"section:REG-R02:Final rule:_2002.4(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(c)/definition","to":"provision:32_cfr_2002.16","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(cc)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(cc)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(cc)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(cc)/definition","to":"section:REG-R02:Final rule:_2002.4(cc)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(d)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(d)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(d)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(d)/definition","to":"section:REG-R02:Final rule:_2002.4(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(dd)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(dd)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(dd)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(dd)/definition","to":"section:REG-R02:Final rule:_2002.4(dd)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(e)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(e)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(e)/definition","to":"section:REG-R02:Final rule:_2002.4(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ee)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ee)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ee)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ee)/definition","to":"section:REG-R02:Final rule:_2002.4(ee)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(f)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(f)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(f)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(f)/definition","to":"section:REG-R02:Final rule:_2002.4(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ff)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ff)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ff)/definition","to":"section:REG-R02:Final rule:_2002.4(ff)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(g)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(g)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(g)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(g)/definition","to":"section:REG-R02:Final rule:_2002.4(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(gg)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(gg)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(gg)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(gg)/definition","to":"section:REG-R02:Final rule:_2002.4(gg)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(h)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(h)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(h)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(h)/definition","to":"section:REG-R02:Final rule:_2002.4(h)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(hh)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(hh)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(hh)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(hh)/definition","to":"section:REG-R02:Final rule:_2002.4(hh)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(i)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(i)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(i)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(i)/definition","to":"section:REG-R02:Final rule:_2002.4(i)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(j)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(j)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(j)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(j)/definition","to":"section:REG-R02:Final rule:_2002.4(j)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(jj)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(jj)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(jj)/definition","to":"section:REG-R02:Final rule:_2002.4(jj)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(k)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(k)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(k)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(k)/definition","to":"section:REG-R02:Final rule:_2002.4(k)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(kk)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(kk)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(kk)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(kk)/definition","to":"section:REG-R02:Final rule:_2002.4(kk)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(l)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(l)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(l)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(l)/definition","to":"section:REG-R02:Final rule:_2002.4(l)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ll)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ll)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ll)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ll)/definition","to":"section:REG-R02:Final rule:_2002.4(ll)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(m)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(m)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(m)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(m)/definition","to":"section:REG-R02:Final rule:_2002.4(m)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(mm)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(mm)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(mm)/definition","to":"section:REG-R02:Final rule:_2002.4(mm)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(n)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(n)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(n)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(n)/definition","to":"section:REG-R02:Final rule:_2002.4(n)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(nn)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(nn)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(nn)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(nn)/definition","to":"section:REG-R02:Final rule:_2002.4(nn)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(o)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(o)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(o)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(o)/definition","to":"section:REG-R02:Final rule:_2002.4(o)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(oo)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(oo)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(oo)/definition","to":"section:REG-R02:Final rule:_2002.4(oo)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(oo)/definition","to":"provision:10_cfr_part_1045","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(p)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(p)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(p)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(p)/definition","to":"section:REG-R02:Final rule:_2002.4(p)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(pp)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(pp)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(pp)/definition","to":"section:REG-R02:Final rule:_2002.4(pp)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(q)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(q)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(q)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(q)/definition","to":"section:REG-R02:Final rule:_2002.4(q)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(qq)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(qq)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(qq)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(qq)/definition","to":"section:REG-R02:Final rule:_2002.4(qq)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(r)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(r)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(r)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(r)/definition","to":"section:REG-R02:Final rule:_2002.4(r)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(rr)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(rr)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(rr)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(rr)/definition","to":"section:REG-R02:Final rule:_2002.4(rr)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(s)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(s)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(s)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(s)/definition","to":"section:REG-R02:Final rule:_2002.4(s)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ss)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ss)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(ss)/definition","to":"section:REG-R02:Final rule:_2002.4(ss)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(t)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(t)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(t)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(t)/definition","to":"section:REG-R02:Final rule:_2002.4(t)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(tt)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(tt)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(tt)/definition","to":"section:REG-R02:Final rule:_2002.4(tt)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(u)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(u)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(u)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(u)/definition","to":"section:REG-R02:Final rule:_2002.4(u)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(v)/definition","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(v)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(v)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(v)/definition","to":"section:REG-R02:Final rule:_2002.4(v)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(w)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(w)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(w)/definition","to":"section:REG-R02:Final rule:_2002.4(w)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(x)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(x)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(x)/definition","to":"section:REG-R02:Final rule:_2002.4(x)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(y)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(y)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(y)/definition","to":"section:REG-R02:Final rule:_2002.4(y)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(z)/definition","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(z)/definition","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(z)/definition","to":"section:REG-R02:Final rule:_2002.4(z)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4(z)/definition","to":"provision:10_cfr_part_1045","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(a)/rule_text","to":"provision:32_cfr_2002.44","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(a)/rule_text","to":"section:REG-R02:Final rule:_2002.44(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(b)/rule_text","to":"provision:32_cfr_2002.44","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(b)/rule_text","to":"section:REG-R02:Final rule:_2002.44(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(c)/rule_text","to":"provision:32_cfr_2002.44","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.44(c)/rule_text","to":"section:REG-R02:Final rule:_2002.44(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.46_(introduction)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.46_(introduction)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.46_(introduction)/rule_text","to":"provision:32_cfr_2002.46","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.46_(introduction)/rule_text","to":"section:REG-R02:Final rule:_2002.46_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.48_(introduction)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.48_(introduction)/rule_text","to":"provision:32_cfr_2002.48","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.48_(introduction)/rule_text","to":"section:REG-R02:Final rule:_2002.48_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4_(introduction)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4_(introduction)/rule_text","to":"provision:32_cfr_2002.4","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.4_(introduction)/rule_text","to":"section:REG-R02:Final rule:_2002.4_(introduction)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(a)/rule_text","to":"provision:32_cfr_2002.50","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(a)/rule_text","to":"section:REG-R02:Final rule:_2002.50(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(b)/rule_text","to":"provision:32_cfr_2002.50","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(b)/rule_text","to":"section:REG-R02:Final rule:_2002.50(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(c)/rule_text","to":"provision:32_cfr_2002.50","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(c)/rule_text","to":"section:REG-R02:Final rule:_2002.50(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(d)/rule_text","to":"provision:32_cfr_2002.50","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(d)/rule_text","to":"section:REG-R02:Final rule:_2002.50(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(e)/rule_text","to":"provision:32_cfr_2002.50","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.50(e)/rule_text","to":"section:REG-R02:Final rule:_2002.50(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(a)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(a)/rule_text","to":"section:REG-R02:Final rule:_2002.52(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(b)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(b)/rule_text","to":"section:REG-R02:Final rule:_2002.52(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(c)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(c)/rule_text","to":"section:REG-R02:Final rule:_2002.52(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(d)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(d)/rule_text","to":"section:REG-R02:Final rule:_2002.52(d)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(e)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(e)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(e)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(e)/rule_text","to":"section:REG-R02:Final rule:_2002.52(e)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(f)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(f)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(f)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(f)/rule_text","to":"section:REG-R02:Final rule:_2002.52(f)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(g)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(g)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(g)/rule_text","to":"provision:32_cfr_2002.52","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.52(g)/rule_text","to":"section:REG-R02:Final rule:_2002.52(g)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(a)/rule_text","to":"provision:32_cfr_2002.54","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(a)/rule_text","to":"section:REG-R02:Final rule:_2002.54(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(b)/rule_text","to":"provision:32_cfr_2002.54","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.54(b)/rule_text","to":"section:REG-R02:Final rule:_2002.54(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(a)/rule_text","to":"provision:32_cfr_2002.56","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(a)/rule_text","to":"section:REG-R02:Final rule:_2002.56(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(b)/rule_text","to":"provision:32_cfr_2002.56","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.56(b)/rule_text","to":"section:REG-R02:Final rule:_2002.56(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(a)/rule_text","to":"provision:32_cfr_2002.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(a)/rule_text","to":"section:REG-R02:Final rule:_2002.6(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(b)/rule_text","to":"provision:32_cfr_2002.6","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.6(b)/rule_text","to":"section:REG-R02:Final rule:_2002.6(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(a)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(a)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(a)/rule_text","to":"provision:32_cfr_2002.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(a)/rule_text","to":"section:REG-R02:Final rule:_2002.8(a)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(b)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(b)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(b)/rule_text","to":"provision:32_cfr_2002.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(b)/rule_text","to":"section:REG-R02:Final rule:_2002.8(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"provision:32_cfr_2002.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"section:REG-R02:Final rule:_2002.8(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"provision:32_cfr_2002.30","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(c)/rule_text","to":"provision:32_cfr_2002.38","type":"REFERENCES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(d)/rule_text","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(d)/rule_text","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(d)/rule_text","to":"provision:32_cfr_2002.8","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R02:Final rule:_2002.8(d)/rule_text","to":"section:REG-R02:Final rule:_2002.8(d)","type":"IN_SECTION","properties":{}}
+{"from":"term:cui","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-R02","type":"IN_DOCUMENT","properties":{}}

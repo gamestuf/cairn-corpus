@@ -1,0 +1,22 @@
+{"id":"document:REG-C06","labels":["Document"],"properties":{"reg_id":"REG-C06","title":"Notice of Cybersecurity Maturity Model Certification Level Requirements","version":"2025-11","tier":"public","authority":"authoritative","relevance":"requirement","visibility":"public","document_number":"DFARS 252.204-7025","url":"https://www.acquisition.gov/dfars/252.204-7025-notice-cybersecurity-maturity-model-certification-level-requirements."}}
+{"id":"provision:32_cfr_170.21","labels":["Provision"],"properties":{"citation":"32 CFR 170.21"}}
+{"id":"provision:32_cfr_part_170","labels":["Provision"],"properties":{"citation":"32 CFR part 170"}}
+{"id":"provision:dfars_204.7504","labels":["Provision"],"properties":{"citation":"DFARS 204.7504"}}
+{"id":"provision:dfars_252.204-7021","labels":["Provision"],"properties":{"citation":"DFARS 252.204-7021"}}
+{"id":"provision:dfars_252.204-7025","labels":["Provision"],"properties":{"citation":"DFARS 252.204-7025","title":"Notice of Cybersecurity Maturity Model Certification Level Requirements"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(a)","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(a)","heading_slug":"252204-7025a"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(a)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(a)/provision text","heading_slug":"provision-text","chunk_id":"ef32caa808c535d35bedabbfe806353334e5c4d120d164515247fe56f1af27a4","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(b)","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(b)","heading_slug":"252204-7025b"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(b)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(b)/provision text","heading_slug":"provision-text","chunk_id":"2d62faf0bad6044b86f8d4ee80470152aea73d2fa7ab78aacedf7a1745514434","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(c)","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(c)","heading_slug":"252204-7025c"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(c)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(c)/provision text","heading_slug":"provision-text","chunk_id":"a2bbb7d5de348829ed88f0792c039897a67a00721c90e34c69f3c0246d6d7e7e","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(d)","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(d)","heading_slug":"252204-7025d"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025(d)/provision_text","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025(d)/provision text","heading_slug":"provision-text","chunk_id":"7cc778a43d229fc4e3ac38916299d0d5fdc0d42d6cf4624ccee9fd1b48d7b157","normativity":"requirement","block_type":"provision text"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025_prescription","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025 prescription","heading_slug":"252204-7025-prescription"}}
+{"id":"section:REG-C06:v2025-11:252.204-7025_prescription/prescription","labels":["Section"],"properties":{"reg_id":"REG-C06","version":"2025-11","anchor":"252.204-7025 prescription/prescription","heading_slug":"prescription","chunk_id":"8d998a43795704f236afc9cea2550c81ff7f2fee1ba59fcf7b6f89c093a3f10b","normativity":"guidance","block_type":"prescription"}}
+{"id":"term:c3pao","labels":["Term"],"properties":{"term":"c3pao"}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:fci","labels":["Term"],"properties":{"term":"fci"}}
+{"id":"term:poam","labels":["Term"],"properties":{"term":"poam"}}
