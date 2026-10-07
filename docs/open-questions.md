@@ -4,7 +4,7 @@ Everything the corpus is waiting on, in one place, grouped by *what would unbloc
 same items as per-row `confirm` entries, and every run report repeats them.
 
 Reviewed 2026-10-06 against the registry (59 rows) and the newest build report, `reports/20261006T081442Z.json`:
-**41 rows built, 18 skipped by design, none errored.** Eight `confirm` items remain, on seven rows (updated 2026-10-07). Seven rows were added 2026-10-07 — six DFARS clauses
+**41 rows built, 18 skipped by design, none errored.** Two `confirm` items remain, on two rows (updated 2026-10-07). Seven rows were added 2026-10-07 — six DFARS clauses
 (`REG-C07`–`C12`) and the DoD CIO CMMC FAQ (`REG-D12`); they build in the next run.
 
 ## Still open
@@ -22,12 +22,8 @@ hold the row until NIST reconciles them. Tracked in the pipeline's `Support/PLAN
 
 | row | waiting for |
 | --- | --- |
-| `REG-R04` | A fresh copy of Class Deviation 2024-O0013 Rev 1. The publisher returns 403, so the row builds from the copy archived 2026-10-06 (`archive_used`). Also `confirm`: is Rev 1 still current, and not rescinded or superseded? |
+| DFARS Class Deviation 2024-O0013, Revision 1 (`REG-R04`) | A fresh copy: the publisher returns 403, so the row builds from its archived copy (`archive_used`). Revision 1 is confirmed current (2026-10-07). |
 | `REG-R05` | The deviation number(s) of the 2026-02-01 Revolutionary FAR Overhaul class deviations covering Subpart 204.73. The url is DPCAP's index, so the row is `register-only`; each deviation then gets its own row, as `REG-R04` does. |
-| `REG-D07` | The CMMC 101 Brief's canonical publisher url and its version/date; then `ingest` goes back to `chunk`. |
-| `REG-D10` | The SPRS briefing's canonical publisher url (`planned`). |
-| `REG-D12` | The CMMC FAQ (FAQsv6.pdf): record its date, exact title and page count at first build. dodcio.defense.gov refuses the workstation the row was written on, so it was not read then. |
-| `REG-C07` | DFARS 252.204-7008 is prescribed in Subpart 204.73, which the RFO class deviations affect (`REG-R05`): is it retained, renumbered or eliminated? |
 
 ### 3. Rows not activated yet
 
@@ -63,6 +59,9 @@ Not registry decisions. Recorded so they are not rediscovered.
 
 | was | decision |
 | --- | --- |
+| CMMC FAQ (`REG-D12`): date, title, page count | **Revision 2.3 (Excerpt), July 2026**, 17 pages, "Cybersecurity Maturity Model Certification Program (CMMC) Frequently Asked Questions" — version set to 2.3, the document's own. |
+| DFARS Class Deviation 2024-O0013 (`REG-R04`): is Revision 1 current? | **Yes.** |
+| CMMC 101 Brief (`REG-D07`), CMMC Briefing: DoD SPRS (`REG-D10`): urls | **Supplied**: `CMMC-101-Nov2025.pdf` (version 2025-11) and `CMMC-SPRS.pdf`; both rows chunk again from the next build. |
 | `REG-F02`: is there a later CAP than v2.0? | **No.** v2.0 (December 2024) is the latest edition. |
 | `REG-F03`: CoPC v2.0 or v2.1a? | **v2.0** (December 2024) is the latest; there is no later version. |
 | `REG-S05`: is the 2023-12-21 memorandum superseded? | **No.** It is the latest version. |

@@ -301,7 +301,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Solicitation provision paired with 252.204-7012: by submitting an offer, the offeror represents it will implement NIST SP 800-171, or request variances. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2016-10). Chunking intent: by paragraph.",
+      "notes": "Solicitation provision paired with 252.204-7012: by submitting an offer, the offeror represents it will implement NIST SP 800-171, or request variances. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2016-10). Chunking intent: by paragraph. The Revolutionary FAR Overhaul class deviations of 2026-02-01 are recorded as eliminating 252.204-7019 and renumbering 252.204-7020 (REG-R05); nothing records an effect on this provision, so none is assumed.",
       "normativity_map": {
         "requirement": [
           "provision text",
@@ -316,10 +316,7 @@
       "language_policy": "single",
       "org": "dfars",
       "doc_id": "252.204-7008",
-      "version_slug": "2016-10",
-      "confirm": [
-        "Prescribed at 204.7304(a), in Subpart 204.73, which the 2026-02-01 Revolutionary FAR Overhaul class deviations affect (REG-R05): confirm whether this provision is retained, renumbered or eliminated."
-      ]
+      "version_slug": "2016-10"
     },
     {
       "id": "REG-C08",
@@ -747,25 +744,23 @@
     {
       "id": "REG-D07",
       "title": "CMMC 101 Brief",
+      "version": "2025-11",
+      "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-101-Nov2025.pdf",
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
       "relevance": "supporting",
       "status": "active",
-      "ingest": "register-only",
+      "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Awareness content; business tier. Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added. Chunking intent: by slide.",
-      "confirm": [
-        "Record version/date from the document.",
-        "Supply the canonical publisher url, then set ingest back to 'chunk'."
-      ],
+      "notes": "Awareness content; business tier. The November 2025 brief (CMMC-101-Nov2025.pdf); url and version supplied 2026-10-07 by the user, so the row is chunked again. Chunking intent: by slide.",
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-101-brief",
-      "version_slug": "current"
+      "version_slug": "2025-11"
     },
     {
       "id": "REG-D08",
@@ -814,24 +809,23 @@
     {
       "id": "REG-D10",
       "title": "CMMC Briefing: DoD SPRS",
+      "version": "2025-02",
+      "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-SPRS.pdf",
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
       "authority": "derived",
       "relevance": "supporting",
-      "status": "planned",
-      "ingest": "register-only",
+      "status": "active",
+      "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "SPRS score mechanics. Switched from ingest 'chunk' to 'register-only': the row carries no canonical publisher url, and stage 0 fails a chunked row with no source. Restore 'chunk' once the url is added. Chunking intent: by slide. Published 2025-02.",
+      "notes": "SPRS score mechanics. url supplied 2026-10-07 by the user, so the row is active and chunked. Version is the publication date this row has carried (2025-02); the file name carries none. Chunking intent: by slide.",
       "language": "en",
       "language_policy": "single",
-      "confirm": [
-        "Supply the canonical publisher url, then set ingest back to 'chunk'."
-      ],
       "org": "dod-cio",
       "doc_id": "cmmc-sprs-briefing",
-      "version_slug": "current"
+      "version_slug": "2025-02"
     },
     {
       "id": "REG-D11",
@@ -854,8 +848,8 @@
     },
     {
       "id": "REG-D12",
-      "title": "CMMC Frequently Asked Questions (FAQs)",
-      "version": "v6",
+      "title": "Cybersecurity Maturity Model Certification Program (CMMC) Frequently Asked Questions",
+      "version": "2.3",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf",
       "tier": "public",
       "visibility": "public",
@@ -866,7 +860,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "DoD CIO's answers to frequently asked questions about the CMMC program, version 6 (FAQsv6). Cited by the system security plans for VDI endpoint scoping. Every answer is DoD's interpretation, never the rule itself (32 CFR 170, REG-R01). Chunking intent: by question. Added 2026-10-07.",
+      "notes": "DoD CIO's answers to frequently asked questions about the CMMC program: Revision 2.3 (Excerpt), July 2026, 17 pages, published as FAQsv6.pdf. Cited by the system security plans for VDI endpoint scoping. Every answer is DoD's interpretation, never the rule itself (32 CFR 170, REG-R01). Chunking intent: by question. Added 2026-10-07; date confirmed by the user, revision, title and page count read from the document.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -874,14 +868,15 @@
         ],
         "example": []
       },
-      "confirm": [
-        "Record the publication date, the exact title and the page count (qa.min_pages / max_pages) from the document at first build; the url names version 6, and the SSPs cite it as the July 2026 FAQ."
-      ],
+      "qa": {
+        "min_pages": 17,
+        "max_pages": 17
+      },
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-faq",
-      "version_slug": "v6"
+      "version_slug": "2.3"
     },
     {
       "id": "REG-F01",
@@ -1975,7 +1970,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'. Chunking intent: whole memo + per paragraph. Published 2024-05-02 (Rev. 1 later in 2024).",
+      "notes": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'. Chunking intent: whole memo + per paragraph. Published 2024-05-02 (Rev. 1 later in 2024). Confirmed current 2026-10-07 (user): Revision 1 is the current revision.",
       "normativity_map": {
         "requirement": [
           "deviation text"
@@ -1989,9 +1984,6 @@
         "min_pages": 8,
         "max_pages": 8
       },
-      "confirm": [
-        "Confirm current revision and that it has not been rescinded or superseded."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "dfars",

@@ -38,7 +38,7 @@ anyone can re-hash, and every gap visible in the report** rather than absent fro
 The 18 skipped rows are skipped by design, each with its reason in the report:
 
 - 15 `planned`: the CPRT JSON rows `REG-N01`–`N04` and `N10`–`N13`, plus `N09`, `N51`, `D08`, `D10`, `D11`, `S03` and `S04`.
-- 2 `register-only`: `REG-D07` and `R05`, which wait on a url.
+- 1 `register-only`: the RFO class deviations index (`REG-R05`), which waits on the deviation numbers.
 - 1 pointer: `REG-S02`.
 
 The informative share is mostly the SCF workbook (`REG-F01`, 13,452 chunks), whose own content is `derived`.
@@ -102,10 +102,9 @@ produce, and signs it. See [`cairn-pipeline/docs/releasing.md`](https://github.c
 [Detail](open-questions.md#still-open).
 
 - Per CPRT JSON row: accept its wording differences from the PDF, or hold it (`REG-N01`–`N04`, `N10`–`N13`).
-- Edition: `REG-R04`: is Rev 1 still current?
 - Sources:
-  - `REG-R05`: the deviation numbers, and whether 252.204-7008 (`REG-C07`) survives them;
-  - `REG-D07` and `D10`: their urls.
+  - `REG-R05`: the deviation numbers, whose text says which clauses they change;
+  - none else: the CMMC 101 Brief and the SPRS briefing have urls (2026-10-07).
 
 Closed 2026-10-06: redistribution of `F01`–`F03` (no), the `R03`/`R07` split (correct), the regulations'
 `version_slug` (the eCFR `as_of` date), `R02` (Part 2002). Closed 2026-10-07: `F02` and `F03` hold the latest
