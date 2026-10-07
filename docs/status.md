@@ -6,7 +6,9 @@ Where the corpus is, against what it is meant to become. Read this first; it lin
 - **[`registry-reference.md`](registry-reference.md)** — what each registry field means.
 - **[`consuming-artifacts.md`](consuming-artifacts.md)** — the contract for anything reading the corpus.
 
-Figures below are from the newest build, `reports/20261006T081442Z.json` (2026-10-06), and the manifest it wrote.
+Figures below are from the newest build, `reports/20261006T081442Z.json` (2026-10-06), and the manifest it wrote. Since that
+build the registry gained six DFARS rows (`REG-C07`–`C12`, 2026-10-07: 252.204-7008, -7016, -7017, -7018, 252.227-7013, -7016)
+and the DoD CIO CMMC FAQ (`REG-D12`), now 66 rows; they build in the next run.
 They are what happened, not an estimate. Re-derive them from the newest report in `reports/` when this looks stale.
 
 ## What the corpus is for
@@ -100,17 +102,14 @@ produce, and signs it. See [`cairn-pipeline/docs/releasing.md`](https://github.c
 [Detail](open-questions.md#still-open).
 
 - Per CPRT JSON row: accept its wording differences from the PDF, or hold it (`REG-N01`–`N04`, `N10`–`N13`).
-- Editions:
-  - `REG-F02`: is there a December 2025 CAP?
-  - `REG-F03`: CoPC v2.0 or v2.1a?
-  - `REG-S05`: is the memo superseded?
-  - `REG-R04`: is Rev 1 still current?
+- Edition: `REG-R04`: is Rev 1 still current?
 - Sources:
-  - `REG-R05`: the deviation numbers;
+  - `REG-R05`: the deviation numbers, and whether 252.204-7008 (`REG-C07`) survives them;
   - `REG-D07` and `D10`: their urls.
 
 Closed 2026-10-06: redistribution of `F01`–`F03` (no), the `R03`/`R07` split (correct), the regulations'
-`version_slug` (the eCFR `as_of` date), `R02` (Part 2002).
+`version_slug` (the eCFR `as_of` date), `R02` (Part 2002). Closed 2026-10-07: `F02` and `F03` hold the latest
+editions, and `S05` is the latest memorandum.
 
 ## 5. Deliberately not done
 

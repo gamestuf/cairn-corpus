@@ -4,7 +4,8 @@ Everything the corpus is waiting on, in one place, grouped by *what would unbloc
 same items as per-row `confirm` entries, and every run report repeats them.
 
 Reviewed 2026-10-06 against the registry (59 rows) and the newest build report, `reports/20261006T081442Z.json`:
-**41 rows built, 18 skipped by design, none errored.** Eight `confirm` items remain, on seven rows.
+**41 rows built, 18 skipped by design, none errored.** Eight `confirm` items remain, on seven rows (updated 2026-10-07). Seven rows were added 2026-10-07 — six DFARS clauses
+(`REG-C07`–`C12`) and the DoD CIO CMMC FAQ (`REG-D12`); they build in the next run.
 
 ## Still open
 
@@ -25,22 +26,16 @@ hold the row until NIST reconciles them. Tracked in the pipeline's `PLAN.md`, *D
 | `REG-R05` | The deviation number(s) of the 2026-02-01 Revolutionary FAR Overhaul class deviations covering Subpart 204.73. The url is DPCAP's index, so the row is `register-only`; each deviation then gets its own row, as `REG-R04` does. |
 | `REG-D07` | The CMMC 101 Brief's canonical publisher url and its version/date; then `ingest` goes back to `chunk`. |
 | `REG-D10` | The SPRS briefing's canonical publisher url (`planned`). |
+| `REG-D12` | The CMMC FAQ (FAQsv6.pdf): record its date, exact title and page count at first build. dodcio.defense.gov refuses the workstation the row was written on, so it was not read then. |
+| `REG-C07` | DFARS 252.204-7008 is prescribed in Subpart 204.73, which the RFO class deviations affect (`REG-R05`): is it retained, renumbered or eliminated? |
 
-### 3. Editions to confirm
-
-| row | held | question |
-| --- | --- | --- |
-| `REG-F02` CMMC Assessment Process | v2.0, 16 Dec 2024 (its revision table; the text still invites comments on the "DRAFT CAP v2.0") | A rule-alignment update was announced for December 2025. Is a later edition published? |
-| `REG-F03` CMMC Code of Professional Conduct | v2.0, 16 Dec 2024 | A v2.1a has circulated. Which is current? |
-| `REG-S05` FedRAMP Moderate equivalency memo | DoD CIO memorandum, 2023-12-21 | Does any later DoD CIO guidance supersede it? (The url is confirmed: it builds.) |
-
-### 4. Rows not activated yet
+### 3. Rows not activated yet
 
 Not blockers. `REG-N09` (CSF 2.0) and `REG-N51` (SP 800-53A) are `planned`. `REG-D08` (the CMMC overview briefing,
 audio) is `planned` and would need a transcript. `REG-D11` is `planned` and optional. `REG-S03` and `REG-S04` are
 pointers, also `planned`.
 
-### 5. Deferred engineering
+### 4. Deferred engineering
 
 Not registry decisions. Recorded so they are not rediscovered.
 
@@ -63,6 +58,14 @@ Not registry decisions. Recorded so they are not rediscovered.
 | 1.2 `REG-R03` and `REG-R07` are one document | **The split is correct.** One Federal Register document (FR Doc. 2025-17359, 90 FR 43560), split by normativity: `R03` takes the clause text (requirement), `R07` the preamble and responses (guidance). Each keeps its own `doc_id`. |
 | 1.3 Version slugs for the living regulations | **`version_slug` is the eCFR `as_of` date:** `REG-R01` `2024-12-16`, `REG-R02` `2016-12-22`. Only the slug changed, and the slug names directories, so chunk ids are **not** reissued. (The old note said they would be; that was wrong — `version`, not `version_slug`, feeds `chunk_id`.) The next build writes these rows under the new path. |
 | 1.4 `REG-R02`: Part 2002 or Part 2000 | **Part 2002**, Controlled Unclassified Information. |
+
+### Decided 2026-10-07
+
+| was | decision |
+| --- | --- |
+| `REG-F02`: is there a later CAP than v2.0? | **No.** v2.0 (December 2024) is the latest edition. |
+| `REG-F03`: CoPC v2.0 or v2.1a? | **v2.0** (December 2024) is the latest; there is no later version. |
+| `REG-S05`: is the 2023-12-21 memorandum superseded? | **No.** It is the latest version. |
 
 ### Resolved by the corpus itself
 

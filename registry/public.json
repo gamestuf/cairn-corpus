@@ -287,6 +287,201 @@
       "version_slug": "2025-11"
     },
     {
+      "id": "REG-C07",
+      "document_number": "DFARS 252.204-7008",
+      "title": "Compliance with Safeguarding Covered Defense Information Controls",
+      "version": "2016-10",
+      "url": "https://www.acquisition.gov/dfars/252.204-7008-compliance-safeguarding-covered-defense-information-controls.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Solicitation provision paired with 252.204-7012: by submitting an offer, the offeror represents it will implement NIST SP 800-171, or request variances. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2016-10). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "provision text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.204-7008",
+      "version_slug": "2016-10",
+      "confirm": [
+        "Prescribed at 204.7304(a), in Subpart 204.73, which the 2026-02-01 Revolutionary FAR Overhaul class deviations affect (REG-R05): confirm whether this provision is retained, renumbered or eliminated."
+      ]
+    },
+    {
+      "id": "REG-C08",
+      "document_number": "DFARS 252.204-7016",
+      "title": "Covered Defense Telecommunications Equipment or Services—Representation",
+      "version": "2019-12",
+      "url": "https://www.acquisition.gov/dfars/252.204-7016-covered-defense-telecommunications-equipment-or-services%E2%80%94representation.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Solicitation provision (Section 889 / NDAA FY2019 sec. 1656): the offeror represents whether it provides covered defense telecommunications equipment or services. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2019-12). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "provision text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.204-7016",
+      "version_slug": "2019-12"
+    },
+    {
+      "id": "REG-C09",
+      "document_number": "DFARS 252.204-7017",
+      "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services—Representation",
+      "version": "2021-05",
+      "url": "https://www.acquisition.gov/dfars/252.204-7017-prohibition-acquisition-covered-defense-telecommunications-equipment-or-services%E2%80%94representation.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Solicitation provision: the offeror represents whether it will provide covered defense telecommunications equipment or services, with disclosure. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2021-05). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "provision text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.204-7017",
+      "version_slug": "2021-05"
+    },
+    {
+      "id": "REG-C10",
+      "document_number": "DFARS 252.204-7018",
+      "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services",
+      "version": "2023-01",
+      "url": "https://www.acquisition.gov/dfars/252.204-7018-prohibition-acquisition-covered-defense-telecommunications-equipment-or-services.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause prohibiting covered defense telecommunications equipment or services, with reporting and flow-down; paired with 252.204-7016 and -7017. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2023-01). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.204-7018",
+      "version_slug": "2023-01"
+    },
+    {
+      "id": "REG-C11",
+      "document_number": "DFARS 252.227-7013",
+      "title": "Rights in Technical Data—Other Than Commercial Products and Commercial Services",
+      "version": "2025-08",
+      "url": "https://www.acquisition.gov/dfars/252.227-7013-rights-technical-data%E2%80%94other-commercial-products-and-commercial-services.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause on the Government's rights in noncommercial technical data and its restrictive markings; relevant to marking controlled technical information. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2025-08). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.227-7013",
+      "version_slug": "2025-08"
+    },
+    {
+      "id": "REG-C12",
+      "document_number": "DFARS 252.227-7016",
+      "title": "Rights in Bid or Proposal Information",
+      "version": "2023-01",
+      "url": "https://www.acquisition.gov/dfars/252.227-7016-rights-bid-or-proposal-information.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause on the Government's rights in technical data and software submitted in bids or proposals. Cited by the system security plans (Document References). Version is the clause date on acquisition.gov (2023-01). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.227-7016",
+      "version_slug": "2023-01"
+    },
+    {
       "id": "REG-D01",
       "document_number": "DoD-CIO-00001",
       "title": "CMMC Model Overview",
@@ -658,6 +853,37 @@
       "version_slug": "current"
     },
     {
+      "id": "REG-D12",
+      "title": "CMMC Frequently Asked Questions (FAQs)",
+      "version": "v6",
+      "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "guidance",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "DoD CIO's answers to frequently asked questions about the CMMC program, version 6 (FAQsv6). Cited by the system security plans for VDI endpoint scoping. Every answer is DoD's interpretation, never the rule itself (32 CFR 170, REG-R01). Chunking intent: by question. Added 2026-10-07.",
+      "normativity_map": {
+        "requirement": [],
+        "guidance": [
+          "all"
+        ],
+        "example": []
+      },
+      "confirm": [
+        "Record the publication date, the exact title and the page count (qa.min_pages / max_pages) from the document at first build; the url names version 6, and the SSPs cite it as the July 2026 FAQ."
+      ],
+      "language": "en",
+      "language_policy": "single",
+      "org": "dod-cio",
+      "doc_id": "cmmc-faq",
+      "version_slug": "v6"
+    },
+    {
       "id": "REG-F01",
       "document_number": "SCF 2026.3",
       "title": "Secure Controls Framework (SCF) 2026.3 — Control Catalog, Assessment Objectives and Evidence Request List",
@@ -726,10 +952,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01). Chunking intent: by phase. Published 2024-12. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published.",
-      "confirm": [
-        "A rule-alignment update was announced for Dec 2025; confirm current edition before ingest."
-      ],
+      "notes": "Phase-by-phase Level 2 C3PAO assessment process; 'what to expect', never OSC obligation (that is REG-R01). Chunking intent: by phase. Published 2024-12. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published. Confirmed 2026-10-07: v2.0 (December 2024) is the latest edition; no later version exists.",
       "normativity_map": {
         "requirement": [],
         "guidance": [
@@ -762,10 +985,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only. audience: reference — router surfaces only for ecosystem intents. Chunking intent: by principle. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published.",
-      "confirm": [
-        "A v2.1a has also circulated; confirm current."
-      ],
+      "notes": "Binds C3PAOs, assessors, RPOs; use for independence, confidentiality and appeals questions only. audience: reference — router surfaces only for ecosystem intents. Chunking intent: by principle. Decided 2026-10-06: the original is not redistributed (redistribute: false); its derived text is published. Confirmed 2026-10-07: v2.0 (December 2024) is the latest edition; no later version exists.",
       "normativity_map": {
         "requirement": [
           "principles binding CMMC ecosystem participants"
@@ -2115,7 +2335,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "scan",
-      "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21. URL confirmed 2026-10-06: it serves the memorandum, built by OCR.",
+      "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21. URL confirmed 2026-10-06: it serves the memorandum, built by OCR. Confirmed 2026-10-07: the 2023-12-21 memorandum is the latest version.",
       "normativity_map": {
         "requirement": [
           "memo directives"
@@ -2129,10 +2349,7 @@
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "fedramp-moderate-equivalency",
-      "version_slug": "2023-12-21",
-      "confirm": [
-        "Confirm whether any later DoD CIO guidance supersedes this memorandum."
-      ]
+      "version_slug": "2023-12-21"
     },
     {
       "id": "REG-S06",
