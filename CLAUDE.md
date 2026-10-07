@@ -48,9 +48,9 @@ headings, text or figures.
   corpus's central promise.
 - **Do not edit `manifest/registry.snapshot.json`.** It is build output and the baseline for the next run's
   change detection; a hand-edit makes the next build treat everything as new.
-- A local run pointed at this repository will leave `manifest/`, `reports/` and a rewritten snapshot in the
-  working tree. **Revert that residue rather than committing it** unless the run was the real scheduled
-  build.
+- **Only the CI build writes this repository** (decided 2026-10-07): it is the build that signs the manifest, so it
+  is the only producer. Local public builds go to a scratch `--out`. A local run pointed here by mistake leaves
+  `manifest/`, `reports/` and a rewritten snapshot in the working tree — **revert that residue, never commit it**.
 - Every row must be `tier: public`. Any other tier fails stage 0.
 
 ## 3. Editing rows
