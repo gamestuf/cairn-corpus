@@ -3,7 +3,7 @@
 **This repository is public.** Everything committed here is visible to anyone. Read §1 before adding a file.
 
 This is data only. The pipeline that builds it is [`cairn-pipeline`](https://github.com/gamestuf/cairn-pipeline),
-a private repository; its `Support/DESIGN_GUIDE.md` and `Support/PLAN.md` explain how everything here is produced.
+a private repository; its `Support/DESIGN_GUIDE.md` and `Support/PROJECT_PLAN.md` explain how everything here is produced.
 
 | | |
 | --- | --- |
