@@ -22,7 +22,6 @@ hold the row until NIST reconciles them. Tracked as item DP-A1 of the Document P
 
 | row | waiting for |
 | --- | --- |
-| DFARS Class Deviation 2024-O0013, Revision 1 (`REG-R04`) | A fresh copy: the publisher returns 403, so the row builds from its archived copy (`archive_used`). Revision 1 is confirmed current (2026-10-07). |
 | `REG-R05` | The deviation number(s) of the 2026-02-01 Revolutionary FAR Overhaul class deviations covering Subpart 204.73. The url is DPCAP's index, so the row is `register-only`; each deviation then gets its own row, as `REG-R04` does. |
 
 ### 3. Rows not activated yet
@@ -54,6 +53,13 @@ Not registry decisions. Recorded so they are not rediscovered.
 | 1.2 `REG-R03` and `REG-R07` are one document | **The split is correct.** One Federal Register document (FR Doc. 2025-17359, 90 FR 43560), split by normativity: `R03` takes the clause text (requirement), `R07` the preamble and responses (guidance). Each keeps its own `doc_id`. |
 | 1.3 Version slugs for the living regulations | **`version_slug` is the eCFR `as_of` date:** `REG-R01` `2024-12-16`, `REG-R02` `2016-12-22`. Only the slug changed, and the slug names directories, so chunk ids are **not** reissued. (The old note said they would be; that was wrong — `version`, not `version_slug`, feeds `chunk_id`.) The next build writes these rows under the new path. |
 | 1.4 `REG-R02`: Part 2002 or Part 2000 | **Part 2002**, Controlled Unclassified Information. |
+
+### Decided 2026-10-08
+
+| was | decision |
+| --- | --- |
+| Rows CI can never fetch: 15 rows on `dodcio.defense.gov`, `esd.whs.mil`, `dodcui.mil` (403) and `acq.osd.mil` (TLS) report `archive_used` at warning on every build | **A dated review.** Each row carries `snapshot_reviewed`; for 90 days after it the finding is info (pipeline ADR-0016, unreleased). All 15 were compared with their publisher on 2026-10-08 and found current. |
+| DFARS Class Deviation 2024-O0013, Revision 1 (`REG-R04`): waiting for a fresh copy | **The archived copy stands.** It is Revision 1, the current revision, and is reviewed with the other 14. |
 
 ### Decided 2026-10-07
 

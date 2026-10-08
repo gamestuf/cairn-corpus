@@ -37,6 +37,7 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `url` | conditional | Remote source, and the source of record. |
 | `local_path` | conditional | An **authoritative** local source. When set, the row is built from this file and no fetch happens. Used by the JSON-primary rows. |
 | `fallback_path` | no | A **committed copy**, used only when the live fetch fails. See below. |
+| `snapshot_reviewed` | no | `yyyy-MM-dd`: the date a person last compared the row's stored copy with its `url` in a browser and found it to be the current edition. For 90 days after it, a build from that copy is reported at `info` rather than `warning`. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
 | `format` | **yes** for active chunked rows | What the bytes are — exactly one of `pdf`, `html`, `xml`, `json`, `xlsx`, `docx`, `pptx`, `md`, `audio`. The magic-byte check holds the payload to it. Anything else — prose naming two sources, a processing path such as `pdf-scan` — fails stage 0 (`format_not_a_byte_type`): a verifying PDF is named by `qa.verify_against`, and the path by `format_profile`. |
 | `format_profile` | no; **`general` when absent** | How the bytes become text and chunks — one path per row (pipeline ADR-0014). `general` for every format; and `nist-companion`, `cmmc-guide`, `scan` (PDF), `cprt-json`, `org-policy-json`, `org-ssp-json` (JSON), `regulation-html` (HTML), `ecfr-xml` (XML), `scf-workbook` (XLSX), `transcript` (audio). A profile that is not a path for the row's `format` fails stage 0, on every row whatever its `status` or `ingest`, and so does a profile on a row with no `format`. It chooses the chunker and the `--commands` entry that runs the row, and it is the last directory of the row's path. |
@@ -60,8 +61,12 @@ is `sources/{reg_id}/{filename}` at the top level.
 Three rules make this safe to rely on:
 
 1. **The url is always tried first.** A reachable document is never replaced by its snapshot.
-2. **Using a fallback is never silent.** It raises a `fallback_used` warning naming why the fetch failed,
-   and sets `warnings: true` on the run.
+2. **Using a fallback is never silent.** It raises a finding naming why the fetch failed: `archive_used` for
+   the copy an earlier run archived under `raw/`, `fallback_used` for a committed copy. The finding is a
+   **warning**, and sets `warnings: true` on the run, unless the row's `snapshot_reviewed` date is 90 days old
+   or less. Then it is **info**, and names the review date (pipeline ADR-0016). A stale review, a date after
+   the run, or a 404/410 from the publisher keeps the warning. To renew a review, open the `url` in a
+   browser, compare it with the copy, and update the date.
 3. **The manifest records `origin`** — `url`, `fallback` or `local` — plus `fallback_reason`. A snapshot of
    unknown age and a document retrieved from the publisher today are different claims, and a consumer must
    be able to tell them apart.
