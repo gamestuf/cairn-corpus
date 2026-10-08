@@ -46,17 +46,23 @@ A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_wit
 
 ### Fallback copies
 
-Some publishers cannot be fetched from CI: at the time of writing, 9 registry rows return **HTTP 403**
-(the publisher blocks the runner) and 2 fail the **TLS handshake**. `fallback_path` points at a copy of the
-document committed to this repository, which the pipeline uses *only when the live fetch fails*:
+Some publishers cannot be fetched from CI. On 2026-10-08, 14 rows on `dodcio.defense.gov`, `esd.whs.mil`
+and `dodcui.mil` return **HTTP 403** to GitHub's runners, and 2 rows on `acq.osd.mil` fail the **TLS
+handshake**. When the live fetch fails, the pipeline uses, in order:
+
+1. **The copy an earlier run archived** under `raw/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/`.
+   Any document fetched successfully once is its own fallback from then on.
+2. **A committed copy**: the file the row names in `fallback_path`, if it names one (resolved against the
+   registry file's directory, then this repository's root; no row uses it today), otherwise the one file found
+   by convention at `fallback/{tier}/{org}/{doc_id}/{version_slug}/{format_profile}/`. That folder must hold
+   exactly one file; its name does not matter. This is how a document that has *never* been reachable from CI
+   gets in. The path slugs must match the row's, so a copy filed under another version is invisible by design.
 
 ```json
-"url": "https://dodcio.defense.gov/.../AssessmentGuideL2v2.pdf",
-"fallback_path": "sources/REG-D03/AssessmentGuideL2v2.pdf"
+"url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf"
 ```
 
-Paths resolve against the registry file's directory first, then this repository's root — so the convention
-is `sources/{reg_id}/{filename}` at the top level.
+with its copy at `fallback/public/dod-cio/cmmc-faq/2.3/general/FAQsv6.pdf`.
 
 Three rules make this safe to rely on:
 
@@ -222,7 +228,7 @@ revision that changes a count without waiting for a pipeline release.
 | `expected_objectives` | Exact count of `determination` chunks. |
 | `min_pages` / `max_pages` | Page-count bounds for paged sources. |
 | `verify_against` | Registry id of the PDF row whose extracted text this row's statements are verified against. That row must be `format_profile: nist-companion`, and every companion must be some row's target. |
-| `suppress_against` | Registry ids of the `cprt-json` rows whose statements a `cmmc-guide` row must not repeat. **Required on that profile**, and never inferred: a guide quoting 800-171 r2 names the r2 rows. |
+| `suppress_against` | Registry ids of the NIST rows whose statements a `cmmc-guide` row must not repeat: the `cprt-json` row, or its `nist-companion` PDF while the JSON row is planned (pipeline ADR-0017). **Required on that profile**, and never inferred: a guide quoting 800-171 r2 names the r2 rows. |
 | `min_chars_per_page` | Lowers the 200-characters-a-page floor below which a PDF is refused as `scan_suspected`, for a document that really is that sparse. |
 | `verify_threshold` | Fraction of statements that must match. Defaults to `1.0`. |
 

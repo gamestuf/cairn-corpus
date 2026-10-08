@@ -168,7 +168,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "SPRS score posting requirement (solicitation provision). Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01. Retained in registry so a consumer can reject it by ID and the bot can explain its removal. Chunking intent: by paragraph.",
+      "notes": "SPRS score posting requirement (solicitation provision). Eliminated by the Revolutionary FAR Overhaul DFARS class deviations effective 2026-02-01; DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09) does not carry it. Retained in registry so a consumer can reject it by ID and the bot can explain its removal. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "provision text",
@@ -200,7 +200,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "DoD Medium/High assessment access; basic self-assessment and SPRS-upload obligation removed under the RFO. Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve. Chunking intent: by paragraph. Published 2026-02 (RFO class deviation).",
+      "notes": "DoD Medium/High assessment access; basic self-assessment and SPRS-upload obligation removed under the RFO. Renumbered from 252.204-7020 by RFO class deviation effective 2026-02-01; keep alias 252.204-7020 so older citations resolve. The current text of 252.240-7997 is in DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09), prescribed at 240.370-5(d). Chunking intent: by paragraph. Published 2026-02 (RFO class deviation).",
       "normativity_map": {
         "requirement": [
           "clause text",
@@ -237,7 +237,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Chunking intent: by paragraph.",
+      "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09, 2026-09-03), prescribed at 240.371-5(a). The same deviation directs contracting officers to remove or revise CMMC requirements in solicitations and contracts under the DoW CIO memorandum of 2026-07-13, which suspends the November 2026 Phase 2 transition; the clause itself is not removed, and NIST SP 800-171 Rev 2 compliance under 252.204-7012 continues. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "clause text",
@@ -269,7 +269,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Solicitation provision paired with 252.204-7021. Chunking intent: by paragraph.",
+      "notes": "Solicitation provision paired with 252.204-7021. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09), prescribed at 240.371-5(b); see REG-C05 for the Phase 2 suspension. Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "provision text",
@@ -514,8 +514,9 @@
             "section": "2.4",
             "covered_by": [
               "REG-C01",
-              "REG-N01",
-              "REG-N10"
+              "REG-N01b",
+              "REG-N10b",
+              "REG-R01"
             ]
           }
         ]
@@ -566,7 +567,7 @@
       "qa": {
         "suppress_against": [
           "REG-N01",
-          "REG-N02"
+          "REG-N02b"
         ]
       },
       "language": "en",
@@ -664,7 +665,7 @@
       "qa": {
         "suppress_against": [
           "REG-N10",
-          "REG-N11"
+          "REG-N11b"
         ]
       },
       "language": "en",
@@ -749,6 +750,7 @@
     },
     {
       "id": "REG-D07",
+      "document_number": "CMMC 101 Brief (Nov 2025)",
       "title": "CMMC 101 Brief",
       "version": "2025-11",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-101-Nov2025.pdf",
@@ -775,6 +777,7 @@
     },
     {
       "id": "REG-D08",
+      "document_number": "CMMC Overview Briefing (Audio, 2024-11-04)",
       "title": "CMMC Overview Briefing (Audio)",
       "version": "2024-11-04",
       "tier": "public",
@@ -795,7 +798,9 @@
     },
     {
       "id": "REG-D09",
+      "document_number": "CMMC Alignment to NIST Standards (Feb 2025)",
       "title": "CMMC Briefing: CMMC Alignment to NIST Standards",
+      "version": "2025-02",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
       "snapshot_reviewed": "2026-10-08",
       "tier": "public",
@@ -807,12 +812,12 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions. Chunking intent: by slide. Published 2025-02.",
+      "notes": "Explains why 800-171 Rev 2 remains the CMMC target; use for Rev 2 vs Rev 3 questions. Chunking intent: by slide. Published 2025-02 (cleared for open publication 2025-01-21). Version and folder recorded 2026-10-08; the folder was named 2.13, borrowed from the CMMC guides.",
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-alignment-to-nist",
-      "version_slug": "2.13",
+      "version_slug": "2025-02",
       "qa": {
         "min_pages": 10,
         "max_pages": 10
@@ -820,6 +825,7 @@
     },
     {
       "id": "REG-D10",
+      "document_number": "CMMC Briefing: DoD SPRS (Feb 2025)",
       "title": "CMMC Briefing: DoD SPRS",
       "version": "2025-02",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-SPRS.pdf",
@@ -846,7 +852,9 @@
     },
     {
       "id": "REG-D11",
+      "document_number": "DIB CSaaS Slick Sheet",
       "title": "DoD Defense Industrial Base Cybersecurity Services (DIB CSaaS) Slick Sheet",
+      "version": "current",
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
@@ -865,6 +873,7 @@
     },
     {
       "id": "REG-D12",
+      "document_number": "CMMC FAQ Rev. 2.3",
       "title": "Cybersecurity Maturity Model Certification Program (CMMC) Frequently Asked Questions",
       "version": "2.3",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf",
@@ -1457,7 +1466,7 @@
       "authority": "authoritative",
       "relevance": "requirement",
       "framework_rev": 2,
-      "status": "planned",
+      "status": "active",
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
@@ -1623,7 +1632,7 @@
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
-      "notes": "Comparison intents only ('what changes in Rev 3'); never support for current Level 3 posture. CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from. Chunking intent: one chunk per element per enhanced requirement, from the CPRT export. Published 2024-05.",
+      "notes": "Comparison intents only ('what changes in Rev 3'); never support for current Level 3 posture. CPRT export sp_800_172_3_0_0 also restates the Rev 3 assessment content that REG-N13 ingests. The determination, examine, interview and test elements are left unmapped here so they carry the conservative guidance default, and REG-N13 remains the row those are retrieved from. Chunking intent: one chunk per element per enhanced requirement, from the CPRT export. Published 2026-05; corrected 2026-10-08 from 2024-05, as the PDF reads May 2026.",
       "qa": {
         "expected_requirements": 103,
         "verify_against": "REG-N12b"
@@ -1667,7 +1676,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "nist-companion",
-      "notes": "The printed Rev 3 enhanced requirements, and the text REG-N12's CPRT export is verified against. Same publication as REG-N12, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
+      "notes": "The printed Rev 3 enhanced requirements, and the text REG-N12's CPRT export is verified against. Same publication as REG-N12, fetched as the PDF. Chunking intent: by heading. Published 2026-05; corrected 2026-10-08 from 2024-05, as the PDF reads May 2026.",
       "normativity_map": {
         "requirement": [
           "requirement",
@@ -1705,11 +1714,11 @@
       "authority": "authoritative",
       "relevance": "supporting",
       "framework_rev": 3,
-      "status": "planned",
+      "status": "active",
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
-      "notes": "Comparison intents only; the Rev 3 assessment procedures, not the current Level 3 basis. CPRT export sp_800_172a_3_0_0. The enhanced_security_requirement elements it carries are restated for context and are retrieved from REG-N12, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2024-05.",
+      "notes": "Comparison intents only; the Rev 3 assessment procedures, not the current Level 3 basis. CPRT export sp_800_172a_3_0_0. The enhanced_security_requirement elements it carries are restated for context and are retrieved from REG-N12, not here. Chunking intent: one chunk per element per objective, from the CPRT export. Published 2026-05; corrected 2026-10-08 from 2024-05, as the PDF reads May 2026.",
       "qa": {
         "expected_objectives": 199,
         "verify_against": "REG-N13b"
@@ -1749,7 +1758,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "nist-companion",
-      "notes": "The printed Rev 3 enhanced assessment procedures, and the text REG-N13's CPRT export is verified against. Same publication as REG-N13, fetched as the PDF. Chunking intent: by heading. Published 2024-05.",
+      "notes": "The printed Rev 3 enhanced assessment procedures, and the text REG-N13's CPRT export is verified against. Same publication as REG-N13, fetched as the PDF. Chunking intent: by heading. Published 2026-05; corrected 2026-10-08 from 2024-05, as the PDF reads May 2026.",
       "normativity_map": {
         "requirement": [
           "requirement",
@@ -1779,7 +1788,7 @@
       "id": "REG-N50",
       "document_number": "NIST SP 800-53 Rev. 5.2",
       "title": "Security and Privacy Controls for Information Systems and Organizations",
-      "version": "Rev. 5",
+      "version": "Rev. 5.2.0",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_5_2_0/export/json?element=all",
       "tier": "public",
       "visibility": "public",
@@ -1791,7 +1800,7 @@
       "format": "json",
       "format_profile": "cprt-json",
       "subset": "sp800-53-scope",
-      "notes": "Subset (PLAN Phase 11): only the controls the corpus's mappings reach, computed in each build by subset 'sp800-53-scope' - 800-171 Rev 3's source controls and Appendix C CUI rows, 800-171 Rev 2's Appendix D mapping and Appendix E CUI/NFO rows, the NIST 800-53 R5.2 column of every SCF control mapping 800-171/171A (Rev 2 and Rev 3), CMMC Level 1 or 2, DFARS 252.204-7012, FAR 52.204-21/-25/-27 or ITSP-10-171, and the Rev 5 successors of any of those Rev 5 withdrew. The kept list, with each control's sources, is written beside the chunks as subset.json; the bibliography (reference) is kept whole. The export is read whole first, so expected_requirements still checks it. Published 2020-09 (updated 2020-12-10).",
+      "notes": "Subset (PLAN Phase 11): only the controls the corpus's mappings reach, computed in each build by subset 'sp800-53-scope' - 800-171 Rev 3's source controls and Appendix C CUI rows, 800-171 Rev 2's Appendix D mapping and Appendix E CUI/NFO rows, the NIST 800-53 R5.2 column of every SCF control mapping 800-171/171A (Rev 2 and Rev 3), CMMC Level 1 or 2, DFARS 252.204-7012, FAR 52.204-21/-25/-27 or ITSP-10-171, and the Rev 5 successors of any of those Rev 5 withdrew. The kept list, with each control's sources, is written beside the chunks as subset.json; the bibliography (reference) is kept whole. The export is read whole first, so expected_requirements still checks it. Release 5.2.0, the version the CPRT export names (SP_800_53_5_2_0), published 2025-08. Version corrected 2026-10-08 from \"Rev. 5\", which named the revision but not the release.",
       "qa": {
         "expected_requirements": 1014
       },
@@ -1809,13 +1818,13 @@
       "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-53",
-      "version_slug": "r5"
+      "version_slug": "r5-2"
     },
     {
       "id": "REG-N51",
       "document_number": "NIST SP 800-53A Rev. 5.2",
       "title": "Assessing Security and Privacy Controls in Information Systems and Organizations",
-      "version": "Rev. 5",
+      "version": "Rev. 5.2.0",
       "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_a_5_2_0/export/json?element=all",
       "tier": "public",
       "visibility": "public",
@@ -1826,7 +1835,7 @@
       "ingest": "chunk",
       "format": "json",
       "format_profile": "cprt-json",
-      "notes": "Assessment procedures for the REG-N50 subset only. Chunking intent: by assessment procedure, same subset filter as REG-N50. Published 2022-01.",
+      "notes": "Assessment procedures for the REG-N50 subset only. Chunking intent: by assessment procedure, same subset filter as REG-N50. Release 5.2.0 (CPRT export sp_800_53_a_5_2_0), published 2025-08; version set with REG-N50 on 2026-10-08.",
       "normativity_map": {
         "requirement": [
           "determination"
@@ -1842,7 +1851,7 @@
       "language_policy": "single",
       "org": "nist",
       "doc_id": "sp-800-53a",
-      "version_slug": "r5"
+      "version_slug": "r5-2"
     },
     {
       "id": "REG-R01",
@@ -2013,17 +2022,18 @@
       "id": "REG-R05",
       "document_number": "DFARS class deviations of 2026-02-01 (Revolutionary FAR Overhaul)",
       "title": "RFO DFARS class deviations affecting Subpart 204.73 — elimination of 252.204-7019 and renumbering of 252.204-7020 to 252.240-7997",
+      "version": "current",
       "url": "https://www.acq.osd.mil/dpap/dars/class_deviations.html",
       "tier": "public",
       "visibility": "public",
       "redistribute": true,
       "authority": "authoritative",
       "relevance": "requirement",
-      "status": "active",
+      "status": "cancelled",
       "ingest": "register-only",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Explains the current status of the 7019/7020 assessment clauses; source for 'do we still have to post a self-assessment score'. Chunking intent: per deviation, once the individual deviations are named. Published 2026-02-01.",
+      "notes": "Explains the current status of the 7019/7020 assessment clauses; source for 'do we still have to post a self-assessment score'. Chunking intent: per deviation, once the individual deviations are named. Published 2026-02-01. Cancelled 2026-10-08: the deviation covering former Subpart 204.73 is DFARS Class Deviation 2026-O0025 (RFO Part 40, DFARS Part 240), held as REG-R09.",
       "normativity_map": {
         "requirement": [
           "deviation text"
@@ -2033,9 +2043,6 @@
         ],
         "example": []
       },
-      "confirm": [
-        "The url is DPCAP's index of class deviations, not a deviation itself, so this row is register-only. Identify the specific deviation number(s) covering 204.73, add each as its own row pointing at its own PDF — as REG-R04 does — then set this row back to 'chunk' or retire it."
-      ],
       "language": "en",
       "language_policy": "single",
       "org": "dfars",
@@ -2243,6 +2250,42 @@
       "version_slug": "2016-09-14"
     },
     {
+      "id": "REG-R09",
+      "document_number": "DFARS Class Deviation 2026-O0025, Revision 3",
+      "title": "Class Deviation: Revolutionary FAR Overhaul Part 40, DFARS Part 240, Information Security and Supply Chain Security",
+      "version": "Rev. 3",
+      "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-240/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
+      "snapshot_reviewed": "2026-10-08",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "The RFO class deviation for DFARS Part 240. Directs contracting officers to use the revised FAR part 40 and the attached revised DFARS part 240 and PGI 240 in place of the codified text. Former Subpart 204.73 is now 240.370 (safeguarding covered defense information; 252.204-7008, -7009, -7012 and 252.240-7997, formerly 252.204-7020; 252.204-7019 is not carried); CMMC is 240.371 (252.204-7021 and 252.204-7025 retained). Paragraph (b) directs removal or revision of CMMC requirements under the DoW CIO memorandum of 2026-07-13 suspending the November 2026 Phase 2 transition, while baseline NIST SP 800-171 Rev 2 compliance under 252.204-7012 continues. Revision 3, signed 2026-09-03, supersedes Revision 2 of 2026-07-16; the deviation is effective from 2026-02-01. 83 pages: memorandum (4) and Attachment 1. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-08; replaces the index row REG-R05. Chunking intent: by section and clause.",
+      "normativity_map": {
+        "requirement": [
+          "deviation text"
+        ],
+        "guidance": [
+          "background"
+        ],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 83,
+        "max_pages": 83
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-o0025",
+      "version_slug": "r3"
+    },
+    {
       "id": "REG-S01",
       "document_number": "DoDI 5200.48",
       "title": "Controlled Unclassified Information (CUI)",
@@ -2281,7 +2324,9 @@
     },
     {
       "id": "REG-S02",
+      "document_number": "SPRS Portal",
       "title": "Supplier Performance Risk System (SPRS)",
+      "version": "current",
       "url": "https://www.sprs.csd.disa.mil/",
       "tier": "public",
       "visibility": "public",
@@ -2299,7 +2344,9 @@
     },
     {
       "id": "REG-S03",
+      "document_number": "DoD CIO CMMC Resources & Documentation",
       "title": "DoD CIO CMMC Program Site — Resources & Documentation",
+      "version": "current",
       "url": "https://dodcio.defense.gov/cmmc/Resources-Documentation/",
       "tier": "public",
       "visibility": "public",
@@ -2317,7 +2364,9 @@
     },
     {
       "id": "REG-S04",
+      "document_number": "DoD CUI Program Site",
       "title": "DoD CUI Program",
+      "version": "current",
       "url": "https://www.dodcui.mil/",
       "tier": "public",
       "visibility": "public",
@@ -2337,6 +2386,7 @@
       "id": "REG-S05",
       "document_number": "DoD CIO Memorandum, 2023-12-21",
       "title": "Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings",
+      "version": "2023-12-21",
       "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
       "snapshot_reviewed": "2026-10-08",
       "tier": "public",
