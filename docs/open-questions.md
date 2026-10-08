@@ -11,18 +11,16 @@ Reviewed 2026-10-06 against the registry (59 rows) and the newest build report, 
 
 ### 1. Decisions only you can make
 
-**1.1 The NIST CPRT JSON rows.** `REG-N01`–`N04` and `REG-N10`–`N13` are `planned`. Their text is in the corpus
-already, from the paired PDF rows (`REG-N01b` … `N13b`); the JSON rows would add NIST's own element structure. Several
-(`N02`–`N04`, `N11`, `N12`) fail verification against their PDF at the 100% threshold on real wording differences
-between NIST's two renditions. To decide, per row: accept the difference with a recorded `qa.verify_threshold`, or
-hold the row until NIST reconciles them. Tracked as item DP-A1 of the Document Plan. `REG-N01`'s
-`confirm` (was the JSON produced from Rev 2 Update 1?) is answered when that row is activated.
+**1.1 The NIST CPRT JSON rows.** Decided 2026-10-08 (below). What is still open is `REG-N01`, SP 800-171 Rev. 2:
+it verifies at 100% and is to be activated, but the control crosswalk reads CMMC Level 2 equivalence and Appendix D
+from chunks that activating it would suppress, so it waits until the pipeline carries those identities across
+(pipeline Project Plan T3.4). Its `confirm` (was the JSON produced from Rev 2 Update 1?) is answered then.
 
 ### 2. Waiting on a source
 
 | row | waiting for |
 | --- | --- |
-| `REG-R05` | The deviation number(s) of the 2026-02-01 Revolutionary FAR Overhaul class deviations covering Subpart 204.73. The url is DPCAP's index, so the row is `register-only`; each deviation then gets its own row, as `REG-R04` does. |
+| FAR 52.240-93 (not a row yet) | A source for the one clause: acquisition.gov has no page for it while the Overhaul is uncodified, and its text is inside the Part 52 page with every other clause. Pipeline decision P-D8 proposes a `select` naming one provision. |
 
 ### 3. Rows not activated yet
 
@@ -59,6 +57,8 @@ Not registry decisions. Recorded so they are not rediscovered.
 | was | decision |
 | --- | --- |
 | Rows CI can never fetch: 15 rows on `dodcio.defense.gov`, `esd.whs.mil`, `dodcui.mil` (403) and `acq.osd.mil` (TLS) report `archive_used` at warning on every build | **A dated review.** Each row carries `snapshot_reviewed`; for 90 days after it the finding is info (pipeline ADR-0016, unreleased). All 15 were compared with their publisher on 2026-10-08 and found current. |
+| The NIST CPRT JSON rows (`REG-N01`–`N04`, `N10`–`N13`) | **Activate the three that verify at 100%** — SP 800-172 (`REG-N10`) and SP 800-172A Rev. 3 (`REG-N13`) now, SP 800-171 Rev. 2 (`REG-N01`) after pipeline T3.4 — and keep the other five planned, relying on the PDF. Where a JSON row is planned, the CMMC guides suppress against its PDF instead (pipeline ADR-0017). |
+| `REG-R05`: the deviation numbers behind the 2026-02-01 Revolutionary FAR Overhaul index row | **DFARS Class Deviation 2026-O0025, Revision 3** is the deviation for DFARS Part 240, where former Subpart 204.73 now sits; added as `REG-R09`, and `REG-R05` is `cancelled`. |
 | DFARS Class Deviation 2024-O0013, Revision 1 (`REG-R04`): waiting for a fresh copy | **The archived copy stands.** It is Revision 1, the current revision, and is reviewed with the other 14. |
 
 ### Decided 2026-10-07

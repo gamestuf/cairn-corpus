@@ -237,7 +237,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09, 2026-09-03), prescribed at 240.371-5(a). The same deviation directs contracting officers to remove or revise CMMC requirements in solicitations and contracts under the DoW CIO memorandum of 2026-07-13, which suspends the November 2026 Phase 2 transition; the clause itself is not removed, and NIST SP 800-171 Rev 2 compliance under 252.204-7012 continues. Chunking intent: by paragraph.",
+      "notes": "Maintain certification at the required level; FCI/CUI only on systems meeting the level. DoD CIO resources page still lists this clause as TBD; this is the retitled final clause. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09, 2026-09-03), prescribed at 240.371-5(a). Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "clause text",
@@ -269,7 +269,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "Solicitation provision paired with 252.204-7021. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09), prescribed at 240.371-5(b); see REG-C05 for the Phase 2 suspension. Chunking intent: by paragraph.",
+      "notes": "Solicitation provision paired with 252.204-7021. Retained by DFARS Class Deviation 2026-O0025 Revision 3 (REG-R09), prescribed at 240.371-5(b). Chunking intent: by paragraph.",
       "normativity_map": {
         "requirement": [
           "provision text",
@@ -2265,7 +2265,7 @@
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
-      "notes": "The RFO class deviation for DFARS Part 240. Directs contracting officers to use the revised FAR part 40 and the attached revised DFARS part 240 and PGI 240 in place of the codified text. Former Subpart 204.73 is now 240.370 (safeguarding covered defense information; 252.204-7008, -7009, -7012 and 252.240-7997, formerly 252.204-7020; 252.204-7019 is not carried); CMMC is 240.371 (252.204-7021 and 252.204-7025 retained). Paragraph (b) directs removal or revision of CMMC requirements under the DoW CIO memorandum of 2026-07-13 suspending the November 2026 Phase 2 transition, while baseline NIST SP 800-171 Rev 2 compliance under 252.204-7012 continues. Revision 3, signed 2026-09-03, supersedes Revision 2 of 2026-07-16; the deviation is effective from 2026-02-01. 83 pages: memorandum (4) and Attachment 1. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-08; replaces the index row REG-R05. Chunking intent: by section and clause.",
+      "notes": "The RFO class deviation for DFARS Part 240. Directs contracting officers to use the revised FAR part 40 and the attached revised DFARS part 240 and PGI 240 in place of the codified text. Former Subpart 204.73 is now 240.370 (safeguarding covered defense information; 252.204-7008, -7009, -7012 and 252.240-7997, formerly 252.204-7020; 252.204-7019 is not carried); CMMC is 240.371 (252.204-7021 and 252.204-7025 retained). Revision 3, signed 2026-09-03, supersedes Revision 2 of 2026-07-16; the deviation is effective from 2026-02-01. 83 pages: memorandum (4) and Attachment 1. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-08; replaces the index row REG-R05. Chunking intent: by section and clause.",
       "normativity_map": {
         "requirement": [
           "deviation text"
