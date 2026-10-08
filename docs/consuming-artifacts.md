@@ -42,7 +42,8 @@ corpus without trusting a version string.
 
 ## 3. Read the artifacts
 
-Per document, under `derived/public/{org}/{doc_id}/{version_slug}/{format_profile}/` — the manifest entry lists the exact paths:
+Per document, under `derived/public/{org}/{doc_id}/{version_slug}/{format_profile}/` — the manifest entry lists the exact paths. Every folder there is one the manifest names: when a document's version slug changes, the build removes the old
+folder once the manifest has moved off it, so walking the tree and reading the manifest find the same documents:
 
 | File | Use |
 | --- | --- |
