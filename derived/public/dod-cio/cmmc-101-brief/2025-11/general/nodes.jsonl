@@ -1,0 +1,19 @@
+{"id":"document:REG-D07","labels":["Document"],"properties":{"reg_id":"REG-D07","title":"CMMC 101 Brief","version":"2025-11","tier":"public","authority":"derived","relevance":"supporting","visibility":"public","url":"https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-101-Nov2025.pdf"}}
+{"id":"section:REG-D07:v2025-11:10_Nov_2025","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"10 Nov 2025","heading_slug":"10-nov-2025"}}
+{"id":"section:REG-D07:v2025-11:10_Nov_2025/CMMC_AB_-_170.81","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"10 Nov 2025/CMMC AB - §170.8#1","heading_slug":"cmmc-ab---1708","chunk_id":"6bfc9ac64fd0091d77fc27b46fad7a802779bf46607e10a5cc7b409cd97ae46d","normativity":"guidance","block_type":"prose","page":12}}
+{"id":"section:REG-D07:v2025-11:10_Nov_2025/CMMC_AB_-_170.82","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"10 Nov 2025/CMMC AB - §170.8#2","heading_slug":"cmmc-ab---1708","chunk_id":"f946935793b6f954efc8dd52767fef1495bdce57bc0601bd34c2cabd53d0c0f7","normativity":"guidance","block_type":"prose","page":12}}
+{"id":"section:REG-D07:v2025-11:10_Nov_20251","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"10 Nov 2025#1","heading_slug":"10-nov-2025","chunk_id":"b7478033a5e57abe5b1a9c650a82d5bf80fadc05abc44d4284400150c3a07380","normativity":"guidance","block_type":"prose","page":5}}
+{"id":"section:REG-D07:v2025-11:10_Nov_20252","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"10 Nov 2025#2","heading_slug":"10-nov-2025","chunk_id":"b005a14a4db080208ae9178abc3a9489ce1b96ef7e55a2f3aced6a972413eeaf","normativity":"guidance","block_type":"prose","page":5}}
+{"id":"section:REG-D07:v2025-11:2016_DFARS","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"2016 DFARS","heading_slug":"2016-dfars","chunk_id":"02f193f865ea05066d605d6541c22699b2bcb82f7a01daf5e1732086e43428e2","normativity":"guidance","block_type":"prose","page":2}}
+{"id":"section:REG-D07:v2025-11:CLEARED","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"CLEARED","heading_slug":"cleared","chunk_id":"b407eb23c96ec26f6f6a574242d665bf7accc92ad3bdd3d0fb9f403ccfab92eb","normativity":"guidance","block_type":"prose","page":1}}
+{"id":"section:REG-D07:v2025-11:OFFICE_OF_PREPUBLICATION_AND_SECURITY_REVIEW","labels":["Section"],"properties":{"reg_id":"REG-D07","version":"2025-11","anchor":"OFFICE OF PREPUBLICATION AND SECURITY REVIEW","heading_slug":"office-of-prepublication-and-security-review","chunk_id":"7b89c1f6d7943937bb0632b4965a8b47f333b6d1d42202352217df9761529e76","normativity":"guidance","block_type":"prose","page":1}}
+{"id":"term:c3pao","labels":["Term"],"properties":{"term":"c3pao"}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:dfars","labels":["Term"],"properties":{"term":"dfars"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:fci","labels":["Term"],"properties":{"term":"fci"}}
+{"id":"term:fedramp","labels":["Term"],"properties":{"term":"fedramp"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}
+{"id":"term:osc","labels":["Term"],"properties":{"term":"osc"}}
+{"id":"term:poam","labels":["Term"],"properties":{"term":"poam"}}
