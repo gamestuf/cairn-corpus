@@ -185,7 +185,9 @@ section of another: ORGANIZATION's control JSON names the parts of a system secu
 anchor, and the slug is the key those resolve against.
 
 Two things worth knowing if you traverse it. **Every ancestor heading has a node**, not only the headings
-that carry prose of their own, so the `IN_SECTION` chain from a leaf to the document root has no gaps.
+that carry prose of their own, so the `IN_SECTION` chain from a leaf to the document root has no gaps. So
+does a heading merged into the chunk *before* it — a one-line section takes the next heading with it — and
+that node has no `chunk_id` of its own: its `folded_into` property names the chunk that holds its text.
 And `section_anchor` on a chunk is still the heading *path*; the slug is on the node, so nothing about chunk
 identity changed.
 
