@@ -232,7 +232,7 @@ Every document in the manifest carries exactly one `outcome`:
 | Outcome | What it means for you |
 | --- | --- |
 | `new`, `changed` | Re-index this document. |
-| `unchanged` | Nothing to do. |
+| `unchanged` | Nothing to do. The entry may stand on an earlier build: `source.origin: prior` means the publisher could not be reached and there was no original to rebuild from, so the previous build's artifacts stay current. Each entry's `pipeline_version` names the release that derived it; a new release re-derives every document whose source it can read, without changing the outcome. |
 | `skipped` | Deliberately not ingested. The report says why. |
 | `missing` | The source was unreachable. **The previous version's artifacts are still current** — keep serving them, and treat the corpus as stale for this document. |
 | `error` | The run could not process it. Previous version stands. |
@@ -251,7 +251,8 @@ re-fetching the URL — which is a different claim ("the source says this now"),
 are what make the difference legible.
 
 `source.origin` says where the bytes actually came from: `url` (the publisher, this run), `archive` (the
-copy this corpus archived earlier, because the fetch failed), `fallback` (a hand-committed copy, likewise)
-or `local`. Treat the middle two as snapshots of the age given by the previous run's `fetched_at`.
+copy this corpus archived earlier, because the fetch failed), `fallback` (a hand-committed copy, likewise),
+`prior` (no original to rebuild from, so the previous build's derived artifacts stand) or `local`. Treat
+`archive`, `fallback` and `prior` as snapshots of the age given by the previous run's `fetched_at`.
 
 No credentials and no non-public content. A row with any `tier` other than `public` fails the run.
