@@ -42,9 +42,8 @@ What is CMMC?                                                   NIST SP 800-
 
 ###### NIST SP 800-
 
-# 171 Rev 2
-
-Level    110 Security
+171 Rev 2
+                                                        Level    110 Security
 Why Align to NIST Standards?                              2     Requirements
 
 • Leveraging existing federal requirements,

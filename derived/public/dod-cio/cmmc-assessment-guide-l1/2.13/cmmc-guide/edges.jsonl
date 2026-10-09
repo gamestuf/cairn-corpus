@@ -59,9 +59,6 @@
 {"from":"section:REG-D02:v2.13:1_NIST_SP_800-171_Rev_2_p_59_under_system_component5","to":"term:fci","type":"CITES","properties":{}}
 {"from":"section:REG-D02:v2.13:1_NIST_SP_800-171_Rev_2_p_59_under_system_component5","to":"term:nist","type":"DEFINES","properties":{}}
 {"from":"section:REG-D02:v2.13:1_NIST_SP_800-171_Rev_2_p_59_under_system_component5","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-D02:v2.13:1_self-assessment_must_be_performed_in_accordance_with_the_Level_1_scope","to":"term:cui","type":"CITES","properties":{}}
-{"from":"section:REG-D02:v2.13:1_self-assessment_must_be_performed_in_accordance_with_the_Level_1_scope","to":"term:fci","type":"CITES","properties":{}}
-{"from":"section:REG-D02:v2.13:1_self-assessment_must_be_performed_in_accordance_with_the_Level_1_scope","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D02:v2.13:AC.L1-b.1.i/assessment_consideration","to":"control:3.1.1","type":"CITES","properties":{}}
 {"from":"section:REG-D02:v2.13:AC.L1-b.1.i/assessment_consideration","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D02:v2.13:AC.L1-b.1.i/assessment_consideration","to":"provision:ac.l1-b.1.i","type":"IN_SECTION","properties":{}}
@@ -1150,6 +1147,8 @@
 {"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS3","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"term:c3pao","type":"CITES","properties":{}}
 {"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"term:cmmc","type":"CITES","properties":{}}
+{"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"term:fci","type":"CITES","properties":{}}
 {"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-D02:v2.13:TABLE_OF_CONTENTS4","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}
 {"from":"term:c3pao","to":"document:REG-D02","type":"IN_DOCUMENT","properties":{}}

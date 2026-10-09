@@ -505,9 +505,7 @@ Assistant to the Secretary of Defense for Public Affairs prior to public release
 3.3. CLASSIFIED TECHNICAL INFORMATION.
 
     a. Classified technical information will be marked in accordance with Volume 2 of DoDM
-
-## 5200.01 and assigned Distribution Statements B, C, D, E, or F. The distribution statement
-
+5200.01 and assigned Distribution Statements B, C, D, E, or F. The distribution statement
 assigned to classified information will remain after declassification until the controlling DoD
 office changes or removes it.
 
@@ -979,9 +977,7 @@ are Distribution Statements B, E, or F.
 
     This category protects technical information relating to computer software that is releasable
 only in accordance with the software license in a contract, negotiated in accordance with Subpart
-
-## 227.72 of the DFARS. It includes documentation such as user or owner manuals, installation
-
+227.72 of the DFARS. It includes documentation such as user or owner manuals, installation
 instructions, operating instructions, and other information that explains the capabilities of or
 provides instructions for using or maintaining computer software. The documentation is
 releasable only in accordance with terms of the licensing agreement. Authorized distribution
@@ -1114,9 +1110,7 @@ its documentation.
          The DFARS governs the restrictive markings that apply to technical data, documents, or
 information that are developed or delivered under DoD procurement contracts. DFARS Subpart
 227.71 addresses the license rights and restrictive markings for technical data, and Subpart
-
-## 227.72 of the DFARS addresses license rights in computer software and computer software
-
+227.72 of the DFARS addresses license rights in computer software and computer software
 documentation, which is considered a category of technical data. Restrictive markings that
 restrict the Government’s use and distribution of technical data and software are authorized for
 noncommercial technical data and noncommercial computer software developed and delivered

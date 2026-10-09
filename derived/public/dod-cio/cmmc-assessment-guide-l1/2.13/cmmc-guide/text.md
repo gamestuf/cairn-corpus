@@ -193,10 +193,8 @@ The custom terms associated with Level 1 are:
         o Final Level 1 (Self) is defined in § 170.15(c)(1). To achieve a CMMC Status of Final
           Level 1 (Self) the OSA must conduct a Level 1 self-assessment scored in
           accordance with the CMMC Scoring Methodology described in § 170.24. The Level
-
-# 1 self-assessment must be performed in accordance with the Level 1 scope
-
-requirements set forth in § 170.19(a) and (b). In instances where an objective
+          1 self-assessment must be performed in accordance with the Level 1 scope
+          requirements set forth in § 170.19(a) and (b). In instances where an objective
           addresses CUI, the term FCI should be substituted for CUI.
 •   Component: A discrete identifiable information technology asset that represents a
     building block of a system and may include hardware, software, and firmware 1. A

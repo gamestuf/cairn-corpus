@@ -536,10 +536,8 @@ stores, or transmits Controlled Unclassified Information (CUI)?
    equivalent to those established by the Government for the FedRAMP Moderate baseline.
    This can be met by using a FedRAMP-Moderate-authorized service provider, or a provider
    that meets the requirements for equivalency as specified in the Department’s December
-
-# 2023 memo, “Federal Risk and Authorization Management Program Moderate Equivalency
-
-for Cloud Service Provider’s Cloud Service Offerings”
+   2023 memo, “Federal Risk and Authorization Management Program Moderate Equivalency
+   for Cloud Service Provider’s Cloud Service Offerings”
    (https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-
    EquivalencyCloudServiceProviders.pdf)
 

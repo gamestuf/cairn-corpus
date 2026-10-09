@@ -11,12 +11,6 @@
 {"from":"section:REG-D12:v2.3:1_10/14/2024_Initial_release_of_document","to":"term:cmmc","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:1_10/14/2024_Initial_release_of_document","to":"document:REG-D12","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D12:v2.3:1_10/14/2024_Initial_release_of_document","to":"section:REG-D12:v2.3:1_10/14","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"term:cmmc","type":"CITES","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"term:cui","type":"CITES","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"term:external-service-provider","type":"CITES","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"term:fedramp","type":"CITES","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"term:security-protection-data","type":"CITES","properties":{}}
-{"from":"section:REG-D12:v2.3:2023_memo_Federal_Risk_and_Authorization_Management_Program_Moderate_Equivalency","to":"document:REG-D12","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D12:v2.3:2_9/25","to":"section:REG-D12:v2.3:2_9","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-D12:v2.3:2_9/25/2025_Part_204_effective_date_and_updated_FAQs_received_to","to":"section:REG-D12:v2.3:2_9/25","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-D12:v2.3:2_9/25/2025_Part_204_effective_date_and_updated_FAQs_received_to/2.1_11","to":"section:REG-D12:v2.3:2_9/25/2025_Part_204_effective_date_and_updated_FAQs_received_to","type":"IN_SECTION","properties":{}}
@@ -78,9 +72,12 @@
 {"from":"section:REG-D12:v2.3:Section_D__IMPLEMENTATION","to":"term:far","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_D__IMPLEMENTATION","to":"term:fci","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_D__IMPLEMENTATION","to":"document:REG-D12","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:cmmc","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:far","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:fedramp","type":"CITES","properties":{}}
+{"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:security-protection-data","type":"CITES","properties":{}}
+{"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"term:external-service-provider","type":"DEFINES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_E__EXTERNAL_SERVICE_PROVIDERS","to":"document:REG-D12","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_F__SCOPING1","to":"term:cmmc","type":"CITES","properties":{}}
 {"from":"section:REG-D12:v2.3:Section_F__SCOPING1","to":"term:cui","type":"CITES","properties":{}}

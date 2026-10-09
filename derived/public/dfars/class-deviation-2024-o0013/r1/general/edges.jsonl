@@ -1,10 +1,3 @@
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"term:cdi","type":"CITES","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"term:dfars","type":"CITES","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"term:far","type":"CITES","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"term:nist","type":"CITES","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"term:fedramp","type":"DEFINES","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","to":"document:REG-R04","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)/TENAGLIA.JOHN.M.1154945926","to":"section:REG-R04:Rev. 1:171_Revision_2_and_the_Federal_Risk_and_Authorization_Management_Program_(FedRAMP)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/(CONTRACTING)","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/(PROCUREMENT)","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/ACQUISITION","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
@@ -14,6 +7,9 @@
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/COMMANDER_UNITED_STATES_TRANSPORTATION","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/COMMAND_(ATTN__ACQUISITION_EXECUTIVE)","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"term:cdi","type":"CITES","properties":{}}
+{"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"term:dfars","type":"CITES","properties":{}}
+{"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"term:far","type":"CITES","properties":{}}
+{"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"term:fedramp","type":"CITES","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"document:REG-R04","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEFENSE_AGENCY_AND_DOD_FIELD_ACTIVITY_DIRECTORS","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
@@ -21,6 +17,7 @@
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEPUTY_ASSISTANT_SECRETARY_OF_THE_ARMY","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/DEPUTY_ASSISTANT_SECRETARY_OF_THE_NAVY","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/MEMORANDUM_FOR_COMMANDER_UNITED_STATES_CYBER","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/TENAGLIA.JOHN.M.1154945926","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON/WASHINGTON_DC_20301-3000","to":"section:REG-R04:Rev. 1:3000_DEFENSE_PENTAGON","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-R04:Rev. 1:54945926_Date__2024.05.22_17_25_46_-0400","to":"term:cdi","type":"CITES","properties":{}}
 {"from":"section:REG-R04:Rev. 1:54945926_Date__2024.05.22_17_25_46_-0400","to":"term:dfars","type":"CITES","properties":{}}

@@ -43,10 +43,8 @@ SUBJECT: Class Deviation—Revision 1, Safeguarding Covered Defense Information 
                Effective immediately, this class deviation revises and supersedes Class Deviation 2024-
        O0013, issued on May 2, 2024. The revision is necessary to make administrative updates to the
        links to the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-
-
-# 171 Revision 2 and the Federal Risk and Authorization Management Program (FedRAMP)
-
-Moderate baseline in the attached clause.
+       171 Revision 2 and the Federal Risk and Authorization Management Program (FedRAMP)
+       Moderate baseline in the attached clause.
 
                 Contracting officers shall use the attached clause, 252.204-7012, Safeguarding Covered
        Defense Information and Cyber Incident Reporting (DEVIATION 2024-O0013, Revision 1), in

@@ -256,9 +256,7 @@ For Level 2 there are two types of assessments:
     •   A Level 2 certification assessment is the term for the activity performed by a Certified
         Third-Party Assessment Organization (C3PAO)to evaluate the CMMC level of an OSC.
 32 CFR § 170.16(b) describes contract or subcontract eligibility for any contract with a Level
-
-# 2 self-assessment requirement, and 32 CFR § 170.17(b) describes contract or subcontract
-
+2 self-assessment requirement, and 32 CFR § 170.17(b) describes contract or subcontract
 eligibility for any contract with a Level 2 certification assessment requirement. Level 2
 certification assessment requires the Organization Seeking Assessment (OSA) achieve the
 CMMC Status of either Conditional Level 2 (C3PAO) or Final Level 2 (C3PAO), as described

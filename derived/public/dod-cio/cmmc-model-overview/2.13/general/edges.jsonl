@@ -134,10 +134,6 @@
 {"from":"control:3.9.2e","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D01:v2.13:(preamble)","to":"term:cmmc","type":"CITES","properties":{}}
 {"from":"section:REG-D01:v2.13:(preamble)","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-D01:v2.13:172_security_requirements_[5]_with_DoD-approved_parameters._DoD-approved","to":"term:cmmc","type":"CITES","properties":{}}
-{"from":"section:REG-D01:v2.13:172_security_requirements_[5]_with_DoD-approved_parameters._DoD-approved","to":"term:nist","type":"CITES","properties":{}}
-{"from":"section:REG-D01:v2.13:172_security_requirements_[5]_with_DoD-approved_parameters._DoD-approved","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-D01:v2.13:172_security_requirements_[5]_with_DoD-approved_parameters._DoD-approved/2.3_CMMC_Domains","to":"section:REG-D01:v2.13:172_security_requirements_[5]_with_DoD-approved_parameters._DoD-approved","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-D01:v2.13:Appendix_A._CMMC_Model_Matrix","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-D01:v2.13:Appendix_A._CMMC_Model_Matrix","to":"term:dfars","type":"CITES","properties":{}}
 {"from":"section:REG-D01:v2.13:Appendix_A._CMMC_Model_Matrix","to":"term:fci","type":"CITES","properties":{}}
@@ -652,6 +648,10 @@
 {"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.2.4_Level_2","to":"term:cmmc","type":"DEFINES","properties":{}}
 {"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.2.4_Level_2","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.2.4_Level_2","to":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.3_CMMC_Domains","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.3_CMMC_Domains","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.3_CMMC_Domains","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview/2.3_CMMC_Domains","to":"section:REG-D01:v2.13:Figure_1._CMMC_Level_Overview","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-D01:v2.13:NOTICES","to":"term:cmmc","type":"CITES","properties":{}}
 {"from":"section:REG-D01:v2.13:NOTICES","to":"document:REG-D01","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-D01:v2.13:TABLE_OF_CONTENTS/1.1_Document_Organization","to":"term:cmmc","type":"CITES","properties":{}}

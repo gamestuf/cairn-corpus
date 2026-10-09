@@ -201,10 +201,8 @@ Level 2 focuses on the protection of CUI and incorporates the 110 security requi
 2.2.5. Level 3
 
     Level 3 focuses on the protection of CUI and encompasses a subset of the NIST SP 800-
-
-# 172 security requirements [5] with DoD-approved parameters. DoD-approved
-
-parameters are denoted with underlining in section 2.4.1 below.
+    172 security requirements [5] with DoD-approved parameters. DoD-approved
+    parameters are denoted with underlining in section 2.4.1 below.
 
 ## 2.3 CMMC Domains
 
