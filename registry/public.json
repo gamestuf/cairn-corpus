@@ -940,7 +940,7 @@
     },
     {
       "id": "REG-D08",
-      "document_number": "CMMC Overview Briefing (Audio, 2024-11-04)",
+      "document_number": "DVIDS video 944070 (VIRIN 241104-D-FP430-4162)",
       "title": "CMMC Overview Briefing (Audio)",
       "version": "2024-11-04",
       "tier": "public",
@@ -948,16 +948,25 @@
       "redistribute": true,
       "authority": "derived",
       "relevance": "supporting",
-      "status": "planned",
+      "status": "active",
       "ingest": "chunk",
       "format": "audio",
       "format_profile": "transcript",
-      "notes": "Transcribe before ingest, or skip.",
+      "notes": "DoD CIO video 'Cybersecurity Maturity Model Certification (CMMC) Program' on DVIDS (video 944070, taken 2024-11-04, posted 2024-11-18, 11:52): the Deputy CIO for Cybersecurity introduces the CMMC program rule, 32 CFR Part 170, and C3PAO Level 2 assessments. Ingested through the transcript DVIDS publishes for it (audio/transcript); the pipeline does not transcribe. The transcript is machine-generated and kept verbatim, mis-heard acronyms included ('CM MC' for CMMC, 'C three Pao' for C3PAO, 'Dar's' for DFARS). DVIDS refuses automated clients (403), so the row builds from the copy committed under fallback/. Activated 2026-10-10. Chunking intent: paragraphs of the transcript.",
       "language": "en",
       "language_policy": "single",
       "org": "dod-cio",
       "doc_id": "cmmc-overview-briefing",
-      "version_slug": "2024-11-04"
+      "version_slug": "2024-11-04",
+      "url": "https://www.dvidshub.net/download/video_transcript/944070",
+      "snapshot_reviewed": "2026-10-10",
+      "normativity_map": {
+        "requirement": [],
+        "guidance": [
+          "prose"
+        ],
+        "example": []
+      }
     },
     {
       "id": "REG-D09",

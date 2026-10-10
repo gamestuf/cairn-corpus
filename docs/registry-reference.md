@@ -119,8 +119,10 @@ registry, reported rather than fatal.
 `ingest` says whether a row takes part, never how it is read. A scanned PDF is **`format: pdf`,
 `format_profile: scan`**: its bytes are a PDF and the magic-byte check says so, while the profile keeps the
 text extractor away — a scan handed to it returns a few characters and reports success. A row whose profile
-has no implementation yet (`scan`, `transcript`) keeps `ingest: chunk`, because it should chunk once its path
-exists, and is `skipped` before it is fetched with the profile and plan phase named.
+has no implementation yet keeps `ingest: chunk`, because it should chunk once its path exists, and is `skipped`
+before it is fetched with the path named; every declared path is implemented today. An `audio` row with
+`format_profile: transcript` names a transcript as its source (`url`, or a committed copy): plain text, WebVTT or
+SubRip, kept word for word. The pipeline does not transcribe.
 
 A `general` PDF that extracts to fewer than 200 characters a page is refused as `scan_suspected` rather than
 published thin. A document that really is that sparse sets `qa.min_chars_per_page`.
