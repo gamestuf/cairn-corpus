@@ -457,9 +457,7 @@ security risks to the organization, and compliance with the security requirement
 
 3. The Procedures
 This section provides assessment procedures for the security requirements defined in SP 800-
-
-# 172 [3]. Organizations that conduct security requirement assessments can develop their
-
+172 [3]. Organizations that conduct security requirement assessments can develop their
 security assessment plans by using the information provided in the assessment procedures and
 selecting the specific potential assessment methods and objects that meet the organization’s
 needs. Organizations also have flexibility in defining the level of rigor and detail associated with

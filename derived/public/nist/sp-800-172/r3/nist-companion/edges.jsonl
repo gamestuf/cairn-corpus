@@ -482,6 +482,8 @@
 {"from":"section:REG-N12b:Rev. 3:(preamble)2","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:(preamble)22","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:(preamble)22","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:(preamble)3","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:(preamble)3","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:03.01.01E/adversary_effects","to":"control:03.01.01E","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:03.01.01E/adversary_effects","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:03.01.01E/adversary_effects","to":"provision:03.01.01e","type":"IN_SECTION","properties":{}}
@@ -2646,42 +2648,59 @@
 {"from":"section:REG-N12b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_/","to":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov","to":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_/","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app","to":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details","to":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"term:nist","type":"CITES","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"section:REG-N12b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/APT","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/APT","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ASLR","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/BIOS","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CERT","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CERT","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CERTCC","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CFR","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CIRT","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CIRT","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CISA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CNSS","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CRS","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/CRS","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/DIB","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/DLO","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FIPS","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FIPS","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FIRST","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/FOIA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/GAO","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/HVA","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/HVA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ISAC","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ISAO","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ISAO","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ISOO","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ITL","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ITL","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ITL","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/NARA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/NIST","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ODP","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ODP","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/OMB","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/PII","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/PII","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/PLC","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/PRA","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ROI","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/ROI","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/SIEM","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/SOC","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/SOC","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/TEE","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/TPM","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/TTP","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/TTP","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/UEFI","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms/USC","to":"section:REG-N12b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_B._Glossary1","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_B._Glossary2","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Appendix_B._Glossary2","to":"term:nist","type":"CITES","properties":{}}
@@ -2710,6 +2729,8 @@
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families/DLO_CRS","to":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families/ENHANCED_SECURITY_REQUIREMENT_ASSESSMENT","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families/ENHANCED_SECURITY_REQUIREMENT_ASSESSMENT","to":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families/PROTECTION_STRATEGY","to":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families/REFERENCES","to":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families1","to":"control:03.01.01","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families1","to":"control:03.01.01E","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_1._Enhanced_security_requirement_families1","to":"term:nist","type":"CITES","properties":{}}
@@ -3007,6 +3028,7 @@
 {"from":"section:REG-N12b:Rev. 3:Table_3._Effects_of_cyber_resiliency_techniques_on_adversarial_threat_events/INTENDED_EFFECT_IMPACT_ON_RISK_EXPECTED_RESULTS8","to":"section:REG-N12b:Rev. 3:Table_3._Effects_of_cyber_resiliency_techniques_on_adversarial_threat_events","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_3._Effects_of_cyber_resiliency_techniques_on_adversarial_threat_events/INTENDED_EFFECT_IMPACT_ON_RISK_EXPECTED_RESULTS9","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_3._Effects_of_cyber_resiliency_techniques_on_adversarial_threat_events/INTENDED_EFFECT_IMPACT_ON_RISK_EXPECTED_RESULTS9","to":"section:REG-N12b:Rev. 3:Table_3._Effects_of_cyber_resiliency_techniques_on_adversarial_threat_events","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/ENHANCED","to":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT","to":"control:03.01.01E","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT","to":"control:03.01.02E","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT","to":"control:03.01.04E","type":"CITES","properties":{}}
@@ -3101,6 +3123,7 @@
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT4","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT4","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/REQUIREMENT4","to":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters/SECURITY_ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N12b:Rev. 3:Table_4._Organization-defined_parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_of_Contents1","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_of_Contents1","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_of_Contents2","to":"term:cui","type":"CITES","properties":{}}
@@ -3113,6 +3136,7 @@
 {"from":"section:REG-N12b:Rev. 3:Table_of_Contents5","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:Table_of_Contents5","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy/NIST_SP_800-171","to":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy/NIST_SP_800-172","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy/NIST_SP_800-172","to":"term:nist","type":"DEFINES","properties":{}}
 {"from":"section:REG-N12b:Rev. 3:part_of_a_multidimensional_protection_strategy/NIST_SP_800-172","to":"document:REG-N12b","type":"IN_DOCUMENT","properties":{}}

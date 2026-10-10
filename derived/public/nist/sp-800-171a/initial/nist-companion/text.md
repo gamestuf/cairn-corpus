@@ -4366,10 +4366,8 @@ A
                                                                                                                             contain nonvolatile memory).
                                                                                                potential impact             The loss of confidentiality, integrity, or availability could be
                                                                                                [FIPS 199]                   expected to have: (i) a limited adverse effect (FIPS Publication
-
-# 199 low); (ii) a serious adverse effect (FIPS Publication 199
-
-moderate); or (iii) a severe or catastrophic adverse effect (FIPS
+                                                                                                                            199 low); (ii) a serious adverse effect (FIPS Publication 199
+                                                                                                                            moderate); or (iii) a severe or catastrophic adverse effect (FIPS
                                                                                                                             Publication 199 high) on organizational operations,
                                                                                                                             organizational assets, or individuals.
                                                                                                privileged account           A system account with authorizations of a privileged user.

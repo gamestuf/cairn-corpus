@@ -779,6 +779,7 @@
 {"from":"section:REG-N03b:Rev. 3:(preamble)5","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:(preamble)6","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:(preamble)6","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:(preamble)7","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:(preamble)7","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:(preamble)7","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:03.01.01/discussion","to":"control:03.01.01","type":"DISCUSSES","properties":{}}
@@ -2135,32 +2136,43 @@
 {"from":"section:REG-N03b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_/","to":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov","to":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_/","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app","to":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details","to":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app","type":"IN_SECTION","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"term:cui","type":"CITES","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"term:nist","type":"CITES","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details/USCODE-2017-","to":"section:REG-N03b:Rev. 3:2017_ed._Available_at_https_//www.govinfo.gov/app/details","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CFR","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CFR","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CISA","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CVE","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CVSS","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CVSS","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/CWE","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/DMZ","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/EAP","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/EAP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/FIPS","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/FTP","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/FTP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/GMT","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/HSM","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/IEEE","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/ISOO","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/ISOO","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/LSI","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/MAC","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/MAC","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/NARA","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/NVD","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/ODP","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/ODP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/PII","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/PIN","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/PIN","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/PROM","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/ROM","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/SCAP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/TCP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/TCP/IP","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/TCP","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/TLS","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/UTC1","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/UTC1","to":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Appendix_A._Acronyms/UTC2","to":"term:cui","type":"CITES","properties":{}}
@@ -2235,6 +2247,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_10._Incident_Response_(IR)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT","to":"control:MA-01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT","to":"control:MA-02","type":"CITES","properties":{}}
@@ -2256,6 +2270,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT2","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/CRITERIA_REQUIREMENT2","to":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_11._Maintenance_(MA)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"control:03.08.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"control:03.08.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"control:03.08.03","type":"CITES","properties":{}}
@@ -2274,6 +2290,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_12._Media_Protection_(MP)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT","to":"control:03.10.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT","to":"control:03.10.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT","to":"control:03.10.07","type":"CITES","properties":{}}
@@ -2306,6 +2324,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT2","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/CRITERIA_REQUIREMENT2","to":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_13._Physical_and_Environmental_Protection_(PE)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"control:03.15.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"control:03.15.03","type":"CITES","properties":{}}
@@ -2320,6 +2340,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_14._Planning_(PL)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"control:PM-01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"control:PM-02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"control:PM-03","type":"CITES","properties":{}}
@@ -2362,6 +2384,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"term:poam","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_15._Program_Management_(PM)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"control:03.09.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"control:03.09.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
@@ -2378,6 +2402,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_16._Personnel_Security_(PS)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"control:PT-01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"control:PT-02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"control:PT-02(01)","type":"CITES","properties":{}}
@@ -2402,6 +2428,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_17._PII_Processing_and_Transparency_(PT)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"control:03.11.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"control:03.11.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"control:03.11.04","type":"CITES","properties":{}}
@@ -2420,6 +2448,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_18._Risk_Assessment_(RA)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"control:03.16.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"control:03.16.02","type":"CITES","properties":{}}
@@ -2445,9 +2475,13 @@
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_19._System_and_Services_Acquisition_(SA)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria/SYMBOL","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria/SYMBOL","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria/SYMBOL","to":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria/TAILORING","to":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria/TAILORING_CRITERIA","to":"section:REG-N03b:Rev. 3:Table_2._Security_Control_Tailoring_Criteria","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT","to":"control:03.13.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT","to":"control:03.13.04","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
@@ -2492,6 +2526,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT2","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/CRITERIA_REQUIREMENT2","to":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_20._System_and_Communications_Protection_(SC)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"control:03.14.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"control:03.14.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"control:03.14.03","type":"CITES","properties":{}}
@@ -2520,6 +2556,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_21._System_and_Information_Integrity_(SI)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"control:03.11.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"control:03.17.01","type":"CITES","properties":{}}
@@ -2541,10 +2579,21 @@
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_22._Supply_Chain_Risk_Management_(SR)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.f.02_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.g.01_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.g.02_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.g.03_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.h_[Assignment__organization-defined_circumstances]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.01_03.01.01.h_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.05_03.01.05.b_[Assignment__organization-defined_security_functions]","to":"control:03.01.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.05_03.01.05.b_[Assignment__organization-defined_security_functions]","to":"control:03.01.05","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.05_03.01.05.b_[Assignment__organization-defined_security_functions]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.05_03.01.05.b_[Assignment__organization-defined_security_functions]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.05_03.01.05.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.06_03.01.06.a_[Assignment__organization-defined_personnel_or_roles]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_number]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"control:03.01.05","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"control:03.01.06","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"control:03.01.08","type":"CITES","properties":{}}
@@ -2552,6 +2601,22 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"control:03.01.11","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.08_03.01.08.a_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.01.20_03.01.20.b_[Assignment__organization-defined_security_requirements]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.01_03.02.01.a.01_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.01_03.02.01.a.02_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.01_03.02.01.b_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.01_03.02.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.02_03.02.02.a.01_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.02_03.02.02.a.02_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.02_03.02.02.b_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.02.02_03.02.02.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.01_03.03.01.a_[Assignment__organization-defined_event_types]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.01_03.03.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]/ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]/REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]/SECURITY","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.a_[Assignment__organization-defined_time_period]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.04_03.03.04.b_[Assignment__organization-defined_additional_actions]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"control:03.01.20","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"control:03.02.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"control:03.02.02","type":"CITES","properties":{}}
@@ -2561,11 +2626,16 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"control:03.03.07","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.03.05_03.03.05.a_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.01_03.04.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.02_03.04.02.a_[Assignment__organization-defined_configuration_settings]","to":"control:03.04.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.02_03.04.02.a_[Assignment__organization-defined_configuration_settings]","to":"control:03.04.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.02_03.04.02.a_[Assignment__organization-defined_configuration_settings]","to":"control:03.04.06","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.02_03.04.02.a_[Assignment__organization-defined_configuration_settings]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.02_03.04.02.a_[Assignment__organization-defined_configuration_settings]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.06_03.04.06.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.08_03.04.08.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.10_03.04.10.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.12_03.04.12.a_[Assignment__organization-defined_system_configurations]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.12_03.04.12.b_[Assignment__organization-defined_security_requirements]","to":"control:03.04.06","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.12_03.04.12.b_[Assignment__organization-defined_security_requirements]","to":"control:03.04.08","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.04.12_03.04.12.b_[Assignment__organization-defined_security_requirements]","to":"control:03.04.10","type":"CITES","properties":{}}
@@ -2580,6 +2650,15 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.05.07_03.05.07.a_[Assignment__organization-defined_frequency]","to":"control:03.05.07","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.05.07_03.05.07.a_[Assignment__organization-defined_frequency]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.05.07_03.05.07.a_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.05.12_03.05.12.e_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.05.12_03.05.12.e_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.02_03.06.02.b_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.02_03.06.02.c_[Assignment__organization-defined_authorities]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.03_03.06.03_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.04_03.06.04.a.01_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.04_03.06.04.a.03_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.04_03.06.04.b_[Assignment__organization-defined_events]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.06.04_03.06.04.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"control:03.05.12","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"control:03.06.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"control:03.06.03","type":"CITES","properties":{}}
@@ -2588,11 +2667,21 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"control:03.09.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.08.07_03.08.07.a_[Assignment__organization-defined_types_of_system_media]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.09.02_03.09.02.a.01_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.01_03.10.01.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.02_03.10.02.b_[Assignment__organization-defined_frequency]","to":"control:03.09.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.02_03.10.02.b_[Assignment__organization-defined_frequency]","to":"control:03.10.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.02_03.10.02.b_[Assignment__organization-defined_frequency]","to":"control:03.10.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.02_03.10.02.b_[Assignment__organization-defined_frequency]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.02_03.10.02.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.10.06_03.10.06.b_[Assignment__organization-defined_security_requirements]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.01_03.11.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.a_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.b_[Assignment__organization-defined_response_times]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]/ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]/REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]/SECURITY","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.11.02_03.11.02.c_[Assignment__organization-defined_frequency]","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"control:03.10.06","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"control:03.11.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"control:03.11.02","type":"CITES","properties":{}}
@@ -2600,6 +2689,7 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"control:03.12.05","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.01_03.12.01_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.12.05_03.12.05.c_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.09_03.13.09_[Assignment__organization-defined_time_period]","to":"control:03.12.05","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.09_03.13.09_[Assignment__organization-defined_time_period]","to":"control:03.13.09","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.09_03.13.09_[Assignment__organization-defined_time_period]","to":"control:03.13.10","type":"CITES","properties":{}}
@@ -2609,6 +2699,10 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.11_03.13.11_[Assignment__organization-defined_types_of_cryptography]","to":"control:03.13.12","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.11_03.13.11_[Assignment__organization-defined_types_of_cryptography]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.13.11_03.13.11_[Assignment__organization-defined_types_of_cryptography]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.14.01_03.14.01.b_[Assignment__organization-defined_time_period]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.14.02_03.14.02.c.01_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.01_03.15.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.02_03.15.02.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"control:03.14.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"control:03.14.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"control:03.15.01","type":"CITES","properties":{}}
@@ -2617,7 +2711,14 @@
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"control:03.16.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.15.03_03.15.03.d_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.16.03_03.16.03.a_[Assignment__organization-defined_security_requirements]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.17.01_03.17.01.b_[Assignment__organization-defined_frequency]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/03.17.03_03.17.03.b_[Assignment__organization-defined_security_requirements]","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters/SECURITY","to":"section:REG-N03b:Rev. 3:Table_23._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_24._Change_Log","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_24._Change_Log/PUBLICATION_ID_DATE_TYPE_OF_EDIT_CHANGE_LOCATION","to":"section:REG-N03b:Rev. 3:Table_24._Change_Log","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_24_shows_the_changes_incorporated_into_this_publication._Errata_updates_can_include","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/CRITERIA_REQUIREMENT","to":"control:03.01.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/CRITERIA_REQUIREMENT","to":"control:03.01.02","type":"CITES","properties":{}}
@@ -2680,6 +2781,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_3._Access_Control_(AC)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"control:03.02.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"control:03.02.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"control:03.15.01","type":"CITES","properties":{}}
@@ -2693,6 +2796,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_4._Awareness_and_Training_(AT)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"control:03.03.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"control:03.03.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"control:03.03.03","type":"CITES","properties":{}}
@@ -2722,6 +2827,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_5._Audit_and_Accountability_(AU)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"control:03.12.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"control:03.12.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"control:03.12.03","type":"CITES","properties":{}}
@@ -2742,6 +2849,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"term:poam","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_6._Assessment_Authorization_and_Monitoring_(CA)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"control:03.04.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"control:03.04.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"control:03.04.03","type":"CITES","properties":{}}
@@ -2781,6 +2890,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_7._Configuration_Management_(CM)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT","to":"control:CP-01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT","to":"control:CP-02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT","to":"control:CP-02(01)","type":"CITES","properties":{}}
@@ -2812,6 +2923,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT2","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/CRITERIA_REQUIREMENT2","to":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_8._Contingency_Planning_(CP)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"control:03.05.01","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"control:03.05.02","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"control:03.05.03","type":"CITES","properties":{}}
@@ -2849,6 +2962,8 @@
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/CRITERIA_REQUIREMENT","to":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/NIST_SP_800-53_CONTROLS_MODERATE_BASELINE","to":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)/TAILORING_SECURITY","to":"section:REG-N03b:Rev. 3:Table_9._Identification_and_Authentication_(IA)","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_of_Contents1","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_of_Contents2","to":"document:REG-N03b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N03b:Rev. 3:Table_of_Contents3","to":"term:cui","type":"CITES","properties":{}}

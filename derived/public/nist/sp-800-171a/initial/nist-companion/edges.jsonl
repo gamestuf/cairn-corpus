@@ -239,9 +239,6 @@
 {"from":"section:REG-N02b:Initial:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89303","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N02b:Initial:199_low)_(ii)_a_serious_adverse_effect_(FIPS_Publication_1991","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N02b:Initial:199_low)_(ii)_a_serious_adverse_effect_(FIPS_Publication_1992","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
-{"from":"section:REG-N02b:Initial:199_low)_(ii)_a_serious_adverse_effect_(FIPS_Publication_1993","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:3.1.1/examine","to":"control:3.1.1","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:3.1.1/examine","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:3.1.1/examine","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
@@ -3461,6 +3458,7 @@
 {"from":"section:REG-N02b:Initial:3.9.2[c]/assessment_objective","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:3.9.2[c]/assessment_objective","to":"provision:3.9.2","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:3.9.2[c]/assessment_objective","to":"section:REG-N02b:Initial:3.9.2[c]","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_A/LAWS_EXECUTIVE_ORDERS_REGULATIONS_INSTRUCTIONS_STANDARDS_AND_GUIDELINES_9","to":"section:REG-N02b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/LEGISLATION_EXECUTIVE_ORDERS_AND_REGULATIONS","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/LEGISLATION_EXECUTIVE_ORDERS_AND_REGULATIONS","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/LEGISLATION_EXECUTIVE_ORDERS_AND_REGULATIONS","to":"section:REG-N02b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
@@ -3469,6 +3467,7 @@
 {"from":"section:REG-N02b:Initial:APPENDIX_A/OTHER_RESOURCES","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/OTHER_RESOURCES","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/OTHER_RESOURCES","to":"section:REG-N02b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_A/REFERENCES","to":"section:REG-N02b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/STANDARDS_GUIDELINES_INTERAGENCY_REPORTS_AND_INSTRUCTIONS1","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/STANDARDS_GUIDELINES_INTERAGENCY_REPORTS_AND_INSTRUCTIONS1","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_A/STANDARDS_GUIDELINES_INTERAGENCY_REPORTS_AND_INSTRUCTIONS1","to":"section:REG-N02b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
@@ -3482,6 +3481,12 @@
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS10","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS11","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS11","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS12","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS12","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS13","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS13","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS14","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS14","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS2","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS2","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS3","to":"term:cui","type":"CITES","properties":{}}
@@ -3502,11 +3507,14 @@
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS8","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS9","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_B/COMMON_TERMS_AND_DEFINITIONS9","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_B/GLOSSARY","to":"section:REG-N02b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_C/ACRONYMS","to":"section:REG-N02b:Initial:APPENDIX_C","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_C/COMMON_ABBREVIATIONS","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_C/COMMON_ABBREVIATIONS","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_C/COMMON_ABBREVIATIONS","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_C/COMMON_ABBREVIATIONS","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_C/COMMON_ABBREVIATIONS","to":"section:REG-N02b:Initial:APPENDIX_C","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:APPENDIX_D/ASSESSMENT_METHODS","to":"section:REG-N02b:Initial:APPENDIX_D","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_D/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_D/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:APPENDIX_D/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
@@ -3532,6 +3540,7 @@
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"section:REG-N02b:Initial:CHAPTER_ONE","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:CHAPTER_ONE/INTRODUCTION","to":"section:REG-N02b:Initial:CHAPTER_ONE","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_CUI_SECURITY_REQUIREMENTS","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_CUI_SECURITY_REQUIREMENTS","to":"term:cui","type":"DEFINES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_CUI_SECURITY_REQUIREMENTS","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
@@ -3547,10 +3556,12 @@
 {"from":"section:REG-N02b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"section:REG-N02b:Initial:CHAPTER_THREE","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:CHAPTER_THREE/THE_PROCEDURES","to":"section:REG-N02b:Initial:CHAPTER_THREE","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_SECURITY_REQUIREMENTS","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_SECURITY_REQUIREMENTS","to":"term:cui","type":"DEFINES","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_SECURITY_REQUIREMENTS","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_SECURITY_REQUIREMENTS","to":"section:REG-N02b:Initial:CHAPTER_TWO","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:CHAPTER_TWO/THE_FUNDAMENTALS","to":"section:REG-N02b:Initial:CHAPTER_TWO","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:CODEN__NSPUE2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:CODEN__NSPUE2","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:FIGURE_1__ASSESSMENT_PROCEDURE_FOR_CUI_SECURITY_REQUIREMENT","to":"term:nist","type":"CITES","properties":{}}
@@ -3583,6 +3594,7 @@
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT","to":"term:cui","type":"DEFINES","properties":{}}
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT","to":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT/ASSESSMENT_OBJECTIVE","to":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"document:REG-N02b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT/POTENTIAL_ASSESSMENT_METHODS_AND_OBJECTS","to":"section:REG-N02b:Initial:TABLE_1__CUI_SECURITY_REQUIREMENT_FAMILIES/2.1_ASSESSMENT_PROCEDURES/3.1.3_SECURITY_REQUIREMENT","type":"IN_SECTION","properties":{}}

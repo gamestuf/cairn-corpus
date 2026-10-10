@@ -243,9 +243,9 @@ When an individual or an organization engages in CMMC, they must have absolute
 
 6
 
-# 3 years.8
 
-e) Ensuring all OSCs—regardless of size, influence, or reputation—are subject to
+                            3 years.8
+                      e) Ensuring all OSCs—regardless of size, influence, or reputation—are subject to
                          the same standards of assessment.
                       f)    Basing evaluative decisions on factual evidence and standardized processes
                             while avoiding personal opinions or biases that could influence outcomes.
@@ -618,8 +618,7 @@ Upon receipt of a complaint or suggestion of a potential violation of the CoPC, 
           decision on the validity of the original complaint and any penalties that might be imposed,
           pursuant to Complaint Process.
           The Cyber AB will report to DoD in writing the outcome of completed investigations within
-
-# 15 business days.17
+          15 business days.17
 
 ## 4.3      Corrective Action and Penalties
 
@@ -780,9 +779,9 @@ penalties.
 
                                                   18
 
-# 2 certification assessment and which has undergone a Level 2 certification
 
-assessment by DCMA DIBCAC (or higher) for all assessment activities. Individual
+                 2 certification assessment and which has undergone a Level 2 certification
+                 assessment by DCMA DIBCAC (or higher) for all assessment activities. Individual
                  assessors are prohibited from using any other IT, including IT that is personally
                  owned, to include internal and external cloud services and end-point devices, to
                  process, store, or transmit CMMC assessment reports or any other CMMC

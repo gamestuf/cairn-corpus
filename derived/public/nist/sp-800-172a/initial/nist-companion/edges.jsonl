@@ -1239,6 +1239,7 @@
 {"from":"section:REG-N11b:Initial:APPENDIX_A/COMMON_TERMS_AND_DEFINITIONS1","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/COMMON_TERMS_AND_DEFINITIONS2","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/COMMON_TERMS_AND_DEFINITIONS2","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:APPENDIX_A/GLOSSARY","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]1","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]1","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]10","to":"term:cui","type":"CITES","properties":{}}
@@ -1270,10 +1271,12 @@
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]8","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]9","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_A/[44_USC_3552]9","to":"section:REG-N11b:Initial:APPENDIX_A","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:APPENDIX_B/ACRONYMS","to":"section:REG-N11b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_B/COMMON_ABBREVIATIONS","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_B/COMMON_ABBREVIATIONS","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_B/COMMON_ABBREVIATIONS","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_B/COMMON_ABBREVIATIONS","to":"section:REG-N11b:Initial:APPENDIX_B","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:APPENDIX_C/ASSESSMENT_METHODS","to":"section:REG-N11b:Initial:APPENDIX_C","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_C/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_C/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:APPENDIX_C/ASSESSMENT_METHOD_DEFINITIONS_APPLICABLE_OBJECTS_AND_ATTRIBUTES","to":"section:REG-N11b:Initial:APPENDIX_C","type":"IN_SECTION","properties":{}}
@@ -1293,6 +1296,7 @@
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/1.3_ORGANIZATION_OF_THIS_SPECIAL_PUBLICATION","to":"section:REG-N11b:Initial:CHAPTER_ONE","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:CHAPTER_ONE/INTRODUCTION","to":"section:REG-N11b:Initial:CHAPTER_ONE","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_ENHANCED_SECURITY_REQUIREMENTS_FOR_CUI","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_ENHANCED_SECURITY_REQUIREMENTS_FOR_CUI","to":"term:cui","type":"DEFINES","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_ONE/THE_NEED_TO_ASSESS_ENHANCED_SECURITY_REQUIREMENTS_FOR_CUI","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
@@ -1307,9 +1311,11 @@
 {"from":"section:REG-N11b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"term:cui","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_THREE/CAUTIONARY_NOTE","to":"section:REG-N11b:Initial:CHAPTER_THREE","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:CHAPTER_THREE/THE_PROCEDURES","to":"section:REG-N11b:Initial:CHAPTER_THREE","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_ENHANCED_SECURITY_REQUIREMENTS","to":"term:cui","type":"DEFINES","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_ENHANCED_SECURITY_REQUIREMENTS","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:CHAPTER_TWO/BASIC_CONCEPTS_FOR_ASSESSMENTS_OF_CUI_ENHANCED_SECURITY_REQUIREMENTS","to":"section:REG-N11b:Initial:CHAPTER_TWO","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N11b:Initial:CHAPTER_TWO/THE_FUNDAMENTALS","to":"section:REG-N11b:Initial:CHAPTER_TWO","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N11b:Initial:CODEN__NSPUE2","to":"term:nist","type":"CITES","properties":{}}
 {"from":"section:REG-N11b:Initial:CODEN__NSPUE2","to":"document:REG-N11b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N11b:Initial:Chapter_Three_provides_a_catalog_of_assessment_procedures_for_the_CUI_enhanced_security","to":"term:cui","type":"DEFINES","properties":{}}

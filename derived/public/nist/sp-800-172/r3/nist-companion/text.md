@@ -2819,10 +2819,8 @@ While frequent changes to operating systems and applications can pose significan
             configuration management efforts. Virtualization techniques can assist in isolating
             untrustworthy software or software of dubious provenance into confined execution
             environments. This requirement does not enhance a specific requirement in SP 800-
-
-# 171 but can be used to strengthen the protection of CUI associated with critical
-
-programs or high value assets.
+            171 but can be used to strengthen the protection of CUI associated with critical
+            programs or high value assets.
 
 ###### PROTECTION STRATEGY
 
@@ -3273,10 +3271,8 @@ Unauthorized modifications to boot firmware may indicate a sophisticated, target
             integrity and authenticity of updates to the firmware prior to applying changes to
             the system component and preventing unauthorized processes from modifying the
             boot firmware. This requirement does not enhance a specific requirement in SP 800-
-
-# 171 but can be used to strengthen the protection of CUI associated with critical
-
-programs or high value assets.
+            171 but can be used to strengthen the protection of CUI associated with critical
+            programs or high value assets.
 
 ###### PROTECTION STRATEGY
 
@@ -3995,10 +3991,8 @@ References
      (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special
      Publication (SP) NIST SP 800-160v1r1. https://doi.org/10.6028/NIST.SP.800-160v1r1
 [23] Title 40 U.S. Code, Sec. 11331, Responsibilities for Federal information systems standards.
-
-# 2017 ed. Available at https://www.govinfo.gov/app/details/USCODE-2017-
-
-title40/USCODE-2017-title40-subtitleIII-chap113-subchapIII-sec11331
+     2017 ed. Available at https://www.govinfo.gov/app/details/USCODE-2017-
+     title40/USCODE-2017-title40-subtitleIII-chap113-subchapIII-sec11331
 
 
 [24] Title 44 U.S. Code, Sec. 3502, Definitions. 2017 ed. Available at

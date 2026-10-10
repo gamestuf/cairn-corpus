@@ -1,12 +1,22 @@
 {
   "schema_version": "1",
-  "run_id": "37951133833-1",
-  "generated": "2026-10-09T15:24:02.8424158+00:00",
+  "run_id": "38019176796-1",
+  "generated": "2026-10-10T03:05:53.6805387+00:00",
   "tier": "public",
-  "registry_hash": "5f9a339bb5cf9d4773ebc5c9e7884cddc1730d7b09fba209bca7c2917d8eded2",
+  "registry_hash": "3eee32f0a3d396d2a3311cedb25dbe96ee0b4e56f5daffef61d3f63fc8ce1ee6",
+  "scf_maps": [
+    {
+      "edition": "2026.3",
+      "legacy_edition": "legacy",
+      "path": "derived/public/scf/scf-catalog/2026.3/scf-workbook/scf-id-map.json",
+      "sha256": "e4a6ebabb75c7b6db5ae6133db46fb6724746d2ccb4f852576032e8847b321ea",
+      "source_hash": "5a89bf2d3c106a9a87d4b6e3d62dd3e147d0e960d4c07473045a10aa8a7df697",
+      "found_by": "run"
+    }
+  ],
   "crosswalk": {
-    "crosswalk/public/coverage.json": "16c8ee4a628d70b258938e667b7e9e467bb3a7c1be17abf4a3764477fd2cd556",
-    "crosswalk/public/coverage.md": "d916ed44146d94aa25b7634ff2514df81e55073380105b3b7b851a677e285ab7",
+    "crosswalk/public/coverage.json": "f4677e671eb9904c649829fc3d8646ebaa5547f3c09b1b68572bb7ba9471866a",
+    "crosswalk/public/coverage.md": "e6fef23347b430b5017590801ef5ab128f6b492d1a818a1e6a2339dedcf5fb15",
     "crosswalk/public/edges.csv": "a8940db0333fb8edc1af38cc6dce2b59b1ba85a06e5c513b1a785ff0883e1a09",
     "crosswalk/public/edges.jsonl": "013710b2d93f27c8f5f31785195bfe117aafd4dc998ba7fb495b21ff401db132",
     "crosswalk/public/hierarchy.json": "869cb13efcb0c32c1c2da1a67843abcf36c41f6bc2b635acad356e61020b62cb",
@@ -30,7 +40,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300964-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:49:24 GMT",
-        "fetched_at": "2026-10-07T23:56:11.8668016+00:00",
+        "fetched_at": "2026-10-10T03:03:16.1632160+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "6682b1936c49a18adf3f3522af32f72f7da073f8cd18eb59a70df4c8e51c617d",
@@ -51,6 +61,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C02": {
@@ -68,7 +79,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300193-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:36:33 GMT",
-        "fetched_at": "2026-10-07T23:56:12.2330956+00:00",
+        "fetched_at": "2026-10-10T03:03:16.5249710+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "4dedfe7298f67aae29741e054aa49247a123a161e23a28a7016d7cafead4a974",
@@ -89,6 +100,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C03": {
@@ -106,7 +118,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300193-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:36:33 GMT",
-        "fetched_at": "2026-10-07T23:56:12.5493924+00:00",
+        "fetched_at": "2026-10-10T03:03:16.8230286+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "1809c32b1839c3f1e1cfed0a4dd8430235b247effa6442dbcf8a380d00709a89",
@@ -127,6 +139,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C04": {
@@ -144,7 +157,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300175-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:36:15 GMT",
-        "fetched_at": "2026-10-07T23:56:12.8484159+00:00",
+        "fetched_at": "2026-10-10T03:03:17.1159930+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "9a98267a035e1b6f92955dce8712d375882769202793094901c98f0d226d0691",
@@ -165,6 +178,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C05": {
@@ -182,7 +196,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300194-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:36:34 GMT",
-        "fetched_at": "2026-10-07T23:56:13.0968992+00:00",
+        "fetched_at": "2026-10-10T03:03:17.3010571+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "2b05327a65fec3efb74c41e885b1081cbdd60b5d06569c1b0914034b8b3c1fc6",
@@ -203,6 +217,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C06": {
@@ -220,7 +235,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300114-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:35:14 GMT",
-        "fetched_at": "2026-10-07T23:56:13.3505515+00:00",
+        "fetched_at": "2026-10-10T03:03:17.5424903+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "ec25d2e99781a0e6f91c86add9b6c56246bee3a6b6791ce84531d6548cc5f721",
@@ -241,6 +256,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C07": {
@@ -258,7 +274,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300498-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:41:38 GMT",
-        "fetched_at": "2026-10-07T23:56:13.5617724+00:00",
+        "fetched_at": "2026-10-10T03:03:17.7165457+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "d0cfb7ba79910d6f40db43953a5776c9e0318a2a2440e0a395ee0e2b5749aaeb",
@@ -279,6 +295,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C08": {
@@ -296,7 +313,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300337-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:38:57 GMT",
-        "fetched_at": "2026-10-07T23:56:13.7458872+00:00",
+        "fetched_at": "2026-10-10T03:03:17.9052456+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "328e7cba34ed54695800d6ec0c2059f6cca8d27d30f0ffda1dc2bf6c58443554",
@@ -317,6 +334,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C09": {
@@ -334,7 +352,7 @@
         "used_browser_identity": false,
         "etag": "\"1790302285-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 02:11:25 GMT",
-        "fetched_at": "2026-10-07T23:56:13.9057633+00:00",
+        "fetched_at": "2026-10-10T03:03:18.0635232+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "65cbbd3379f5d3ffe6a31ce53479b054c46417b037d57ef924b5f1eca48fbd90",
@@ -355,6 +373,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C10": {
@@ -372,7 +391,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300436-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:40:36 GMT",
-        "fetched_at": "2026-10-07T23:56:14.0921072+00:00",
+        "fetched_at": "2026-10-10T03:03:18.2473631+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "184fc13f512d12810c721685a47cb8ce0962d6bd2181dca8ca0b4cff47017b30",
@@ -393,6 +412,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C11": {
@@ -410,7 +430,7 @@
         "used_browser_identity": false,
         "etag": "\"1790300389-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 01:39:49 GMT",
-        "fetched_at": "2026-10-07T23:56:14.2697202+00:00",
+        "fetched_at": "2026-10-10T03:03:18.4750171+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "a70ff43396e4e2f5bbed9b37ce311e2895481176df5a0372bb74ed16c44b6875",
@@ -431,6 +451,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-C12": {
@@ -448,7 +469,7 @@
         "used_browser_identity": false,
         "etag": "\"1790316858-gzip\"",
         "last_modified": "Fri, 25 Sep 2026 06:14:18 GMT",
-        "fetched_at": "2026-10-07T23:56:14.4738770+00:00",
+        "fetched_at": "2026-10-10T03:03:18.7212104+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "c7bdaef841ca0889118d41c7e11569f497cf3011d7cb31b5f37dc0b2cfd04885",
@@ -469,6 +490,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D01": {
@@ -485,7 +507,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.0355463+00:00",
+        "fetched_at": "2026-10-10T03:03:18.9098889+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "3521adb262f431433bc0be3a3f7f717b0b05c61f1e5eb127c38c81d2979f4a00",
@@ -506,6 +528,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D02": {
@@ -522,7 +545,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.0804778+00:00",
+        "fetched_at": "2026-10-10T03:03:19.0728071+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "88116fa807b3685703f08c1992580ad0cfbc22ad2bcf76f99378fadf964f7368",
@@ -531,18 +554,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/chunks.jsonl": "0aae72939d081cc4c3faf480f613d28128893a3b3b4e484ad13d5d524435e2ac",
-        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/edges.jsonl": "baa32f52a57e32797b94830c9c3afaa43f5817ff9991fe98f7aea641dcfeaeed",
-        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/nodes.jsonl": "f0458e6f8b822fceffae9a6cff47498d493739947c2b03d44905ba1e5dcd2dee",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/chunks.jsonl": "148f30aee083a0105b69da03b501ee6eeed5383bcb82199597cae70051260703",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/edges.jsonl": "f8de89d79264965469fe16128d41d90ccf10054bc054f6c87f04b7c32db85a3c",
+        "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/nodes.jsonl": "f46320157f9e6bbb39f86a9c8115e1c468f944c90ad888b2d879448e82061b7e",
         "derived/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/text.md": "66ac590f570823fd66fd49a797a7be5c1affc632d5bdf841c161b346ce3e51eb"
       },
-      "chunk_count": 243,
+      "chunk_count": 146,
       "vector_count": 0,
-      "node_count": 413,
-      "edge_count": 1163,
+      "node_count": 262,
+      "edge_count": 740,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "cmmc-guide-practices",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D03": {
@@ -559,7 +583,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.1528020+00:00",
+        "fetched_at": "2026-10-10T03:03:19.2161588+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "0dcaba1626a0d23893981d74dd3f0f2338fff54cece67d81bc811ce76392d867",
@@ -580,6 +604,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "cmmc-guide-practices",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D04": {
@@ -596,7 +621,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.2682408+00:00",
+        "fetched_at": "2026-10-10T03:03:19.3944270+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "6601eb20e8f1490b49c4addd83505eb269062abb3c2bae9b5256449187048ef3",
@@ -605,18 +630,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/chunks.jsonl": "ddd2c0b4f93d652521b0517744ccd2b45bfd5424950a1466d2b5ab6a8d7f6099",
-        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/edges.jsonl": "34eccc3bdf0c55ec6859d91f048accaee9dfabc3c67461601b52c723b74ddbc5",
-        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/nodes.jsonl": "26b5c5c04d81613152d24265257d5c8edf57c5910aeb312922c826c03167c8f4",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/chunks.jsonl": "deb1d5f9c319b1493a22999a70dc9d230e5b6367627d4a897dc7b3f4e588b45f",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/edges.jsonl": "a567a7a776b1671217cedd7a3166d0fb452b40c30b0c3b0f019272b2a6c631ab",
+        "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/nodes.jsonl": "7a136a0d56f25de510a1558e46eea997a1f08a9afdb4416a99a107a5889b2be5",
         "derived/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/text.md": "180abce8f0744cbdfa84a34cde6ffe847bf5082b5c49e78e65f3b94a3d78447a"
       },
-      "chunk_count": 317,
+      "chunk_count": 183,
       "vector_count": 0,
-      "node_count": 524,
-      "edge_count": 1450,
+      "node_count": 326,
+      "edge_count": 907,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "cmmc-guide-practices",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D05": {
@@ -633,7 +659,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.2946471+00:00",
+        "fetched_at": "2026-10-10T03:03:19.5499138+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "fef1da3962dc1ba4f98ebdd41bb71bdaf17bcaf9cc0359bbd5dbe14b807c8cad",
@@ -654,6 +680,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D06": {
@@ -670,7 +697,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.3215912+00:00",
+        "fetched_at": "2026-10-10T03:03:19.6305630+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "377b758393908d6c20a9813fa213c5d3ec36e00018a798d09e59f00eb8627981",
@@ -691,6 +718,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D07": {
@@ -707,7 +735,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.3873750+00:00",
+        "fetched_at": "2026-10-10T03:03:19.7712160+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "2a31ba0d8232fb067bb56975e0125682f220a873fa6d43c132c53f45f51edb7b",
@@ -728,6 +756,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D08": {
@@ -747,6 +776,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D09": {
@@ -757,13 +787,13 @@
       "authority": "derived",
       "relevance": "supporting",
       "format_profile": "general",
-      "outcome": "changed",
+      "outcome": "unchanged",
       "source": {
         "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.4583746+00:00",
+        "fetched_at": "2026-10-10T03:03:19.8383725+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "796e59e8f04412975255c0c943740ab1bf694a24820553fdcdb216127042d643",
@@ -784,6 +814,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D10": {
@@ -800,7 +831,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.4826084+00:00",
+        "fetched_at": "2026-10-10T03:03:19.9265003+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "1f0ac2037037d367db141f2d49741975bb0e30ea336aad6fd0ce7d0bcdcaea14",
@@ -821,6 +852,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D11": {
@@ -840,6 +872,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-D12": {
@@ -856,7 +889,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:54.5112463+00:00",
+        "fetched_at": "2026-10-10T03:03:20.0268203+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "b2563aabbfd3ad4013e2ade962641813cf9ff6976c07a446864a2b4f7ed44394",
@@ -877,6 +910,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-F01": {
@@ -893,7 +927,7 @@
         "origin": "url",
         "used_browser_identity": false,
         "etag": "\"927edc8d029ae8af64e5156e975fd191f6c1a292447b711869854ad0429611ab\"",
-        "fetched_at": "2026-10-07T23:56:15.6184619+00:00",
+        "fetched_at": "2026-10-10T03:03:20.5256448+00:00",
         "http_status": 200,
         "mime": "application/octet-stream",
         "hash": "5a89bf2d3c106a9a87d4b6e3d62dd3e147d0e960d4c07473045a10aa8a7df697",
@@ -915,6 +949,7 @@
       "extractor": "scf-workbook",
       "extractor_version": "0.104.2.0",
       "chunker": "scf-workbook",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-F02": {
@@ -925,18 +960,35 @@
       "authority": "corroborating",
       "relevance": "guidance",
       "format_profile": "general",
-      "outcome": "error",
+      "outcome": "new",
       "source": {
         "url": "https://cyberab.org/Portals/0/CMMC%20Assessment%20Process%20v2.0.pdf?ver=fEk1pUK1Fg26fVtopxv_DA%3d%3d",
+        "origin": "url",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:56.4545009+00:00",
-        "http_status": 403
+        "etag": "\"b0c22fc7c67ddb1:0\"",
+        "last_modified": "Thu, 13 Feb 2025 03:24:23 GMT",
+        "fetched_at": "2026-10-10T03:03:22.1521376+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "761401cd5bb82f679195d22ae1a82ff48e7a39c2b11fb96b5fd748ffa4462ee8",
+        "bytes": 428057,
+        "raw_path": "raw-withheld/public/cyber-ab/cap/2.0/general/CMMC_Assessment_Process_v2.0.pdf",
+        "archive_published": false
       },
-      "derived": {},
-      "chunk_count": 0,
+      "derived": {
+        "derived/public/cyber-ab/cap/2.0/general/chunks.jsonl": "d64253444200e13cdffb7b5fae23a43cc3f74b51024937b40eb2119d61d13429",
+        "derived/public/cyber-ab/cap/2.0/general/edges.jsonl": "21de448265b9cfeb57d5bf123ed273f641ec1e56482f8ca3d563baeb53ce7fd5",
+        "derived/public/cyber-ab/cap/2.0/general/nodes.jsonl": "93275fbf629ad5f978fcb84b1e766fd68e60775f15158a4b484e5611d9481645",
+        "derived/public/cyber-ab/cap/2.0/general/text.md": "fec374a6bfe5786f564caed9e1a5648cbc947e624491278d65f80fe999931c3c"
+      },
+      "chunk_count": 31,
       "vector_count": 0,
-      "node_count": 0,
-      "edge_count": 0,
+      "node_count": 63,
+      "edge_count": 187,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-F03": {
@@ -947,18 +999,35 @@
       "authority": "corroborating",
       "relevance": "supporting",
       "format_profile": "general",
-      "outcome": "error",
+      "outcome": "new",
       "source": {
-        "url": "https://cyberab.org/Portals/0/CMMC%20Code%20of%20Professional%20Conduct%20v2.0.pdf",
+        "url": "https://cyberab.org/Portals/0/CMMC%20Code%20of%20Professional%20Conduct%20v2.0.pdf?ver=krReGtXNbAyo2Q0LySqazg%3d%3d",
+        "origin": "url",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:56.7334947+00:00",
-        "http_status": 403
+        "etag": "\"b0c22fc7c67ddb1:0\"",
+        "last_modified": "Thu, 13 Feb 2025 03:24:23 GMT",
+        "fetched_at": "2026-10-10T03:03:22.2695733+00:00",
+        "http_status": 200,
+        "mime": "application/pdf",
+        "hash": "cc5c113ba54eec37481eaa655ced3e40aa891ec8597fe9b43461253932089fd6",
+        "bytes": 289099,
+        "raw_path": "raw-withheld/public/cyber-ab/copc/2.0/general/CMMC_Code_of_Professional_Conduct_v2.0.pdf",
+        "archive_published": false
       },
-      "derived": {},
-      "chunk_count": 0,
+      "derived": {
+        "derived/public/cyber-ab/copc/2.0/general/chunks.jsonl": "c4d79ef6c3f7c8509b4b1e2a9d01572c6b31c83985c232fa3a437ccc7dde525f",
+        "derived/public/cyber-ab/copc/2.0/general/edges.jsonl": "26f811574750571c77923745abb1b428f60b9edc23235007a84b9173a6853853",
+        "derived/public/cyber-ab/copc/2.0/general/nodes.jsonl": "4f3fc1ad44390e98042e4562db9e6363a6d0595a229bc134b3622862195eb2d0",
+        "derived/public/cyber-ab/copc/2.0/general/text.md": "d937f9075f1487065702d2b20b259a94f3ca5781f1853fb05f4d78a00042e218"
+      },
+      "chunk_count": 32,
       "vector_count": 0,
-      "node_count": 0,
-      "edge_count": 0,
+      "node_count": 51,
+      "edge_count": 99,
+      "extractor": "poppler-pdftotext",
+      "extractor_version": "pdftotext version 24.02.0",
+      "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N01": {
@@ -978,6 +1047,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": [
         "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
       ]
@@ -997,7 +1067,7 @@
         "used_browser_identity": false,
         "etag": "\"913869118a6da1:0\"",
         "last_modified": "Tue, 14 May 2024 16:05:41 GMT",
-        "fetched_at": "2026-10-07T23:56:18.3130158+00:00",
+        "fetched_at": "2026-10-10T03:03:23.6528897+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "298bdbfcf6a4890a564b225c893230a0b32b2e69e3b98dd898aaeb1d544c5e12",
@@ -1006,18 +1076,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-171/r2u1/nist-companion/chunks.jsonl": "a3da198b6053193c5cd61c344a61bae2b5dfaea23a9648f556d60c6ff06b4679",
-        "derived/public/nist/sp-800-171/r2u1/nist-companion/edges.jsonl": "7c06fedeacc2626b7eb924a8e3895beffac84bb42160a3e1215d785b54b992bf",
-        "derived/public/nist/sp-800-171/r2u1/nist-companion/nodes.jsonl": "58d08f4456ae706f2b507aaba909b6097073e0d47044dbe436e3cbff1283012c",
-        "derived/public/nist/sp-800-171/r2u1/nist-companion/text.md": "6ea50e0958d1231b93daa4551ecf4fe07f921246623af66a5379afc9055e4bd4"
+        "derived/public/nist/sp-800-171/r2u1/nist-companion/chunks.jsonl": "e72d8987bae61db3c2c7fa48a9ccfdf674014dd9a98b762e7bde7c20a09b74a4",
+        "derived/public/nist/sp-800-171/r2u1/nist-companion/edges.jsonl": "b705ab2daf485fc7ad065f148b40e62b760221823cf0f7cafded5d46eba60adf",
+        "derived/public/nist/sp-800-171/r2u1/nist-companion/nodes.jsonl": "ae2e58ad6a939400fbf0c791ffd708c93d8fded4693e0e1c6455dbe297e46d06",
+        "derived/public/nist/sp-800-171/r2u1/nist-companion/text.md": "f75c3e424343ffd74ede0d69afb9d7fe0c21e5cb3b832c1868946e41e111a439"
       },
-      "chunk_count": 413,
+      "chunk_count": 412,
       "vector_count": 0,
-      "node_count": 1152,
-      "edge_count": 2925,
+      "node_count": 1181,
+      "edge_count": 2957,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N02": {
@@ -1037,6 +1108,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N02b": {
@@ -1054,7 +1126,7 @@
         "used_browser_identity": false,
         "etag": "\"468f5c718a6da1:0\"",
         "last_modified": "Tue, 14 May 2024 16:07:12 GMT",
-        "fetched_at": "2026-10-07T23:56:19.1964722+00:00",
+        "fetched_at": "2026-10-10T03:03:24.7332359+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "21bf3acc43f4284f723639b82eb71e3ce597fa3610f7e9dcf5e8484e22bc0f71",
@@ -1063,18 +1135,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-171a/initial/nist-companion/chunks.jsonl": "d40a9f540d9195b35c99f4d227f0f5e8cc1535da475514d8990533a233014b9e",
-        "derived/public/nist/sp-800-171a/initial/nist-companion/edges.jsonl": "47319016341e239532578b968e36f189bb1cb5ecd575dd4894e93b29e30973dd",
-        "derived/public/nist/sp-800-171a/initial/nist-companion/nodes.jsonl": "1c9bacd5f0642f06c1ed88edd3c3212259fe95a6dba99b81c1b32d24f655b61f",
-        "derived/public/nist/sp-800-171a/initial/nist-companion/text.md": "8bb532d4871eb740ffd71045eb031a8bb38dc009627289b91009b76309cbe161"
+        "derived/public/nist/sp-800-171a/initial/nist-companion/chunks.jsonl": "2deeb032f35a4542c2fa2c7b84bf741b2fe193538398159e9846d310992eaae4",
+        "derived/public/nist/sp-800-171a/initial/nist-companion/edges.jsonl": "cb18241ba2decdbd2833a235611d77a0380aa5ca9751cb492fd54e26a7ff9cc8",
+        "derived/public/nist/sp-800-171a/initial/nist-companion/nodes.jsonl": "d20e6d2f30dd9d5456ab45474f61975e9e85125aa9204df0c69e1436a3e721bb",
+        "derived/public/nist/sp-800-171a/initial/nist-companion/text.md": "e9178ba5d68fc97c18345fe808373beed724aa69a5e488e21a2a528c3f20f914"
       },
       "chunk_count": 835,
       "vector_count": 0,
-      "node_count": 1483,
-      "edge_count": 3629,
+      "node_count": 1494,
+      "edge_count": 3641,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N03": {
@@ -1094,6 +1167,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N03b": {
@@ -1111,7 +1185,7 @@
         "used_browser_identity": false,
         "etag": "\"88841b781a5da1:0\"",
         "last_modified": "Mon, 13 May 2024 22:05:50 GMT",
-        "fetched_at": "2026-10-07T23:56:19.9348053+00:00",
+        "fetched_at": "2026-10-10T03:03:25.8209514+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "3e4631df8b5d61f40a6e542b52779ef30ddbbfff31e09214fa94ad6e6f5e6d08",
@@ -1120,18 +1194,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-171/r3/nist-companion/chunks.jsonl": "72a099001db714842da04adf5dc387f11d0f3fbbecfe9e5d886bc4ecd09c8035",
-        "derived/public/nist/sp-800-171/r3/nist-companion/edges.jsonl": "62a4f25345c3f47f46adfb3ef328dbe3b74e001a60aad74e6de9f89358dc3a14",
-        "derived/public/nist/sp-800-171/r3/nist-companion/nodes.jsonl": "1c378d4e6e3cd6c3143b81b53cf31f4c5c6e2c2bac2680ff994b7323618205ce",
-        "derived/public/nist/sp-800-171/r3/nist-companion/text.md": "543c55665888c77c3d3712cdc25bc15f542bbb850bec8e256ddb6f152b4d341d"
+        "derived/public/nist/sp-800-171/r3/nist-companion/chunks.jsonl": "216fef5b2ce4f449a3763fd4404b629d83c508bd9f563d017f44a329277aa624",
+        "derived/public/nist/sp-800-171/r3/nist-companion/edges.jsonl": "c972c7d5e278991a8d85580ac955b30113752c1d7a7ed09859dbf746cb2bf3a5",
+        "derived/public/nist/sp-800-171/r3/nist-companion/nodes.jsonl": "f286fd405b7f02e8fb719c1246a7e0b6032f1912009a597639bacb2880ee7a37",
+        "derived/public/nist/sp-800-171/r3/nist-companion/text.md": "2e1cdcbd4b5db997c3270c87ff9e3b7d3432a770a01ac3f2d9ad4882ae1e358c"
       },
-      "chunk_count": 413,
+      "chunk_count": 412,
       "vector_count": 0,
-      "node_count": 1176,
-      "edge_count": 2866,
+      "node_count": 1293,
+      "edge_count": 2981,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N04": {
@@ -1151,6 +1226,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N04b": {
@@ -1168,7 +1244,7 @@
         "used_browser_identity": false,
         "etag": "\"76c11a482a5da1:0\"",
         "last_modified": "Mon, 13 May 2024 22:07:59 GMT",
-        "fetched_at": "2026-10-07T23:56:20.6440064+00:00",
+        "fetched_at": "2026-10-10T03:03:35.8385263+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "946d963707cdaba19901c49d5c89517adb00844fe5d101e9dac7febc68e34cfa",
@@ -1178,17 +1254,18 @@
       },
       "derived": {
         "derived/public/nist/sp-800-171a/r3/nist-companion/chunks.jsonl": "555cf10ff6aff4e0e6bb63173623a9d012ed4a0bbf180671f68140c6730eff66",
-        "derived/public/nist/sp-800-171a/r3/nist-companion/edges.jsonl": "5b53e77f0fb2a7193ea49267f3d9a1822bab39df0fb47bda4d537b0227901887",
-        "derived/public/nist/sp-800-171a/r3/nist-companion/nodes.jsonl": "22fa439af91f407ac00502a09155e971fbf8836c51e77e1e0db6718c4ed3ae70",
+        "derived/public/nist/sp-800-171a/r3/nist-companion/edges.jsonl": "8ca1623f2d3dbfcb9871e55f21839f2170aae69cf88cac081ccd11695a24c503",
+        "derived/public/nist/sp-800-171a/r3/nist-companion/nodes.jsonl": "4d03dbb617f3ee048b1d9a79af98edf98f0e1c6191546ef20093b753f1bafd6e",
         "derived/public/nist/sp-800-171a/r3/nist-companion/text.md": "250bcd55a1d2904eb70c34027f981cf75fc68bd825644e18545145aafcced8da"
       },
       "chunk_count": 960,
       "vector_count": 0,
-      "node_count": 2024,
-      "edge_count": 4427,
+      "node_count": 2036,
+      "edge_count": 4438,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N05": {
@@ -1206,7 +1283,7 @@
         "used_browser_identity": false,
         "etag": "\"8c3610ba6fcdc1:0\"",
         "last_modified": "Wed, 13 Aug 2025 16:31:31 GMT",
-        "fetched_at": "2026-10-07T23:56:21.5074834+00:00",
+        "fetched_at": "2026-10-10T03:03:36.8802809+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "056fca508087b796d1db897a11031ed9b5446593b8d47bd8fc3bb8dc3d644aa9",
@@ -1227,6 +1304,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N06": {
@@ -1244,7 +1322,7 @@
         "used_browser_identity": false,
         "etag": "\"74b9e2e8dc45dd1:0\"",
         "last_modified": "Wed, 16 Sep 2026 13:11:39 GMT",
-        "fetched_at": "2026-10-07T23:56:22.5381218+00:00",
+        "fetched_at": "2026-10-10T03:03:37.8030059+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "75bac8aee517979a4a7f834d07b13cb80c5c529d9f4e061fee6eb2ffbbd0b3b1",
@@ -1255,7 +1333,7 @@
       "derived": {
         "derived/public/nist/sp-1352/2026-09/general/chunks.jsonl": "9457c3ac7b568697a6dbe92b6724d1b51c27e04cdb6be3238f7228ad9a054523",
         "derived/public/nist/sp-1352/2026-09/general/edges.jsonl": "1b02a894350de9a7075cd415ac5fb45b4ace34afe332915662c8804bfc9e814b",
-        "derived/public/nist/sp-1352/2026-09/general/nodes.jsonl": "d8c5e364eed9699f75cd763eeaa349769e622cbd2e0ac6873123f673e5e6966f",
+        "derived/public/nist/sp-1352/2026-09/general/nodes.jsonl": "470ba72c183848952dd09d901d5600f3fe1f4d858c66274cf30d01f48da1ef6c",
         "derived/public/nist/sp-1352/2026-09/general/text.md": "4c8f28e026ad78f6fb4e1b583790bfe811c7c56615d004e23e23f9d1adfffec8"
       },
       "chunk_count": 18,
@@ -1265,6 +1343,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N09": {
@@ -1284,6 +1363,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N10": {
@@ -1294,12 +1374,12 @@
       "authority": "authoritative",
       "relevance": "requirement",
       "format_profile": "cprt-json",
-      "outcome": "new",
+      "outcome": "unchanged",
       "source": {
         "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172_1_0_0/export/json?element=all",
         "origin": "url",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:21:59.6885251+00:00",
+        "fetched_at": "2026-10-10T03:03:39.5364024+00:00",
         "http_status": 200,
         "mime": "application/json",
         "hash": "17a99377bed02a34fdfae1ceb31ad10d6e83685a3b90d628b7f3cb5dd1e9b37c",
@@ -1308,9 +1388,9 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-172/initial/cprt-json/chunks.jsonl": "65a81f8f76db806bb9bfc35ffdc6b7b9d4e69e70a8e5740d00b5fbdad0a295b6",
+        "derived/public/nist/sp-800-172/initial/cprt-json/chunks.jsonl": "e0c710bd7ad83375680135e6b994d5e15244a4fc4ba5a0cf0916bb5d371dd8e7",
         "derived/public/nist/sp-800-172/initial/cprt-json/edges.jsonl": "9fec4dc82d891db7c7f3e56e2bd218ce80502e6701b41b9803f6efd8b145b0da",
-        "derived/public/nist/sp-800-172/initial/cprt-json/nodes.jsonl": "9da88786d22cb8e8eec05464918147561770887f99c5f23329f10f489fc40859",
+        "derived/public/nist/sp-800-172/initial/cprt-json/nodes.jsonl": "b6de334d5fef405e4b81d743f5b67c13c4818837cca5aa0ee80b91946df6119b",
         "derived/public/nist/sp-800-172/initial/cprt-json/text.md": "1f983f41aba0aad723dd360285ccd1d9b0cdacfd6fa969ad082c3fc034db8a79"
       },
       "chunk_count": 276,
@@ -1320,6 +1400,7 @@
       "extractor": "system-text-json",
       "extractor_version": "10.0.0.0",
       "chunker": "cprt-json-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N10b": {
@@ -1337,7 +1418,7 @@
         "used_browser_identity": false,
         "etag": "\"9e75e7cc1e6dc1:0\"",
         "last_modified": "Mon, 18 May 2026 12:26:00 GMT",
-        "fetched_at": "2026-10-07T23:56:23.2604130+00:00",
+        "fetched_at": "2026-10-10T03:03:40.0682881+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "3847d851bdd52eb8824fbf57c4d2294099fa68e4b9a505401ba3f0f48fec721b",
@@ -1346,18 +1427,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-172/initial/nist-companion/chunks.jsonl": "81828d5aab1bbff01fa7b50067219a4d60c1cb5b5beffbe533d9631244f733c5",
-        "derived/public/nist/sp-800-172/initial/nist-companion/edges.jsonl": "5bdb443ed8bd9bb540ec197970ce2a0cae29c391bc3ad1c2e299633905264a99",
-        "derived/public/nist/sp-800-172/initial/nist-companion/nodes.jsonl": "9c8a3ccf5e5854ca0745f9f7e37cfdc06b23a57825b92a1b4497e288fb38882d",
-        "derived/public/nist/sp-800-172/initial/nist-companion/text.md": "6033ab36c6ad6f35c4882b420b22efdc20fec4154e0de1c8a13777c90deda0aa"
+        "derived/public/nist/sp-800-172/initial/nist-companion/chunks.jsonl": "2328c62b6b73fcddbd6015e8301b60026b394b4496600c195d43a087403d707c",
+        "derived/public/nist/sp-800-172/initial/nist-companion/edges.jsonl": "9fde2c3132af16e554f42712483980ec5d3d3b6d750cf30b8e2513559d6650e4",
+        "derived/public/nist/sp-800-172/initial/nist-companion/nodes.jsonl": "b4b44fca880bb1d0a15848fa6df35d18204276a61f626c5b68f9cc65bc94456b",
+        "derived/public/nist/sp-800-172/initial/nist-companion/text.md": "f37ac9ef87ceada87829b636aa29ae9a723898fc4bb28abe5ca34961708605f8"
       },
-      "chunk_count": 285,
+      "chunk_count": 215,
       "vector_count": 0,
-      "node_count": 496,
-      "edge_count": 1294,
+      "node_count": 454,
+      "edge_count": 923,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N11": {
@@ -1377,6 +1459,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N11b": {
@@ -1394,7 +1477,7 @@
         "used_browser_identity": false,
         "etag": "\"c14eddc5c0e6dc1:0\"",
         "last_modified": "Mon, 18 May 2026 12:20:54 GMT",
-        "fetched_at": "2026-10-07T23:56:24.0039527+00:00",
+        "fetched_at": "2026-10-10T03:03:41.3934988+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "2fdde6c8726831a2aa4d550fb4cda052c3408a4ddd0b06baf19c701b7cc8f9ac",
@@ -1404,17 +1487,18 @@
       },
       "derived": {
         "derived/public/nist/sp-800-172a/initial/nist-companion/chunks.jsonl": "9bbc28a21f0d055bdba4811eb7bdb4aaf17e8baccb6d18a2d0bdaed674fe2767",
-        "derived/public/nist/sp-800-172a/initial/nist-companion/edges.jsonl": "7c197a17ab382ef80e524b7d5d2622369475a45dc69eadcf6e3c9bfa7c9670a6",
-        "derived/public/nist/sp-800-172a/initial/nist-companion/nodes.jsonl": "de22d9c81477126a81936c177500f644374b834bd5e9a403ea96e50d72c72360",
+        "derived/public/nist/sp-800-172a/initial/nist-companion/edges.jsonl": "ff0a4bb6dd66d10cc98581f258c0369f1c137523ac5417101e46bcb5d4569e41",
+        "derived/public/nist/sp-800-172a/initial/nist-companion/nodes.jsonl": "24b1f7e5e1f575fa025590db755feae6f7abc244f4c793052734a1f6d6cc25aa",
         "derived/public/nist/sp-800-172a/initial/nist-companion/text.md": "e74eb1f5fc7266d61bcbe271d7da4952d9175a507c466b403cb026b4a44d9d81"
       },
       "chunk_count": 365,
       "vector_count": 0,
-      "node_count": 633,
-      "edge_count": 1396,
+      "node_count": 644,
+      "edge_count": 1402,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N12": {
@@ -1434,6 +1518,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N12b": {
@@ -1451,7 +1536,7 @@
         "used_browser_identity": false,
         "etag": "\"b65ed86c49e2dc1:0\"",
         "last_modified": "Tue, 12 May 2026 19:56:30 GMT",
-        "fetched_at": "2026-10-07T23:56:25.0943911+00:00",
+        "fetched_at": "2026-10-10T03:03:42.3211458+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "e70f2e81b0131f83aaf6973c7e5563de8d8bd7f034e03ea64125c90c16c5afca",
@@ -1460,18 +1545,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-172/r3/nist-companion/chunks.jsonl": "0f4dddd7d9dde5c2f1c3fe99fabe79dc52931131158241eb3414dc27e50c0dc7",
-        "derived/public/nist/sp-800-172/r3/nist-companion/edges.jsonl": "adbc00a16236e695c5849524d5044e1a0210f4a53ce0ee81441632161de048d5",
-        "derived/public/nist/sp-800-172/r3/nist-companion/nodes.jsonl": "2caa67afb7228cbbeb7dcbb3f86117ea0d5a6d6e5d5712b2126777c70b98eb39",
-        "derived/public/nist/sp-800-172/r3/nist-companion/text.md": "466371dbcf179683b13fe08ec2dd8031aaa3e3e41a12630a0a8e2e6c23f600f1"
+        "derived/public/nist/sp-800-172/r3/nist-companion/chunks.jsonl": "9674b6694ecf1ccdee0a45898213f473b7a6cd5bb9672f15ddeb54febe43f4a8",
+        "derived/public/nist/sp-800-172/r3/nist-companion/edges.jsonl": "721c74be02726374e30cf37697444b615e6d6fbfac00914e28a1e8c0f0a44fdf",
+        "derived/public/nist/sp-800-172/r3/nist-companion/nodes.jsonl": "f99e2716d31596f7f671e28b35ccee3b530cfe39c8a7aa1a47927348cbc5bf28",
+        "derived/public/nist/sp-800-172/r3/nist-companion/text.md": "ad646ad478e1a99b584c070c2c36d34fe808b0cccd6a06d179b884958452e1a4"
       },
       "chunk_count": 594,
       "vector_count": 0,
-      "node_count": 1088,
-      "edge_count": 3122,
+      "node_count": 1112,
+      "edge_count": 3146,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N13": {
@@ -1482,12 +1568,12 @@
       "authority": "authoritative",
       "relevance": "supporting",
       "format_profile": "cprt-json",
-      "outcome": "new",
+      "outcome": "unchanged",
       "source": {
         "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_172a_3_0_0/export/json?element=all",
         "origin": "url",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:22:05.6236798+00:00",
+        "fetched_at": "2026-10-10T03:03:46.1910237+00:00",
         "http_status": 200,
         "mime": "application/json",
         "hash": "56ce991f85a63193e35dfe2ec46fa8600dfad6f7235586899fb4669910b141f8",
@@ -1496,9 +1582,9 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-172a/r3/cprt-json/chunks.jsonl": "a310d5d21cacfacf70c65cd7ebb51de86605331fed55fe96dd4e077e4b7bef77",
+        "derived/public/nist/sp-800-172a/r3/cprt-json/chunks.jsonl": "c75f73915535f1da1402ac9b75d298625a46e2141305899a49a441501e6a56db",
         "derived/public/nist/sp-800-172a/r3/cprt-json/edges.jsonl": "b450c3770d0346704862879eb8f63a3c363937ab28f6fd7caca22edbc1c8a116",
-        "derived/public/nist/sp-800-172a/r3/cprt-json/nodes.jsonl": "851fbf07605406f03df81dd005fd9bd20efb0d142ecca573c1b4f1b73b0ef4b3",
+        "derived/public/nist/sp-800-172a/r3/cprt-json/nodes.jsonl": "d2109d4ec1c0993a7be4617f9b4bb115b4459ff6bb06a784413336c49340620f",
         "derived/public/nist/sp-800-172a/r3/cprt-json/text.md": "f2c842bbfe7b5c3f9eaae9593955f8ca5bb6ab2d7555a2667cda95b46a0adce9"
       },
       "chunk_count": 947,
@@ -1508,6 +1594,7 @@
       "extractor": "system-text-json",
       "extractor_version": "10.0.0.0",
       "chunker": "cprt-json-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N13b": {
@@ -1525,7 +1612,7 @@
         "used_browser_identity": false,
         "etag": "\"d08b347bcee2dc1:0\"",
         "last_modified": "Wed, 13 May 2026 11:48:57 GMT",
-        "fetched_at": "2026-10-07T23:56:25.8351193+00:00",
+        "fetched_at": "2026-10-10T03:03:47.7615992+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "e8cd66061367d0d76a241d5ac5ba8c802e34c19b8f62e32b5687e4dbae3b30df",
@@ -1534,18 +1621,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/nist/sp-800-172a/r3/nist-companion/chunks.jsonl": "d63b34765d9cf2b4d50466dace774bcb1dd8f1b56671af298b01d3f8487a406b",
-        "derived/public/nist/sp-800-172a/r3/nist-companion/edges.jsonl": "8c01e7c4023fa1c33211addf0bc54be4957d652991052c86aef5286e2c2020be",
-        "derived/public/nist/sp-800-172a/r3/nist-companion/nodes.jsonl": "9c8fbe5ad56487a7fef225398befbda2ac4e333d91e2342b2f060152ac07e518",
-        "derived/public/nist/sp-800-172a/r3/nist-companion/text.md": "c586e8e7423845db8c7d340f876c9d33cbea57995d4c57443ddeeb17ab95d4eb"
+        "derived/public/nist/sp-800-172a/r3/nist-companion/chunks.jsonl": "ece25918d4042feb1bfd00e8e4a50114c1cd35eb6ca4fc0cf5accf9ef43fa303",
+        "derived/public/nist/sp-800-172a/r3/nist-companion/edges.jsonl": "4b13b615bc6fa594ed6d370117c3bbc8c06676e2bd06ab0831cadbbba03f4f3e",
+        "derived/public/nist/sp-800-172a/r3/nist-companion/nodes.jsonl": "52579b46840e1d5a694ab2d88f48c88295ece48137f7cd004d863de54b9fa573",
+        "derived/public/nist/sp-800-172a/r3/nist-companion/text.md": "e99c481ecf17225f659a4b613a7a908cd066149c86d6a7471cc25481e0ef0459"
       },
-      "chunk_count": 828,
+      "chunk_count": 183,
       "vector_count": 0,
-      "node_count": 1654,
-      "edge_count": 4110,
+      "node_count": 678,
+      "edge_count": 1427,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "nist-companion-requirements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N50": {
@@ -1556,12 +1644,12 @@
       "authority": "authoritative",
       "relevance": "supporting",
       "format_profile": "cprt-json",
-      "outcome": "changed",
+      "outcome": "unchanged",
       "source": {
         "url": "https://csrc.nist.gov/extensions/nudp/services/json/nudp/framework/version/sp_800_53_5_2_0/export/json?element=all",
         "origin": "url",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:28.7957646+00:00",
+        "fetched_at": "2026-10-10T03:04:57.9382558+00:00",
         "http_status": 200,
         "mime": "application/json",
         "hash": "07fcdc2e6d89d91b139cd58e09eb1a6bd187b96873913c549a36d71ebb44edc7",
@@ -1583,6 +1671,7 @@
       "extractor": "system-text-json",
       "extractor_version": "10.0.0.0",
       "chunker": "cprt-json-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-N51": {
@@ -1602,6 +1691,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R01": {
@@ -1626,7 +1716,7 @@
           "date_source": "part's latest amendment",
           "latest_amended_on": "2024-12-16"
         },
-        "fetched_at": "2026-10-09T15:23:29.5698705+00:00",
+        "fetched_at": "2026-10-10T03:04:58.9868744+00:00",
         "http_status": 200,
         "mime": "application/xml",
         "hash": "4df7572a76794b236c0d5f9fb1d2ff814d8c973cf2d030067d00f9c0b0fb2680",
@@ -1647,6 +1737,7 @@
       "extractor": "cfr-xml",
       "extractor_version": "1.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R02": {
@@ -1671,7 +1762,7 @@
           "date_source": "part's latest amendment",
           "latest_amended_on": "2016-12-22"
         },
-        "fetched_at": "2026-10-09T15:23:30.4004351+00:00",
+        "fetched_at": "2026-10-10T03:04:59.7320159+00:00",
         "http_status": 200,
         "mime": "application/xml",
         "hash": "bd6980cc4e0b069ed7996d073ad71d29ce28996b2ae0286bff3e44d66b61087d",
@@ -1692,6 +1783,7 @@
       "extractor": "cfr-xml",
       "extractor_version": "1.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R03": {
@@ -1721,7 +1813,7 @@
           "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2025/09/10/2025-17359.xml"
         },
         "last_modified": "Fri, 01 May 2026 10:26:16 GMT",
-        "fetched_at": "2026-10-07T23:56:29.8709129+00:00",
+        "fetched_at": "2026-10-10T03:05:00.1784409+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "a84a572d0ccc5af65bb4daba97471918906eb56bce570305068c41e6d271cdcb",
@@ -1742,6 +1834,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R04": {
@@ -1758,7 +1851,7 @@
         "origin": "archive",
         "fallback_reason": "The SSL connection could not be established, see inner exception.",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:37.7114324+00:00",
+        "fetched_at": "2026-10-10T03:05:10.0218875+00:00",
         "http_status": 0,
         "mime": "application/pdf",
         "hash": "a8d3a11d3cebe1a0caa512edf4fbf7e32314f0f00a78e953131ae9c6e84b1059",
@@ -1779,6 +1872,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R05": {
@@ -1798,6 +1892,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R06": {
@@ -1827,7 +1922,7 @@
           "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2024/10/15/2024-22905.xml"
         },
         "last_modified": "Fri, 01 May 2026 10:01:33 GMT",
-        "fetched_at": "2026-10-07T23:56:38.7634612+00:00",
+        "fetched_at": "2026-10-10T03:05:10.4123155+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "9cc8371dac8540c699d0d4ee20e7f9335e9d5df93ab3373ce32b7e48dd2ed0d8",
@@ -1848,6 +1943,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R07": {
@@ -1877,7 +1973,7 @@
           "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2025/09/10/2025-17359.xml"
         },
         "last_modified": "Fri, 01 May 2026 10:26:16 GMT",
-        "fetched_at": "2026-10-07T23:56:29.8709129+00:00",
+        "fetched_at": "2026-10-10T03:05:00.1784409+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "a84a572d0ccc5af65bb4daba97471918906eb56bce570305068c41e6d271cdcb",
@@ -1898,6 +1994,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R08": {
@@ -1927,7 +2024,7 @@
           "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2016/09/14/2016-21665.xml"
         },
         "last_modified": "Thu, 04 Sep 2025 11:38:44 GMT",
-        "fetched_at": "2026-10-07T23:56:38.9595180+00:00",
+        "fetched_at": "2026-10-10T03:05:10.6401301+00:00",
         "http_status": 200,
         "mime": "text/html",
         "hash": "2faf0e56080fcd3f55a85adcef966f3e6a12d00cdf1fdab6ec7a47915de92adb",
@@ -1948,6 +2045,7 @@
       "extractor": "anglesharp-readability",
       "extractor_version": "1.8.2.0",
       "chunker": "regulation-elements",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-R09": {
@@ -1958,14 +2056,13 @@
       "authority": "authoritative",
       "relevance": "requirement",
       "format_profile": "general",
-      "outcome": "new",
+      "outcome": "unchanged",
       "source": {
         "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-240/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
-        "local_path": "fallback/public/dfars/class-deviation-2026-o0025/r3/general/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
-        "origin": "fallback",
+        "origin": "archive",
         "fallback_reason": "The SSL connection could not be established, see inner exception.",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:45.2980457+00:00",
+        "fetched_at": "2026-10-10T03:05:19.1290911+00:00",
         "http_status": 0,
         "mime": "application/pdf",
         "hash": "c836278a672909d71c33b3f3e53ee0a951c30ff1f499890c0e96549bd64f230c",
@@ -1986,6 +2083,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S01": {
@@ -2002,7 +2100,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:45.4801669+00:00",
+        "fetched_at": "2026-10-10T03:05:19.3257914+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "bbbe4937419808636b21e060c7bc3912edb4bdb20dbe4737d26edb1b7c0a040d",
@@ -2023,6 +2121,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S02": {
@@ -2042,6 +2141,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S03": {
@@ -2061,6 +2161,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S04": {
@@ -2080,6 +2181,7 @@
       "vector_count": 0,
       "node_count": 0,
       "edge_count": 0,
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S05": {
@@ -2090,13 +2192,13 @@
       "authority": "authoritative",
       "relevance": "requirement",
       "format_profile": "scan",
-      "outcome": "changed",
+      "outcome": "unchanged",
       "source": {
         "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:45.5532245+00:00",
+        "fetched_at": "2026-10-10T03:05:19.4387435+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "c69306918d68be3020a2835853ec56600824f9da831e8da5884fdc25abd33219",
@@ -2117,6 +2219,7 @@
       "extractor": "tesseract",
       "extractor_version": "tesseract 5.3.4; pdftoppm version 24.02.0; 300 dpi; psm 3; annotations hidden",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S06": {
@@ -2133,7 +2236,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:45.6395943+00:00",
+        "fetched_at": "2026-10-10T03:05:19.6465245+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "9b75546a6acbdfa1a8ab9ab42b08dd3113735b5e9952ac91c72f2abe9bf769d8",
@@ -2154,6 +2257,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S07": {
@@ -2171,7 +2275,7 @@
         "used_browser_identity": false,
         "etag": "\"5e334-59f529d188dc0\"",
         "last_modified": "Mon, 24 Feb 2020 13:47:35 GMT",
-        "fetched_at": "2026-10-07T23:56:41.8430296+00:00",
+        "fetched_at": "2026-10-10T03:05:20.0492813+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "32ecff18bfa55f33fb86c012b8e1edc20daa0f55bbe045cb5d40f94b9bc960db",
@@ -2181,17 +2285,18 @@
       },
       "derived": {
         "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/chunks.jsonl": "818c1e63b9881c26ba8dbaaccd683b2241516611f00ad1018ed4ef89e812a5c8",
-        "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/edges.jsonl": "bd96647fa4cda0ee156a8d4fdc6e37a53f73852a98c2d6a5bde666fa7bde1a8e",
-        "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/nodes.jsonl": "0b7395e60ed186059f83d11cc565257fff75df6223cba7be24afe909c386551f",
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/edges.jsonl": "4079e04e2e40105d042bfb5f011620bd080f98d57e9e0f71c67dfa6beb8de2f9",
+        "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/nodes.jsonl": "b9182fcaac2907f64fff1d06de4f834736cc8b7f05f227487711ccd0d32e2935",
         "derived/public/isoo/cui-notice-2019-03/2019-07-15/general/text.md": "d496861d39fdb913fa38a3f108adfbcb3dec90df45b1de9ac5c6a8a59daa4eb7"
       },
       "chunk_count": 4,
       "vector_count": 0,
-      "node_count": 8,
-      "edge_count": 11,
+      "node_count": 9,
+      "edge_count": 12,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S08": {
@@ -2209,7 +2314,7 @@
         "used_browser_identity": false,
         "etag": "\"59bd5-5dea95caabd30\"",
         "last_modified": "Tue, 10 May 2022 14:44:29 GMT",
-        "fetched_at": "2026-10-07T23:56:42.2980451+00:00",
+        "fetched_at": "2026-10-10T03:05:20.1532631+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "184282a8aaa7b5e3d9397549406c6dd0fb57b57cfa8e70c2bcd551d25f5b2065",
@@ -2230,6 +2335,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S09": {
@@ -2247,7 +2353,7 @@
         "used_browser_identity": false,
         "etag": "\"34d60-64e0052b81c20\"",
         "last_modified": "Fri, 27 Mar 2026 12:05:55 GMT",
-        "fetched_at": "2026-10-07T23:56:42.6251253+00:00",
+        "fetched_at": "2026-10-10T03:05:20.2369026+00:00",
         "http_status": 200,
         "mime": "application/pdf",
         "hash": "d922ea744d2ddcd99a6ace4ebc03cf10a5a4674359b99face64506cca35151ff",
@@ -2256,18 +2362,19 @@
         "archive_published": true
       },
       "derived": {
-        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/chunks.jsonl": "52d104a36bd3d79f1f3d3142cb678c4625688da7c436cc5484a2a9aeba640e56",
-        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/edges.jsonl": "a56b8adcb3eb3957fc953b138124f445dcd7a762febdc035ba77ee6fccbe0b53",
-        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/nodes.jsonl": "a66d43c2fb09974df6b1570502f6a24276c4a6424362eff5183faed0724eea25",
-        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/text.md": "638c90e8700f632dd16e3124690252f898ce35731fe0c07789a023b795384837"
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/chunks.jsonl": "71c77bf76386cbcabf3a580c1af79725dfbd34df942eb0bdb6f4808b22b86092",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/edges.jsonl": "32f164caf88085fe48bacc43abc0927c7baed4c31b881712e1f9eee4f2aadda1",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/nodes.jsonl": "9e9c03df4a97bd918402dc2415e7c92885e012a36150fa735df13142d131d3ba",
+        "derived/public/isoo/isoo-notice-2026-01/2026-03-30/general/text.md": "008130d007d6155df97c3b8cf45cfe68960cdd0fd87b568a7e548141924bc2e7"
       },
-      "chunk_count": 5,
+      "chunk_count": 4,
       "vector_count": 0,
-      "node_count": 9,
-      "edge_count": 13,
+      "node_count": 7,
+      "edge_count": 11,
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     },
     "REG-S10": {
@@ -2284,7 +2391,7 @@
         "origin": "archive",
         "fallback_reason": "HTTP 403 Forbidden",
         "used_browser_identity": false,
-        "fetched_at": "2026-10-09T15:23:46.3868186+00:00",
+        "fetched_at": "2026-10-10T03:05:20.7466325+00:00",
         "http_status": 403,
         "mime": "application/pdf",
         "hash": "4ce45273d250c07f8b35e8c0d56c7c10d68a152f3453016c8910398d7563402d",
@@ -2305,6 +2412,7 @@
       "extractor": "poppler-pdftotext",
       "extractor_version": "pdftotext version 24.02.0",
       "chunker": "heading-sections",
+      "pipeline_version": "0.3.4",
       "confirm": []
     }
   }

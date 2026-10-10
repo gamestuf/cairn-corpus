@@ -4308,11 +4308,16 @@
 {"from":"section:REG-N04b:Rev. 3:A.03.17.03.b/assessment_objective","to":"section:REG-N04b:Rev. 3:A.03.17.03.b","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/CNSS","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/CNSS","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/FIPS","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/FISMA","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/GRC","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/GRC","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/ODP","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/OSCAL","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SCRM","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms/SDLC","to":"section:REG-N04b:Rev. 3:Appendix_A._Acronyms","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_C._Security_Requirement_Assessment","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_D._Organization-Defined_Parameters","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Appendix_E._Change_Log","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
@@ -4341,6 +4346,7 @@
 {"from":"section:REG-N04b:Rev. 3:Table_2_provides_a_summary_of_the_purpose_and_expected_outcomes_of_the_assessment","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase/PURPOSE","to":"section:REG-N04b:Rev. 3:Table_3._Summary_of_Assessment_Plan_Development_Phase","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"term:poam","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_4._Summary_of_Assessment_Execution_Phase/PURPOSE","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
@@ -4349,12 +4355,14 @@
 {"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"term:poam","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase/PURPOSE","to":"section:REG-N04b:Rev. 3:Table_5._Summary_of_Assessment_Analysis_Documentation_and_Reporting_Phase","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"control:03.06.02","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"control:03.06.03","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"control:03.06.04","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"control:03.08.07","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT1","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT1","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"control:03.09.01","type":"CITES","properties":{}}
@@ -4383,6 +4391,8 @@
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"term:ssp","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/REQUIREMENT2","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the/SECURITY","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/03.06.02_A.03.06.02.ODP[01]_the_time_period_to_report_suspected_incidents_to_the","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/ORGANIZATION-DEFINED_PARAMETER","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT","to":"control:03.01.01","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT","to":"control:03.01.05","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT","to":"control:03.01.06","type":"CITES","properties":{}}
@@ -4414,6 +4424,7 @@
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT3","to":"control:03.05.12","type":"CITES","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT3","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/REQUIREMENT3","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters/SECURITY","to":"section:REG-N04b:Rev. 3:Table_6._Organization-Defined_Parameters","type":"IN_SECTION","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_7._Change_Log","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_7_shows_the_changes_incorporated_into_this_publication._Errata_updates_can_include","to":"document:REG-N04b","type":"IN_DOCUMENT","properties":{}}
 {"from":"section:REG-N04b:Rev. 3:Table_of_Contents1","to":"term:nist","type":"CITES","properties":{}}

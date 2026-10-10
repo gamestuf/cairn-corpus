@@ -42,10 +42,8 @@ Guidance
      13556, Controlled Unclassified Information, govern how classified information and
      controlled unclassified information must be handled, in tandem with their implementing
      regulations at 32 CFR 2001 and 32 CFR 2002. Specifically, Part 4 of Executive Order
-
-# 13526 and 32 CFR §§ 2001.40-2001.55 govern the safeguarding of classified information
-
-and stipulate the safeguarding and access requirements. 32 CFR §§ 2002.14 and 2002.16
+     13526 and 32 CFR §§ 2001.40-2001.55 govern the safeguarding of classified information
+     and stipulate the safeguarding and access requirements. 32 CFR §§ 2002.14 and 2002.16
      stipulate the safeguarding, access, and dissemination requirements for CUI. All
      requirements contained in both executive orders and both federal regulations must be
      adhered to when considering the proper handling of both types of information on AI

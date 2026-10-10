@@ -586,8 +586,7 @@ This requirement focuses on account management for systems and applications. The
 Source Controls: AC-02, AC-02(03), AC-02(05), AC-02(13)
             Supporting Publications: SP 800-46 [14], SP 800-57-1 [15], SP 800-57-2 [16], SP 800-
             57-3 [17], SP 800-77 [18], SP 800-113 [19], SP 800-114 [20], SP 800-121 [21], SP 800-
-
-# 162 [22], SP 800-178 [23], SP 800-192 [24], IR 7874 [25], IR 7966 [26]
+            162 [22], SP 800-178 [23], SP 800-192 [24], IR 7874 [25], IR 7966 [26]
 
 ### 03.01.02 Access Enforcement
 
@@ -611,8 +610,7 @@ Access control policies control access between active entities or subjects (i.e.
 Source Control: AC-03
             Supporting Publications: SP 800-46 [14], SP 800-57-1 [15], SP 800-57-2 [16], SP 800-
             57-3 [17], SP 800-77 [18], SP 800-113 [19], SP 800-114 [20], SP 800-121 [21], SP 800-
-
-# 162 [22], SP 800-178 [23], SP 800-192 [24], IR 7874 [25], IR 7966 [26]
+            162 [22], SP 800-178 [23], SP 800-192 [24], IR 7874 [25], IR 7966 [26]
 
 ### 03.01.03 Information Flow Enforcement
 
@@ -2936,8 +2934,7 @@ Source Controls: SC-08, SC-08(01), SC-28, SC-28(01)
             Supporting Publications: FIPS 140-3 [38], FIPS 197 [68], SP 800-46 [14], SP 800-52
             [69], SP 800-56A [73], SP 800-56B [74], SP 800-56C [75], SP 800-57-1 [15], SP 800-57-
             2 [16], SP 800-57-3 [17], SP 800-77 [18], SP 800-111 [51], SP 800-113 [19], SP 800-
-
-# 114 [20], SP 800-121 [21], SP 800-124 [28], SP 800-177 [70]
+            114 [20], SP 800-121 [21], SP 800-124 [28], SP 800-177 [70]
 
 ### 03.13.09 Network Disconnect
 
@@ -3857,10 +3854,8 @@ References
      https://www.govinfo.gov/app/details/USCODE-2017-title44/USCODE-2017-title44-chap35-
      subchapII-sec3552
 [80] Title 40 U.S. Code, Sec. 11331, Responsibilities for Federal information systems standards.
-
-# 2017 ed. Available at https://www.govinfo.gov/app/details/USCODE-2017-
-
-title40/USCODE-2017-title40-subtitleIII-chap113-subchapIII-sec11331
+     2017 ed. Available at https://www.govinfo.gov/app/details/USCODE-2017-
+     title40/USCODE-2017-title40-subtitleIII-chap113-subchapIII-sec11331
 [81] Title 44 U.S. Code, Sec. 3502, Definitions. 2017 ed. Available at
      https://www.govinfo.gov/app/details/USCODE-2021-title44/USCODE-2021-title44-chap35-
      subchapI-sec3502
