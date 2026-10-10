@@ -1678,7 +1678,7 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "all"
+          "prose"
         ]
       },
       "language": "en",
@@ -1807,7 +1807,7 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "all"
+          "prose"
         ]
       },
       "language": "en",
@@ -2424,7 +2424,7 @@
           "scenarios"
         ],
         "guidance": [
-          "all"
+          "prose"
         ]
       },
       "language": "en",
@@ -2483,7 +2483,7 @@
           "scenarios"
         ],
         "guidance": [
-          "all"
+          "prose"
         ]
       },
       "language": "en",
@@ -3568,10 +3568,15 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "requirement": [
-          "deviation text"
+          "deviation text",
+          "prose"
         ]
       },
       "language": "en",
@@ -3985,10 +3990,15 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "requirement": [
-          "deviation text"
+          "deviation text",
+          "prose"
         ]
       },
       "language": "en",
@@ -4193,11 +4203,16 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "overview"
+          "overview",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "requirement": [
           "policy statements",
-          "enclosure procedures"
+          "enclosure procedures",
+          "prose"
         ]
       },
       "language": "en",
@@ -4385,10 +4400,15 @@
       "authority_map": {},
       "normativity_map": {
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "requirement": [
-          "memo directives"
+          "memo directives",
+          "prose"
         ]
       },
       "language": "en",
@@ -4439,12 +4459,17 @@
       "normativity_map": {
         "guidance": [
           "general issuance information",
-          "responsibilities"
+          "responsibilities",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "requirement": [
           "policy statements",
           "procedures",
-          "distribution statements and notices"
+          "distribution statements and notices",
+          "prose"
         ]
       },
       "language": "en",
