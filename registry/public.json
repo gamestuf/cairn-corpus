@@ -1063,7 +1063,7 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "all"
+          "prose"
         ],
         "example": []
       },
@@ -1150,7 +1150,7 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "all"
+          "prose"
         ],
         "example": []
       },
@@ -1545,7 +1545,7 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "all"
+          "prose"
         ],
         "example": [
           "scenarios"
@@ -1581,7 +1581,7 @@
       "normativity_map": {
         "requirement": [],
         "guidance": [
-          "all"
+          "prose"
         ],
         "example": [
           "scenarios"
@@ -2272,10 +2272,15 @@
       "notes": "The instrument that keeps Rev 2 as the DoD requirement despite NIST's Rev 3 and its withdrawal of Rev 2; first answer to 'why not Rev 3'. Chunking intent: whole memo + per paragraph. Published 2024-05-02 (Rev. 1 later in 2024). Confirmed current 2026-10-07 (user): Revision 1 is the current revision.",
       "normativity_map": {
         "requirement": [
-          "deviation text"
+          "deviation text",
+          "prose"
         ],
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "example": []
       },
@@ -2539,10 +2544,15 @@
       "notes": "The RFO class deviation for DFARS Part 240. Directs contracting officers to use the revised FAR part 40 and the attached revised DFARS part 240 and PGI 240 in place of the codified text. Former Subpart 204.73 is now 240.370 (safeguarding covered defense information; 252.204-7008, -7009, -7012 and 252.240-7997, formerly 252.204-7020; 252.204-7019 is not carried); CMMC is 240.371 (252.204-7021 and 252.204-7025 retained). Revision 3, signed 2026-09-03, supersedes Revision 2 of 2026-07-16; the deviation is effective from 2026-02-01. 83 pages: memorandum (4) and Attachment 1. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-08; replaces the index row REG-R05. Chunking intent: by section and clause.",
       "normativity_map": {
         "requirement": [
-          "deviation text"
+          "deviation text",
+          "prose"
         ],
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "example": []
       },
@@ -2677,10 +2687,15 @@
       "normativity_map": {
         "requirement": [
           "policy statements",
-          "enclosure procedures"
+          "enclosure procedures",
+          "prose"
         ],
         "guidance": [
-          "overview"
+          "overview",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "example": []
       },
@@ -2773,10 +2788,15 @@
       "notes": "Defines FedRAMP Moderate equivalency for CSOs under 7012(b)(2)(ii)(D): Body of Evidence (SSP, SAP, SAR, POA&M), annual 3PAO assessment, no self-attestation, and the Customer Responsibility Matrix the contractor must provide to assessors. Chunking intent: by section. Published 2023-12-21. URL confirmed 2026-10-06: it serves the memorandum, built by OCR. Confirmed 2026-10-07: the 2023-12-21 memorandum is the latest version.",
       "normativity_map": {
         "requirement": [
-          "memo directives"
+          "memo directives",
+          "prose"
         ],
         "guidance": [
-          "background"
+          "background",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "example": []
       },
@@ -2807,11 +2827,16 @@
         "requirement": [
           "policy statements",
           "procedures",
-          "distribution statements and notices"
+          "distribution statements and notices",
+          "prose"
         ],
         "guidance": [
           "general issuance information",
-          "responsibilities"
+          "responsibilities",
+          "table of contents",
+          "references",
+          "glossary",
+          "acronyms"
         ],
         "example": []
       },
