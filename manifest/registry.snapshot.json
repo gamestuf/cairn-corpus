@@ -135,7 +135,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -188,7 +188,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -241,7 +241,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -298,7 +298,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -351,7 +351,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -404,7 +404,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -457,7 +457,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -510,7 +510,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -563,7 +563,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -616,7 +616,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -669,7 +669,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -722,7 +722,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -779,7 +779,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -832,7 +832,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -885,7 +885,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -938,7 +938,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -991,7 +991,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -1503,7 +1503,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "audio",
       "FormatProfileOrDefault": "transcript",
-      "FormatProfileValue": 10,
+      "FormatProfileValue": 11,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -1781,7 +1781,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "xlsx",
       "FormatProfileOrDefault": "scf-workbook",
-      "FormatProfileValue": 9,
+      "FormatProfileValue": 10,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3407,7 +3407,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "xml",
       "FormatProfileOrDefault": "ecfr-xml",
-      "FormatProfileValue": 8,
+      "FormatProfileValue": 9,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3468,7 +3468,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "xml",
       "FormatProfileOrDefault": "ecfr-xml",
-      "FormatProfileValue": 8,
+      "FormatProfileValue": 9,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3540,7 +3540,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3652,7 +3652,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3762,7 +3762,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3860,7 +3860,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -3958,7 +3958,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "html",
       "FormatProfileOrDefault": "regulation-html",
-      "FormatProfileValue": 7,
+      "FormatProfileValue": 8,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -4078,7 +4078,7 @@
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "xml",
       "FormatProfileOrDefault": "ecfr-xml",
-      "FormatProfileValue": 8,
+      "FormatProfileValue": 9,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
