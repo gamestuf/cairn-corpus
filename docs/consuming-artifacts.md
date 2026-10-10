@@ -256,3 +256,19 @@ copy this corpus archived earlier, because the fetch failed), `fallback` (a hand
 `archive`, `fallback` and `prior` as snapshots of the age given by the previous run's `fetched_at`.
 
 No credentials and no non-public content. A row with any `tier` other than `public` fails the run.
+
+## 8. Curated lists (`lists/`)
+
+`lists/` holds reference lists built with AI tooling from named sources rather than by the pipeline. Today there is
+one: [`lists/banned-companies/Banned_Companies.json`](../lists/banned-companies/Banned_Companies.json), the companies,
+institutions and programs U.S. federal law, regulation or agency action bars or restricts. Each entry gives its
+source, name, country (where known), reason with its legal basis, notes, and a `status`:
+
+- `in_force` and `future` entries apply, or will apply on their `effective` date.
+- `secondary` entries come from a compilation that is not the agency's own.
+- `historical` entries are kept to show what was removed, and when.
+
+**These files are not in the manifest and not covered by its signature.** Their provenance is
+[`Banned_List_Sources.md`](../lists/banned-companies/Banned_List_Sources.md), which records the SHA-256 of every
+source copy read, and the method is [`Banned_List_Prompt.md`](../lists/banned-companies/Banned_List_Prompt.md).
+Treat the list as a screening aid that points at its sources, not as a legal determination.

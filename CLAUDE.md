@@ -44,6 +44,11 @@ headings, text or figures.
 `registry/public.json` is the only thing edited by hand. Everything else — `derived/`, `manifest/`,
 `reports/`, `raw/` — is produced by a run.
 
+**`lists/` is the one exception: curated reference lists, built with AI tooling rather than by the pipeline**,
+because their sources need reading rather than parsing. Each list keeps its prompt, its sources (with the SHA-256 of
+every copy read) and its output side by side, as `lists/banned-companies/` does. The manifest does not cover them and
+CI does not touch them. Rebuild one by following its prompt, never by hand-editing the output.
+
 - **Do not hand-commit derived artifacts.** Files no run produced and no manifest describes break the
   corpus's central promise.
 - **Do not edit `manifest/registry.snapshot.json`.** It is build output and the baseline for the next run's

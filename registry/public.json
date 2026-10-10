@@ -544,6 +544,102 @@
       "version_slug": "2023-01"
     },
     {
+      "id": "REG-C15",
+      "document_number": "FAR 52.204-23",
+      "title": "Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities",
+      "version": "2023-12",
+      "url": "https://www.acquisition.gov/far/52.204-23",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause implementing FY2018 NDAA section 1634: no Kaspersky Lab covered article may be provided to the Government or used in performance, from 2018-10-01, with a reporting duty. Version is the clause date on acquisition.gov (Dec 2023). Added 2026-10-10. Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "far",
+      "doc_id": "52.204-23",
+      "version_slug": "2023-12"
+    },
+    {
+      "id": "REG-C16",
+      "document_number": "FAR 52.204-24",
+      "title": "Representation Regarding Certain Telecommunications and Video Surveillance Services or Equipment",
+      "version": "2021-11",
+      "url": "https://www.acquisition.gov/far/52.204-24",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Solicitation provision: the offeror represents whether it will provide, or uses, covered telecommunications equipment or services (FY2019 NDAA section 889); the prohibition itself is FAR 52.204-25. Version is the provision date on acquisition.gov (Nov 2021). Added 2026-10-10. Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "provision text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "far",
+      "doc_id": "52.204-24",
+      "version_slug": "2021-11"
+    },
+    {
+      "id": "REG-C17",
+      "document_number": "FAR 52.204-27",
+      "title": "Prohibition on a ByteDance Covered Application",
+      "version": "2023-06",
+      "url": "https://www.acquisition.gov/far/52.204-27",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause implementing the No TikTok on Government Devices Act: TikTok, or any successor application of ByteDance Limited, may not be on information technology used by or for the Government. Version is the clause date on acquisition.gov (Jun 2023). Added 2026-10-10. Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "far",
+      "doc_id": "52.204-27",
+      "version_slug": "2023-06"
+    },
+    {
       "id": "REG-D01",
       "document_number": "DoD-CIO-00001",
       "title": "CMMC Model Overview",
@@ -2488,6 +2584,43 @@
       "org": "cfr",
       "doc_id": "32-cfr-236",
       "version_slug": "2024-04-11"
+    },
+    {
+      "id": "REG-R11",
+      "document_number": "DFARS Class Deviation 2026-O0043",
+      "title": "Class Deviation: Revolutionary FAR Overhaul Part 4, DFARS Part 204, Administrative and Information Matters (SPRS provision only)",
+      "version": "2026-02-17",
+      "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-204/2026-O0043_TAB_A_Deviation_Memo_Part_204.pdf",
+      "snapshot_reviewed": "2026-10-10",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "planned",
+      "ingest": "chunk",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "The Revolutionary FAR Overhaul class deviation for DFARS Part 204 (DARS 2026-O0043), effective 2026-02-17: use the revised FAR Part 4 and the attached DFARS Part 204 in place of the codified text. Only two parts are wanted: 204.7604, Solicitation provision (PDF page 16), and 252.204-7024, Notice on the Use of the Supplier Performance Risk System (PDF pages 27-28). The rest is not relevant. Their text differs from the codified DFARS: the codified 252.204-7024 (MAR 2023) points supplier risk at 239.7301, this one at DFARS 240. Planned until the row can take those pages alone (pipeline decision P-D8, which would also cut one clause from an HTML page); section rules cannot, because the PDF's heading tree is dominated by its tables. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-10 (Document Plan DP-B8).",
+      "normativity_map": {
+        "requirement": [
+          "prose"
+        ],
+        "guidance": [],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 101,
+        "max_pages": 101
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-o0043",
+      "version_slug": "2026-02-17",
+      "confirm": [
+        "Build only PDF pages 16 and 27-28 (204.7604 and 252.204-7024) once P-D8 lets a row select pages, then activate."
+      ]
     },
     {
       "id": "REG-S01",
