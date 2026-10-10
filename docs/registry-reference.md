@@ -40,7 +40,7 @@ Every row in this registry is public-tier. A row with any `tier` other than `pub
 | `snapshot_reviewed` | no | `yyyy-MM-dd`: the date a person last compared the row's stored copy with its `url` in a browser and found it to be the current edition. For 90 days after it, a build from that copy is reported at `info` rather than `warning`. See below. |
 | `shares_fetch_with` | no | Registry id whose fetched bytes this row reuses, so a paired PDF is not fetched twice. |
 | `format` | **yes** for active chunked rows | What the bytes are — exactly one of `pdf`, `html`, `xml`, `json`, `xlsx`, `docx`, `pptx`, `md`, `audio`. The magic-byte check holds the payload to it. Anything else — prose naming two sources, a processing path such as `pdf-scan` — fails stage 0 (`format_not_a_byte_type`): a verifying PDF is named by `qa.verify_against`, and the path by `format_profile`. |
-| `format_profile` | no; **`general` when absent** | How the bytes become text and chunks — one path per row (pipeline ADR-0014). `general` for every format; and `nist-companion`, `cmmc-guide`, `scan` (PDF), `cprt-json`, `org-policy-json`, `org-ssp-json` (JSON), `regulation-html` (HTML), `ecfr-xml` (XML), `scf-workbook` (XLSX), `transcript` (audio). A profile that is not a path for the row's `format` fails stage 0, on every row whatever its `status` or `ingest`, and so does a profile on a row with no `format`. It chooses the chunker and the `--commands` entry that runs the row, and it is the last directory of the row's path. |
+| `format_profile` | no; **`general` when absent** | How the bytes become text and chunks — one path per row (pipeline ADR-0014). `general` for every format; and `nist-companion`, `cmmc-guide`, `scan` (PDF), `cprt-json`, `org-policy-json`, `org-ssp-json`, `org-reference-json` (JSON), `regulation-html` (HTML), `ecfr-xml` (XML), `scf-workbook` (XLSX), `transcript` (audio). A profile that is not a path for the row's `format` fails stage 0, on every row whatever its `status` or `ingest`, and so does a profile on a row with no `format`. It chooses the chunker and the `--commands` entry that runs the row, and it is the last directory of the row's path. |
 
 A row with `ingest: chunk` needs one of `url`, `local_path` or `shares_fetch_with`. Stage 0 fails otherwise.
 
@@ -120,7 +120,10 @@ registry, reported rather than fatal.
 `format_profile: scan`**: its bytes are a PDF and the magic-byte check says so, while the profile keeps the
 text extractor away — a scan handed to it returns a few characters and reports success. A row whose profile
 has no implementation yet keeps `ingest: chunk`, because it should chunk once its path exists, and is `skipped`
-before it is fetched with the path named; every declared path is implemented today. An `audio` row with
+before it is fetched with the path named; every declared path is implemented today but `json/general`, which is
+unsupported by decision: a JSON row declares `cprt-json`, `org-policy-json`, `org-ssp-json` or
+`org-reference-json` (an organisation's glossary, acronym list or cited-document list), and a `general` one
+is skipped with that reason. An `audio` row with
 `format_profile: transcript` names a transcript as its source (`url`, or a committed copy): plain text, WebVTT or
 SubRip, kept word for word. The pipeline does not transcribe.
 
