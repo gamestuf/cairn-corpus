@@ -1,0 +1,163 @@
+{"from":"section:REG-N54:Rev. 1:(preamble)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:(preamble)1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:(preamble)2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:(preamble)2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89301","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-89302","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.1_Purpose_and_Scope1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.1_Purpose_and_Scope1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.1_Purpose_and_Scope1","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.1_Purpose_and_Scope2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.1_Purpose_and_Scope2","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.2_Audience","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.2_Audience","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.3_Assumptions","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.3_Assumptions","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.4_Relationship_to_Other_NIST_Documents","to":"term:nist","type":"DEFINES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.4_Relationship_to_Other_NIST_Documents","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.4_Relationship_to_Other_NIST_Documents","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.5_Document_Structure","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.5_Document_Structure","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:1_Introduction/1.5_Document_Structure","to":"section:REG-N54:Rev. 1:1_Introduction","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.2_Types_of_Media","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.2_Types_of_Media","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.3_Trends_in_Data_Storage_Media","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.3_Trends_in_Data_Storage_Media","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.4_Trends_in_Sanitization1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.4_Trends_in_Sanitization1","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.4_Trends_in_Sanitization2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.4_Trends_in_Sanitization2","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.5_Types_of_Sanitization1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.5_Types_of_Sanitization1","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.5_Types_of_Sanitization2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.5_Types_of_Sanitization2","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.1_When_Not_To_Use_CE_To_Purge_Media","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.1_When_Not_To_Use_CE_To_Purge_Media","to":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.2_When_to_Consider_Using_CE","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.2_When_to_Consider_Using_CE","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.2_When_to_Consider_Using_CE","to":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.3_Additional_CE_Considerations","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase/2.6.3_Additional_CE_Considerations","to":"section:REG-N54:Rev. 1:2_Background/2.6_Use_of_Cryptography_and_Cryptographic_Erase","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.7_Factors_Influencing_Sanitization_and_Disposal_Decisions","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.7_Factors_Influencing_Sanitization_and_Disposal_Decisions","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.8_Sanitization_Scope","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.8_Sanitization_Scope","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:2_Background/2.8_Sanitization_Scope","to":"section:REG-N54:Rev. 1:2_Background","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.1_Program_Managers","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.1_Program_Managers/Agency_Heads","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.1_Program_Managers/Agency_Heads","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.1_Program_Managers","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.2_Chief_Information_Officer_(CIO)","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.2_Chief_Information_Officer_(CIO)","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.3_Information_System_Owner","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.3_Information_System_Owner","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.4_Information_Owner","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.4_Information_Owner/Steward","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.4_Information_Owner/Steward","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.4_Information_Owner/Steward","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.4_Information_Owner","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.5_Senior_Agency_Information_Security_Officer_(SAISO)","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.5_Senior_Agency_Information_Security_Officer_(SAISO)","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.6_System_Security_Manager","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.6_System_Security_Manager/Officer","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.6_System_Security_Manager/Officer","to":"section:REG-N54:Rev. 1:3_Roles_and_Responsibilities/3.6_System_Security_Manager","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:4_Information_Sanitization_and_Disposition_Decision_Making","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:5_Summary_of_Sanitization_Methods","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_A-Minimum_Sanitization_Recommendations1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_A-Minimum_Sanitization_Recommendations1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_A-Minimum_Sanitization_Recommendations2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_B-Glossary1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_B-Glossary2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_B-Glossary3","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_B-Glossary4","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_C-Tools_and_Resources1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_C-Tools_and_Resources1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_C-Tools_and_Resources2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_D-Cryptographic_Erase_Device_Guidelines","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_E-Device-Specific_Characteristics_of_Interest","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography/STORAGE_DEVICE_DECLASSIFICATION_MANUAL)1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography/STORAGE_DEVICE_DECLASSIFICATION_MANUAL)1","to":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography/STORAGE_DEVICE_DECLASSIFICATION_MANUAL)2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography/STORAGE_DEVICE_DECLASSIFICATION_MANUAL)2","to":"section:REG-N54:Rev. 1:Appendix_F-Selected_Bibliography","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Appendix_G-Sample_Certificate_of_Sanitization_Form","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:CODEN__NSPUE2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:CODEN__NSPUE2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.1_Information_Decisions_in_the_System_Life_Cycle","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.1_Information_Decisions_in_the_System_Life_Cycle","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.1_Information_Decisions_in_the_System_Life_Cycle","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.1_Information_Decisions_in_the_System_Life_Cycle","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.2_Determination_of_Security_Categorization","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.2_Determination_of_Security_Categorization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.2_Determination_of_Security_Categorization","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.3_Reuse_of_Media","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.3_Reuse_of_Media","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.4_Control_of_Media","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.4_Control_of_Media","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.5_Data_Protection_Level","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.5_Data_Protection_Level","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.6_Sanitization_and_Disposal_Decision","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.6_Sanitization_and_Disposal_Decision","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.1_Verification_of_Equipment","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.1_Verification_of_Equipment","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.2_Verification_of_Personnel_Competencies","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.2_Verification_of_Personnel_Competencies","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.3_Verification_of_Sanitization_Results1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.3_Verification_of_Sanitization_Results1","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.3_Verification_of_Sanitization_Results2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods/4.7.3_Verification_of_Sanitization_Results2","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.7_Verify_Methods","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.8_Documentation","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow/4.8_Documentation","to":"section:REG-N54:Rev. 1:Figure_4-1__Sanitization_and_Disposition_Decision_Flow","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_5-1__Sanitization_Methods1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_5-1__Sanitization_Methods2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-1__Hard_Copy_Storage_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-2__Networking_Device_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-3__Mobile_Device_Sanitization1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-3__Mobile_Device_Sanitization2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-3__Mobile_Device_Sanitization3","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-3__Mobile_Device_Sanitization4","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-4__Equipment_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-5__Magnetic_Media_Sanitization1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-5__Magnetic_Media_Sanitization2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-5__Magnetic_Media_Sanitization3","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-5__Magnetic_Media_Sanitization4","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-5__Magnetic_Media_Sanitization5","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-6__Peripherally_Attached_Storage_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-7__Optical_Media_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-7__Optical_Media_Sanitization/CD_DVD_BD","to":"section:REG-N54:Rev. 1:Table_A-7__Optical_Media_Sanitization","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-8__Flash_Memory-Based_Storage_Device_Sanitization1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-8__Flash_Memory-Based_Storage_Device_Sanitization2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-8__Flash_Memory-Based_Storage_Device_Sanitization3","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-8__Flash_Memory-Based_Storage_Device_Sanitization4","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-8__Flash_Memory-Based_Storage_Device_Sanitization5","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_A-9__RAM-_and_ROM-Based_Storage_Device_Sanitization","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E1","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E1","to":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E2","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations/SP_800-38E2","to":"section:REG-N54:Rev. 1:Table_D-1__Cryptographic_Erase_Considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition_...................._51","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition_...................._51","to":"section:REG-N54:Rev. 1:Table_of_Contents","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition_...................._52","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:Table_of_Contents/2.1_Need_for_Proper_Media_Sanitization_and_Information_Disposition_...................._52","to":"section:REG-N54:Rev. 1:Table_of_Contents","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.10_Users","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.10_Users","to":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.7_Property_Management_Officer","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.7_Property_Management_Officer","to":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.8_Records_Management_Officer","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.8_Records_Management_Officer","to":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.9_Privacy_Officer","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for/3.9_Privacy_Officer","to":"section:REG-N54:Rev. 1:part_of_the_computer_security_program_management_office_this_person_is_responsible_for","type":"IN_SECTION","properties":{}}
+{"from":"term:nist","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:ssp","to":"document:REG-N54","type":"IN_DOCUMENT","properties":{}}

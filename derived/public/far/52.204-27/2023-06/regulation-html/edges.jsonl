@@ -1,0 +1,13 @@
+{"from":"provision:far_52.204-27","to":"document:REG-C17","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(a)_Covered_application/definition","to":"document:REG-C17","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(a)_Covered_application/definition","to":"provision:far_52.204-27","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(a)_Covered_application/definition","to":"section:REG-C17:v2023-06:52.204-27(a)_Covered_application","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(b)/clause_text","to":"document:REG-C17","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(b)/clause_text","to":"provision:far_52.204-27","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(b)/clause_text","to":"section:REG-C17:v2023-06:52.204-27(b)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(c)/clause_text","to":"document:REG-C17","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(c)/clause_text","to":"provision:far_52.204-27","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27(c)/clause_text","to":"section:REG-C17:v2023-06:52.204-27(c)","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27_prescription/prescription","to":"document:REG-C17","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27_prescription/prescription","to":"provision:far_52.204-27","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-C17:v2023-06:52.204-27_prescription/prescription","to":"section:REG-C17:v2023-06:52.204-27_prescription","type":"IN_SECTION","properties":{}}

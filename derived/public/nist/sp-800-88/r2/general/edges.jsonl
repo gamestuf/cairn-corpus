@@ -1,0 +1,111 @@
+{"from":"control:3.1.1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.1.3","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.3","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.4","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.5","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:(preamble)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:(preamble)1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:(preamble)2","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:(preamble)2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-8930","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:100_Bureau_Drive_(Mail_Stop_8930)_Gaithersburg_MD_20899-8930","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_A._Glossary1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_A._Glossary2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_B._Device-Specific_Characteristics_of_Interest","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/CERTIFICATE_OF_SANITIZATION","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_DESTINATION","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_DESTINATION/DISPOSITION","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_DESTINATION/DISPOSITION","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_DESTINATION","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_INFORMATION","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/MEDIA_INFORMATION","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/PERSON_PERFORMING_SANITIZATION","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/PERSON_PERFORMING_SANITIZATION","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/SANITIZATION_DETAILS","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/SANITIZATION_DETAILS","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/SIGNATURE","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form/SIGNATURE","to":"section:REG-N52:Rev. 2:Appendix_C._Sample_Certificate_of_Sanitization_Form","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Appendix_D._Change_Log","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]1","to":"control:3.2.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]1","to":"control:3.2.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]1","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]10","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]10","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]11","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]11","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]12","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]12","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]13","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]13","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]14","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]14","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]14","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]15","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]15","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]15","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]16","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]16","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]16","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]2","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]3","to":"control:3.2.4","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]3","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]3","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]4","to":"control:3.2.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]4","to":"control:3.2.5","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]4","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]4","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]5","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]5","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]6","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]6","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]7","to":"term:ssp","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]7","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]7","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]8","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]8","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]9","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_1._CE_considerations/SP_800-38E_[27]9","to":"section:REG-N52:Rev. 2:Table_1._CE_considerations","type":"IN_SECTION","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.1.1","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.2.1","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.2.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.2.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.2.4","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"control:3.2.5","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents1","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents10","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents10","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents10","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents11","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents11","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents11","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents12","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents12","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents13","to":"control:3.2.1","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents13","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents2","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents3","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents4","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents4","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents5","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents5","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents6","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents7","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents8","to":"control:3.1.1","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents8","to":"control:3.1.2","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents8","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents8","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents9","to":"control:3.1.1","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:Table_of_Contents9","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N52:Rev. 2:section_was_eliminated_as_many_documents_listed_there_were_obsolete_and_the","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N52:Rev. 2:section_was_eliminated_as_many_documents_listed_there_were_obsolete_and_the","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:ssp","to":"document:REG-N52","type":"IN_DOCUMENT","properties":{}}

@@ -1,0 +1,3208 @@
+{
+  "run_id": "38028427869-1",
+  "started": "2026-10-10T05:43:02.4124225+00:00",
+  "finished": "2026-10-10T05:44:16.0560467+00:00",
+  "elapsed_seconds": 73.6436242,
+  "registry": "registry/public.json",
+  "registry_hash": "6f4c99dbc0c8ec2ec028b8ae6fde856f18a4c21d3d6bf458f06300d9d36cbc69",
+  "lane": "public",
+  "dry_run": false,
+  "acquire_only": false,
+  "warnings": false,
+  "rows_without_outcome": [],
+  "registry_diff": {
+    "Added": [
+      "REG-C13",
+      "REG-C14",
+      "REG-C15",
+      "REG-C16",
+      "REG-C17",
+      "REG-N52",
+      "REG-N53",
+      "REG-N54",
+      "REG-R10",
+      "REG-R11"
+    ],
+    "Removed": [],
+    "Changed": [],
+    "IsFirstRun": false,
+    "Any": true
+  },
+  "documents": [
+    {
+      "reg_id": "REG-C01",
+      "title": "Basic Safeguarding of Covered Contractor Information Systems",
+      "document_number": "FAR 52.204-21",
+      "version": "2021-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C02",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
+      "document_number": "DFARS 252.204-7012",
+      "version": "2024-05",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C03",
+      "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
+      "document_number": "DFARS 252.204-7019",
+      "version": "2023-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C04",
+      "title": "NIST SP 800-171 DoD Assessment Requirements",
+      "document_number": "DFARS 252.240-7997 (formerly 252.204-7020)",
+      "version": "2023-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C05",
+      "title": "Contractor Compliance With the Cybersecurity Maturity Model Certification Level Requirements",
+      "document_number": "DFARS 252.204-7021",
+      "version": "2025-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C06",
+      "title": "Notice of Cybersecurity Maturity Model Certification Level Requirements",
+      "document_number": "DFARS 252.204-7025",
+      "version": "2025-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C07",
+      "title": "Compliance with Safeguarding Covered Defense Information Controls",
+      "document_number": "DFARS 252.204-7008",
+      "version": "2016-10",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C08",
+      "title": "Covered Defense Telecommunications Equipment or Services—Representation",
+      "document_number": "DFARS 252.204-7016",
+      "version": "2019-12",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C09",
+      "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services—Representation",
+      "document_number": "DFARS 252.204-7017",
+      "version": "2021-05",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C10",
+      "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services",
+      "document_number": "DFARS 252.204-7018",
+      "version": "2023-01",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C11",
+      "title": "Rights in Technical Data—Other Than Commercial Products and Commercial Services",
+      "document_number": "DFARS 252.227-7013",
+      "version": "2025-08",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C12",
+      "title": "Rights in Bid or Proposal Information",
+      "document_number": "DFARS 252.227-7016",
+      "version": "2023-01",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-C13",
+      "title": "Basic Safeguarding of Covered Contractor Information Systems",
+      "document_number": "FAR 52.240-93",
+      "version": "2025-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 2,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-C14",
+      "title": "Cloud Computing Services",
+      "document_number": "DFARS 252.239-7010",
+      "version": "2023-01",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 20,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C15",
+      "title": "Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab Covered Entities",
+      "document_number": "FAR 52.204-23",
+      "version": "2023-12",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 6,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C16",
+      "title": "Representation Regarding Certain Telecommunications and Video Surveillance Services or Equipment",
+      "document_number": "FAR 52.204-24",
+      "version": "2021-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 7,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-C17",
+      "title": "Prohibition on a ByteDance Covered Application",
+      "document_number": "FAR 52.204-27",
+      "version": "2023-06",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 4,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "anglesharp-readability"
+    },
+    {
+      "reg_id": "REG-D01",
+      "title": "CMMC Model Overview",
+      "document_number": "DoD-CIO-00001",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 111,
+      "vectors": 0,
+      "findings": 17,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D02",
+      "title": "CMMC Assessment Guide – Level 1",
+      "document_number": "DoD-CIO-00002",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 243,
+      "vectors": 0,
+      "findings": 4,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D03",
+      "title": "CMMC Assessment Guide – Level 2",
+      "document_number": "DoD-CIO-00003",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 1549,
+      "vectors": 0,
+      "findings": 4,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D04",
+      "title": "CMMC Assessment Guide – Level 3",
+      "document_number": "DoD-CIO-00004",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 317,
+      "vectors": 0,
+      "findings": 6,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D05",
+      "title": "CMMC Scoping Guide – Level 1",
+      "document_number": "DoD-CIO-00005",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 4,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D06",
+      "title": "CMMC Scoping Guide – Level 2",
+      "document_number": "DoD-CIO-00006",
+      "version": "2.13",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 13,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D07",
+      "title": "CMMC 101 Brief",
+      "document_number": "CMMC 101 Brief (Nov 2025)",
+      "version": "2025-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 7,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D08",
+      "title": "CMMC Overview Briefing (Audio)",
+      "document_number": "CMMC Overview Briefing (Audio, 2024-11-04)",
+      "version": "2024-11-04",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-D09",
+      "title": "CMMC Briefing: CMMC Alignment to NIST Standards",
+      "document_number": "CMMC Alignment to NIST Standards (Feb 2025)",
+      "version": "2025-02",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 13,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D10",
+      "title": "CMMC Briefing: DoD SPRS",
+      "document_number": "CMMC Briefing: DoD SPRS (Feb 2025)",
+      "version": "2025-02",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 10,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-D11",
+      "title": "DoD Defense Industrial Base Cybersecurity Services (DIB CSaaS) Slick Sheet",
+      "document_number": "DIB CSaaS Slick Sheet",
+      "version": "current",
+      "status": "planned",
+      "ingest": "optional",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-D12",
+      "title": "Cybersecurity Maturity Model Certification Program (CMMC) Frequently Asked Questions",
+      "document_number": "CMMC FAQ Rev. 2.3",
+      "version": "2.3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 16,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-F01",
+      "title": "Secure Controls Framework (SCF) 2026.3 — Control Catalog, Assessment Objectives and Evidence Request List",
+      "document_number": "SCF 2026.3",
+      "version": "2026.3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-F02",
+      "title": "CMMC Assessment Process (CAP)",
+      "document_number": "CAP",
+      "version": "2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-F03",
+      "title": "CMMC Code of Professional Conduct (CoPC)",
+      "document_number": "CoPC",
+      "version": "2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N01",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "document_number": "NIST SP 800-171 Rev. 2",
+      "version": "Rev. 2 Upd 1",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-N01b",
+      "title": "Protecting CUI in Nonfederal Systems and Organizations — Chapters 1–2 and Appendices A–E",
+      "document_number": "NIST SP 800-171 Rev. 2 (PDF, lead material)",
+      "version": "Rev. 2 Upd 1",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N02",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-171A",
+      "version": "Initial",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N02b",
+      "title": "Assessing Security Requirements for CUI — Chapters 1–2 and Appendices",
+      "document_number": "NIST SP 800-171A (PDF, lead material)",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N03",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "document_number": "NIST SP 800-171 Rev. 3",
+      "version": "Rev. 3",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N03b",
+      "title": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "document_number": "NIST SP 800-171 Rev. 3 (PDF)",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N04",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-171A Rev. 3",
+      "version": "Rev. 3",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N04b",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-171A Rev. 3 (PDF)",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N05",
+      "title": "Protecting Controlled Unclassified Information (CUI): NIST Special Publication 800-171, Revision 3 Small Business Primer",
+      "document_number": "NIST SP 1318",
+      "version": "2025-08",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N06",
+      "title": "Assessing Security Requirements for Controlled Unclassified Information (CUI): NIST SP 800-171Ar3 Small Business Primer",
+      "document_number": "NIST SP 1352",
+      "version": "2026-09",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N09",
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "document_number": "NIST CSF 2.0",
+      "version": "2.0",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N10",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 276,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "system-text-json"
+    },
+    {
+      "reg_id": "REG-N10b",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172 (PDF)",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N11",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172A",
+      "version": "Initial",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N11b",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172A (PDF)",
+      "version": "Initial",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N12",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172 Rev. 3",
+      "version": "Rev. 3",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N12b",
+      "title": "Enhanced Security Requirements for Protecting Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172 Rev. 3 (PDF)",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N13",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172A Rev. 3",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 947,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "system-text-json"
+    },
+    {
+      "reg_id": "REG-N13b",
+      "title": "Assessing Enhanced Security Requirements for Controlled Unclassified Information",
+      "document_number": "NIST SP 800-172A Rev. 3 (PDF)",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N50",
+      "title": "Security and Privacy Controls for Information Systems and Organizations",
+      "document_number": "NIST SP 800-53 Rev. 5.2",
+      "version": "Rev. 5.2.0",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 5300,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "system-text-json"
+    },
+    {
+      "reg_id": "REG-N51",
+      "title": "Assessing Security and Privacy Controls in Information Systems and Organizations",
+      "document_number": "NIST SP 800-53A Rev. 5.2",
+      "version": "Rev. 5.2.0",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-N52",
+      "title": "Guidelines for Media Sanitization",
+      "document_number": "NIST SP 800-88 Rev. 2",
+      "version": "Rev. 2",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 44,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-N53",
+      "title": "Frequently Asked Questions for NIST SP 800-88r2, Guidelines for Media Sanitization",
+      "document_number": "NIST SP 800-88 Rev. 2 FAQ",
+      "version": "2026-07-16",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 4,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-N54",
+      "title": "Guidelines for Media Sanitization",
+      "document_number": "NIST SP 800-88 Rev. 1",
+      "version": "Rev. 1",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 92,
+      "vectors": 0,
+      "findings": 1,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-R01",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
+      "document_number": "32 CFR Part 170",
+      "version": "Final rule",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 153,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "cfr-xml"
+    },
+    {
+      "reg_id": "REG-R02",
+      "title": "Controlled Unclassified Information",
+      "document_number": "32 CFR Part 2002",
+      "version": "Final rule",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 150,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "cfr-xml"
+    },
+    {
+      "reg_id": "REG-R03",
+      "title": "Defense Federal Acquisition Regulation Supplement: Assessing Contractor Implementation of Cybersecurity Requirements",
+      "document_number": "48 CFR Parts 204, 212, 217, 252 (DFARS Case 2019-D041)",
+      "version": "2025-09-10",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-R04",
+      "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting — class deviation pinning DFARS 252.204-7012 to NIST SP 800-171 Revision 2",
+      "document_number": "DFARS Class Deviation 2024-O0013, Revision 1",
+      "version": "Rev. 1",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 8,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-R05",
+      "title": "RFO DFARS class deviations affecting Subpart 204.73 — elimination of 252.204-7019 and renumbering of 252.204-7020 to 252.240-7997",
+      "document_number": "DFARS class deviations of 2026-02-01 (Revolutionary FAR Overhaul)",
+      "version": "current",
+      "status": "cancelled",
+      "ingest": "register-only",
+      "outcome": "skipped",
+      "reason": "registry status is 'cancelled'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-R06",
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program — final rule, including Summary of Public Comments and DoD Responses",
+      "document_number": "89 FR 83092 (2024-10-15), Docket DoD-2023-OS-0063",
+      "version": "2024-10-15",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-R07",
+      "title": "DFARS: Assessing Contractor Implementation of Cybersecurity Requirements — final rule, including Discussion and Analysis of public comments",
+      "document_number": "90 FR 43560 (2025-09-10), FR Doc. 2025-17359, DFARS Case 2019-D041",
+      "version": "2025-09-10",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-R08",
+      "title": "Controlled Unclassified Information — final rule, including response to public comments",
+      "document_number": "81 FR 63324 (2016-09-14), FR Doc. 2016-21665",
+      "version": "2016-09-14",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-R09",
+      "title": "Class Deviation: Revolutionary FAR Overhaul Part 40, DFARS Part 240, Information Security and Supply Chain Security",
+      "document_number": "DFARS Class Deviation 2026-O0025, Revision 3",
+      "version": "Rev. 3",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 76,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-R10",
+      "title": "DoD's Defense Industrial Base (DIB) Cybersecurity (CS) Activities",
+      "document_number": "32 CFR Part 236",
+      "version": "2024-04-11",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "new",
+      "reason": "not present in the previous manifest",
+      "chunks": 72,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "cfr-xml"
+    },
+    {
+      "reg_id": "REG-R11",
+      "title": "Class Deviation: Revolutionary FAR Overhaul Part 4, DFARS Part 204, Administrative and Information Matters (SPRS provision only)",
+      "document_number": "DFARS Class Deviation 2026-O0043",
+      "version": "2026-02-17",
+      "status": "planned",
+      "ingest": "chunk",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 1
+    },
+    {
+      "reg_id": "REG-S01",
+      "title": "Controlled Unclassified Information (CUI)",
+      "document_number": "DoDI 5200.48",
+      "version": "2020-03-06",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 44,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-S02",
+      "title": "Supplier Performance Risk System (SPRS)",
+      "document_number": "SPRS Portal",
+      "version": "current",
+      "status": "active",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "ingest is 'pointer'; the row names a source held elsewhere",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S03",
+      "title": "DoD CIO CMMC Program Site — Resources & Documentation",
+      "document_number": "DoD CIO CMMC Resources & Documentation",
+      "version": "current",
+      "status": "planned",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S04",
+      "title": "DoD CUI Program",
+      "document_number": "DoD CUI Program Site",
+      "version": "current",
+      "status": "planned",
+      "ingest": "pointer",
+      "outcome": "skipped",
+      "reason": "registry status is 'planned'",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S05",
+      "title": "Federal Risk and Authorization Management Program Moderate Equivalency for Cloud Service Provider's Cloud Service Offerings",
+      "document_number": "DoD CIO Memorandum, 2023-12-21",
+      "version": "2023-12-21",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 2,
+      "vectors": 0,
+      "findings": 3,
+      "extractor": "tesseract"
+    },
+    {
+      "reg_id": "REG-S06",
+      "title": "Distribution Statements on DoD Technical Information",
+      "document_number": "DoDI 5230.24",
+      "version": "2023-01-10",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 34,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    },
+    {
+      "reg_id": "REG-S07",
+      "title": "Destroying Controlled Unclassified Information (CUI) in Paper Form",
+      "document_number": "CUI Notice 2019-03",
+      "version": "2019-07-15",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S08",
+      "title": "Digital Signatures on Standard Form (SF) 312, Classified Information Nondisclosure Agreement",
+      "document_number": "ISOO Notice 2022-01",
+      "version": "2022-05-09",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S09",
+      "title": "Responsible Use of Classified National Security Information and Controlled Unclassified Information with Artificial Intelligence",
+      "document_number": "ISOO Notice 2026-01",
+      "version": "2026-03-30",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "HTTP 304 Not Modified",
+      "chunks": 0,
+      "vectors": 0,
+      "findings": 0
+    },
+    {
+      "reg_id": "REG-S10",
+      "title": "Clarifying Guidance for Marking and Handling Controlled Technical Information in accordance with DoD Instruction 5200.48",
+      "document_number": "OUSD(R&E) / OUSD(I&S) Memorandum, 2021-03-31",
+      "version": "2021-03-31",
+      "status": "active",
+      "ingest": "chunk",
+      "outcome": "unchanged",
+      "reason": "content hash matches the previous run",
+      "chunks": 4,
+      "vectors": 0,
+      "findings": 2,
+      "extractor": "poppler-pdftotext"
+    }
+  ],
+  "corpus_presence": [
+    {
+      "reg_id": "REG-C01",
+      "org": "far",
+      "doc_id": "52.204-21",
+      "version_slug": "2021-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C02",
+      "org": "dfars",
+      "doc_id": "252.204-7012",
+      "version_slug": "2024-05",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C03",
+      "org": "dfars",
+      "doc_id": "252.204-7019",
+      "version_slug": "2023-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C04",
+      "org": "dfars",
+      "doc_id": "252.240-7997",
+      "version_slug": "2023-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C05",
+      "org": "dfars",
+      "doc_id": "252.204-7021",
+      "version_slug": "2025-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C06",
+      "org": "dfars",
+      "doc_id": "252.204-7025",
+      "version_slug": "2025-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C07",
+      "org": "dfars",
+      "doc_id": "252.204-7008",
+      "version_slug": "2016-10",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C08",
+      "org": "dfars",
+      "doc_id": "252.204-7016",
+      "version_slug": "2019-12",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C09",
+      "org": "dfars",
+      "doc_id": "252.204-7017",
+      "version_slug": "2021-05",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C10",
+      "org": "dfars",
+      "doc_id": "252.204-7018",
+      "version_slug": "2023-01",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C11",
+      "org": "dfars",
+      "doc_id": "252.227-7013",
+      "version_slug": "2025-08",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C12",
+      "org": "dfars",
+      "doc_id": "252.227-7016",
+      "version_slug": "2023-01",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C13",
+      "org": "far",
+      "doc_id": "52.240-93",
+      "version_slug": "2025-11",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-C14",
+      "org": "dfars",
+      "doc_id": "252.239-7010",
+      "version_slug": "2023-01",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C15",
+      "org": "far",
+      "doc_id": "52.204-23",
+      "version_slug": "2023-12",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C16",
+      "org": "far",
+      "doc_id": "52.204-24",
+      "version_slug": "2021-11",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-C17",
+      "org": "far",
+      "doc_id": "52.204-27",
+      "version_slug": "2023-06",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-D01",
+      "org": "dod-cio",
+      "doc_id": "cmmc-model-overview",
+      "version_slug": "2.13",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D02",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l1",
+      "version_slug": "2.13",
+      "format_profile": "cmmc-guide",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D03",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l2",
+      "version_slug": "2.13",
+      "format_profile": "cmmc-guide",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D04",
+      "org": "dod-cio",
+      "doc_id": "cmmc-assessment-guide-l3",
+      "version_slug": "2.13",
+      "format_profile": "cmmc-guide",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D05",
+      "org": "dod-cio",
+      "doc_id": "cmmc-scoping-guide-l1",
+      "version_slug": "2.13",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D06",
+      "org": "dod-cio",
+      "doc_id": "cmmc-scoping-guide-l2",
+      "version_slug": "2.13",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D07",
+      "org": "dod-cio",
+      "doc_id": "cmmc-101-brief",
+      "version_slug": "2025-11",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D08",
+      "org": "dod-cio",
+      "doc_id": "cmmc-overview-briefing",
+      "version_slug": "2024-11-04",
+      "format_profile": "transcript",
+      "format": "audio",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-D09",
+      "org": "dod-cio",
+      "doc_id": "cmmc-alignment-to-nist",
+      "version_slug": "2025-02",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D10",
+      "org": "dod-cio",
+      "doc_id": "cmmc-sprs-briefing",
+      "version_slug": "2025-02",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-D11",
+      "org": "dod-cio",
+      "doc_id": "dib-csaas-slick-sheet",
+      "version_slug": "current",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-D12",
+      "org": "dod-cio",
+      "doc_id": "cmmc-faq",
+      "version_slug": "2.3",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-F01",
+      "org": "scf",
+      "doc_id": "scf-catalog",
+      "version_slug": "2026.3",
+      "format_profile": "scf-workbook",
+      "format": "xlsx",
+      "status": "active",
+      "raw": false,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-F02",
+      "org": "cyber-ab",
+      "doc_id": "cap",
+      "version_slug": "2.0",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": false,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-F03",
+      "org": "cyber-ab",
+      "doc_id": "copc",
+      "version_slug": "2.0",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": false,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N01",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r2u1",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N01b",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r2u1",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N02",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "initial",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N02b",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "initial",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N03",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r3",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N03b",
+      "org": "nist",
+      "doc_id": "sp-800-171",
+      "version_slug": "r3",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N04",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "r3",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N04b",
+      "org": "nist",
+      "doc_id": "sp-800-171a",
+      "version_slug": "r3",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N05",
+      "org": "nist",
+      "doc_id": "sp-1318",
+      "version_slug": "2025-08",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N06",
+      "org": "nist",
+      "doc_id": "sp-1352",
+      "version_slug": "2026-09",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N09",
+      "org": "nist",
+      "doc_id": "csf",
+      "version_slug": "2.0",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N10",
+      "org": "nist",
+      "doc_id": "sp-800-172",
+      "version_slug": "initial",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N10b",
+      "org": "nist",
+      "doc_id": "sp-800-172",
+      "version_slug": "initial",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N11",
+      "org": "nist",
+      "doc_id": "sp-800-172a",
+      "version_slug": "initial",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N11b",
+      "org": "nist",
+      "doc_id": "sp-800-172a",
+      "version_slug": "initial",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N12",
+      "org": "nist",
+      "doc_id": "sp-800-172",
+      "version_slug": "r3",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N12b",
+      "org": "nist",
+      "doc_id": "sp-800-172",
+      "version_slug": "r3",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N13",
+      "org": "nist",
+      "doc_id": "sp-800-172a",
+      "version_slug": "r3",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N13b",
+      "org": "nist",
+      "doc_id": "sp-800-172a",
+      "version_slug": "r3",
+      "format_profile": "nist-companion",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N50",
+      "org": "nist",
+      "doc_id": "sp-800-53",
+      "version_slug": "r5-2",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N51",
+      "org": "nist",
+      "doc_id": "sp-800-53a",
+      "version_slug": "r5-2",
+      "format_profile": "cprt-json",
+      "format": "json",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N52",
+      "org": "nist",
+      "doc_id": "sp-800-88",
+      "version_slug": "r2",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N53",
+      "org": "nist",
+      "doc_id": "sp-800-88-faq",
+      "version_slug": "2026-07-16",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-N54",
+      "org": "nist",
+      "doc_id": "sp-800-88",
+      "version_slug": "r1",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R01",
+      "org": "cfr",
+      "doc_id": "32-cfr-170",
+      "version_slug": "2024-12-16",
+      "format_profile": "ecfr-xml",
+      "format": "xml",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R02",
+      "org": "cfr",
+      "doc_id": "32-cfr-2002",
+      "version_slug": "2016-12-22",
+      "format_profile": "ecfr-xml",
+      "format": "xml",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R03",
+      "org": "federal-register",
+      "doc_id": "dfars-case-2019-d041",
+      "version_slug": "2025-09-10",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R04",
+      "org": "dfars",
+      "doc_id": "class-deviation-2024-o0013",
+      "version_slug": "r1",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-R05",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-02-01-rfo",
+      "version_slug": "current",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "cancelled",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R06",
+      "org": "federal-register",
+      "doc_id": "89-fr-83092",
+      "version_slug": "2024-10-15",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R07",
+      "org": "federal-register",
+      "doc_id": "90-fr-43560",
+      "version_slug": "2025-09-10",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R08",
+      "org": "federal-register",
+      "doc_id": "81-fr-63324",
+      "version_slug": "2016-09-14",
+      "format_profile": "regulation-html",
+      "format": "html",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R09",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-o0025",
+      "version_slug": "r3",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-R10",
+      "org": "cfr",
+      "doc_id": "32-cfr-236",
+      "version_slug": "2024-04-11",
+      "format_profile": "ecfr-xml",
+      "format": "xml",
+      "status": "active",
+      "raw": true,
+      "normalized": true,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-R11",
+      "org": "dfars",
+      "doc_id": "class-deviation-2026-o0043",
+      "version_slug": "2026-02-17",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-S01",
+      "org": "dod",
+      "doc_id": "dodi-5200.48",
+      "version_slug": "2020-03-06",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-S02",
+      "org": "disa",
+      "doc_id": "sprs-portal",
+      "version_slug": "current",
+      "format_profile": "general",
+      "format": "",
+      "status": "active",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S03",
+      "org": "dod-cio",
+      "doc_id": "cmmc-program-site",
+      "version_slug": "current",
+      "format_profile": "general",
+      "format": "",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S04",
+      "org": "dod",
+      "doc_id": "cui-program-site",
+      "version_slug": "current",
+      "format_profile": "general",
+      "format": "",
+      "status": "planned",
+      "raw": false,
+      "normalized": false,
+      "derived": false,
+      "chunked": false,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S05",
+      "org": "dod-cio",
+      "doc_id": "fedramp-moderate-equivalency",
+      "version_slug": "2023-12-21",
+      "format_profile": "scan",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-S06",
+      "org": "dod",
+      "doc_id": "dodi-5230.24",
+      "version_slug": "2023-01-10",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    },
+    {
+      "reg_id": "REG-S07",
+      "org": "isoo",
+      "doc_id": "cui-notice-2019-03",
+      "version_slug": "2019-07-15",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S08",
+      "org": "isoo",
+      "doc_id": "isoo-notice-2022-01",
+      "version_slug": "2022-05-09",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S09",
+      "org": "isoo",
+      "doc_id": "isoo-notice-2026-01",
+      "version_slug": "2026-03-30",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": false
+    },
+    {
+      "reg_id": "REG-S10",
+      "org": "dod",
+      "doc_id": "cti-marking-guidance",
+      "version_slug": "2021-03-31",
+      "format_profile": "general",
+      "format": "pdf",
+      "status": "active",
+      "raw": true,
+      "normalized": false,
+      "derived": true,
+      "chunked": true,
+      "vectored": false,
+      "fallback": true
+    }
+  ],
+  "findings": [
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C13",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "2"
+      }
+    },
+    {
+      "code": "cross_references",
+      "severity": "info",
+      "reg_id": "REG-C14",
+      "message": "Cites 2 provisions: 0 in documents this corpus holds (), 2 it does not (DFARS 239.7604, DFARS 252.239-7009).",
+      "detail": {
+        "cited": "2",
+        "held": "0",
+        "unheld": "2"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C14",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "20"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C15",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "6"
+      }
+    },
+    {
+      "code": "cross_references",
+      "severity": "info",
+      "reg_id": "REG-C16",
+      "message": "Cites 3 provisions: 0 in documents this corpus holds (), 3 it does not (FAR 52.204-25, FAR 52.204-26, FAR 52.212-3).",
+      "detail": {
+        "cited": "3",
+        "held": "0",
+        "unheld": "3"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C16",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "7"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-C17",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "4"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:18.9098889+00:00 at 'raw/public/dod-cio/cmmc-model-overview/2.13/general/ModelOverviewv2.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverviewv2.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-model-overview/2.13/general/ModelOverviewv2.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:18.9098889+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/ACCESS CONTROL (AC)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/ACCESS CONTROL (AC)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/AWARENESS AND TRAINING (AT)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/AWARENESS AND TRAINING (AT)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/AUDIT AND ACCOUNTABILITY (AU)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/AUDIT AND ACCOUNTABILITY (AU)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/CONFIGURATION MANAGEMENT (CM)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/CONFIGURATION MANAGEMENT (CM)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/IDENTIFICATION AND AUTHENTICATION (IA)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/IDENTIFICATION AND AUTHENTICATION (IA)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/INCIDENT RESPONSE (IR)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/INCIDENT RESPONSE (IR)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/MAINTENANCE (MA)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/MAINTENANCE (MA)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/MEDIA PROTECTION (MP)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/MEDIA PROTECTION (MP)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/PERSONNEL SECURITY (PS)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/PERSONNEL SECURITY (PS)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/PHYSICAL PROTECTION (PE)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/PHYSICAL PROTECTION (PE)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/RISK ASSESSMENT (RA)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/RISK ASSESSMENT (RA)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SECURITY ASSESSMENT (CA)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SECURITY ASSESSMENT (CA)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SYSTEM AND COMMUNICATIONS PROTECTION (SC)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SYSTEM AND COMMUNICATIONS PROTECTION (SC)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "section_excluded",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "Section 'Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SYSTEM AND INFORMATION INTEGRITY (SI)' excluded by rule '2.4'; covered by REG-C01, REG-N01b, REG-N10b, REG-R01.",
+      "detail": {
+        "section": "Figure 1. CMMC Level Overview/2.4 CMMC Security Requirements/SYSTEM AND INFORMATION INTEGRITY (SI)",
+        "rule": "2.4",
+        "covered_by": "REG-C01, REG-N01b, REG-N10b, REG-R01"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D01",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "111"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D02",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.0728071+00:00 at 'raw/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/AssessmentGuideL1v2.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL1v2.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l1/2.13/cmmc-guide/AssessmentGuideL1v2.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.0728071+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "cmmc_practices",
+      "severity": "info",
+      "reg_id": "REG-D02",
+      "message": "Read 15 practices on pages 16–52: 231 parts, 19 examples (0 practices without one), 134 restating NIST or FAR; 100.0 % of the practice text carried.",
+      "detail": {
+        "practices": "15",
+        "examples": "19",
+        "coverage": "1.000"
+      }
+    },
+    {
+      "code": "restated_text_not_held",
+      "severity": "info",
+      "reg_id": "REG-D02",
+      "message": "119 chunks restate text that no suppress_against row holds in this run — REG-N01 (skipped: registry status is 'planned'), REG-N02b (unchanged: HTTP 304 Not Modified). They are kept: dropping them would leave the corpus without the text at all.",
+      "detail": {
+        "kept": "119",
+        "not_held": "REG-N01 (skipped: registry status is 'planned'), REG-N02b (unchanged: HTTP 304 Not Modified)"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D02",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "243"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D03",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.2161588+00:00 at 'raw/public/dod-cio/cmmc-assessment-guide-l2/2.13/cmmc-guide/AssessmentGuideL2v2.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l2/2.13/cmmc-guide/AssessmentGuideL2v2.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.2161588+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "cmmc_practices",
+      "severity": "info",
+      "reg_id": "REG-D03",
+      "message": "Read 110 practices on pages 22–271: 1528 parts, 120 examples (0 practices without one), 870 restating NIST or FAR; 100.0 % of the practice text carried.",
+      "detail": {
+        "practices": "110",
+        "examples": "120",
+        "coverage": "1.000"
+      }
+    },
+    {
+      "code": "restated_text_not_held",
+      "severity": "info",
+      "reg_id": "REG-D03",
+      "message": "870 chunks restate text that no suppress_against row holds in this run — REG-N01 (skipped: registry status is 'planned'), REG-N02 (skipped: registry status is 'planned'). They are kept: dropping them would leave the corpus without the text at all.",
+      "detail": {
+        "kept": "870",
+        "not_held": "REG-N01 (skipped: registry status is 'planned'), REG-N02 (skipped: registry status is 'planned')"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D03",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "1549"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.3944270+00:00 at 'raw/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/AssessmentGuideL3.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL3.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-assessment-guide-l3/2.13/cmmc-guide/AssessmentGuideL3.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.3944270+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "cmmc_practices",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "Read 24 practices on pages 19–86: 312 parts, 31 examples (0 practices without one), 209 restating NIST or FAR; 100.0 % of the practice text carried.",
+      "detail": {
+        "practices": "24",
+        "examples": "31",
+        "coverage": "1.000"
+      }
+    },
+    {
+      "code": "restated_text_suppressed",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "13 chunks dropped as text REG-N10 already holds: requirement 8, discussion 5. Each is listed with its page, and 1 held chunks without a page took the printed one.",
+      "detail": {
+        "dropped": "13",
+        "paged": "1",
+        "held_by": "REG-N10",
+        "anchors": "AC.L3-3.1.2e/requirement p19; AC.L3-3.1.2e/discussion p19; AC.L3-3.1.3e/discussion p21; CM.L3-3.4.1e/requirement p29; CM.L3-3.4.3e/requirement p35; CM.L3-3.4.3e/discussion p35; IA.L3-3.5.3e/requirement p41; PS.L3-3.9.2e/requirement p50; PS.L3-3.9.2e/discussion p51; RA.L3-3.11.3e/requirement p58; RA.L3-3.11.4e/requirement p61; RA.L3-3.11.6e/requirement p67; SI.L3-3.14.6e/discussion p85"
+      }
+    },
+    {
+      "code": "restated_text_not_held",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "161 chunks restate text that no suppress_against row holds in this run — REG-N11b (unchanged: HTTP 304 Not Modified). They are kept: dropping them would leave the corpus without the text at all.",
+      "detail": {
+        "kept": "161",
+        "not_held": "REG-N11b (unchanged: HTTP 304 Not Modified)"
+      }
+    },
+    {
+      "code": "restated_text_differs",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "35 chunks restate a requirement REG-N10 holds, in words that differ from it: requirement 16, discussion 19. Kept — they are this document's own wording (CMMC's values for organization-defined parameters, say) or a real difference between two publications, worth reading.",
+      "detail": {
+        "kept": "35",
+        "anchors": "AC.L3-3.1.3e/requirement p21; AT.L3-3.2.1e/requirement p24; AT.L3-3.2.1e/discussion p25; AT.L3-3.2.2e/requirement p26; AT.L3-3.2.2e/discussion p27; CM.L3-3.4.1e/discussion p30; CM.L3-3.4.2e/requirement p32; CM.L3-3.4.2e/discussion p33; IA.L3-3.5.1e/requirement p38; IA.L3-3.5.1e/discussion p39; IA.L3-3.5.3e/discussion p42; IR.L3-3.6.1e/requirement p44; IR.L3-3.6.1e/discussion p44; IR.L3-3.6.2e/requirement p47; IR.L3-3.6.2e/discussion p47; RA.L3-3.11.1e/requirement p52; RA.L3-3.11.1e/discussion p53; RA.L3-3.11.2e/requirement p55; RA.L3-3.11.2e/discussion p55; RA.L3-3.11.3e/discussion p59; and 15 more"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D04",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "317"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D05",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.5499138+00:00 at 'raw/public/dod-cio/cmmc-scoping-guide-l1/2.13/general/ScopingGuideL1v2.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL1v2.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-scoping-guide-l1/2.13/general/ScopingGuideL1v2.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.5499138+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D05",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "4"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D06",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.6305630+00:00 at 'raw/public/dod-cio/cmmc-scoping-guide-l2/2.13/general/ScopingGuideL2v2.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ScopingGuideL2v2.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-scoping-guide-l2/2.13/general/ScopingGuideL2v2.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.6305630+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D06",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "13"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D07",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-101-Nov2025.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.7712160+00:00 at 'raw/public/dod-cio/cmmc-101-brief/2025-11/general/CMMC-101-Nov2025.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-101-Nov2025.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-101-brief/2025-11/general/CMMC-101-Nov2025.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.7712160+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D07",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "7"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D09",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.8383725+00:00 at 'raw/public/dod-cio/cmmc-alignment-to-nist/2025-02/general/CMMC-AlignmentNIST-Standards.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-AlignmentNIST-Standards.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-alignment-to-nist/2025-02/general/CMMC-AlignmentNIST-Standards.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.8383725+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D09",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "13"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D10",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-SPRS.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:19.9265003+00:00 at 'raw/public/dod-cio/cmmc-sprs-briefing/2025-02/general/CMMC-SPRS.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/CMMC-SPRS.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-sprs-briefing/2025-02/general/CMMC-SPRS.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:19.9265003+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D10",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "10"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-D12",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:03:20.0268203+00:00 at 'raw/public/dod-cio/cmmc-faq/2.3/general/FAQsv6.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/FAQsv6.pdf",
+        "raw_path": "raw/public/dod-cio/cmmc-faq/2.3/general/FAQsv6.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:03:20.0268203+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-D12",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "16"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-N01",
+      "message": "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata).",
+      "detail": {}
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N10",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "276"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N13",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "947"
+      }
+    },
+    {
+      "code": "subset_applied",
+      "severity": "info",
+      "reg_id": "REG-N50",
+      "message": "subset 'sp800-53-scope': 435 of the 435 controls in scope held and kept, with 5135 chunks and the 165 bibliography entries; 761 controls out of scope left out (5892 chunks); 7 chunks that name no control left out (DS-IA-*[05]/determination, DS-IA-*[06]/determination, DS-IA-*(*)[01]/determination, DS-IA-*(*)[02]/determination, DS-IA-*(*)[01]/determination, SC-36_ODP[02]/odp, OS-sc-36_odp[02]/odp_statement). 11199 chunks → 5300. The kept list, with each control's sources, is subset.json.",
+      "detail": {
+        "in_scope": "435",
+        "kept_controls": "435",
+        "chunks_before": "11199",
+        "chunks_after": "5300",
+        "left_out_controls": "761"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N50",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "5300"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N52",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "44"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N53",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "4"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-N54",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "92"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R01",
+      "message": "Resolved through the ecfr API to https://www.ecfr.gov/api/versioner/v1/full/2024-12-16/title-32.xml?part=170 (32 CFR 170).",
+      "detail": {
+        "provider": "ecfr",
+        "resolved_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-16/title-32.xml?part=170",
+        "citation": "32 CFR 170",
+        "document_number": ""
+      }
+    },
+    {
+      "code": "cross_references",
+      "severity": "info",
+      "reg_id": "REG-R01",
+      "message": "Cites 27 provisions: 24 in documents this corpus holds (32 CFR 170.10 → REG-R01, 32 CFR 170.11 → REG-R01, 32 CFR 170.14 → REG-R01, 32 CFR 170.15 → REG-R01, 32 CFR 170.16 → REG-R01, 32 CFR 170.17 → REG-R01, 32 CFR 170.18 → REG-R01, 32 CFR 170.19 → REG-R01, 32 CFR 170.2 → REG-R01, 32 CFR 170.20 → REG-R01, 32 CFR 170.21 → REG-R01, 32 CFR 170.24 → REG-R01, …), 3 it does not (32 CFR 117.11, 5 CFR 1400.201, 5 CFR 731.106).",
+      "detail": {
+        "cited": "27",
+        "held": "24",
+        "unheld": "3"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R01",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "153"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R02",
+      "message": "Resolved through the ecfr API to https://www.ecfr.gov/api/versioner/v1/full/2016-12-22/title-32.xml?part=2002 (32 CFR 2002).",
+      "detail": {
+        "provider": "ecfr",
+        "resolved_url": "https://www.ecfr.gov/api/versioner/v1/full/2016-12-22/title-32.xml?part=2002",
+        "citation": "32 CFR 2002",
+        "document_number": ""
+      }
+    },
+    {
+      "code": "cross_references",
+      "severity": "info",
+      "reg_id": "REG-R02",
+      "message": "Cites 13 provisions: 9 in documents this corpus holds (32 CFR 2002.14 → REG-R02, 32 CFR 2002.16 → REG-R02, 32 CFR 2002.2 → REG-R02, 32 CFR 2002.20 → REG-R02, 32 CFR 2002.30 → REG-R02, 32 CFR 2002.34 → REG-R02, 32 CFR 2002.38 → REG-R02, 32 CFR 2002.4 → REG-R02, 32 CFR 2002.8 → REG-R02), 4 it does not (10 CFR part 1045, 32 CFR 2001.47, 32 CFR 2004.4, 36 CFR part 1235).",
+      "detail": {
+        "cited": "13",
+        "held": "9",
+        "unheld": "4"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R02",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "150"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R03",
+      "message": "Resolved through the federal-register API to https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html (2025-17359 90 FR 43560).",
+      "detail": {
+        "provider": "federal-register",
+        "resolved_url": "https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html",
+        "citation": "90 FR 43560",
+        "document_number": "2025-17359"
+      }
+    },
+    {
+      "code": "fetch_retried",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Fetch failed after 3 attempts.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf",
+        "succeeded": "false"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "Could not reach https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf (The SSL connection could not be established, see inner exception.); built from the copy this corpus archived on 2026-10-10T03:05:10.0218875+00:00 at 'raw/public/dfars/class-deviation-2024-o0013/r1/general/USA001074-24-DPC.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/policy/policyvault/USA001074-24-DPC.pdf",
+        "raw_path": "raw/public/dfars/class-deviation-2024-o0013/r1/general/USA001074-24-DPC.pdf",
+        "reason": "The SSL connection could not be established, see inner exception.",
+        "archived_at": "2026-10-10T03:05:10.0218875+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R04",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "8"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R06",
+      "message": "Resolved through the federal-register API to https://www.federalregister.gov/documents/full_text/html/2024/10/15/2024-22905.html (2024-22905 89 FR 83092).",
+      "detail": {
+        "provider": "federal-register",
+        "resolved_url": "https://www.federalregister.gov/documents/full_text/html/2024/10/15/2024-22905.html",
+        "citation": "89 FR 83092",
+        "document_number": "2024-22905"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R07",
+      "message": "Resolved through the federal-register API to https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html (2025-17359 90 FR 43560).",
+      "detail": {
+        "provider": "federal-register",
+        "resolved_url": "https://www.federalregister.gov/documents/full_text/html/2025/09/10/2025-17359.html",
+        "citation": "90 FR 43560",
+        "document_number": "2025-17359"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R08",
+      "message": "Resolved through the federal-register API to https://www.federalregister.gov/documents/full_text/html/2016/09/14/2016-21665.html (2016-21665 81 FR 63324).",
+      "detail": {
+        "provider": "federal-register",
+        "resolved_url": "https://www.federalregister.gov/documents/full_text/html/2016/09/14/2016-21665.html",
+        "citation": "81 FR 63324",
+        "document_number": "2016-21665"
+      }
+    },
+    {
+      "code": "fetch_retried",
+      "severity": "info",
+      "reg_id": "REG-R09",
+      "message": "Fetch failed after 3 attempts.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-240/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
+        "succeeded": "false"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-R09",
+      "message": "Could not reach https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-240/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf (The SSL connection could not be established, see inner exception.); built from the copy this corpus archived on 2026-10-10T03:05:19.1290911+00:00 at 'raw/public/dfars/class-deviation-2026-o0025/r3/general/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-240/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
+        "raw_path": "raw/public/dfars/class-deviation-2026-o0025/r3/general/2026-O0025_Rev3_TAB_A_Deviation_Memo.pdf",
+        "reason": "The SSL connection could not be established, see inner exception.",
+        "archived_at": "2026-10-10T03:05:19.1290911+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R09",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "76"
+      }
+    },
+    {
+      "code": "api_resolved",
+      "severity": "info",
+      "reg_id": "REG-R10",
+      "message": "Resolved through the ecfr API to https://www.ecfr.gov/api/versioner/v1/full/2024-04-11/title-32.xml?part=236 (32 CFR 236).",
+      "detail": {
+        "provider": "ecfr",
+        "resolved_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-11/title-32.xml?part=236",
+        "citation": "32 CFR 236",
+        "document_number": ""
+      }
+    },
+    {
+      "code": "cross_references",
+      "severity": "info",
+      "reg_id": "REG-R10",
+      "message": "Cites 5 provisions: 4 in documents this corpus holds (32 CFR 236.4 → REG-R10, 32 CFR 236.5 → REG-R10, 32 CFR 236.7 → REG-R10, DFARS 252.227-7013 → REG-C11), 1 it does not (32 CFR part 117).",
+      "detail": {
+        "cited": "5",
+        "held": "4",
+        "unheld": "1"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-R10",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "72"
+      }
+    },
+    {
+      "code": "registry_confirm",
+      "severity": "info",
+      "reg_id": "REG-R11",
+      "message": "Build only PDF pages 16 and 27-28 (204.7604 and 252.204-7024) once P-D8 lets a row select pages, then activate.",
+      "detail": {}
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-S01",
+      "message": "Could not reach https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:05:19.3257914+00:00 at 'raw/public/dod/dodi-5200.48/2020-03-06/general/520048p.PDF'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF",
+        "raw_path": "raw/public/dod/dodi-5200.48/2020-03-06/general/520048p.PDF",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:05:19.3257914+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-S01",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "44"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "Could not reach https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:05:19.4387435+00:00 at 'raw/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/scan/FEDRAMP-EquivalencyCloudServiceProviders.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
+        "raw_path": "raw/public/dod-cio/fedramp-moderate-equivalency/2023-12-21/scan/FEDRAMP-EquivalencyCloudServiceProviders.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:05:19.4387435+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "ocr_confidence",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "OCR recognised 3 pages at a mean of 95.0% word confidence; lowest page 3 at 94.8%.",
+      "detail": {
+        "engine": "tesseract 5.3.4; pdftoppm version 24.02.0; 300 dpi; psm 3; annotations hidden",
+        "pages": "3",
+        "mean": "95.0",
+        "min": "94.8"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-S05",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "2"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-S06",
+      "message": "Could not reach https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/523024p.pdf (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:05:19.6465245+00:00 at 'raw/public/dod/dodi-5230.24/2023-01-10/general/523024p.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/523024p.pdf",
+        "raw_path": "raw/public/dod/dodi-5230.24/2023-01-10/general/523024p.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:05:19.6465245+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-S06",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "34"
+      }
+    },
+    {
+      "code": "archive_used",
+      "severity": "info",
+      "reg_id": "REG-S10",
+      "message": "Could not reach https://www.dodcui.mil/Portals/109/Documents/Policy%20Docs/Clarifying%20Guidance%20for%20Marking%20and%20Handling_CTI%2020210331.pdf?ver=HXGACULisTzB7tYu7MtHIg%3D%3D (HTTP 403 Forbidden); built from the copy this corpus archived on 2026-10-10T03:05:20.7466325+00:00 at 'raw/public/dod/cti-marking-guidance/2021-03-31/general/Clarifying_Guidance_for_Marking_and_Handling_CTI_20210331.pdf'. That copy is a snapshot, not the publisher's current text. A review on 2026-10-08 (2 days before this run) found it to be the publisher's current edition; a review holds 90 days.",
+      "detail": {
+        "url": "https://www.dodcui.mil/Portals/109/Documents/Policy%20Docs/Clarifying%20Guidance%20for%20Marking%20and%20Handling_CTI%2020210331.pdf?ver=HXGACULisTzB7tYu7MtHIg%3D%3D",
+        "raw_path": "raw/public/dod/cti-marking-guidance/2021-03-31/general/Clarifying_Guidance_for_Marking_and_Handling_CTI_20210331.pdf",
+        "reason": "HTTP 403 Forbidden",
+        "archived_at": "2026-10-10T03:05:20.7466325+00:00",
+        "snapshot_reviewed": "2026-10-08"
+      }
+    },
+    {
+      "code": "embedding_skipped",
+      "severity": "info",
+      "reg_id": "REG-S10",
+      "message": "No embedding config was supplied, so no vectors were produced.",
+      "detail": {
+        "chunks": "4"
+      }
+    },
+    {
+      "code": "crosswalk",
+      "severity": "info",
+      "message": "Crosswalk (public): 6710 edges, 110 requirement trees. CMMC Level 2 practice (IS_EQUIVALENT_TO) 110/110; CMMC Level 1 practice (MAPS_TO) 17/110; 800-171A objective (ASSESSED_BY) 110/110; 800-53 control (DERIVED_FROM, Appendix D, Rev 4) 110/110; ISO/IEC 27001:2013 control (MAPS_TO, Appendix D; external) 70/110; SCF control (MAPS_TO, column NIST 800-171 R2) 110/110; CMMC Level 2 objective (IS_EQUIVALENT_TO) 320/320; SCF control (MAPS_TO, column NIST 800-171A) 320/320; SCF assessment objective (MAPS_TO, AO origin) 317/320; 800-171A Rev 3 objective (ASSESSED_BY) 97/97; 800-53 Rev 5 control (DERIVED_FROM, Source Controls) 97/97; SCF control (MAPS_TO, columns NIST 800-171 R3 and ITSP-10-171) 97/97; 800-53 Rev 5 control (MAPS_TO; Appendix E names Rev 4) 61/61; SCF control (MAPS_TO, column NIST 800-171A R3) 509/510. Sources: 800-171 Rev 2 requirements REG-N01b (previous build); 800-171 Rev 3 requirements REG-N03b (previous build); 800-171A Rev 3 objectives REG-N04b (previous build); 800-171A objectives REG-N02b (previous build); CMMC Level 1 REG-D02 (this run); CMMC Level 2 REG-D03 (this run); ITSP-10-171 read as 800-171 Rev 3, assessed by 800-171A Rev 3 (SCF's focal document: ITSP-10-171 adopts 800-171 Rev 3; only its cover and preamble differ); SCF REG-F01 (previous build).",
+      "detail": {
+        "edges": "6710",
+        "requirements": "110",
+        "objectives": "320"
+      }
+    }
+  ],
+  "confirm": [
+    {
+      "reg_id": "REG-N01",
+      "item": "Confirm the JSON was produced from Rev 2 Update 1 (2021-01-28 errata)."
+    },
+    {
+      "reg_id": "REG-R11",
+      "item": "Build only PDF pages 16 and 27-28 (204.7604 and 252.204-7024) once P-D8 lets a row select pages, then activate."
+    }
+  ],
+  "counts": {
+    "documents_total": 77,
+    "by_outcome": {
+      "new": 9,
+      "skipped": 15,
+      "unchanged": 53
+    },
+    "chunks_total": 9528,
+    "chunks_added": 482,
+    "chunks_changed": 0,
+    "chunks_removed": 0,
+    "vectors_written": 0,
+    "sections_excluded": 15,
+    "sections_unclassified": 0,
+    "paragraphs_language_dropped": 0,
+    "paragraphs_language_unjudged": 0,
+    "fields_dropped": 0,
+    "chunks_by_content_class": {
+      "contextual": 7045,
+      "informative": 827,
+      "normative": 1656
+    },
+    "findings_by_code": {
+      "api_resolved": 7,
+      "archive_used": 16,
+      "cmmc_practices": 3,
+      "cross_references": 5,
+      "crosswalk": 1,
+      "embedding_skipped": 30,
+      "fetch_retried": 2,
+      "ocr_confidence": 1,
+      "registry_confirm": 2,
+      "restated_text_differs": 1,
+      "restated_text_not_held": 3,
+      "restated_text_suppressed": 1,
+      "section_excluded": 15,
+      "subset_applied": 1
+    }
+  }
+}

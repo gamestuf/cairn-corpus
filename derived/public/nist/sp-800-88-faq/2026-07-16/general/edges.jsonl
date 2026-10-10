@@ -1,0 +1,12 @@
+{"from":"control:3.1.3","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"control:3.2.5","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:(preamble)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:(preamble)1","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:(preamble)2","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:(preamble)3","to":"control:3.1.3","type":"CITES","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:(preamble)3","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:1._ISO/IEC_27040_2024","to":"control:3.2.5","type":"CITES","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:1._ISO/IEC_27040_2024","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:1._ISO/IEC_27040_2024","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-N53:v2026-07-16:1._ISO/IEC_27040_2024","to":"section:REG-N53:v2026-07-16:1._ISO","type":"IN_SECTION","properties":{}}
+{"from":"term:nist","to":"document:REG-N53","type":"IN_DOCUMENT","properties":{}}
