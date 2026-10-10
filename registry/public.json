@@ -104,7 +104,7 @@
       "ingest": "chunk",
       "format": "html",
       "format_profile": "regulation-html",
-      "notes": "The 15 FCI safeguarding requirements; CMMC Level 1 basis. Chunking intent: whole clause + per requirement (b)(1)(i)-(xv).",
+      "notes": "The 15 FCI safeguarding requirements; CMMC Level 1 basis. Chunking intent: whole clause + per requirement (b)(1)(i)-(xv). Under the Revolutionary FAR Overhaul class deviations its successor is FAR 52.240-93 (REG-C13); this row stays for contracts on the codified FAR.",
       "normativity_map": {
         "requirement": [
           "clause text",
@@ -477,6 +477,39 @@
       "org": "dfars",
       "doc_id": "252.227-7016",
       "version_slug": "2023-01"
+    },
+    {
+      "id": "REG-C13",
+      "document_number": "FAR 52.240-93",
+      "title": "Basic Safeguarding of Covered Contractor Information Systems",
+      "version": "2025-11",
+      "url": "https://sws.gsa.gov/sws-search/generateClauseBodyPdf.do?method=generateClauseBody&solNo=NDdRU01EMjBSMDAwMQ%3D%3D&refreshNo=32&clauseNo=52.240-93&clauseType=D&sequenceNo=1",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "relevance": "requirement",
+      "status": "active",
+      "ingest": "chunk",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "The Revolutionary FAR Overhaul successor to FAR 52.204-21 (REG-C01), in FAR Part 40 (prescribed at 40.303-2): the same 15 FCI safeguarding requirements, (b)(1)(i)-(xv), for contracts written under the RFO class deviations. Clause date NOV 2025 (DEVIATION). Not codified: acquisition.gov has no page for it (/far/52.240-93 is 404), and its model deviation text sits only inside the FAR Overhaul Part 52 page with every other clause (anchor FAR_52_240_93), which a row cannot cut to one clause (pipeline decision P-D8). This url is the clause alone as GSA's Solicitation Writing System generates it for the MAS solicitation (refresh 32); its text matches the acquisition.gov model text. The copy is committed as the fallback, since the url names one solicitation refresh. REG-C01 is retained for contracts on the codified FAR. Added 2026-10-10. Chunking intent: whole clause + per requirement (b)(1)(i)-(xv).",
+      "normativity_map": {
+        "requirement": [
+          "prose"
+        ],
+        "guidance": [],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 2,
+        "max_pages": 2
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "far",
+      "doc_id": "52.240-93",
+      "version_slug": "2025-11"
     },
     {
       "id": "REG-D01",
