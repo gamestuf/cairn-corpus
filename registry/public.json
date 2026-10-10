@@ -512,6 +512,38 @@
       "version_slug": "2025-11"
     },
     {
+      "id": "REG-C14",
+      "document_number": "DFARS 252.239-7010",
+      "title": "Cloud Computing Services",
+      "version": "2023-01",
+      "url": "https://www.acquisition.gov/dfars/252.239-7010-cloud-computing-services.",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "relevance": "requirement",
+      "format": "html",
+      "format_profile": "regulation-html",
+      "notes": "Contract clause for cloud computing services, prescribed at 239.7604(b): DoD Cloud Computing SRG authorization, data location, and cyber-incident reporting. The cloud clause 252.204-7012 points to. Version is the clause date on acquisition.gov (JAN 2023). Added 2026-10-10 (DP-B5, hunt list #366). Chunking intent: by paragraph.",
+      "normativity_map": {
+        "requirement": [
+          "clause text",
+          "definition"
+        ],
+        "guidance": [
+          "prescription"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "dfars",
+      "doc_id": "252.239-7010",
+      "version_slug": "2023-01"
+    },
+    {
       "id": "REG-D01",
       "document_number": "DoD-CIO-00001",
       "title": "CMMC Model Overview",
@@ -1887,6 +1919,105 @@
       "version_slug": "r5-2"
     },
     {
+      "id": "REG-N52",
+      "document_number": "NIST SP 800-88 Rev. 2",
+      "title": "Guidelines for Media Sanitization",
+      "version": "Rev. 2",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "relevance": "guidance",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "How to plan and carry out media sanitization (clear, purge, destroy) and verify it; the reference behind NIST SP 800-171 3.8.3 and the CUI Policy's sanitization requirement. September 2025 (approved 2025-09-12); supersedes Revision 1 (REG-N54). Revision 2 replaces 'electronic media' with 'information storage media' (the FAQ, REG-N53). Added 2026-10-10 (Document Plan DP-B5). Chunking intent: by heading.",
+      "normativity_map": {
+        "requirement": [],
+        "guidance": [
+          "prose"
+        ],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 48,
+        "max_pages": 48
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "nist",
+      "doc_id": "sp-800-88",
+      "version_slug": "r2"
+    },
+    {
+      "id": "REG-N53",
+      "document_number": "NIST SP 800-88 Rev. 2 FAQ",
+      "title": "Frequently Asked Questions for NIST SP 800-88r2, Guidelines for Media Sanitization",
+      "version": "2026-07-16",
+      "url": "https://csrc.nist.gov/files/pubs/sp/800/88/r2/final/docs/sp800-88r2-faq.pdf",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "relevance": "guidance",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "NIST's questions and answers on Revision 2 (REG-N52): what changed from Revision 1, the move to 'information storage media', and how the revision is meant to be applied. Dated July 16, 2026. Added 2026-10-10 (DP-B5). Chunking intent: one chunk per question.",
+      "normativity_map": {
+        "requirement": [],
+        "guidance": [
+          "prose"
+        ],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 8,
+        "max_pages": 8
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "nist",
+      "doc_id": "sp-800-88-faq",
+      "version_slug": "2026-07-16"
+    },
+    {
+      "id": "REG-N54",
+      "document_number": "NIST SP 800-88 Rev. 1",
+      "title": "Guidelines for Media Sanitization",
+      "version": "Rev. 1",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf",
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "relevance": "supporting",
+      "format": "pdf",
+      "format_profile": "general",
+      "notes": "December 2014; withdrawn 2025-09-26 and superseded by Revision 2 (REG-N52), and the file NIST serves opens with that withdrawal notice. Kept active on purpose: CUI documents still cite Revision 1 for sanitization, including the destruction of paper media containing CUI, so the text they point at has to be retrievable. Answer current-practice questions from Revision 2. Added 2026-10-10 (DP-B5). Chunking intent: by heading.",
+      "normativity_map": {
+        "requirement": [],
+        "guidance": [
+          "prose"
+        ],
+        "example": []
+      },
+      "qa": {
+        "min_pages": 65,
+        "max_pages": 65
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "nist",
+      "doc_id": "sp-800-88",
+      "version_slug": "r1"
+    },
+    {
       "id": "REG-R01",
       "document_number": "32 CFR Part 170",
       "title": "Cybersecurity Maturity Model Certification (CMMC) Program",
@@ -2317,6 +2448,46 @@
       "org": "dfars",
       "doc_id": "class-deviation-2026-o0025",
       "version_slug": "r3"
+    },
+    {
+      "id": "REG-R10",
+      "document_number": "32 CFR Part 236",
+      "title": "DoD's Defense Industrial Base (DIB) Cybersecurity (CS) Activities",
+      "version": "2024-04-11",
+      "url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-M/part-236",
+      "source_api": {
+        "provider": "ecfr",
+        "params": {
+          "title": "32",
+          "part": "236"
+        }
+      },
+      "tier": "public",
+      "visibility": "public",
+      "redistribute": true,
+      "authority": "authoritative",
+      "status": "active",
+      "ingest": "chunk",
+      "relevance": "requirement",
+      "format": "xml",
+      "format_profile": "ecfr-xml",
+      "notes": "The DIB CS program rule: mandatory cyber-incident reporting by DoD contractors, which DFARS 252.204-7012 cyber-incident reporting feeds, and the voluntary DIB CS program. Fetched through the eCFR API, as REG-R01 is. Version and version_slug are the part's latest amendment date the eCFR reports (2024-04-11). Added 2026-10-10 (DP-B5, hunt list #364). Chunking intent: by section (236.x).",
+      "normativity_map": {
+        "requirement": [
+          "rule text",
+          "definition"
+        ],
+        "guidance": [
+          "regulatory note",
+          "appendix text"
+        ],
+        "example": []
+      },
+      "language": "en",
+      "language_policy": "single",
+      "org": "cfr",
+      "doc_id": "32-cfr-236",
+      "version_slug": "2024-04-11"
     },
     {
       "id": "REG-S01",
