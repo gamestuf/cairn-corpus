@@ -187,12 +187,14 @@ As stated
 
 video surveillance services or equipment.
 
-240.270-1 Scope.
+##### 240.270-1 Scope.
+
 This section implements section 1656 of the National Defense Authorization Act for
 Fiscal Year 2018 (Pub. L. 115-91) and section 889(a)(1)(A) of the National Defense
 Authorization Act for Fiscal Year 2019 (Pub. L. 115-232).
 
-240.270-2 Definitions.
+##### 240.270-2 Definitions.
+
 As used in this section—
 
    Covered defense telecommunications equipment or services means—
@@ -223,7 +225,8 @@ assessment, and continuity of Government; or
        (2) The homeland defense mission of DoD, including with respect to ballistic
 missile defense.
 
-240.270-3 Prohibition.
+##### 240.270-3 Prohibition.
+
 In addition to the prohibition at FAR 40.202(d), unless the covered defense
 telecommunications equipment or services are subject to a waiver described in
 240.270-5 the contracting officer must not procure or obtain, or extend or renew a
@@ -234,9 +237,9 @@ service to carry out covered missions that uses covered defense telecommunicatio
 equipment or services as a substantial or essential component of any system, or as
 critical technology as part of any system.
 
-240.270-4 Procedures.
+##### 240.270-4 Procedures.
 
-   (a) Representations.
+(a) Representations.
 
         (1) (i) If the offeror selects “does not” in response to the provision at 252.204-
 7016, the contracting officer may rely on the representation, unless the contracting
@@ -279,8 +282,7 @@ accordance with the clause at FAR 52.240-91 or 252.204-7018, the Defense Cyber
 Crime Center will notify the contracting officer, who will consult with the requiring
 activity on how to proceed with the contract.
 
-
-240.270-5 Waivers.
+##### 240.270-5 Waivers.
 
 The Secretary of Defense may waive the prohibition in 240.270-3 on a case-by-case
 basis for a single, one-year period, if the Secretary—
@@ -295,9 +297,9 @@ Secretary to carry out the covered missions; and
        (2) The Secretary is removing the use of covered defense
 telecommunications equipment or services in carrying out such missions.
 
-240.270-6 Solicitation provisions and contract clause.
+##### 240.270-6 Solicitation provisions and contract clause.
 
-   (a) Insert the provision at 252.204-7016, Covered Defense Telecommunications
+(a) Insert the provision at 252.204-7016, Covered Defense Telecommunications
 Equipment or Services—Representation, in all solicitations, including solicitations
 using FAR part 12 procedures for the acquisition of commercial products and
 commercial services, and solicitations for task orders and delivery orders, basic
@@ -318,17 +320,17 @@ procedures for the acquisition of commercial products and commercial services, a
 solicitations and awards for task orders and delivery orders, BOAs, orders against
 BOAs, BPAs, and calls against BPAs.
 
-240.271 Requirements for information relating to supply chain risk.
+##### 240.271 Requirements for information relating to supply chain risk.
 
-240.271-1 Scope.
+##### 240.271-1 Scope.
+
 This section implements 10 U.S.C. 3252 and elements of DoD Instruction5200.44,
 Protection of Mission Critical Functions to Achieve Trusted Systems and Networks
 (TSN), at
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520044p.pd
 f?ver=2018-11-08-075800-903.
 
-
-240.271-2 Definitions.
+##### 240.271-2 Definitions.
 
 As used in this section—
 
@@ -392,7 +394,7 @@ manufacturing, production, distribution, installation, operation, or maintenance
 a covered system so as to surveil, deny, disrupt, or otherwise degrade the function,
 use, or operation of such system (see 10 U.S.C. 3252).
 
-240.271-3 Applicability.
+##### 240.271-3 Applicability.
 
 Notwithstanding FAR 39.001, apply this section to acquisition of information
 technology for covered systems (see 10 U.S.C. 3252), for procurements involving—
@@ -410,9 +412,9 @@ U.S.C. 3406(d)(3) and FAR 16.507-5(b)(2); or
 item of supply where such contract includes a requirement relating to supply chain
 risk.
 
-240.271-4 Authorized individuals.
+##### 240.271-4 Authorized individuals.
 
-   (a) Subject to 240.271-5, the following individuals are authorized to take the
+(a) Subject to 240.271-5, the following individuals are authorized to take the
 actions authorized by 240.271-6:
 
        (1) The Secretary of Defense.
@@ -434,7 +436,7 @@ Acquisition and Sustainment; and,
       (2) For the military departments, the service acquisition executive for the
 department concerned.
 
-240.271-5 Determination and notification.
+##### 240.271-5 Determination and notification.
 
 The individuals authorized in 240.271-4 may exercise the authority provided in
 240.271-6 only after—
@@ -505,7 +507,7 @@ specified in paragraph (a) of this section; and
 of less intrusive measures that were considered and why they were not reasonably
 available to reduce supply chain risk.
 
-240.271-6 Exclusion and limitation on disclosure.
+##### 240.271-6 Exclusion and limitation on disclosure.
 
 Subject to 240.271-5, the individuals authorized in 240.271-4 may, in the course of
 procuring information technology, whether as a service or as a supply, that is a
@@ -547,9 +549,9 @@ of national security; and
 
            (iii) Ensure the confidentiality of any such notifications.
 
-240.271-7 Solicitation provision and contract clause.
+##### 240.271-7 Solicitation provision and contract clause.
 
-    (a) Insert the provision at 252.239-7017, Notice of Supply Chain Risk, in
+(a) Insert the provision at 252.239-7017, Notice of Supply Chain Risk, in
 solicitations that include the clause at 252.239-7018.
 
    (b) Insert the clause at 252.239-7018, Supply Chain Risk, in solicitations and
@@ -559,7 +561,8 @@ technology, whether acquired as a service or as a supply, that is a covered syst
 a part of a covered system, or is in support of a covered system, as defined at
 240.271-2.
 
-240.272 Prohibited sources.
+##### 240.272 Prohibited sources.
+
 Use the procedures in subpart 240.70.
 
 ###### SUBPART 240.3—SAFEGUARDING INFORMATION
@@ -568,9 +571,9 @@ Use the procedures in subpart 240.70.
 
 reporting.
 
-240.370-1 Scope.
+##### 240.370-1 Scope.
 
-   (a) This section applies to contracts and subcontracts requiring contractors and
+(a) This section applies to contracts and subcontracts requiring contractors and
 subcontractors to safeguard covered defense information that resides in or transits
 through covered contractor information systems by applying specified network
 security requirements. It also requires reporting of cyber incidents.
@@ -581,7 +584,8 @@ physical, personnel, information, technical, or general administrative security
 operations governing the protection of unclassified information, nor does it affect
 requirements of the National Industrial Security Program.
 
-240.370-2 Definitions.
+##### 240.370-2 Definitions.
+
 As used in this section—
 
    Adequate security means protective measures that are commensurate with the
@@ -643,9 +647,9 @@ reports, technical orders, catalog-item identifications, data sets, studies and
 analyses and related information, and computer software executable code and
 source code.
 
-240.370-3 Policy.
+##### 240.370-3 Policy.
 
-   (a)(1) Contractors and subcontractors are required to provide adequate security
+(a)(1) Contractors and subcontractors are required to provide adequate security
 on all covered contractor information systems in accordance with 32 CFR 2002 and
 the clause at 252.204-7012.
 
@@ -707,13 +711,14 @@ related to safeguarding covered defense information and cyber incident reporting
 data from another contractor) are subject to restrictions on use and disclosure of
 reported information.
 
-240.370-4 Procedures.
+##### 240.370-4 Procedures.
+
 Follow the procedures relating to safeguarding covered defense information at PGI
 240.370-4.
 
-240.370-5 Solicitation provision and contract clauses.
+##### 240.370-5 Solicitation provision and contract clauses.
 
-    (a) Insert the provision at 252.204-7008, Compliance with Safeguarding Covered
+(a) Insert the provision at 252.204-7008, Compliance with Safeguarding Covered
 Defense Information Controls, in solicitations, including solicitations using FAR
 
 # part 12 procedures for the acquisition of commercial products and commercial
@@ -742,11 +747,11 @@ including those using FAR part 12 procedures for the acquisition of commercial
 products and commercial services, except for those that are solely for the acquisition
 of COTS items.
 
-240.371 Cybersecurity Maturity Model Certification.
+##### 240.371 Cybersecurity Maturity Model Certification.
 
-240.371-1 Scope.
+##### 240.371-1 Scope.
 
-   (a) This section prescribes policies and procedures for including the
+(a) This section prescribes policies and procedures for including the
 Cybersecurity Maturity Model Certification (CMMC) level requirements in DoD
 contracts. CMMC is a framework (see 32 CFR part 170) for assessing a contractor's
 information security protections.
@@ -758,7 +763,8 @@ requirements of the National Industrial Security Program.
 
    (c) This section applies to unclassified contractor information systems.
 
-240.371-2 Definitions.
+##### 240.371-2 Definitions.
+
 As used in this section—
 
    Controlled unclassified information means information the Government creates
@@ -853,9 +859,9 @@ information provided by the Government to the public, such as on public websites
 or simple transactional information, such as information necessary to process
 payments.
 
-240.371-3 Policy.
+##### 240.371-3 Policy.
 
-   (a) Award eligibility.
+(a) Award eligibility.
 
     (1) The contracting officer must include in the solicitation the required
 CMMC level, if provided by the program office or the requiring activity.
@@ -888,9 +894,10 @@ or contract, task order, or delivery order.
 exceed 180 days from the CMMC status date (32 CFR 170.21), and award can occur
 with a conditional CMMC level. CMMC level 1 requires a final CMMC level for
 award.
-240.371-4 Procedures.
 
-   (a) CMMC level. The contracting officer must include the CMMC level (see 32
+##### 240.371-4 Procedures.
+
+(a) CMMC level. The contracting officer must include the CMMC level (see 32
 CFR 170.19) required by the program office or requiring activity in the solicitation
 provision and contract clause prescribed at 240.371-5.
 
@@ -918,9 +925,9 @@ has a current CMMC status at the required CMMC level, or higher, for each of the
 contractor information systems identified that will process, store, or transmit FCI
 or CUI during contract performance.
 
-240.371-5 Solicitation provision and contract clause.
+##### 240.371-5 Solicitation provision and contract clause.
 
-   (a) Unless the requirements at 32 CFR 170.5(d) are met, insert the clause at
+(a) Unless the requirements at 32 CFR 170.5(d) are met, insert the clause at
 252.204-7021, Contractor Compliance with the Cybersecurity Maturity Model
 Certification Level Requirements, as follows:
 
@@ -944,40 +951,42 @@ transmit FCI or CUI.
 Model Certification Level Requirements, in solicitations that include the clause at
 252.204-7021.
 
-240.372 Safeguarding classified information within industry.
+##### 240.372 Safeguarding classified information within industry.
 
-240.372-1 General.
+##### 240.372-1 General.
+
 DoD employees or members of the Armed Forces who are assigned to or visiting a
 contractor facility and are engaged in oversight of an acquisition program will
 retain control of their work products, both classified and unclassified (see PGI
 240.372-1).
 
-240.372-2 Responsibilities of contracting officers.
+##### 240.372-2 Responsibilities of contracting officers.
 
-   (a) Contracting officers must ensure that solicitations comply with PGI 240.372-
+(a) Contracting officers must ensure that solicitations comply with PGI 240.372-
 2(1).
 
     (b) For additional guidance on determining a project to be fundamental research
 in accordance with 252.204-7000(a)(3), see PGI 240.372-2(2).
 
-240.372-3 Contract clauses.
+##### 240.372-3 Contract clauses.
 
-   (a) Insert the clause at 252.204-7000, Disclosure of Information, in solicitations
+(a) Insert the clause at 252.204-7000, Disclosure of Information, in solicitations
 and contracts when the contractor will have access to or generate unclassified
 information that may be sensitive and inappropriate for release to the public.
 
    (b) Insert the clause at 252.204-7003, Control of Government Personnel Work
 Product, in all solicitations and contracts.
 
+##### 240.373 Security and privacy for computer systems.
 
-240.373 Security and privacy for computer systems.
+##### 240.373-1 Scope.
 
-240.373-1 Scope.
 This section includes information assurance and Privacy Act considerations.
 Information assurance requirements are in addition to provisions concerning
 protection of privacy of individuals (see FAR subpart 24.1).
 
-240.373-2 Definition.
+##### 240.373-2 Definition.
+
 As used in this section—
 
    Information assurance means measures that protect and defend information,
@@ -987,9 +996,9 @@ confidentiality, and non-repudiation. This includes providing for the restoratio
 information systems by incorporating protection, detection, and reaction
 capabilities.
 
-240.373-3 Policy and responsibilities.
+##### 240.373-3 Policy and responsibilities.
 
-   (a) General.
+(a) General.
 
       (1) Agencies must ensure that information assurance is provided for
 information technology.
@@ -1053,12 +1062,13 @@ technology that requires protection against compromising emanations.
 
 Department of Defense to third parties.
 
-240.374-0 Scope.
+##### 240.374-0 Scope.
+
 This section implements section 803 of the National Defense Authorization Act (NDAA)
 for Fiscal Year (FY) 2024 (Pub. L. 118-31), and section 836 of the NDAA for FY 2025
 (Pub. L. 118-159).
 
-240.374-1 Definitions.
+##### 240.374-1 Definitions.
 
 As used in this section—
 
@@ -1071,7 +1081,8 @@ Forces, obtained by a contractor.
 distinguish or trace an individual’s identity, either alone or when combined with other
 information that is linked or linkable to a specific individual.
 
-240.374-2 Prohibition.
+##### 240.374-2 Prohibition.
+
 Do not award a contract with an entity that sells, licenses, or otherwise transfers
 covered personally identifiable information to any individual or entity other than
 the Federal Government, except—
@@ -1082,7 +1093,8 @@ the Federal Government, except—
    (c) In circumstances in which the transfer of such data would otherwise be
 authorized by law.
 
-240.374-3 Contract clause.
+##### 240.374-3 Contract clause.
+
 Insert the clause at 252.240-7992, Prohibition on the Transfer of Certain Data of
 Department of Defense Employees to Third Parties, in solicitations and contracts,
 including those for commercial products or commercial services, unless waived.
@@ -1097,11 +1109,11 @@ U.S. or allied forces deployed in military contingency, humanitarian, or
 peacekeeping operations in a country or region subject to economic sanctions
 administered by the Department of the Treasury, Office of Foreign Assets Control.
 
-240.7003 Prohibitions relating to Chinese military companies.
+##### 240.7003 Prohibitions relating to Chinese military companies.
 
-240.7003-0 Scope.
+##### 240.7003-0 Scope.
 
-   (a) This section implements the following:
+(a) This section implements the following:
 
        (1) Section 1211 of the NDAA for FY 2006 (Pub. L. 109-163).
 
@@ -1119,7 +1131,8 @@ administered by the Department of the Treasury, Office of Foreign Assets Control
    (b) See PGI 240.7003 for additional information relating to this section,
 including terms used in this section.
 
-240.7003-1 Definitions.
+##### 240.7003-1 Definitions.
+
 As used in this section—
 
    Backhaul means intermediate links between the core network, or backbone
@@ -1171,9 +1184,9 @@ national security reasons.
 from a visited network when unable to connect to the facilities of the home network
 either because signal coverage is too weak or because traffic is too high.
 
-240.7003-2 Prohibitions.
+##### 240.7003-2 Prohibitions.
 
-   (a) Covered products or services prohibition. (1) General. Do not acquire covered
+(a) Covered products or services prohibition. (1) General. Do not acquire covered
 products and services, through a contract or subcontract at any tier, from any—
 
            (i) Chinese military company;
@@ -1239,12 +1252,13 @@ to a contract with a covered lobbyist.
 made reasonable inquiries regarding the lobbying activities of another entity and
 determined such entity was not a covered lobbyist.
 
-240.7003-3 Waiver of prohibitions.
+##### 240.7003-3 Waiver of prohibitions.
+
 The prohibitions in 240.7003-2 are subject to waiver. See PGI 240.7003-3.
 
-240.7003-4 Procedures.
+##### 240.7003-4 Procedures.
 
-   (a) Best practices and information. See 240.7003-4(a) for information on best
+(a) Best practices and information. See 240.7003-4(a) for information on best
 practices and technical support to assist affected businesses, institutions, and
 organizations to comply.
 
@@ -1252,9 +1266,9 @@ organizations to comply.
 military company list of entities, any non-SDN Chinese military-industrial complex
 company, or any other covered company.
 
-240.7003-5 Solicitation provisions and contract clause.
+##### 240.7003-5 Solicitation provisions and contract clause.
 
-   (a) Insert the provision at 252.240-7996, Prohibition on Contract Awards to
+(a) Insert the provision at 252.240-7996, Prohibition on Contract Awards to
 Chinese Military Companies—Representation, in solicitations, including those for
 commercial products and commercial services.
 
@@ -1273,18 +1287,20 @@ and commercial services, unless an exception or waiver applies.
 owned or controlled by the government of a country that is a state sponsor
 of terrorism.
 
-240.7004-0 Scope.
+##### 240.7004-0 Scope.
+
 This section implements 10 U.S.C. 4871(b).
 
-240.7004-1 Definition.
+##### 240.7004-1 Definition.
+
 As used in this section—
    State sponsor of terrorism is defined in the provision at 252.225-7050, Disclosure
 of Ownership or Control by the Government of a Country that is a State Sponsor of
 Terrorism.
 
-240.7004-2 Prohibition.
+##### 240.7004-2 Prohibition.
 
-   (a) Do not award a contract of $200,000 or more to a firm when a foreign
+(a) Do not award a contract of $200,000 or more to a firm when a foreign
 government that is a state sponsor of terrorism owns or controls, either directly or
 indirectly, a significant interest in—
 
@@ -1298,18 +1314,21 @@ indirectly, a significant interest in—
 is identified by the Secretary of Defense as being owned or controlled by the
 government of a country that is a state sponsor of terrorism, see part 209.
 
-240.7004-3 Notification.
+##### 240.7004-3 Notification.
+
 Forward any disclosure that the government of a country that is a state sponsor of
 terrorism has a significant interest in an offeror, a subsidiary of an offeror, or any
 other firm that owns or controls an offeror through agency channels to the address
 at PGI 240.7004-3.
 
-240.7004-4 Waiver of prohibition.
+##### 240.7004-4 Waiver of prohibition.
+
 The prohibition in paragraph (c) of this section may be waived if the Secretary of
 Defense determines that a waiver is not inconsistent with the national security
 objectives of the United States in accordance with 10 U.S.C. 4871(c).
 
-240.7004-5 Solicitation provision.
+##### 240.7004-5 Solicitation provision.
+
 Insert the provision at 252.225-7050, Disclosure of Ownership or Control by the
 Government of a Country that is a State Sponsor of Terrorism, in solicitations,
 including solicitations using FAR part 12 procedures for the acquisition of
@@ -1324,10 +1343,12 @@ provision 252.225-7050 in the solicitation.
 
 services.
 
-240.7005-0 Scope.
+##### 240.7005-0 Scope.
+
 This section implements 10 U.S.C. 2279.
 
-240.7005-1 Definitions.
+##### 240.7005-1 Definitions.
+
 As used in this section—
    Covered foreign country means—
 
@@ -1376,7 +1397,8 @@ Subtitle B, of the National Defense Authorization Act for Fiscal Year 2019, Pub.
 for acts of international terrorism. As of December 14, 2020, state sponsors of
 terrorism include Iran, North Korea, and Syria. (10 U.S.C. 4871).
 
-240.7005-2 Prohibitions.
+##### 240.7005-2 Prohibitions.
+
 Except as provided in 240.7005-4, do not award a contract for commercial satellite
 services to—
    (a)(1) A foreign entity if the Under Secretary of Defense for Acquisition and
@@ -1426,8 +1448,9 @@ that, prior to June 10, 2018, was either fully paid for by the satellite service
 provider or covered by a legally binding commitment of the satellite service provider
 to pay for such services.
 
-240.7005-3 Procedures.
-    (a)(1) Do not award to any source that is a foreign satellite service provider or is
+##### 240.7005-3 Procedures.
+
+(a)(1) Do not award to any source that is a foreign satellite service provider or is
 offering satellite services provided by a foreign entity if such award presents an
 unacceptable cybersecurity risk, as determined by the Under Secretary of Defense
 for Acquisition and Sustainment or the Under Secretary of Defense for Policy.
@@ -1458,9 +1481,9 @@ negative representation of the otherwise successful offeror, the contracting off
 must consult with the office specified in PGI 240.7005-3(b)(1)(ii), prior to deciding
 whether to award to that offeror.
 
-240.7005-4 Exception.
+##### 240.7005-4 Exception.
 
-   (a) The prohibitions in 240.7005-2(a) and (b) do not apply if–
+(a) The prohibitions in 240.7005-2(a) and (b) do not apply if–
 
 
         (1) The Under Secretary of Defense for Acquisition and Sustainment, or the
@@ -1481,9 +1504,9 @@ for the Under Secretary of Defense making the determination in paragraph (a) of
 this section to evaluate the request and perform a national security assessment, in
 accordance with 10 U.S.C. 2279.
 
-240.7005-5 Solicitation provision and contract clauses.
+##### 240.7005-5 Solicitation provision and contract clauses.
 
-   (a) Insert the provision at 252.225-7049, Prohibition on Acquisition of Certain
+(a) Insert the provision at 252.225-7049, Prohibition on Acquisition of Certain
 Foreign Commercial Satellite Services—Representations, in solicitations that
 include the clause at 252.225-7051, Prohibition on Acquisition of Certain Foreign
 Commercial Satellite Services. If the solicitation includes the provision at FAR
@@ -1502,21 +1525,22 @@ commercial services.
 
 operations.
 
-225.7006-1 Scope.
+##### 225.7006-1 Scope.
+
 This section implements section 843 of the National Defense Authorization Act for
 Fiscal Year 2022 (Pub. L. 117-81).
 
-225.7006-2 Prohibition.
+##### 225.7006-2 Prohibition.
+
 Do not award, for an overseas contingency operation, a contract for fuel, in whole or in
 part, or derivatives of such fuel, that is sourced from nations or regions prohibited from
 selling petroleum to the United States. See FAR subpart 40.2 and the Office of Foreign
 Assets Control website at https://ofac.treasury.gov/sanctions-programs-and-country-
 information for prohibited sources.
 
+##### 225.7006-3 Procedures.
 
-225.7006-3 Procedures.
-
-    (a) For contracts for the acquisition of fuel for overseas contingency operations,
+(a) For contracts for the acquisition of fuel for overseas contingency operations,
 including contracts using FAR part 12 procedures, expected to exceed the simplified
 acquisition threshold, the contracting officer—
 
@@ -1547,7 +1571,8 @@ from complying with the terms and conditions of the solicitation.
 
    (b) See 215.103-1-71 for the requirement to consider using a tradeoff process.
 
-225.7006-4 Solicitation provision.
+##### 225.7006-4 Solicitation provision.
+
 Insert the provision at 252.225-7964, Restriction on Acquisition of Fuel for Overseas
 Contingency Operations, in solicitations, including solicitations using FAR part 12
 procedures for the acquisition of commercial products and commercial services, that
@@ -1559,11 +1584,11 @@ to exceed the simplified acquisition threshold.
 and services from companies providing covered semiconductor products and
 services to Huawei.
 
-240.7007-0 Scope.
+##### 240.7007-0 Scope.
+
 This section implements section 853(a) of the NDAA for FY 2025 (Pub. L. 118-159).
 
-
-240.7007-1 Definitions.
+##### 240.7007-1 Definitions.
 
 As used in this section—
 
@@ -1584,15 +1609,16 @@ successor of Huawei Technologies Company; and
       (3) Any entity that is directly or indirectly controlled by Huawei
 Technologies Company.
 
-240.7007-2 Prohibition.
+##### 240.7007-2 Prohibition.
+
 Section 853(a) of the NDAA for FY 2025 prohibits DoD from entering into or renewing a
 contract for the procurement of any covered semiconductor products and services for the
 Department of Defense with any entity that knowingly provides covered semiconductor
 products and services to Huawei.
 
-240.7007-3 Solicitation provision and contract clause.
+##### 240.7007-3 Solicitation provision and contract clause.
 
-   (a) Insert the provision at 252.240-7998, Prohibition on the Procurement of
+(a) Insert the provision at 252.240-7998, Prohibition on the Procurement of
 Covered Semiconductor Products and Services from Companies Providing Covered
 Semiconductor Products and Services to Huawei—Representation, in solicitations
 that include the clause at 252.240-7999.
@@ -1608,12 +1634,12 @@ waived.
 
 systems.
 
-240.7008-0 Scope.
+##### 240.7008-0 Scope.
+
 This section implements section 848 of the NDAA for FY 2020 (Pub. L. 116-92) and
 section 817 of the NDAA for FY 2023 (Pub. L. 117-263).
 
-
-240.7008-1 Definition.
+##### 240.7008-1 Definition.
 
 As used in this section—
 
@@ -1626,7 +1652,9 @@ As used in this section—
        (3) The Islamic Republic of Iran.
 
        (4) The Democratic People’s Republic of Korea.
-240.7008-2 Prohibitions.
+
+##### 240.7008-2 Prohibitions.
+
 Section 848 of the NDAA for FY 2020 and section 817 of the NDAA for FY 2023 prohibit
 DoD from—
 
@@ -1670,9 +1698,9 @@ Administration of the Department of Commerce
 covered foreign country, as determined by the Secretary of Defense in accordance with
 the National Industrial Security Program.
 
-240.7008-3 Solicitation provision and contract clause.
+##### 240.7008-3 Solicitation provision and contract clause.
 
-   (a) Insert the provision at 252.240-7993, Prohibition on the Procurement of
+(a) Insert the provision at 252.240-7993, Prohibition on the Procurement of
 Foreign-Made Unmanned Aircraft Systems—Representation, in solicitations that
 include the clause at 252.240-7994.
     (b) Insert the clause at 252.240-7994, Prohibition on the Procurement of Foreign-
@@ -1693,7 +1721,8 @@ section 848 of the NDAA for FY 2020 and section 817 of the NDAA for FY 2023.
 
 ###### SUBPART 252.2—TEXT OF PROVISIONS AND CLAUSES
 
-252.204-7000 Disclosure of information.
+##### 252.204-7000 Disclosure of information.
+
 As prescribed in 240.372-3(a), use the following clause:
 
 ###### DISCLOSURE OF INFORMATION (OCT 2016)
@@ -1732,7 +1761,8 @@ requests for authorization to release through the prime contractor to the
 Contracting Officer.
                                     (End of clause)
 
-252.204-7003 Control of government personnel work product.
+##### 252.204-7003 Control of government personnel work product.
+
 As prescribed in 240.372-3(b), use the following clause:
 
 ###### CONTROL OF GOVERNMENT PERSONNEL WORK PRODUCT (APR 1992)
@@ -2409,8 +2439,8 @@ including subcontracts for the acquisition of commercial products or commercial
 services.
                                      (End of clause)
 
+##### 252.240-7997 NIST SP 800-171 DoD Assessment Requirements.
 
-252.240-7997 NIST SP 800-171 DoD Assessment Requirements.
 As prescribed in 240.370-5(d), use the following clause:
 
 ###### NIST SP 800-171 DOD ASSESSMENT REQUIREMENTS
@@ -2771,7 +2801,8 @@ generated in SPRS. The CMMC UIDs are provided in SPRS after the Offeror enters
 the results of self-assessment(s) for each such information system.
                                   (End of provision)
 
-252.240-7007 Prohibitions Relating to Chinese Military Companies.
+##### 252.240-7007 Prohibitions Relating to Chinese Military Companies.
+
 As prescribed in 240.7003-5(c), use the following clause:
 
 ###### PROHIBITIONS RELATING TO CHINESE MILITARY COMPANIES
@@ -3196,7 +3227,8 @@ satellite service provider to pay for such services.
 
                                     (End of clause)
 
-252.239-7000 Protection against compromising emanations.
+##### 252.239-7000 Protection against compromising emanations.
+
 As prescribed in 240.373-3(d), use the following clause:
 
 ###### PROTECTION AGAINST COMPROMISING EMANATIONS (OCT 2019)
@@ -3242,7 +3274,8 @@ acceptance of the deficient information technology.
 
                                     (End of clause)
 
-252.239-7017 Notice of Supply Chain Risk.
+##### 252.239-7017 Notice of Supply Chain Risk.
+
 As prescribed in 240.271-7(a), use the following provision:
 
 ###### NOTICE OF SUPPLY CHAIN RISK (DEC 2022)
@@ -3267,7 +3300,8 @@ Accountability Office or in any Federal court.
 
                                     (End of provision)
 
-252.239-7018 Supply Chain Risk.
+##### 252.239-7018 Supply Chain Risk.
+
 As prescribed in 240.271-7(b), use the following clause:
 
 ###### SUPPLY CHAIN RISK (DEC 2022)

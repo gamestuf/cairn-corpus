@@ -1,0 +1,14 @@
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","to":"term:cui","type":"CITES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","to":"term:far","type":"CITES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","to":"term:nist","type":"CITES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","to":"term:cmmc","type":"DEFINES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)2","to":"term:far","type":"CITES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)2","to":"term:fci","type":"CITES","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)2","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)3","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cmmc","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:cui","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:far","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:fci","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}
+{"from":"term:nist","to":"document:REG-D08","type":"IN_DOCUMENT","properties":{}}

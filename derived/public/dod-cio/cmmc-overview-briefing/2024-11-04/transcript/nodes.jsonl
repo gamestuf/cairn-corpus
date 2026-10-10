@@ -1,0 +1,9 @@
+{"id":"document:REG-D08","labels":["Document"],"properties":{"reg_id":"REG-D08","title":"CMMC Overview Briefing (Audio)","version":"2024-11-04","tier":"public","authority":"derived","relevance":"supporting","visibility":"public","document_number":"DVIDS video 944070 (VIRIN 241104-D-FP430-4162)","url":"https://www.dvidshub.net/download/video_transcript/944070"}}
+{"id":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)1","labels":["Section"],"properties":{"reg_id":"REG-D08","version":"2024-11-04","anchor":"CMMC Overview Briefing (Audio)#1","heading_slug":"cmmc-overview-briefing-audio","chunk_id":"5fbf259975ac5ea4fe166b8daab7078abc0d4b0da29443ab811376421a07174f","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)2","labels":["Section"],"properties":{"reg_id":"REG-D08","version":"2024-11-04","anchor":"CMMC Overview Briefing (Audio)#2","heading_slug":"cmmc-overview-briefing-audio","chunk_id":"360b5811e11c5621912a4ff67bacbed51651483036a5306cd532c4d90b0f5487","normativity":"guidance","block_type":"prose"}}
+{"id":"section:REG-D08:v2024-11-04:CMMC_Overview_Briefing_(Audio)3","labels":["Section"],"properties":{"reg_id":"REG-D08","version":"2024-11-04","anchor":"CMMC Overview Briefing (Audio)#3","heading_slug":"cmmc-overview-briefing-audio","chunk_id":"1704d18dd91e9f26e28b60993e9d91c73bd9053f7883ae4a4c192b543698b0a8","normativity":"guidance","block_type":"prose"}}
+{"id":"term:cmmc","labels":["Term"],"properties":{"term":"cmmc"}}
+{"id":"term:cui","labels":["Term"],"properties":{"term":"cui"}}
+{"id":"term:far","labels":["Term"],"properties":{"term":"far"}}
+{"id":"term:fci","labels":["Term"],"properties":{"term":"fci"}}
+{"id":"term:nist","labels":["Term"],"properties":{"term":"nist"}}

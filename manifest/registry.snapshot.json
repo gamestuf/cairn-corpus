@@ -733,9 +733,9 @@
     {
       "id": "REG-C13",
       "document_number": "FAR 52.240-93",
-      "notes": "The Revolutionary FAR Overhaul successor to FAR 52.204-21 (REG-C01), in FAR Part 40 (prescribed at 40.303-2): the same 15 FCI safeguarding requirements, (b)(1)(i)-(xv), for contracts written under the RFO class deviations. Clause date NOV 2025 (DEVIATION). Not codified: acquisition.gov has no page for it (/far/52.240-93 is 404), and its model deviation text sits only inside the FAR Overhaul Part 52 page with every other clause (anchor FAR_52_240_93), which a row cannot cut to one clause (pipeline decision P-D8). This url is the clause alone as GSA\u0027s Solicitation Writing System generates it for the MAS solicitation (refresh 32); its text matches the acquisition.gov model text. The copy is committed as the fallback, since the url names one solicitation refresh. REG-C01 is retained for contracts on the codified FAR. Added 2026-10-10. Chunking intent: whole clause \u002B per requirement (b)(1)(i)-(xv).",
+      "notes": "The Revolutionary FAR Overhaul successor to FAR 52.204-21 (REG-C01), in FAR Part 40 (prescribed at 40.303-2): the same 15 FCI safeguarding requirements, (b)(1)(i)-(xv), for contracts written under the RFO class deviations. Not codified: acquisition.gov has no page of its own for it (/far/52.240-93 is 404), so the row reads the FAR Overhaul Part 52 page, which holds every clause, and select.provision cuts it to this one (ADR-0019). The model text there is undated (\u0027Deviation Date\u0027); version is the clause date GSA\u0027s Solicitation Writing System gives it, NOV 2025. Built 2026-10-10 from a single-clause GSA PDF until the pipeline could cut a page to one provision. REG-C01 is retained for contracts on the codified FAR. Added 2026-10-10. Chunking intent: whole clause \u002B per requirement (b)(1)(i)-(xv).",
       "title": "Basic Safeguarding of Covered Contractor Information Systems",
-      "url": "https://sws.gsa.gov/sws-search/generateClauseBodyPdf.do?method=generateClauseBody\u0026solNo=NDdRU01EMjBSMDAwMQ%3D%3D\u0026refreshNo=32\u0026clauseNo=52.240-93\u0026clauseType=D\u0026sequenceNo=1",
+      "url": "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52",
       "version": "2025-11",
       "tier": "public",
       "visibility": "public",
@@ -743,26 +743,28 @@
       "relevance": "requirement",
       "status": "active",
       "ingest": "chunk",
-      "format": "pdf",
-      "format_profile": "general",
+      "format": "html",
+      "format_profile": "regulation-html",
       "authority_map": {},
       "normativity_map": {
+        "guidance": [
+          "prescription"
+        ],
         "requirement": [
-          "prose"
+          "clause text",
+          "definition"
         ]
       },
       "language": "en",
       "IsMultilingual": false,
       "language_policy": "single",
-      "HasSelector": false,
+      "select": {
+        "provision": "52.240-93"
+      },
+      "HasSelector": true,
+      "SelectedProvision": "52.240-93",
       "aliases": [],
       "confirm": [],
-      "qa": {
-        "min_pages": 2,
-        "max_pages": 2,
-        "verify_threshold": 1,
-        "suppress_against": []
-      },
       "org": "far",
       "doc_id": "52.240-93",
       "version_slug": "2025-11",
@@ -775,9 +777,9 @@
       "StatusValue": 0,
       "IngestValue": 0,
       "LanguagePolicyValue": 3,
-      "PrimaryFormat": "pdf",
-      "FormatProfileOrDefault": "general",
-      "FormatProfileValue": 0,
+      "PrimaryFormat": "html",
+      "FormatProfileOrDefault": "regulation-html",
+      "FormatProfileValue": 7,
       "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
@@ -1461,20 +1463,26 @@
     },
     {
       "id": "REG-D08",
-      "document_number": "CMMC Overview Briefing (Audio, 2024-11-04)",
-      "notes": "Transcribe before ingest, or skip.",
+      "document_number": "DVIDS video 944070 (VIRIN 241104-D-FP430-4162)",
+      "notes": "DoD CIO video \u0027Cybersecurity Maturity Model Certification (CMMC) Program\u0027 on DVIDS (video 944070, taken 2024-11-04, posted 2024-11-18, 11:52): the Deputy CIO for Cybersecurity introduces the CMMC program rule, 32 CFR Part 170, and C3PAO Level 2 assessments. Ingested through the transcript DVIDS publishes for it (audio/transcript); the pipeline does not transcribe. The transcript is machine-generated and kept verbatim, mis-heard acronyms included (\u0027CM MC\u0027 for CMMC, \u0027C three Pao\u0027 for C3PAO, \u0027Dar\u0027s\u0027 for DFARS). DVIDS refuses automated clients (403), so the row builds from the copy committed under fallback/. Activated 2026-10-10. Chunking intent: paragraphs of the transcript.",
       "title": "CMMC Overview Briefing (Audio)",
+      "url": "https://www.dvidshub.net/download/video_transcript/944070",
+      "snapshot_reviewed": "2026-10-10",
       "version": "2024-11-04",
       "tier": "public",
       "visibility": "public",
       "authority": "derived",
       "relevance": "supporting",
-      "status": "planned",
+      "status": "active",
       "ingest": "chunk",
       "format": "audio",
       "format_profile": "transcript",
       "authority_map": {},
-      "normativity_map": {},
+      "normativity_map": {
+        "guidance": [
+          "prose"
+        ]
+      },
       "language": "en",
       "IsMultilingual": false,
       "language_policy": "single",
@@ -1490,13 +1498,13 @@
       "VersionOrDefault": "2024-11-04",
       "TierValue": 0,
       "VisibilityValue": 0,
-      "StatusValue": 3,
+      "StatusValue": 0,
       "IngestValue": 0,
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "audio",
       "FormatProfileOrDefault": "transcript",
       "FormatProfileValue": 10,
-      "HasSource": false,
+      "HasSource": true,
       "LanguageOrDefault": "en",
       "LanguageTokens": [
         "en"
@@ -4081,7 +4089,7 @@
     {
       "id": "REG-R11",
       "document_number": "DFARS Class Deviation 2026-O0043",
-      "notes": "The Revolutionary FAR Overhaul class deviation for DFARS Part 204 (DARS 2026-O0043), effective 2026-02-17: use the revised FAR Part 4 and the attached DFARS Part 204 in place of the codified text. Only two parts are wanted: 204.7604, Solicitation provision (PDF page 16), and 252.204-7024, Notice on the Use of the Supplier Performance Risk System (PDF pages 27-28). The rest is not relevant. Their text differs from the codified DFARS: the codified 252.204-7024 (MAR 2023) points supplier risk at 239.7301, this one at DFARS 240. Planned until the row can take those pages alone (pipeline decision P-D8, which would also cut one clause from an HTML page); section rules cannot, because the PDF\u0027s heading tree is dominated by its tables. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-10 (Document Plan DP-B8).",
+      "notes": "The Revolutionary FAR Overhaul class deviation for DFARS Part 204 (DARS 2026-O0043), effective 2026-02-17: use the revised FAR Part 4 and the attached DFARS Part 204 in place of the codified text. Only two parts are consumed: 204.7604, Solicitation provision, and 252.204-7024, Notice on the Use of the Supplier Performance Risk System. select.pages takes PDF pages 16 and 27-28 (ADR-0019); the section rules then drop what shares those pages: the end of 204.7603, the start of Subpart 204.77, 204.770-1 and 204.770-2. Their text differs from the codified DFARS: the codified 252.204-7024 (MAR 2023) points supplier risk at 239.7301, this one at DFARS 240. The publisher fails the TLS handshake from CI, so the row builds from its committed copy. Added 2026-10-10 (Document Plan DP-B8). Chunking intent: one chunk per section.",
       "title": "Class Deviation: Revolutionary FAR Overhaul Part 4, DFARS Part 204, Administrative and Information Matters (SPRS provision only)",
       "url": "https://www.acq.osd.mil/dpap/dars/classdev/DFARS_RFO/Part-204/2026-O0043_TAB_A_Deviation_Memo_Part_204.pdf",
       "snapshot_reviewed": "2026-10-10",
@@ -4090,7 +4098,7 @@
       "visibility": "public",
       "authority": "authoritative",
       "relevance": "requirement",
-      "status": "planned",
+      "status": "active",
       "ingest": "chunk",
       "format": "pdf",
       "format_profile": "general",
@@ -4100,14 +4108,44 @@
           "prose"
         ]
       },
+      "sections": {
+        "include": [
+          "204.7604 Solicitation provision.",
+          "252.204-7024 Notice on the Use of the Supplier Performance Risk System."
+        ],
+        "exclude": [
+          {
+            "section": "(preamble)",
+            "covered_by": []
+          },
+          {
+            "section": "204.7604 Solicitation provision./REQUIREMENTS",
+            "covered_by": []
+          },
+          {
+            "section": "204.770-1 General.",
+            "covered_by": []
+          },
+          {
+            "section": "204.770-2 National security exclusion.",
+            "covered_by": []
+          }
+        ]
+      },
       "language": "en",
       "IsMultilingual": false,
       "language_policy": "single",
-      "HasSelector": false,
-      "aliases": [],
-      "confirm": [
-        "Build only PDF pages 16 and 27-28 (204.7604 and 252.204-7024) once P-D8 lets a row select pages, then activate."
+      "select": {
+        "pages": "16,27-28"
+      },
+      "HasSelector": true,
+      "SelectedPages": [
+        16,
+        27,
+        28
       ],
+      "aliases": [],
+      "confirm": [],
       "qa": {
         "min_pages": 101,
         "max_pages": 101,
@@ -4123,7 +4161,7 @@
       "VersionOrDefault": "2026-02-17",
       "TierValue": 0,
       "VisibilityValue": 0,
-      "StatusValue": 3,
+      "StatusValue": 0,
       "IngestValue": 0,
       "LanguagePolicyValue": 3,
       "PrimaryFormat": "pdf",
