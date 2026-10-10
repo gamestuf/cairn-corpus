@@ -18,9 +18,10 @@ coverage. Every entry must trace to a source you read, and nothing may come from
 
 1. `Banned_List_Sources.md`: the only sources you may use, each with an id, authority (`authoritative`, `secondary`,
    `historical`) and URL.
-2. A folder holding a copy of each source: saved web pages (HTML), PDFs, Federal Register text, public laws.
-   Fetch a source yourself only if its copy is missing. Several publishers refuse automated clients, so prefer the
-   copies.
+2. `sources/`, beside this file: a copy of each source, named for its source id (saved web pages, PDFs, Federal
+   Register text, public laws). Replace a copy with the publisher's current one before a rebuild; fetch it yourself
+   only if you can, since several publishers refuse automated clients. Keep the UC San Diego page out of `sources/`:
+   it is not a Government work.
 3. The previous `Banned_Companies.json`, if any, to report what changed.
 
 ### Read each source by its structure

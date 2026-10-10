@@ -13,6 +13,29 @@ here, in the same change as the rebuild.
 **Last built 2026-10-10**, from the copies whose SHA-256 is given. Several publishers refuse automated
 clients (fcc.gov, war.gov, media.defense.gov), so those copies were saved by hand from a browser.
 
+The copies read are kept in [`sources/`](sources/), each named for its source id, so the list can be rebuilt from
+exactly what it was built from. All are U.S. Government works. The UC San Diego page is not kept: it is not a
+Government work, and its URL is recorded instead.
+
+- [`DOD-1237_release_2021-01-14.html`](sources/DOD-1237_release_2021-01-14.html)
+- [`DOD-1237_tranche-1.pdf`](sources/DOD-1237_tranche-1.pdf)
+- [`DOD-1237_tranche-4.pdf`](sources/DOD-1237_tranche-4.pdf)
+- [`DOD-1237_tranche-5.pdf`](sources/DOD-1237_tranche-5.pdf)
+- [`DOD-1237_tranches-2-3.pdf`](sources/DOD-1237_tranches-2-3.pdf)
+- [`DOD-1260H_FR-2026-11571.html`](sources/DOD-1260H_FR-2026-11571.html)
+- [`DOD-1260H_PL-118-31-sec805.htm`](sources/DOD-1260H_PL-118-31-sec805.htm)
+- [`DOW-1286_FY25-Section-1286-List.pdf`](sources/DOW-1286_FY25-Section-1286-List.pdf)
+- [`FAR-889_52.204-25.html`](sources/FAR-889_52.204-25.html)
+- [`FAR-BYTEDANCE_52.204-27.html`](sources/FAR-BYTEDANCE_52.204-27.html)
+- [`FAR-KASPERSKY_52.204-23.html`](sources/FAR-KASPERSKY_52.204-23.html)
+- [`FCC-CL_DA-25-1086.pdf`](sources/FCC-CL_DA-25-1086.pdf)
+- [`FCC-CL_DA-26-673.pdf`](sources/FCC-CL_DA-26-673.pdf)
+- [`FCC-CL_DA-26-996.pdf`](sources/FCC-CL_DA-26-996.pdf)
+- [`FCC-CL_PL-118-159-sec1709.htm`](sources/FCC-CL_PL-118-159-sec1709.htm)
+- [`FCC-CL_covered-list_2026-10-09.html`](sources/FCC-CL_covered-list_2026-10-09.html)
+- [`GSA-PM_prohibited-manufacturers.html`](sources/GSA-PM_prohibited-manufacturers.html)
+- [`NDAA-5949_PL-117-263.htm`](sources/NDAA-5949_PL-117-263.htm)
+
 ## Consumed
 
 | Id | Source | What it names | Legal effect | Authority | As of | Copy read (SHA-256) |
